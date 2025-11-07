@@ -1,42 +1,45 @@
-# 🧬 PROJECT_DNA.yml - Génome du Projet
+# 🧵 PROJECT_DNA.yml - Génome du Projet
 # Inspiration: ADN contient toute l'information pour la reproduction
 
 # 💬 IDENTITÉ (Chromosomes de base)
-nom_projet: "template-minimal"
+nom_projet: "livre01-science-culinaire"
 version_genome: "minimal-v1"
-date_creation: "2025-10-21"
+date_creation: "2025-11-07"
 initiateur: "stefm78"
 
-# 🧬 PATRIMOINE GÉNÉTIQUE
+# 🧵 PATRIMOINE GÉNÉTIQUE
 genome_source: "Projet-template"
 constitution_version: "universelle"
 filiation: "ia-activation"
 
 # 🎯 CONTEXTE PROJET (Séquences adaptatives)
-contexte: "non-défini"        # À remplir par l'IA
-objectif: "non-défini"        # À remplir par l'IA  
-contraintes: "non-définies"   # À remplir par l'IA
-expertise: "non-définie"      # À remplir par l'IA
-communication: "non-définie" # À remplir par l'IA
+contexte: "Personnel/Commercial"        # Passion familiale + ambition commerciale
+objectif: "Livre de recettes moderne expliquant le 'pourquoi ça marche' (aspects gustatifs/visuels/chimiques)"  
+contraintes: "Bibliographie scientifique approfondie, photos générées par IA, plaire aux lecteurs"   
+expertise: "Novice"                     # Besoin encadrement IA spécialisé
+communication: "Synthétique + Visuel + Analytique"
 
 # 🔄 ÉTAT ÉVOLUTIF
-phase_actuelle: "embryonnaire"
-phase_suivante: "cadrage"
-stade_developpement: "minimal"
+phase_actuelle: "cadrage"
+phase_suivante: "recherche"
+stade_developpement: "structuration"
 viabilite: "garantie"
 
 # 👾 ORGANISMES SYMBIOTIQUES (Personas activés)
 chef_projet_ia: true
-organismes_specialises: []
+organismes_specialises:
+  - "researcher-veilleur"     # Issue #3
+  - "creatif-designer"        # Issue #4
 
 # 📁 EXPRESSION GÉNIQUE (Fichiers actifs)
 fichiers_exprimes:
   - "constitution-projet-ai.md"
   - "AI_CORE.yml"
   - "PROJECT_DNA.yml"
-  # Optionnel si consolidation réalisée
-  - "sources/base-documentaire.md"
-  - "sources/synthese.md"
+  # Documentation projet (en construction)
+  - "sources/cadrage-editorial.md"        # Issue #2
+  - "sources/base-documentaire.md"        # Issue #3
+  - "sources/charte-visuelle.md"          # Issue #4
 
 fichiers_dormants: []
 
@@ -45,8 +48,12 @@ outils_essentiels:
   - "questions_cadrage"
   - "orchestration_personas"
   - "auto_evolution"
+  - "recherche_bibliographique"
+  - "generation_images_ia"
 
-outils_optionnels: []
+outils_optionnels:
+  - "analyse_associations_gustatives"
+  - "validation_scientifique"
 
 # ⚠️ SEUIL DE VIABILITÉ
 # Ce projet reste viable tant que:
@@ -54,8 +61,17 @@ outils_optionnels: []
 # 2. AI_CORE.yml est fonctionnel  
 # 3. PROJECT_DNA.yml est mis à jour
 # 4. Au moins 1 persona IA est actif
+# 5. Les 3 fichiers sources/ fondateurs sont créés (cadrage/biblio/visuel)
 
 # 🔄 HISTORIQUE ÉVOLUTIF
-mutations_controlees: []
+mutations_controlees:
+  - date: "2025-11-07T13:34:00+01:00"
+    type: "phase_transition"
+    from: "embryonnaire"
+    to: "cadrage"
+    trigger: "Issue #1 - Activation validée, 5 questions répondues"
+    acteur: "chef-de-projet-ia"
+    issues_creees: [2, 3, 4]
+    
 adaptations_reussies: []
 selection_naturelle: "en_cours"
