@@ -1,0 +1,20 @@
+extends: default
+
+rules:
+  line-length:
+    max: 80
+    allow-non-breakable-words: false
+    allow-non-breakable-inline-mappings: true
+    ignore: |
+      .github/workflows/*.yml
+  indentation:
+    spaces: 2
+    indent-sequences: consistent
+    check-multi-line-strings: true
+  trailing-spaces: enable
+  new-line-at-end-of-file: enable
+  document-start: disable
+  truthy:
+    allowed-values: ['true', 'false']
+  comments:
+    min-spaces-from-content: 1

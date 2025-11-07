@@ -1,0 +1,26 @@
+---
+name: "🔄 Orchestration des Issues (refactored)"
+
+on:
+  issues:
+    types: [opened, edited, closed, reopened]
+  issue_comment:
+    types: [created, edited]
+
+jobs:
+  orchestrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+
+      - name: Orchestrate via script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x .github/scripts/*.sh || true
+          bash .github/scripts/issue-orchestrate.sh "${{ github.event_name }}"

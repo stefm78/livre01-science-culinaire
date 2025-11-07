@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 📚 Documentation Constitution IA
+    url: https://github.com/stefm78/Projet-template/blob/main/constitution-projet-ai.md
+    about: Consultez la Constitution IA pour comprendre le fonctionnement du système
+    
+  - name: 💬 Discussion Générale  
+    url: https://github.com/stefm78/Projet-template/discussions
+    about: Pour les échanges généraux qui ne nécessitent pas l'activation de l'IA

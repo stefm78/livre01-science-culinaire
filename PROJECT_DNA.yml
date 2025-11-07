@@ -1,0 +1,61 @@
+# 🧬 PROJECT_DNA.yml - Génome du Projet
+# Inspiration: ADN contient toute l'information pour la reproduction
+
+# 💬 IDENTITÉ (Chromosomes de base)
+nom_projet: "template-minimal"
+version_genome: "minimal-v1"
+date_creation: "2025-10-21"
+initiateur: "stefm78"
+
+# 🧬 PATRIMOINE GÉNÉTIQUE
+genome_source: "Projet-template"
+constitution_version: "universelle"
+filiation: "ia-activation"
+
+# 🎯 CONTEXTE PROJET (Séquences adaptatives)
+contexte: "non-défini"        # À remplir par l'IA
+objectif: "non-défini"        # À remplir par l'IA  
+contraintes: "non-définies"   # À remplir par l'IA
+expertise: "non-définie"      # À remplir par l'IA
+communication: "non-définie" # À remplir par l'IA
+
+# 🔄 ÉTAT ÉVOLUTIF
+phase_actuelle: "embryonnaire"
+phase_suivante: "cadrage"
+stade_developpement: "minimal"
+viabilite: "garantie"
+
+# 👾 ORGANISMES SYMBIOTIQUES (Personas activés)
+chef_projet_ia: true
+organismes_specialises: []
+
+# 📁 EXPRESSION GÉNIQUE (Fichiers actifs)
+fichiers_exprimes:
+  - "constitution-projet-ai.md"
+  - "AI_CORE.yml"
+  - "PROJECT_DNA.yml"
+  # Optionnel si consolidation réalisée
+  - "sources/base-documentaire.md"
+  - "sources/synthese.md"
+
+fichiers_dormants: []
+
+# 🔬 CAPACITÉS MÉTABOLIQUES (Outils disponibles)
+outils_essentiels:
+  - "questions_cadrage"
+  - "orchestration_personas"
+  - "auto_evolution"
+
+outils_optionnels: []
+
+# ⚠️ SEUIL DE VIABILITÉ
+# Ce projet reste viable tant que:
+# 1. constitution-projet-ai.md existe
+# 2. AI_CORE.yml est fonctionnel  
+# 3. PROJECT_DNA.yml est mis à jour
+# 4. Au moins 1 persona IA est actif
+
+# 🔄 HISTORIQUE ÉVOLUTIF
+mutations_controlees: []
+adaptations_reussies: []
+selection_naturelle: "en_cours"

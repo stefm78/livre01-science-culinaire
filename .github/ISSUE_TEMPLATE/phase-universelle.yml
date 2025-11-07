@@ -1,0 +1,86 @@
+name: "🧬 Phase Projet - Génome Minimal"
+description: "Template universel pour toutes les phases - Auto-adaptation selon contexte"
+title: "[PHASE] - Nom de la phase"
+labels: ["phase", "ia-orchestration", "genome-minimal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # ⚙️ Règle d’interaction IA
+        - **Une seule question à la fois**
+        - **Choix multiples numérotés [1–4]**
+        - **Meilleure suggestion toujours en 1**
+        - **Répondre uniquement par un chiffre (1, 2, 3 ou 4)**
+
+        ---
+        # 🧬 Template Universel - Génome Minimal
+        > **Auto-adaptation selon le contexte projet - Inspiration biologique JCVI-syn3.0**
+        
+        **Instructions IA** : Ce template s'adapte automatiquement à la phase active définie dans `AI_CORE.yml`
+  - type: input
+    id: phase_nom
+    attributes:
+      label: "🎯 Nom de la Phase"
+      description: "Quelle phase du projet ?"
+      placeholder: "Ex: Cadrage, Recherche, Conception, Production, Validation, Finalisation"
+    validations:
+      required: true
+  - type: textarea
+    id: objectif_phase
+    attributes:
+      label: "🔎 Objectif de cette Phase"
+      description: "Que doit-on accomplir ?"
+      placeholder: "Décrire clairement l'objectif et les livrables attendus"
+    validations:
+      required: true
+  - type: dropdown
+    id: persona_principal
+    attributes:
+      label: "👾 Persona IA Principal"
+      description: "Quel persona IA doit piloter cette phase ?"
+      options:
+        - "🤖 Chef de Projet IA"
+        - "📈 Analyste-Stratège"
+        - "🔍 Researcher-Veilleur"
+        - "🎨 Créatif-Designer"
+        - "📄 Communicant-Rédacteur"
+        - "🛠️ Exécutant-Spécialiste"
+        - "✅ Contrôleur-Qualité"
+      default: 0
+    validations:
+      required: true
+  - type: checkboxes
+    id: outils_requis
+    attributes:
+      label: "🔬 Outils/Capacités Nécessaires"
+      description: "Cochez les outils nécessaires pour cette phase"
+      options:
+        - label: "Recherche web approfondie"
+        - label: "Analyse de données"
+        - label: "Création de contenu"
+        - label: "Génération d'images"
+        - label: "Calculs/Simulations"
+        - label: "Validation qualité"
+  - type: textarea
+    id: criteres_validation
+    attributes:
+      label: "✅ Critères de Validation"
+      description: "Comment savoir que cette phase est terminée ?"
+      placeholder: "Lister les critères concrets de complétion"
+    validations:
+      required: true
+  - type: input
+    id: phase_suivante
+    attributes:
+      label: "🔄 Phase Suivante"
+      description: "Quelle sera la prochaine phase ?"
+      placeholder: "Ex: Conception, Production, Validation..."
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        **🧬 Principe Génome Minimal** : Ce template unique remplace tous les templates spécialisés.
+        
+        **Auto-Évolution** : Le système s'adapte automatiquement selon le contexte projet.
+        
+        **Instructions IA** : Lire `AI_CORE.yml` avant traitement de cette issue.

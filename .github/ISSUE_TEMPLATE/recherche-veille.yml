@@ -1,0 +1,37 @@
+name: "Recherche / Veille"
+description: "Collecter, analyser et valider une base documentaire minimale"
+labels: ["recherche","documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de décrire clairement l'objectif, le corpus, et les résultats.
+        Le but est de produire une trace minimale réutilisable (Markdown) à consolider en fin d'étape.
+  - type: textarea
+    id: objectifs
+    attributes:
+      label: Objectifs
+      description: Quels résultats concrets visez-vous ?
+      placeholder: Ex. établir une base documentaire sur un sujet
+  - type: textarea
+    id: corpus
+    attributes:
+      label: Corpus consulté
+      description: Décrivez brièvement le corpus et les critères de sélection
+  - type: textarea
+    id: resultats
+    attributes:
+      label: Résultats
+      description: Résumez les enseignements clés et les applications potentielles
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources (liste simple)
+      description: Auteur — Titre (Année) — Lien — Pivot oui/non
+  - type: markdown
+    attributes:
+      value: |
+        À la clôture de l'issue :
+        1) Consolider les sources dans `sources/base-documentaire.md`
+        2) Consolider la synthèse dans `sources/synthese.md`
+        3) Commenter l'issue avec les chemins consolidés
