@@ -1,0 +1,28 @@
+{
+  "issue_number": 5,
+  "persona": "creatif-designer",
+  "date": "2025-11-07",
+  "images": [
+    {
+      "filename": "maquette-01-vertical.png",
+      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/5f37346c-a2d9-4f05-aa5e-a33ecd175be0.png",
+      "destination": "sources/images",
+      "issue": 5,
+      "description": "Layout vertical classique (60/40)"
+    },
+    {
+      "filename": "maquette-02-doublepage.png",
+      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/939de2ba-7fc9-440b-8093-8bbad2e8edf7.png",
+      "destination": "sources/images",
+      "issue": 5,
+      "description": "Layout double-page immersive (40/60)"
+    },
+    {
+      "filename": "maquette-03-horizontal.png",
+      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/11d119aa-29c4-4df5-82aa-fb0d30da7a06.png",
+      "destination": "sources/images",
+      "issue": 5,
+      "description": "Layout horizontal 50/50"
+    }
+  ]
+}
