@@ -1,28 +1,56 @@
 {
-  "issue_number": 5,
+  "issue_number": 7,
   "persona": "creatif-designer",
-  "date": "2025-11-07",
+  "date": "2025-11-10",
   "images": [
     {
-      "filename": "maquette-01-vertical.png",
-      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/5f37346c-a2d9-4f05-aa5e-a33ecd175be0.png",
+      "filename": "test-photo-01.png",
+      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/400eb3be-c158-4e49-964c-61889b226aab.png",
       "destination": "sources/images",
-      "issue": 5,
-      "description": "Layout vertical classique (60/40)"
+      "issue": 7,
+      "description": "Saumon grillé croûte Maillard - Top-down"
     },
     {
-      "filename": "maquette-02-doublepage.png",
-      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/939de2ba-7fc9-440b-8093-8bbad2e8edf7.png",
+      "filename": "test-photo-02.png",
+      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/08e86684-fffa-4f4e-9582-ce24aff28afc.png",
       "destination": "sources/images",
-      "issue": 5,
-      "description": "Layout double-page immersive (40/60)"
+      "issue": 7,
+      "description": "Risotto crémeux au parmesan - Top-down"
     },
     {
-      "filename": "maquette-03-horizontal.png",
-      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/11d119aa-29c4-4df5-82aa-fb0d30da7a06.png",
+      "filename": "test-photo-03.png",
+      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/e787e6fa-69b3-4853-ad8f-19bf413f7030.png",
       "destination": "sources/images",
-      "issue": 5,
-      "description": "Layout horizontal 50/50"
+      "issue": 7,
+      "description": "Sauce hollandaise émulsionnée (terracotta) - Top-down"
+    },
+    {
+      "filename": "test-photo-04.png",
+      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/8c062963-6d36-4e62-a441-7291247c4bf9.png",
+      "destination": "sources/images",
+      "issue": 7,
+      "description": "Légumes rôtis caramélisés - Top-down"
+    },
+    {
+      "filename": "test-photo-05.png",
+      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/20637a85-03dd-4eff-8402-20cfafcbc74e.png",
+      "destination": "sources/images",
+      "issue": 7,
+      "description": "Pâtes fraîches maison aux herbes - Top-down"
+    },
+    {
+      "filename": "test-photo-06.png",
+      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/39b25a2f-ddd1-4391-8a5a-e3bf33741c4c.png",
+      "destination": "sources/images",
+      "issue": 7,
+      "description": "Mousse au chocolat (accent terracotta) - Top-down"
+    },
+    {
+      "filename": "test-photo-07.png",
+      "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/f2d83ed7-00e1-4805-b2e8-9eeab53f6834.png",
+      "destination": "sources/images",
+      "issue": 7,
+      "description": "Omelette française parfaitement pliée - Top-down"
     }
   ]
 }
