@@ -1,0 +1,83 @@
+{
+  "recette": {
+    "id": "bouillon-volaille-umami",
+    "titre": "Bouillon de Volaille Umami",
+    "slug": "bouillon-volaille-umami",
+    "chapitre": "Bases Fondamentales",
+    "numero_chapitre": 1,
+    "numero_recette": 1,
+    "difficulte": 1,
+    "temps_preparation": 15,
+    "temps_cuisson": 180,
+    "temps_repos": 0,
+    "portions": 6,
+    "tags": [
+      "base",
+      "umami",
+      "bouillon",
+      "sans-gluten",
+      "extraction"
+    ]
+  },
+  "science": {
+    "concept_principal": "Extraction aromatique et Synergie umami",
+    "temperature": "85-95°C",
+    "mecanisme": "Extraction progressive du glutamate (légumes) et inosinate (volaille) par cuisson lente, créant une synergie umami amplifiée jusqu'à 15x via récepteurs T1R1/T1R3. Transformation collagène en gélatine pour texture soyeuse.",
+    "schemas_associes": [
+      "08-synergie-umami"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Carcasse de volaille",
+        "ingredient_b": "Champignons shiitake",
+        "molecule": "Glutamate + IMP (inosinate)",
+        "effet": "Explosion umami synergique (amplification 15x)"
+      },
+      {
+        "ingredient_a": "Tomates mûres",
+        "ingredient_b": "Os de volaille",
+        "molecule": "Glutamate végétal + Inosinate animal",
+        "effet": "Synergie umami profonde et charnue"
+      },
+      {
+        "ingredient_a": "Oignon caramélisé",
+        "ingredient_b": "Algue kombu",
+        "molecule": "Glutamate concentré + Glutamate marin",
+        "effet": "Amplification umami et profondeur aromatique"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Vue top-down d'une marmite en fonte avec bouillon doré transparent, ingrédients aromatiques visibles (carottes, céleri, oignon), vapeur légère, éclairage naturel chaud, fond bois rustique",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-10",
+      "prompt": "Professional food photography, top-down view of a rustic cast iron pot with golden chicken stock, visible aromatic vegetables (carrots, celery, onion halves), gentle steam rising, warm natural lighting, wooden background, ultra-detailed, cookbook style --ar 16:9"
+    },
+    "process": [],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Louche versant le bouillon filtré dans un bol blanc élégant, liquide doré cristallin, quelques herbes fraîches en garniture, éclairage doux latéral, fond neutre clair",
+      "angle": "45-degree",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-10",
+      "prompt": "Professional food photography, 45-degree angle, ladle pouring golden clarified chicken stock into white ceramic bowl, crystal-clear liquid, fresh herbs garnish, soft side lighting, neutral light background, elegant presentation, cookbook style --ar 16:9"
+    }
+  },
+  "sources_documentaires": [
+    "McGee, Harold (2004). On Food and Cooking: The Science and Lore of the Kitchen. Extraction aromatique et transformation collagène, p. 588-595",
+    "Zhang et al. (2008). Molecular mechanism for the umami taste synergism. Proceedings of the National Academy of Sciences (PNAS)",
+    "Sugimoto (2024). Academic paper on umami synergy - Dried Shiitake. Rôle du GMP fongique",
+    "This, Hervé & Gagnaire, Pierre (2000-2025). Travaux INRAE Gastronomie moléculaire"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-10",
+  "date_modification": "2025-11-10",
+  "auteur": "Rédacteur-Scientifique IA",
+  "statut": "publie",
+  "notes_internes": "Première recette complète du Chapitre 1. Synergie umami documentée avec 3 associations moléculaires. Schéma 08-synergie-umami.svg intégré. Ton pédagogique accessible avec justifications scientifiques pour chaque étape."
+}
