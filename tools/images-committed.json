@@ -1,30 +1,62 @@
 {
-  "commit_date": "2025-11-07",
-  "issue": 5,
+  "commit_date": "2025-11-10",
+  "issue": 7,
   "persona": "creatif-designer",
   "images": [
     {
-      "filename": "maquette-01-vertical.png",
-      "path": "sources/images/maquette-01-vertical.png",
-      "size": 1065094,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/5f37346c-a2d9-4f05-aa5e-a33ecd175be0.png",
-      "issue": 5,
+      "filename": "test-photo-01.png",
+      "path": "sources/images/test-photo-01.png",
+      "size": 961313,
+      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/400eb3be-c158-4e49-964c-61889b226aab.png",
+      "issue": 7,
       "status": "ready"
     },
     {
-      "filename": "maquette-02-doublepage.png",
-      "path": "sources/images/maquette-02-doublepage.png",
-      "size": 850911,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/939de2ba-7fc9-440b-8093-8bbad2e8edf7.png",
-      "issue": 5,
+      "filename": "test-photo-02.png",
+      "path": "sources/images/test-photo-02.png",
+      "size": 832073,
+      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/08e86684-fffa-4f4e-9582-ce24aff28afc.png",
+      "issue": 7,
       "status": "ready"
     },
     {
-      "filename": "maquette-03-horizontal.png",
-      "path": "sources/images/maquette-03-horizontal.png",
-      "size": 993035,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/11d119aa-29c4-4df5-82aa-fb0d30da7a06.png",
-      "issue": 5,
+      "filename": "test-photo-03.png",
+      "path": "sources/images/test-photo-03.png",
+      "size": 894666,
+      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/e787e6fa-69b3-4853-ad8f-19bf413f7030.png",
+      "issue": 7,
+      "status": "ready"
+    },
+    {
+      "filename": "test-photo-04.png",
+      "path": "sources/images/test-photo-04.png",
+      "size": 906922,
+      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/8c062963-6d36-4e62-a441-7291247c4bf9.png",
+      "issue": 7,
+      "status": "ready"
+    },
+    {
+      "filename": "test-photo-05.png",
+      "path": "sources/images/test-photo-05.png",
+      "size": 1147179,
+      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/20637a85-03dd-4eff-8402-20cfafcbc74e.png",
+      "issue": 7,
+      "status": "ready"
+    },
+    {
+      "filename": "test-photo-06.png",
+      "path": "sources/images/test-photo-06.png",
+      "size": 895911,
+      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/39b25a2f-ddd1-4391-8a5a-e3bf33741c4c.png",
+      "issue": 7,
+      "status": "ready"
+    },
+    {
+      "filename": "test-photo-07.png",
+      "path": "sources/images/test-photo-07.png",
+      "size": 894158,
+      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/f2d83ed7-00e1-4805-b2e8-9eeab53f6834.png",
+      "issue": 7,
       "status": "ready"
     }
   ]
