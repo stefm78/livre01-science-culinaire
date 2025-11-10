@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;family=Open+Sans:ital,wght@0,400;0,600;1,400&amp;display=swap');
+      .title { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 28px; fill: #D4735C; }
+      .subtitle { font-family: 'Open Sans', sans-serif; font-size: 16px; fill: #666666; }
+      .label { font-family: 'Open Sans', sans-serif; font-size: 15px; fill: #1A1A1A; }
+      .label-bold { font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 18px; fill: #1A1A1A; }
+      .big-text { font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 20px; fill: #D4735C; }
+      .annotation { font-family: 'Open Sans', sans-serif; font-style: italic; font-size: 12px; fill: #666666; }
+    </style>
+  </defs>
+  
+  <!-- Fond blanc -->
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+  
+  <!-- Titre -->
+  <text x="600" y="50" text-anchor="middle" class="title">Mélanger l'Huile et l'Eau</text>
+  <text x="600" y="80" text-anchor="middle" class="subtitle">Pourquoi la mayonnaise tient et la vinaigrette se sépare</text>
+  
+  <!-- Section GAUCHE : Vinaigrette (instable) -->
+  <g id="vinaigrette">
+    <rect x="50" y="120" width="520" height="600" rx="10" fill="#F5F5F5"/>
+    
+    <text x="310" y="160" text-anchor="middle" class="label-bold" style="fill: #D4735C; font-size: 22px;">🥗 VINAIGRETTE</text>
+    <text x="310" y="190" text-anchor="middle" class="big-text">Mélange instable</text>
+    
+    <!-- Ingrédients -->
+    <text x="310" y="240" text-anchor="middle" class="label-bold" style="font-size: 16px;">Ingrédients de base :</text>
+    
+    <circle cx="200" cy="300" r="40" fill="#FFF3CD" stroke="#D4735C" stroke-width="3"/>
+    <text x="200" y="310" text-anchor="middle" style="font-size: 28px;">🫒</text>
+    <text x="200" y="360" text-anchor="middle" class="label">Huile</text>
+    
+    <text x="310" y="310" text-anchor="middle" class="big-text">+</text>
+    
+    <circle cx="420" cy="300" r="40" fill="#E3F2FD" stroke="#D4735C" stroke-width="3"/>
+    <text x="420" y="310" text-anchor="middle" style="font-size: 28px;">💧</text>
+    <text x="420" y="360" text-anchor="middle" class="label">Vinaigre</text>
+    
+    <!-- Animation séparation -->
+    <text x="310" y="410" text-anchor="middle" class="label" style="font-weight: 600;">Ce qui se passe :</text>
+    
+    <!-- Bocal avant -->
+    <rect x="150" y="440" width="120" height="180" rx="5" fill="none" stroke="#8B9B8E" stroke-width="3"/>
+    <text x="210" y="470" text-anchor="middle" class="annotation">Juste après</text>
+    <text x="210" y="485" text-anchor="middle" class="annotation">avoir secoué</text>
+    
+    <!-- Gouttelettes mélangées -->
+    <circle cx="180" cy="520" r="8" fill="#FFF3CD"/>
+    <circle cx="220" cy="530" r="6" fill="#FFF3CD"/>
+    <circle cx="195" cy="550" r="7" fill="#FFF3CD"/>
+    <circle cx="230" cy="560" r="6" fill="#FFF3CD"/>
+    <circle cx="205" cy="580" r="8" fill="#FFF3CD"/>
+    <rect x="160" y="590" width="100" height="20" fill="#E3F2FD"/>
+    
+    <!-- Flèche temps -->
+    <path d="M 290 540 L 350 540" stroke="#8B9B8E" stroke-width="3" fill="none"/>
+    <polygon points="355,540 345,535 345,545" fill="#8B9B8E"/>
+    <text x="320" y="530" text-anchor="middle" class="annotation" style="font-size: 11px;">quelques</text>
+    <text x="320" y="545" text-anchor="middle" class="annotation" style="font-size: 11px;">minutes</text>
+    
+    <!-- Bocal après -->
+    <rect x="370" y="440" width="120" height="180" rx="5" fill="none" stroke="#8B9B8E" stroke-width="3"/>
+    <text x="430" y="470" text-anchor="middle" class="annotation">Après repos</text>
+    
+    <!-- Séparation visible -->
+    <rect x="380" y="450" width="100" height="90" fill="#FFF3CD"/>
+    <text x="430" y="500" text-anchor="middle" class="label" style="font-size: 12px;">Huile</text>
+    <line x1="380" y1="540" x2="480" y2="540" stroke="#8B9B8E" stroke-width="2" stroke-dasharray="5,5"/>
+    <rect x="380" y="540" width="100" height="70" fill="#E3F2FD"/>
+    <text x="430" y="580" text-anchor="middle" class="label" style="font-size: 12px;">Vinaigre</text>
+    
+    <!-- Explication -->
+    <text x="310" y="650" text-anchor="middle" class="label-bold" style="fill: #D4735C; font-size: 14px;">Pourquoi ça se sépare ?</text>
+    <text x="310" y="675" text-anchor="middle" class="annotation">L'huile et le vinaigre ne s'aiment pas</text>
+    <text x="310" y="692" text-anchor="middle" class="annotation">naturellement. Sans "colle" pour les tenir</text>
+    <text x="310" y="709" text-anchor="middle" class="annotation">ensemble, ils se séparent rapidement.</text>
+  </g>
+  
+  <!-- Ligne séparation verticale -->
+  <line x1="600" y1="120" x2="600" y2="720" stroke="#D4735C" stroke-width="3"/>
+  
+  <!-- Section DROITE : Mayonnaise (stable) -->
+  <g id="mayonnaise">
+    <rect x="630" y="120" width="520" height="600" rx="10" fill="#F5F5F5"/>
+    
+    <text x="890" y="160" text-anchor="middle" class="label-bold" style="fill: #D4735C; font-size: 22px;">🥪 MAYONNAISE</text>
+    <text x="890" y="190" text-anchor="middle" class="big-text">Mélange stable</text>
+    
+    <!-- Ingrédients -->
+    <text x="890" y="240" text-anchor="middle" class="label-bold" style="font-size: 16px;">Ingrédients de base :</text>
+    
+    <circle cx="760" cy="300" r="35" fill="#FFF3CD" stroke="#D4735C" stroke-width="3"/>
+    <text x="760" y="310" text-anchor="middle" style="font-size: 24px;">🫒</text>
+    <text x="760" y="350" text-anchor="middle" class="label" style="font-size: 13px;">Huile</text>
+    
+    <text x="840" y="310" text-anchor="middle" class="label" style="font-size: 18px;">+</text>
+    
+    <circle cx="890" cy="300" r="35" fill="#E3F2FD" stroke="#D4735C" stroke-width="3"/>
+    <text x="890" y="310" text-anchor="middle" style="font-size: 24px;">💧</text>
+    <text x="890" y="350" text-anchor="middle" class="label" style="font-size: 13px;">Eau</text>
+    
+    <text x="960" y="310" text-anchor="middle" class="label" style="font-size: 18px;">+</text>
+    
+    <circle cx="1020" cy="300" r="35" fill="#FFECB3" stroke="#D4735C" stroke-width="3"/>
+    <text x="1020" y="310" text-anchor="middle" style="font-size: 24px;">🥚</text>
+    <text x="1020" y="350" text-anchor="middle" class="label" style="font-size: 13px;">Jaune d'œuf</text>
+    
+    <!-- L'astuce -->
+    <rect x="720" y="380" width="340" height="60" rx="8" fill="#8B9B8E" opacity="0.2" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="890" y="405" text-anchor="middle" class="label-bold" style="fill: #D4735C;">✨ L'ingrédient magique :</text>
+    <text x="890" y="428" text-anchor="middle" class="label">Le jaune d'œuf joue le rôle de "colle"</text>
+    
+    <!-- Visualisation structure -->
+    <text x="890" y="475" text-anchor="middle" class="label" style="font-weight: 600;">Structure stable :</text>
+    
+    <!-- Bocal mayonnaise -->
+    <rect x="800" y="500" width="180" height="140" rx="8" fill="none" stroke="#8B9B8E" stroke-width="3"/>
+    
+    <!-- Gouttelettes huile maintenues -->
+    <circle cx="830" cy="530" r="6" fill="#FFF3CD" stroke="#8B9B8E" stroke-width="1"/>
+    <circle cx="870" cy="540" r="7" fill="#FFF3CD" stroke="#8B9B8E" stroke-width="1"/>
+    <circle cx="920" cy="535" r="6" fill="#FFF3CD" stroke="#8B9B8E" stroke-width="1"/>
+    <circle cx="950" cy="545" r="7" fill="#FFF3CD" stroke="#8B9B8E" stroke-width="1"/>
+    <circle cx="850" cy="565" r="6" fill="#FFF3CD" stroke="#8B9B8E" stroke-width="1"/>
+    <circle cx="900" cy="570" r="7" fill="#FFF3CD" stroke="#8B9B8E" stroke-width="1"/>
+    <circle cx="940" cy="575" r="6" fill="#FFF3CD" stroke="#8B9B8E" stroke-width="1"/>
+    <circle cx="825" cy="595" r="6" fill="#FFF3CD" stroke="#8B9B8E" stroke-width="1"/>
+    <circle cx="875" cy="600" r="7" fill="#FFF3CD" stroke="#8B9B8E" stroke-width="1"/>
+    <circle cx="925" cy="595" r="6" fill="#FFF3CD" stroke="#8B9B8E" stroke-width="1"/>
+    <circle cx="960" cy="605" r="7" fill="#FFF3CD" stroke="#8B9B8E" stroke-width="1"/>
+    
+    <text x="890" y="665" text-anchor="middle" class="annotation">Petites gouttelettes d'huile</text>
+    <text x="890" y="682" text-anchor="middle" class="annotation">maintenues en suspension</text>
+    <text x="890" y="699" text-anchor="middle" class="annotation">par le jaune d'œuf</text>
+  </g>
+  
+  <!-- Légende bas de page -->
+  <rect x="50" y="745" width="1100" height="40" rx="5" fill="#FFF5E6" stroke="#D4735C" stroke-width="2"/>
+  <text x="600" y="770" text-anchor="middle" class="label-bold">💡 Astuce : Pour réussir une mayonnaise, ajoutez l'huile très lentement au début pour que le jaune d'œuf puisse bien "attraper" les gouttelettes !</text>
+  
+</svg>
