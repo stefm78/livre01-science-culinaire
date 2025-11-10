@@ -1,0 +1,133 @@
+# Alias Bash pour Projet Livre Science Culinaire
+# Chargé automatiquement dans Codespaces
+
+# Navigation rapide
+alias src='cd sources'
+alias rec='cd recettes'
+alias img='cd images/tests'
+alias scr='cd scripts'
+
+# Validation recettes
+alias validate='python scripts/validate-recipe.py'
+alias genindex='python scripts/generate-index.py'
+
+# Git shortcuts
+alias gs='git status'
+alias ga='git add'
+alias gc='git commit -m'
+alias gp='git push origin main'
+alias gl='git log --oneline -10'
+alias gd='git diff'
+
+# Création nouvelle recette
+nouvelle-recette() {
+    if [ -z "$1" ]; then
+        echo "❌ Usage: nouvelle-recette nom-recette"
+        return 1
+    fi
+    
+    local recette_name="$1"
+    local recette_dir="recettes/$recette_name"
+    
+    if [ -d "$recette_dir" ]; then
+        echo "⚠️  La recette '$recette_name' existe déjà"
+        return 1
+    fi
+    
+    echo "📝 Création recette : $recette_name"
+    mkdir -p "$recette_dir/images"
+    cp recettes/_template/recette.md "$recette_dir/"
+    cp recettes/_template/metadata.json "$recette_dir/"
+    
+    echo "✅ Recette créée dans $recette_dir/"
+    echo "➡️  Prochaines étapes :"
+    echo "   1. Éditer $recette_dir/recette.md"
+    echo "   2. Compléter $recette_dir/metadata.json"
+    echo "   3. Générer images dans $recette_dir/images/"
+    echo "   4. validate recettes/$recette_name"
+}
+
+# Validation rapide + index
+validate-all() {
+    echo "🔍 Validation de toutes les recettes..."
+    
+    for recette_dir in recettes/*/; do
+        if [ -d "$recette_dir" ] && [ "$(basename "$recette_dir")" != "_template" ]; then
+            echo ""
+            python scripts/validate-recipe.py "$recette_dir"
+        fi
+    done
+    
+    echo ""
+    echo "📊 Génération index..."
+    python scripts/generate-index.py
+}
+
+# Statistiques projet rapides
+stats() {
+    echo "📊 Statistiques Projet"
+    echo "==============================================================="
+    echo ""
+    
+    local total_recettes=$(find recettes/ -maxdepth 1 -mindepth 1 -type d ! -name '_template' | wc -l)
+    local total_images_tests=$(find images/tests/ -name '*.png' | wc -l)
+    local total_schemas=$(find sources/schemas/ -name '*.svg' -o -name '*.png' 2>/dev/null | wc -l)
+    
+    echo "Recettes produites    : $total_recettes / 30"
+    echo "Photos tests          : $total_images_tests / 15"
+    echo "Schémas scientifiques : $total_schemas / 8"
+    echo ""
+    
+    if [ -f "recettes/index.json" ]; then
+        echo "Index généré : ✅"
+    else
+        echo "Index généré : ❌ (exécuter: genindex)"
+    fi
+    
+    echo ""
+    echo "Dernier commit :"
+    git log -1 --oneline
+}
+
+# Aide
+help-projet() {
+    echo "📚 Commandes Disponibles - Livre Science Culinaire"
+    echo "==============================================================="
+    echo ""
+    echo "Navigation :"
+    echo "  src             : cd sources/"
+    echo "  rec             : cd recettes/"
+    echo "  img             : cd images/tests/"
+    echo "  scr             : cd scripts/"
+    echo ""
+    echo "Recettes :"
+    echo "  nouvelle-recette <nom>  : Créer nouvelle recette depuis template"
+    echo "  validate <dossier>      : Valider une recette"
+    echo "  validate-all            : Valider toutes les recettes"
+    echo "  genindex                : Générer index automatique"
+    echo ""
+    echo "Git :"
+    echo "  gs              : git status"
+    echo "  ga <fichiers>   : git add"
+    echo "  gc '<message>'  : git commit -m"
+    echo "  gp              : git push origin main"
+    echo "  gl              : git log (10 derniers)"
+    echo "  gd              : git diff"
+    echo ""
+    echo "Projet :"
+    echo "  stats           : Afficher statistiques projet"
+    echo "  help-projet     : Afficher cette aide"
+    echo ""
+    echo "Documentation :"
+    echo "  - recettes/README.md      : Workflow production"
+    echo "  - INFRASTRUCTURE.md       : Architecture complète"
+    echo "  - sources/cadrage-editorial.md"
+    echo "  - sources/charte-visuelle.md"
+    echo ""
+}
+
+# Message de bienvenue
+echo ""
+echo "🚀 Environnement Codespace Prêt !"
+echo "Tapez 'help-projet' pour voir les commandes disponibles"
+echo ""
