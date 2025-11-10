@@ -1,0 +1,76 @@
+{
+  "recette": {
+    "id": "nom-recette",
+    "titre": "Titre Complet de la Recette",
+    "slug": "nom-recette",
+    "chapitre": "Nom du Chapitre",
+    "numero_chapitre": 1,
+    "numero_recette": 1,
+    "difficulte": 1,
+    "temps_preparation": 10,
+    "temps_cuisson": 5,
+    "temps_repos": 0,
+    "portions": 2,
+    "tags": [
+      "tag1",
+      "tag2",
+      "concept-scientifique"
+    ]
+  },
+  "science": {
+    "concept_principal": "Nom du Concept Scientifique",
+    "temperature": "XXX°C",
+    "mecanisme": "Description brève du mécanisme",
+    "schemas_associes": [
+      "nom-schema-1"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Ingrédient A",
+        "ingredient_b": "Ingrédient B",
+        "molecule": "Molécule ou Composé",
+        "effet": "Effet gustatif ou texturé"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Description de la photo principale",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-10",
+      "prompt": "Prompt utilisé pour génération IA (optionnel)"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Description de l'étape",
+        "angle": "45-degree",
+        "etape": "Nom de l'étape",
+        "page": 2,
+        "credits": "ChatGPT DALL-E 3",
+        "date_generation": "2025-11-10"
+      }
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Description de la présentation finale",
+      "angle": "top-down",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-10"
+    }
+  },
+  "sources_documentaires": [
+    "McGee, Harold - On Food and Cooking (référence complète)",
+    "This, Hervé - La Cuisine Moléculaire (référence complète)"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-10",
+  "date_modification": "2025-11-10",
+  "auteur": "Nom de l'auteur ou IA",
+  "statut": "brouillon",
+  "notes_internes": "Notes pour suivi projet (optionnel)"
+}
