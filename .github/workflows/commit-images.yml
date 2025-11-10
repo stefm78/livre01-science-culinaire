@@ -56,6 +56,7 @@ jobs:
           ISSUE_NUM=$(python3 -c "import json; print(json.load(open('tools/images-to-commit.json')).get('issue_number', 'N/A'))")
           IMG_COUNT=$(ls sources/images/*.png 2>/dev/null | wc -l)
           git commit -m "🎨 Ajout $IMG_COUNT maquettes visuelles (Issue #$ISSUE_NUM)"
+          git pull --rebase --autostash origin main
           git push
           echo "✅ $IMG_COUNT images commitées avec succès"
 
