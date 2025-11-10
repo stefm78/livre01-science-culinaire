@@ -1,7 +1,7 @@
 # 🍳 Livre Science Culinaire - Production Collaborative IA
 
-**Projet** : Livre de cuisine scientifique (30 recettes, 8 chapitres, 200-250 pages)  
-**Statut** : 🟠 Phase Production-Contenu  
+**Projet** : Livre de cuisine scientifique (31 recettes, 8 chapitres, 200-250 pages)  
+**Statut** : 🟡 Phase 1 - Finalisation Fondations (40% complète)  
 **Infrastructure** : ✅ Opérationnelle (Nov 2025)
 
 > **🤖 Nouvelle IA ?** Lire d'abord **[ONBOARDING_IA.md](ONBOARDING_IA.md)** (5 min)
@@ -35,34 +35,51 @@
 
 Créer un livre de cuisine scientifique combinant :
 - 🔬 Science culinaire (réactions chimiques, associations moléculaires)
-- 👨‍🍳 Recettes pratiques (30 fiches, 8 chapitres)
+- 👨‍🍳 Recettes pratiques (31 fiches, 8 chapitres)
 - 📸 Photographies IA (style minimaliste scientifique)
 - 📈 Schémas pédagogiques (8 concepts clés)
 
 ### Cible
 
-**200-250 pages** | **30 recettes** | **8 chapitres** | **60+ images**
+**200-250 pages** | **31 recettes** | **8 chapitres** | **60+ images**
 
 ---
 
 ## 🗺️ Roadmap & Planning
 
-### Phase Actuelle : Production Contenu (🟠 0%)
+### Phase Actuelle : Phase 1 - Finalisation Fondations (🟡 40%)
+
+**Dates** : 11-15 novembre 2025 (Semaine 46)  
+**Objectif** : Préparer la production des 31 recettes
+
+#### ✅ Complété (10 nov)
+- ✅ 8 schémas scientifiques créés et mergés (Issue #8)
+- ✅ Liste exhaustive 31 recettes définie (Issue #12)
+
+#### ⏳ En cours / À faire (11-15 nov)
+- ⏳ Migration fiche pilote steak-maillard
+- ⏳ Création issues sprints 2-8
+- ⏳ Validation personas production
+
+---
+
+### Prochaine Phase : Production Contenu (⏳ 0%)
 
 **Dates** : 18 nov 2025 - 17 jan 2026 (8 semaines)
 
 | Sprint | Chapitre | Recettes | Dates | Statut |
 |--------|----------|----------|-------|--------|
-| Sprint 1 | Ch.1 Bases | 5-6 | 18-22 Nov | Issue #13 |
-| Sprint 2 | Ch.2 Viandes | 4-5 | 25-29 Nov | ⏳ |
-| Sprint 3 | Ch.3 Poissons | 3-4 | 2-6 Dec | ⏳ |
-| Sprint 4 | Ch.4 Légumes | 4-5 | 9-13 Dec | ⏳ |
-| Sprint 5 | Ch.5 Œufs | 3-4 | 16-20 Dec | ⏳ |
-| Sprint 6 | Ch.6 Pains | 3-4 | 23-27 Dec | ⏳ |
-| Sprint 7 | Ch.7 Desserts | 4-5 | 6-10 Jan | ⏳ |
-| Sprint 8 | Ch.8 Créations | 3-4 | 13-17 Jan | ⏳ |
+| Sprint 1 | Ch.1 Bases | 5 | 18-22 Nov | Issue #13 ✅ |
+| Sprint 2 | Ch.2 Viandes | 4 | 25-29 Nov | ⏳ |
+| Sprint 3 | Ch.3 Poissons | 4 | 2-6 Dec | ⏳ |
+| Sprint 4 | Ch.4 Légumes | 4 | 9-13 Dec | ⏳ |
+| Sprint 5 | Ch.5 Œufs | 4 | 16-20 Dec | ⏳ |
+| Sprint 6 | Ch.6 Pains | 3 | 23-27 Dec | ⏳ |
+| Sprint 7 | Ch.7 Desserts | 4 | 6-10 Jan | ⏳ |
+| Sprint 8 | Ch.8 Créations | 3 | 13-17 Jan | ⏳ |
 
-🗺️ **[ROADMAP Complète](ROADMAP.md)** : Phases 1-4 détaillées
+🗺️ **[ROADMAP Complète](ROADMAP.md)** : Phases 1-4 détaillées  
+📋 **[RECETTES_LISTE.md](RECETTES_LISTE.md)** : 31 recettes définies
 
 ### État d'Avancement Global
 
@@ -72,8 +89,9 @@ Créer un livre de cuisine scientifique combinant :
 | **Codespaces** | ✅ Configuré | 100% |
 | **Templates** | ✅ Prêts | 100% |
 | **Schémas Scientifiques** | ✅ Créés | 100% (8/8) |
+| **Liste Recettes** | ✅ Définie | 100% (31/31) |
 | **Photos Tests** | 🟡 En cours | 47% (7/15) |
-| **Recettes** | ⏳ À démarrer | 0% (0/30) |
+| **Recettes** | ⏳ À démarrer | 0% (0/31) |
 
 ---
 
@@ -110,7 +128,7 @@ Créer un livre de cuisine scientifique combinant :
 
 ---
 
-## 🏗️ Architecture Projet
+## 🏭 Architecture Projet
 
 ```
 livre01-science-culinaire/
@@ -119,9 +137,9 @@ livre01-science-culinaire/
 │   ├── charte-visuelle.md      # Style photographique
 │   ├── base-documentaire.md    # Sources scientifiques
 │   ├── images/                 # Maquettes visuelles
-│   └── schemas/                # Schémas scientifiques (8)
+│   └── schemas/                # Schémas scientifiques (8) ✅
 │
-├── recettes/                  # ⭐ Production 30 fiches
+├── recettes/                  # ⭐ Production 31 fiches
 │   ├── _template/             # Templates standardisés
 │   └── [nom-recette]/        # Architecture self-contained
 │       ├── recette.md
@@ -131,6 +149,7 @@ livre01-science-culinaire/
 ├── images/tests/             # Photos validation charte
 ├── scripts/                  # Outils automatisation
 ├── ROADMAP.md                # Planning 4 phases
+├── RECETTES_LISTE.md         # 31 recettes définies ✅
 ├── PERSONAS_IA.md            # Équipe IA
 ├── ONBOARDING_IA.md          # Guide démarrage IA
 └── .devcontainer/            # Config Codespaces
@@ -177,8 +196,9 @@ gp
 
 ### Vue Globale
 - 🗺️ [ROADMAP.md](ROADMAP.md) : Planning 4 phases + 8 sprints
+- 📋 [RECETTES_LISTE.md](RECETTES_LISTE.md) : 31 recettes définies ✅
 - 👥 [PERSONAS_IA.md](PERSONAS_IA.md) : Équipe IA spécialisée
-- 🏗️ [INFRASTRUCTURE.md](INFRASTRUCTURE.md) : Architecture technique
+- 🏭 [INFRASTRUCTURE.md](INFRASTRUCTURE.md) : Architecture technique
 - 🧬 [PROJECT_DNA.yml](PROJECT_DNA.yml) : ADN projet
 
 ### Pour Démarrer
@@ -190,6 +210,7 @@ gp
 - 📝 [Cadrage Éditorial](sources/cadrage-editorial.md)
 - 🎨 [Charte Visuelle](sources/charte-visuelle.md)
 - 📖 [Base Documentaire](sources/base-documentaire.md)
+- 📈 [Schémas Scientifiques](sources/schemas/README.md) ✅
 
 ### Templates
 - 📝 [Template Recette](recettes/_template/recette.md)
@@ -201,19 +222,21 @@ gp
 
 ### Métriques Clés
 
-- **Recettes** : 0/30 (0%)
+- **Recettes définies** : 31/31 (100%) ✅
+- **Recettes produites** : 0/31 (0%)
 - **Images** : 7/60+ (12%)
 - **Schémas** : 8/8 (100%) ✅
 - **Pages Livre** : 0/200-250 (0%)
-- **Sources** : 20+/40+ (50%)
+- **Sources** : 45+/50+ (90%)
 
 ### Jalons Critiques
 
 | Date | Jalon | Statut |
 |------|-------|--------|
+| 10 Nov 2025 | Schémas + Liste Recettes | ✅ Complété |
 | 15 Nov 2025 | Go Production | 🟡 En cours |
 | 22 Nov 2025 | Sprint 1 Complet | ⏳ Planifié |
-| 17 Jan 2026 | 30 Recettes Produites | ⏳ Planifié |
+| 17 Jan 2026 | 31 Recettes Produites | ⏳ Planifié |
 | 31 Jan 2026 | Livre Final | ⏳ Planifié |
 
 ---
@@ -238,11 +261,10 @@ gp
 
 ### Issues Actives Prioritaires
 
-- **#11** : 🔴 PHASE 1 - Finalisation Fondations (Sem 46)
-- **#12** : 🟠 Établir Liste 30 Recettes
-- **#13** : 🟠 SPRINT 1 - Chapitre 1 (Sem 47)
-- **#6** : 🟡 Enrichissement Base Documentaire (20+ sources)
-- **#8** : 🟡 Schémas Scientifiques (8/8 créés, merge requis)
+- **#11** : 🟡 PHASE 1 - Finalisation Fondations (Sem 46) - 40% complété
+- **#13** : 🟠 SPRINT 1 - Chapitre 1 (Sem 47) - Prêt à démarrer
+- **#8** : ✅ Schémas Scientifiques (FERMÉE - 8/8 mergés)
+- **#12** : ✅ Liste 30 Recettes (FERMÉE - 31 recettes définies)
 
 ### Labels
 - `phase-1`, `production`, `sprint` : Organisation
@@ -290,11 +312,14 @@ gp
 - **Dépôt** : https://github.com/stefm78/livre01-science-culinaire
 - **Issues** : https://github.com/stefm78/livre01-science-culinaire/issues
 - **Roadmap** : [ROADMAP.md](ROADMAP.md)
+- **Recettes** : [RECETTES_LISTE.md](RECETTES_LISTE.md)
 - **Codespaces** : https://github.com/codespaces
 
 ---
 
 **Créé le** : Nov 2025  
 **Maintenu par** : Chef de Projet IA  
-**Phase** : Production Contenu  
+**Phase** : Phase 1 - Finalisation Fondations (40%)  
 **Licence** : Privé
+
+**Dernière mise à jour** : 10 novembre 2025
