@@ -70,14 +70,14 @@ jobs:
           COMMIT_SHA=$(git rev-parse HEAD)
           cat << EOF > comment.md
           ✅ **Images commitées automatiquement dans le repository**
-          
+
           - **Nombre d'images**: $IMG_COUNT maquettes
           - **Commit SHA**: \`$COMMIT_SHA\`
           - **Dossier**: \`sources/images/\`
           - **Traçabilité**: \`tools/images-committed.json\`
-          
+
           Les images sont maintenant **stockées dans Git** et ne dépendent plus du cloud externe.
-          
+
           🔗 [Voir les images](https://github.com/${{ github.repository }}/tree/main/sources/images)
           EOF
           gh issue comment "$ISSUE_NUM" --body-file comment.md || true

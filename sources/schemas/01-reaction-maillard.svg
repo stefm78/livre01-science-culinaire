@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;family=Open+Sans:ital,wght@0,400;0,600;1,400&amp;display=swap');
+      .title { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 28px; fill: #D4735C; }
+      .subtitle { font-family: 'Open Sans', sans-serif; font-size: 16px; fill: #666666; }
+      .label { font-family: 'Open Sans', sans-serif; font-size: 15px; fill: #1A1A1A; }
+      .label-bold { font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 18px; fill: #1A1A1A; }
+      .big-text { font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 20px; fill: #D4735C; }
+      .annotation { font-family: 'Open Sans', sans-serif; font-style: italic; font-size: 12px; fill: #666666; }
+      .temp-box { fill: #F5F5F5; stroke: #D4735C; stroke-width: 3; }
+    </style>
+  </defs>
+  
+  <!-- Fond blanc -->
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+  
+  <!-- Titre -->
+  <text x="600" y="50" text-anchor="middle" class="title">La Réaction de Maillard</text>
+  <text x="600" y="80" text-anchor="middle" class="subtitle">Pourquoi vos aliments dorent et développent des arômes à la cuisson</text>
+  
+  <!-- Encadré température -->
+  <rect x="920" y="20" width="250" height="70" rx="8" class="temp-box"/>
+  <text x="1045" y="50" text-anchor="middle" class="label-bold">Température nécessaire</text>
+  <text x="1045" y="75" text-anchor="middle" class="big-text">140-165°C</text>
+  
+  <!-- ÉTAPE 1 : Rencontre -->
+  <g id="etape1">
+    <rect x="50" y="140" width="340" height="500" rx="10" fill="#F5F5F5"/>
+    
+    <text x="220" y="175" text-anchor="middle" class="label-bold" style="fill: #D4735C; font-size: 20px;">① LA RENCONTRE</text>
+    
+    <!-- Ingrédients -->
+    <circle cx="140" cy="260" r="45" fill="#FFE4B5" stroke="#D4735C" stroke-width="3"/>
+    <text x="140" y="255" text-anchor="middle" class="label" style="font-size: 16px; font-weight: 600;">🥩</text>
+    <text x="140" y="275" text-anchor="middle" class="label" style="font-size: 13px;">Protéines</text>
+    <text x="140" y="320" text-anchor="middle" class="annotation">Viande, poisson,</text>
+    <text x="140" y="337" text-anchor="middle" class="annotation">œufs, lait...</text>
+    
+    <text x="220" y="270" text-anchor="middle" class="big-text">+</text>
+    
+    <circle cx="300" cy="260" r="45" fill="#FFF5E6" stroke="#D4735C" stroke-width="3"/>
+    <text x="300" y="255" text-anchor="middle" class="label" style="font-size: 16px; font-weight: 600;">🍞</text>
+    <text x="300" y="275" text-anchor="middle" class="label" style="font-size: 13px;">Sucres</text>
+    <text x="300" y="320" text-anchor="middle" class="annotation">Pain, pâtes,</text>
+    <text x="300" y="337" text-anchor="middle" class="annotation">oignons, riz...</text>
+    
+    <!-- Flèche -->
+    <path d="M 220 370 L 220 420" stroke="#8B9B8E" stroke-width="4" fill="none"/>
+    <polygon points="220,425 215,415 225,415" fill="#8B9B8E"/>
+    <text x="250" y="400" class="annotation">Avec chaleur</text>
+    
+    <!-- Début réaction -->
+    <ellipse cx="220" cy="490" rx="90" ry="50" fill="#8B9B8E" opacity="0.2" stroke="#8B9B8E" stroke-width="3"/>
+    <text x="220" y="485" text-anchor="middle" class="label" style="font-weight: 600;">Début de</text>
+    <text x="220" y="505" text-anchor="middle" class="label" style="font-weight: 600;">transformation</text>
+    
+    <text x="220" y="580" text-anchor="middle" class="annotation" style="font-size: 11px;">Les protéines et sucres</text>
+    <text x="220" y="600" text-anchor="middle" class="annotation" style="font-size: 11px;">se combinent sous l'effet</text>
+    <text x="220" y="620" text-anchor="middle" class="annotation" style="font-size: 11px;">de la chaleur</text>
+  </g>
+  
+  <!-- Flèche étape 1 -> 2 -->
+  <path d="M 410 390 L 480 390" stroke="#D4735C" stroke-width="5" fill="none"/>
+  <polygon points="485,390 475,385 475,395" fill="#D4735C"/>
+  
+  <!-- ÉTAPE 2 : Transformation -->
+  <g id="etape2">
+    <rect x="500" y="140" width="340" height="500" rx="10" fill="#F5F5F5"/>
+    
+    <text x="670" y="175" text-anchor="middle" class="label-bold" style="fill: #D4735C; font-size: 20px;">② LA TRANSFORMATION</text>
+    
+    <!-- Chaleur intense -->
+    <circle cx="670" cy="260" r="50" fill="#FFE4B5" stroke="#D4735C" stroke-width="3"/>
+    <text x="670" y="255" text-anchor="middle" style="font-size: 30px;">🔥</text>
+    <text x="670" y="280" text-anchor="middle" class="label" style="font-size: 13px; font-weight: 600;">Chaleur intense</text>
+    
+    <!-- Flèche transformation -->
+    <path d="M 670 330 L 670 400" stroke="#8B9B8E" stroke-width="4" fill="none"/>
+    <polygon points="670,405 665,395 675,395" fill="#8B9B8E"/>
+    <text x="710" y="370" class="annotation">Cuisson</text>
+    
+    <!-- Nouvelles molécules -->
+    <rect x="600" y="430" width="140" height="90" rx="8" fill="#8B9B8E" opacity="0.3" stroke="#8B9B8E" stroke-width="3"/>
+    <text x="670" y="460" text-anchor="middle" class="label" style="font-weight: 600;">Nouvelles</text>
+    <text x="670" y="480" text-anchor="middle" class="label" style="font-weight: 600;">molécules</text>
+    <text x="670" y="505" text-anchor="middle" class="annotation">en formation</text>
+    
+    <text x="670" y="560" text-anchor="middle" class="annotation" style="font-size: 11px;">Centaines de nouvelles</text>
+    <text x="670" y="580" text-anchor="middle" class="annotation" style="font-size: 11px;">substances créées par</text>
+    <text x="670" y="600" text-anchor="middle" class="annotation" style="font-size: 11px;">la chaleur qui transforme</text>
+    <text x="670" y="620" text-anchor="middle" class="annotation" style="font-size: 11px;">protéines et sucres</text>
+  </g>
+  
+  <!-- Flèche étape 2 -> 3 -->
+  <path d="M 860 390 L 930 390" stroke="#D4735C" stroke-width="5" fill="none"/>
+  <polygon points="935,390 925,385 925,395" fill="#D4735C"/>
+  
+  <!-- ÉTAPE 3 : Résultat final -->
+  <g id="etape3">
+    <rect x="950" y="140" width="230" height="500" rx="10" fill="#F5F5F5"/>
+    
+    <text x="1065" y="175" text-anchor="middle" class="label-bold" style="fill: #D4735C; font-size: 20px;">③ LE RÉSULTAT</text>
+    
+    <!-- Croûte dorée -->
+    <rect x="995" y="220" width="140" height="100" rx="10" fill="#8B6F47" stroke="#D4735C" stroke-width="3"/>
+    <text x="1065" y="255" text-anchor="middle" class="label" style="fill: #FFFFFF; font-weight: 600; font-size: 16px;">CROÛTE</text>
+    <text x="1065" y="275" text-anchor="middle" class="label" style="fill: #FFFFFF; font-weight: 600; font-size: 16px;">DORÉE</text>
+    <text x="1065" y="300" text-anchor="middle" class="annotation" style="fill: #FFFFFF; font-size: 11px;">+ arômes</text>
+    
+    <!-- Ce que vous obtenez -->
+    <text x="1065" y="360" text-anchor="middle" class="label-bold" style="fill: #D4735C; font-size: 15px;">Ce que vous obtenez :</text>
+    
+    <text x="1065" y="395" text-anchor="middle" class="label">✓ Couleur dorée</text>
+    <text x="1065" y="425" text-anchor="middle" class="label">✓ Goût grillé</text>
+    <text x="1065" y="455" text-anchor="middle" class="label">✓ Arômes riches</text>
+    <text x="1065" y="485" text-anchor="middle" class="label">✓ Texture croustillante</text>
+    
+    <text x="1065" y="540" text-anchor="middle" class="annotation" style="font-size: 11px;">C'est ce qui donne</text>
+    <text x="1065" y="560" text-anchor="middle" class="annotation" style="font-size: 11px;">le bon goût de "grillé"</text>
+    <text x="1065" y="580" text-anchor="middle" class="annotation" style="font-size: 11px;">à vos plats cuisinés</text>
+    <text x="1065" y="600" text-anchor="middle" class="annotation" style="font-size: 11px;">à haute température</text>
+  </g>
+  
+  <!-- Légende bas de page -->
+  <rect x="50" y="680" width="1130" height="100" rx="8" fill="#FFF5E6" stroke="#D4735C" stroke-width="2"/>
+  <text x="600" y="710" text-anchor="middle" class="label-bold" style="font-size: 17px;">💡 Où voyez-vous cette réaction dans votre cuisine ?</text>
+  
+  <text x="200" y="745" text-anchor="middle" class="label" style="font-size: 14px;">🥖 Pain grillé</text>
+  <text x="380" y="745" text-anchor="middle" class="label" style="font-size: 14px;">🥩 Viande rôtie</text>
+  <text x="560" y="745" text-anchor="middle" class="label" style="font-size: 14px;">☕ Café</text>
+  <text x="720" y="745" text-anchor="middle" class="label" style="font-size: 14px;">🍪 Biscuits</text>
+  <text x="880" y="745" text-anchor="middle" class="label" style="font-size: 14px;">🍺 Bière brune</text>
+  <text x="1040" y="745" text-anchor="middle" class="label" style="font-size: 14px;">🍫 Chocolat</text>
+  
+  <text x="600" y="770" text-anchor="middle" class="annotation" style="font-size: 12px;">Tous ces aliments ont leur couleur et leur goût grâce à la réaction de Maillard !</text>
+  
+</svg>
