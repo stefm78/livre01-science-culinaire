@@ -1,10 +1,10 @@
 # 📚 Maquettes Visuelles - Fiches Recettes Type
 
-**Version** : 1.1  
+**Version** : 1.2  
 **Date** : 2025-11-10  
 **Persona Responsable** : Créatif-Designer  
 **Issue** : #5  
-**Statut** : ✅ Validation hybride par initiateur (D. pilote à venir)
+**Statut** : ✅ Approche hybride confirmée pour tout le livre (option B)
 
 ---
 
@@ -35,24 +35,19 @@ Ce document présente **3 maquettes visuelles distinctes** de fiches recettes po
 
 ---
 
-## 🔍 Tableau Comparatif Détaillé
-
-*... Texte inchangé ...*
-
----
-
-## 🎯 Décision validée : Approche Hybride (D)
+## 🎯 Décision validée : Approche Hybride pour tout le livre (B)
 
 Suite à validation de l'initiateur (10/11/2025) :
-- **Option D retenue : 70% Maquette 2 (double-page immersive), 30% A+C**
-- Des "fiches pilotes" sont attendues pour validation définitive du rendu (1 pour chaque format)
-- Engagement de respecter strictement formats réels : A4 portrait (210x297), ou double-page A4 paysage (420x297)
+- **Option B confirmée** : 70% recettes principales en double-page immersive, 30% formats vertical ou horizontal pour variantes, techniques ou secondaires
+- Engagement : Pilotes et tests utilisateurs pour ajustement précis du ratio si nécessaire
+- Maintien strict des formats A4 ou double A4
 
-*Note inscrite — décision documentée et à tracer dans l'issue #5*
+*Note inscrite — décision documentée et à tracer dans l'issue #5 + rappel dans cadrage éditorial*
 
 ---
 
 ## 🚩 Historique Décisionnel
 
 - 07/11/2025 : Document initial soumis par Créatif-Designer
-- 10/11/2025 : Décision hybride (D), pilotes à venir pour validation visuelle définitive
+- 10/11/2025 : Décision hybride (D), pilotes à venir
+- 10/11/2025 : Validation pour tout le livre (option B hybride)
