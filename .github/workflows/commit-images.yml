@@ -1,0 +1,103 @@
+name: "🎨 Commit Images depuis Cloud"
+
+on:
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Numéro de l\'issue associée'
+        required: false
+        default: '5'
+  push:
+    paths:
+      - 'tools/images-to-commit.json'
+
+jobs:
+  commit-images:
+    name: "Télécharger et committer les images"
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      issues: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install requests
+      
+      - name: Exécuter le script de téléchargement
+        run: |
+          python3 tools/commit-images.py
+      
+      - name: Vérifier les images téléchargées
+        run: |
+          if [ -d "sources/images" ]; then
+            echo "✅ Dossier sources/images créé"
+            ls -lh sources/images/
+          else
+            echo "⚠️ Aucune image trouvée"
+            exit 1
+          fi
+      
+      - name: Commit et push des images
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Ajouter les images
+          git add sources/images/
+          git add tools/images-committed.json
+          
+          # Vérifier s'il y a des changements
+          if git diff --staged --quiet; then
+            echo "⚠️ Aucun changement à committer"
+            exit 0
+          fi
+          
+          # Lire le numéro d'issue depuis le manifeste
+          ISSUE_NUM=$(python3 -c "import json; print(json.load(open('tools/images-to-commit.json'))['issue_number'])")
+          
+          # Compter le nombre d'images
+          IMG_COUNT=$(ls sources/images/*.png 2>/dev/null | wc -l)
+          
+          # Commit
+          git commit -m "🎨 Ajout $IMG_COUNT maquettes visuelles (Issue #$ISSUE_NUM)"
+          
+          # Push
+          git push
+          
+          echo "✅ $IMG_COUNT images commitées avec succès"
+      
+      - name: Commenter l'issue
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE_NUM=$(python3 -c "import json; print(json.load(open('tools/images-to-commit.json'))['issue_number'])")
+          IMG_COUNT=$(ls sources/images/*.png 2>/dev/null | wc -l)
+          COMMIT_SHA=$(git rev-parse HEAD)
+          
+          cat << EOF > comment.md
+          ✅ **Images commitées automatiquement dans le repository**
+          
+          - **Nombre d'images**: $IMG_COUNT maquettes
+          - **Commit SHA**: \`$COMMIT_SHA\`
+          - **Dossier**: \`sources/images/\`
+          - **Tracer**: \`tools/images-committed.json\`
+          
+          Les images sont maintenant **stockées dans Git** et ne dépendent plus du cloud externe.
+          
+          🔗 [Voir les images dans le repository](https://github.com/${{ github.repository }}/tree/main/sources/images)
+          EOF
+          
+          gh issue comment "$ISSUE_NUM" --body-file comment.md
