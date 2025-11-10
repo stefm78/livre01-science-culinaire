@@ -32,6 +32,15 @@ chmod +x scripts/*.py 2>/dev/null || true
 echo "✅ Scripts prêts"
 echo ""
 
+# Correction automatique bash_aliases
+echo "🔗 Configuration alias Bash..."
+if ! grep -q '.devcontainer/bash_aliases' ~/.bashrc; then
+    echo 'source /workspaces/livre01-science-culinaire/.devcontainer/bash_aliases' >> ~/.bashrc
+    echo "✅ Alias bash ajoutés à .bashrc (permanent)"
+else
+    echo "ℹ️  Alias bash déjà configurés (.bashrc)"
+fi
+
 # Afficher informations projet
 echo "==============================================================="
 echo "📚 Livre Science Culinaire - Environnement Prêt"
