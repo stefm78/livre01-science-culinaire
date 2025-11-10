@@ -4,7 +4,11 @@
 **Statut** : 🟡 Phase 1 - Finalisation Fondations (40% complète)  
 **Infrastructure** : ✅ Opérationnelle (Nov 2025)
 
-> **🤖 Nouvelle IA ?** Lire d'abord **[ONBOARDING_IA.md](ONBOARDING_IA.md)** (5 min)
+---
+
+> ## 🤖 **IA SANS CONTEXTE ?**
+> ### → **[START_HERE.md](START_HERE.md)** ← **LIS ÇA D'ABORD (2 min)**
+> Tu sauras exactement quoi faire.
 
 ---
 
@@ -128,7 +132,7 @@ Créer un livre de cuisine scientifique combinant :
 
 ---
 
-## 🏭 Architecture Projet
+## 🏗️ Architecture Projet
 
 ```
 livre01-science-culinaire/
@@ -151,7 +155,7 @@ livre01-science-culinaire/
 ├── ROADMAP.md                # Planning 4 phases
 ├── RECETTES_LISTE.md         # 31 recettes définies ✅
 ├── PERSONAS_IA.md            # Équipe IA
-├── ONBOARDING_IA.md          # Guide démarrage IA
+├── START_HERE.md             # 🚀 Point d'entrée IA
 └── .devcontainer/            # Config Codespaces
 ```
 
@@ -198,11 +202,11 @@ gp
 - 🗺️ [ROADMAP.md](ROADMAP.md) : Planning 4 phases + 8 sprints
 - 📋 [RECETTES_LISTE.md](RECETTES_LISTE.md) : 31 recettes définies ✅
 - 👥 [PERSONAS_IA.md](PERSONAS_IA.md) : Équipe IA spécialisée
-- 🏭 [INFRASTRUCTURE.md](INFRASTRUCTURE.md) : Architecture technique
+- 🏗️ [INFRASTRUCTURE.md](INFRASTRUCTURE.md) : Architecture technique
 - 🧬 [PROJECT_DNA.yml](PROJECT_DNA.yml) : ADN projet
 
 ### Pour Démarrer
-- 🤖 [ONBOARDING_IA.md](ONBOARDING_IA.md) : Guide IA (5 min)
+- 🚀 **[START_HERE.md](START_HERE.md)** : IA sans contexte ← **POINT D'ENTRÉE**
 - ⚡ [Quick Start Codespaces](.devcontainer/QUICKSTART.md)
 - 📚 [Workflow Recettes](recettes/README.md)
 
@@ -278,12 +282,14 @@ gp
 
 ### Pour IAs
 
-1. Lire [ONBOARDING_IA.md](ONBOARDING_IA.md) (5 min)
-2. Consulter [PERSONAS_IA.md](PERSONAS_IA.md) pour rôle assigné
-3. Suivre [ROADMAP.md](ROADMAP.md) pour planning
-4. Utiliser templates dans `recettes/_template/`
-5. Valider via `scripts/validate-recipe.py`
-6. Commit avec messages conventionnels : `feat(recettes): ajout [Titre]`
+**Nouvelle IA ?** → [**START_HERE.md**](START_HERE.md) (2 min)
+
+**Ensuite** :
+1. Consulter [PERSONAS_IA.md](PERSONAS_IA.md) pour rôle assigné
+2. Suivre [ROADMAP.md](ROADMAP.md) pour planning
+3. Utiliser templates dans `recettes/_template/`
+4. Valider via `scripts/validate-recipe.py`
+5. Commit avec messages conventionnels : `feat(recettes): ajout [Titre]`
 
 ### Pour Humains
 
