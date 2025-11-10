@@ -20,9 +20,12 @@ expertise: "Novice"                     # Besoin encadrement IA spécialisé
 communication: "Synthétique + Visuel + Analytique"
 
 # 🔄 ÉTAT ÉVOLUTIF
-phase_actuelle: "cadrage"
-phase_suivante: "recherche"
-stade_developpement: "structuration"
+phase_actuelle: "conception-validation"
+phase_suivante: "production-contenu"
+stade_developpement: "alpha"
+version: "0.2.0-alpha"
+mise_a_jour_phase: "2025-11-10"
+prochaine_phase_prevue: "2025-11-15"
 viabilite: "garantie"
 
 # 👾 ORGANISMES SYMBIOTIQUES (Personas activés)
@@ -72,6 +75,13 @@ mutations_controlees:
     trigger: "Issue #1 - Activation validée, 5 questions répondues"
     acteur: "chef-de-projet-ia"
     issues_creees: [2, 3, 4]
-    
+  - date: "2025-11-10T13:29:00+01:00"
+    type: "phase_transition"
+    from: "cadrage"
+    to: "conception-validation"
+    trigger: "Décisions majeures validées, charte et structure consolidées"
+    acteur: "chef-de-projet-ia"
+    issues_creees: [5, 6]
+
 adaptations_reussies: []
 selection_naturelle: "en_cours"
