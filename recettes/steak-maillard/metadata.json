@@ -1,0 +1,106 @@
+{
+  "recette": {
+    "id": "steak-maillard",
+    "titre": "Steak Parfait (Réaction de Maillard)",
+    "slug": "steak-maillard",
+    "chapitre": "Viandes et Volailles",
+    "numero_chapitre": 2,
+    "numero_recette": 1,
+    "difficulte": 1,
+    "temps_preparation": 10,
+    "temps_cuisson": 5,
+    "temps_repos": 30,
+    "portions": 2,
+    "tags": [
+      "boeuf",
+      "viande",
+      "maillard",
+      "cuisson-haute-temperature",
+      "proteine",
+      "facile",
+      "rapide"
+    ]
+  },
+  "science": {
+    "concept_principal": "Réaction de Maillard",
+    "temperature": "140-180°C",
+    "mecanisme": "Réaction chimique entre sucres réducteurs et acides aminés produisant des composés aromatiques et une croûte dorée",
+    "schemas_associes": [
+      "01-reaction-maillard"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Bœuf",
+        "ingredient_b": "Beurre",
+        "molecule": "Lactones",
+        "effet": "Notes beurrées et toastées"
+      },
+      {
+        "ingredient_a": "Bœuf",
+        "ingredient_b": "Champignons",
+        "molecule": "Glutamate",
+        "effet": "Synergie umami naturelle"
+      },
+      {
+        "ingredient_a": "Bœuf",
+        "ingredient_b": "Thym",
+        "molecule": "Composés terpéniques",
+        "effet": "Complexité aromatique herbacée"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Steak grillé avec croûte dorée, vue top-down sur marbre blanc, lumière naturelle, beurre fondu et thym frais en décoration",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-11",
+      "prompt": "Professional food photography of a perfectly seared beef steak with golden-brown Maillard crust, top-down view on white marble surface, natural lighting, melted butter pooling, fresh thyme sprig, minimalist composition, shallow depth of field"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Steak en cours de cuisson dans poêle fumante, formation de la croûte Maillard visible",
+        "angle": "45-degree",
+        "etape": "Saisie première face",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-11",
+        "prompt": "Close-up of beef steak searing in hot cast iron pan, golden Maillard crust forming, steam rising, 45-degree angle, dramatic lighting, professional food photography"
+      },
+      {
+        "fichier": "images/process-02.png",
+        "description": "Arrosage au beurre avec thym et ail, mousse dorée",
+        "angle": "45-degree",
+        "etape": "Arrosage beurre noisette",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-11",
+        "prompt": "Basting beef steak with foaming butter, thyme and garlic visible, golden bubbles, 45-degree angle, action shot, warm lighting"
+      }
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Steak tranché en biseau révélant intérieur rosé parfait, jus de repos visible, présentation élégante",
+      "angle": "45-degree",
+      "page": 2,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-11",
+      "prompt": "Sliced beef steak showing perfect medium-rare interior with pink center, resting juices visible, plated elegantly on white dish, 45-degree angle, shallow depth of field, professional food photography"
+    }
+  },
+  "sources_documentaires": [
+    "McGee, Harold - On Food and Cooking: The Science and Lore of the Kitchen (2004), Chapter 3: Meat, pp. 148-167",
+    "This, Hervé - La Cuisine Moléculaire (1995), Chapitre sur la réaction de Maillard",
+    "Myhrvold, Nathan - Modernist Cuisine (2011), Volume 3: Animals and Plants, Maillard Reaction section",
+    "Blumenthal, Heston - The Fat Duck Cookbook (2008), Techniques de cuisson des viandes"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-10",
+  "date_modification": "2025-11-10",
+  "auteur": "Rédacteur-Scientifique IA",
+  "statut": "production",
+  "notes_internes": "Recette pilote migrée depuis sources/steak-maillard.md. Contenu enrichi avec détails scientifiques supplémentaires. Images à générer par Créatif-Designer (T1.3). Prête pour validation."
+}
