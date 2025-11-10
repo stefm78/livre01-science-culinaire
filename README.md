@@ -1,7 +1,7 @@
 # 🍳 Livre Science Culinaire - Production Collaborative IA
 
 **Projet** : Livre de cuisine scientifique (30 recettes, 8 chapitres, 200-250 pages)  
-**Statut** : 🟡 Phase Conception-Validation  
+**Statut** : 🟠 Phase Production-Contenu  
 **Infrastructure** : ✅ Opérationnelle (Nov 2025)
 
 ---
@@ -43,7 +43,72 @@ Créer un livre de cuisine scientifique combinant :
 
 ---
 
-## 🏗️ Architecture
+## 🗺️ Roadmap & Planning
+
+### Phase Actuelle : Production Contenu (🟠 0%)
+
+**Dates** : 18 nov 2025 - 17 jan 2026 (8 semaines)
+
+| Sprint | Chapitre | Recettes | Dates | Statut |
+|--------|----------|----------|-------|--------|
+| Sprint 1 | Ch.1 Bases | 5-6 | 18-22 Nov | Issue #13 |
+| Sprint 2 | Ch.2 Viandes | 4-5 | 25-29 Nov | ⏳ |
+| Sprint 3 | Ch.3 Poissons | 3-4 | 2-6 Dec | ⏳ |
+| Sprint 4 | Ch.4 Légumes | 4-5 | 9-13 Dec | ⏳ |
+| Sprint 5 | Ch.5 Œufs | 3-4 | 16-20 Dec | ⏳ |
+| Sprint 6 | Ch.6 Pains | 3-4 | 23-27 Dec | ⏳ |
+| Sprint 7 | Ch.7 Desserts | 4-5 | 6-10 Jan | ⏳ |
+| Sprint 8 | Ch.8 Créations | 3-4 | 13-17 Jan | ⏳ |
+
+🗺️ **[ROADMAP Complète](ROADMAP.md)** : Phases 1-4 détaillées
+
+### État d'Avancement Global
+
+| Composant | Statut | Progression |
+|-----------|--------|-------------|
+| **Infrastructure** | ✅ Complète | 100% |
+| **Codespaces** | ✅ Configuré | 100% |
+| **Templates** | ✅ Prêts | 100% |
+| **Schémas Scientifiques** | ✅ Créés | 100% (8/8) |
+| **Photos Tests** | 🟡 En cours | 47% (7/15) |
+| **Recettes** | ⏳ À démarrer | 0% (0/30) |
+
+---
+
+## 👥 Organisation Équipe IA
+
+### Personas Spécialisés
+
+**Chef Projet IA** 🏅
+- Coordination globale
+- Gestion issues & roadmap
+- Intégration Git
+
+**Rédacteur-Scientifique** 📝
+- Recherche documentaire
+- Rédaction recettes
+- Explications scientifiques
+
+**Créatif-Designer** 🎨
+- Génération images IA
+- Respect charte visuelle
+- Schémas scientifiques
+
+**Reviewer-Qualité** ✅
+- Validation scientifique
+- Contrôle cohérence
+- Quality assurance
+
+**Researcher-Veilleur** 🔍
+- Enrichissement base documentaire
+- Veille scientifique
+- Sourcing références
+
+👥 **[PERSONAS_IA.md](PERSONAS_IA.md)** : Rôles et responsabilités détaillés
+
+---
+
+## 🏗️ Architecture Projet
 
 ```
 livre01-science-culinaire/
@@ -52,7 +117,7 @@ livre01-science-culinaire/
 │   ├── charte-visuelle.md      # Style photographique
 │   ├── base-documentaire.md    # Sources scientifiques
 │   ├── images/                 # Maquettes visuelles
-│   └── schemas/                # Schémas scientifiques
+│   └── schemas/                # Schémas scientifiques (8)
 │
 ├── recettes/                  # ⭐ Production 30 fiches
 │   ├── _template/             # Templates standardisés
@@ -63,14 +128,16 @@ livre01-science-culinaire/
 │
 ├── images/tests/             # Photos validation charte
 ├── scripts/                  # Outils automatisation
+├── ROADMAP.md                # Planning 4 phases
+├── PERSONAS_IA.md            # Équipe IA
 └── .devcontainer/            # Config Codespaces
 ```
 
-📚 [Documentation complète](INFRASTRUCTURE.md)
+📚 [Documentation Complète](INFRASTRUCTURE.md)
 
 ---
 
-## 📝 Workflow Production
+## 📝 Workflow Production Recettes
 
 ### Pour les IAs Contributrices
 
@@ -99,15 +166,20 @@ gc "feat(recettes): ajout [Titre]"
 gp
 ```
 
-📚 [Workflow détaillé](recettes/README.md)
+📚 [Workflow Détaillé](recettes/README.md)
 
 ---
 
 ## 🔗 Documentation Principale
 
+### Vue Globale
+- 🗺️ [ROADMAP.md](ROADMAP.md) : Planning 4 phases + 8 sprints
+- 👥 [PERSONAS_IA.md](PERSONAS_IA.md) : Équipe IA spécialisée
+- 🏗️ [INFRASTRUCTURE.md](INFRASTRUCTURE.md) : Architecture technique
+- 🧵 [PROJECT_DNA.yml](PROJECT_DNA.yml) : ADN projet
+
 ### Pour Démarrer
 - ⚡ [Quick Start Codespaces](.devcontainer/QUICKSTART.md)
-- 🏗️ [Infrastructure Production](INFRASTRUCTURE.md)
 - 📚 [Workflow Recettes](recettes/README.md)
 
 ### Cadrage Projet
@@ -123,21 +195,26 @@ gp
 
 ## 📊 Progression Projet
 
-| Composant | Statut | Progression |
-|-----------|--------|-------------|
-| **Infrastructure** | ✅ Complète | 100% |
-| **Codespaces** | ✅ Configuré | 100% |
-| **Templates** | ✅ Prêts | 100% |
-| **Photos Tests** | 🟡 En cours | 100% (correction emplacement requise) |
-| **Schémas** | ⏳ À démarrer | 0% (0/8) |
-| **Recettes** | ⏳ À démarrer | 0% (0/30) |
+### Métriques Clés
 
-**Phase actuelle** : Conception-Validation  
-**Phase suivante** : Production-Contenu (~15 nov 2025)
+- **Recettes** : 0/30 (0%)
+- **Images** : 7/60+ (12%)
+- **Schémas** : 8/8 (100%) ✅
+- **Pages Livre** : 0/200-250 (0%)
+- **Sources** : 20+/40+ (50%)
+
+### Jalons Critiques
+
+| Date | Jalon | Statut |
+|------|-------|--------|
+| 15 Nov 2025 | Go Production | 🟡 En cours |
+| 22 Nov 2025 | Sprint 1 Complet | ⏳ Planifié |
+| 17 Jan 2026 | 30 Recettes Produites | ⏳ Planifié |
+| 31 Jan 2026 | Livre Final | ⏳ Planifié |
 
 ---
 
-## 🛠️ Outils Disponibles
+## 🔧 Outils Disponibles
 
 ### Scripts Automatisation
 - `scripts/validate-recipe.py` : Validation complète recette
@@ -155,28 +232,31 @@ gp
 
 ## 💬 Issues et Suivi
 
-### Issues Actives
+### Issues Actives Prioritaires
 
-- **#7** : 🟡 Banque 15 photos tests (correction emplacement requise)
-- **#8** : ⏳ Création 8 schémas scientifiques
-- **#9** : ✅ Infrastructure production recettes
+- **#11** : 🔴 PHASE 1 - Finalisation Fondations (Sem 46)
+- **#12** : 🟠 Établir Liste 30 Recettes
+- **#13** : 🟠 SPRINT 1 - Chapitre 1 (Sem 47)
+- **#6** : 🟡 Enrichissement Base Documentaire (20+ sources)
+- **#8** : 🟡 Schémas Scientifiques (8/8 créés, merge requis)
 
 ### Labels
-- `infrastructure` : Outillage et configuration
-- `documentation` : Cadrage et guides
-- `recettes` : Production fiches recettes
-- `validation` : Contrôle qualité
+- `phase-1`, `production`, `sprint` : Organisation
+- `critique`, `haute`, `moyenne` : Priorité
+- `recettes`, `documentation`, `infrastructure` : Type
+- `persona:nom` : Attribution IA
 
 ---
 
-## 👥 Contribution
+## 👋 Contribution
 
 ### Pour IAs
 
-1. Consulter documentation dans `sources/` et `recettes/README.md`
-2. Utiliser templates dans `recettes/_template/`
-3. Valider via `scripts/validate-recipe.py`
-4. Commit avec messages conventionnels : `feat(recettes): ajout [Titre]`
+1. Consulter [PERSONAS_IA.md](PERSONAS_IA.md) pour rôle assigné
+2. Suivre [ROADMAP.md](ROADMAP.md) pour planning
+3. Utiliser templates dans `recettes/_template/`
+4. Valider via `scripts/validate-recipe.py`
+5. Commit avec messages conventionnels : `feat(recettes): ajout [Titre]`
 
 ### Pour Humains
 
@@ -186,7 +266,7 @@ gp
 
 ---
 
-## 📋 ADN Projet
+## 📚 ADN Projet
 
 **Invariants** :
 - ✅ **Frugalité** : Infrastructure minimale efficace
@@ -196,7 +276,7 @@ gp
 
 **Gouvernance** : Distribuée (IAs autonomes, coordination workflow)
 
-📚 [PROJECT_DNA.yml](PROJECT_DNA.yml)
+🧵 [PROJECT_DNA.yml](PROJECT_DNA.yml)
 
 ---
 
@@ -204,10 +284,12 @@ gp
 
 - **Dépôt** : https://github.com/stefm78/livre01-science-culinaire
 - **Issues** : https://github.com/stefm78/livre01-science-culinaire/issues
+- **Roadmap** : [ROADMAP.md](ROADMAP.md)
 - **Codespaces** : https://github.com/codespaces
 
 ---
 
 **Créé le** : Nov 2025  
 **Maintenu par** : Chef de Projet IA  
+**Phase** : Production Contenu  
 **Licence** : Privé
