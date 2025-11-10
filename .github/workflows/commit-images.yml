@@ -2,14 +2,9 @@ name: "🎨 Commit Images depuis Cloud"
 
 on:
   workflow_dispatch:
-    inputs:
-      issue_number:
-        description: "Numéro de l'issue associée"
-        required: false
-        default: "5"
   push:
     paths:
-      - "tools/images-to-commit.json"
+      - 'tools/images-to-commit.json'
 
 jobs:
   commit-images:
