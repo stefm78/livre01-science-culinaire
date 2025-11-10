@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;family=Open+Sans:ital,wght@0,400;0,600;1,400&amp;display=swap');
+      .title { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 28px; fill: #D4735C; }
+      .subtitle { font-family: 'Open Sans', sans-serif; font-size: 16px; fill: #666666; }
+      .label { font-family: 'Open Sans', sans-serif; font-size: 15px; fill: #1A1A1A; }
+      .label-bold { font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 18px; fill: #1A1A1A; }
+      .big-text { font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 20px; fill: #D4735C; }
+      .annotation { font-family: 'Open Sans', sans-serif; font-style: italic; font-size: 12px; fill: #666666; }
+      .molecule { font-family: 'Open Sans', sans-serif; font-size: 13px; fill: #8B9B8E; }
+    </style>
+  </defs>
+  
+  <!-- Fond blanc -->
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+  
+  <!-- Titre -->
+  <text x="600" y="50" text-anchor="middle" class="title">Food Pairing Moléculaire</text>
+  <text x="600" y="80" text-anchor="middle" class="subtitle">Comprendre pourquoi certains ingrédients inattendus se marient parfaitement</text>
+  
+  <!-- Encadré concept clé -->
+  <rect x="870" y="20" width="310" height="70" rx="8" fill="#F5F5F5" stroke="#D4735C" stroke-width="3"/>
+  <text x="1025" y="50" text-anchor="middle" class="label-bold">Principe scientifique</text>
+  <text x="1025" y="75" text-anchor="middle" class="annotation">80% de la saveur = odorat</text>
+  
+  <!-- INGRÉDIENT 1 : Fraise -->
+  <g id="fraise">
+    <circle cx="300" cy="300" r="120" fill="#FFE4E4" stroke="#D4735C" stroke-width="4"/>
+    <text x="300" y="285" text-anchor="middle" style="font-size: 60px;">🍓</text>
+    <text x="300" y="330" text-anchor="middle" class="label-bold" style="font-size: 22px;">FRAISE</text>
+    
+    <!-- Molécules fraise -->
+    <circle cx="220" cy="230" r="30" fill="#8B9B8E" opacity="0.3" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="220" y="235" text-anchor="middle" class="molecule" style="font-size: 10px;">Furaneol</text>
+    
+    <circle cx="380" cy="250" r="30" fill="#8B9B8E" opacity="0.3" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="380" y="255" text-anchor="middle" class="molecule" style="font-size: 9px;">2-methyl</text>
+    <text x="380" y="266" text-anchor="middle" class="molecule" style="font-size: 9px;">butanal</text>
+  </g>
+  
+  <!-- INGRÉDIENT 2 : Tomate -->
+  <g id="tomate">
+    <circle cx="900" cy="300" r="120" fill="#FFE8E0" stroke="#D4735C" stroke-width="4"/>
+    <text x="900" y="285" text-anchor="middle" style="font-size: 60px;">🍅</text>
+    <text x="900" y="330" text-anchor="middle" class="label-bold" style="font-size: 22px;">TOMATE</text>
+    
+    <!-- Molécules tomate -->
+    <circle cx="820" cy="230" r="30" fill="#8B9B8E" opacity="0.3" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="820" y="235" text-anchor="middle" class="molecule" style="font-size: 10px;">Furaneol</text>
+    
+    <circle cx="980" cy="250" r="30" fill="#8B9B8E" opacity="0.3" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="980" y="255" text-anchor="middle" class="molecule" style="font-size: 9px;">2-methyl</text>
+    <text x="980" y="266" text-anchor="middle" class="molecule" style="font-size: 9px;">butanal</text>
+  </g>
+  
+  <!-- Connexions moléculaires -->
+  <line x1="250" y1="230" x2="790" y2="230" stroke="#8B9B8E" stroke-width="3" stroke-dasharray="10,5"/>
+  <text x="520" y="215" text-anchor="middle" class="label-bold" style="fill: #8B9B8E; font-size: 14px;">Composé aromatique commun</text>
+  
+  <line x1="410" y1="250" x2="950" y2="250" stroke="#8B9B8E" stroke-width="3" stroke-dasharray="10,5"/>
+  
+  <!-- Zone centrale explicative -->
+  <rect x="450" y="360" width="300" height="160" rx="12" fill="#F5F5F5" stroke="#8B9B8E" stroke-width="3"/>
+  <text x="600" y="395" text-anchor="middle" class="label-bold" style="font-size: 18px; fill: #D4735C;">💡 Pourquoi ça marche ?</text>
+  
+  <text x="600" y="430" text-anchor="middle" class="label">Ces deux ingrédients partagent</text>
+  <text x="600" y="455" text-anchor="middle" class="label">des molécules aromatiques</text>
+  <text x="600" y="480" text-anchor="middle" class="label" style="font-weight: 600;">identiques ou similaires</text>
+  <text x="600" y="505" text-anchor="middle" class="annotation">Notre nez les reconnaît et crée une harmonie</text>
+  
+  <!-- Exemples de pairings -->
+  <rect x="50" y="580" width="1100" height="190" rx="10" fill="#FFF5E6" stroke="#D4735C" stroke-width="3"/>
+  <text x="600" y="620" text-anchor="middle" class="label-bold" style="font-size: 20px;">🔬 D'autres pairings étonnants qui fonctionnent</text>
+  
+  <g id="exemples">
+    <!-- Exemple 1 -->
+    <rect x="80" y="650" width="220" height="100" rx="8" fill="#FFFFFF" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="190" y="680" text-anchor="middle" class="label-bold">🍫 Chocolat</text>
+    <text x="190" y="705" text-anchor="middle" class="label">+</text>
+    <text x="190" y="730" text-anchor="middle" class="label-bold">🥓 Bacon</text>
+    
+    <!-- Exemple 2 -->
+    <rect x="330" y="650" width="220" height="100" rx="8" fill="#FFFFFF" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="440" y="680" text-anchor="middle" class="label-bold">🥒 Concombre</text>
+    <text x="440" y="705" text-anchor="middle" class="label">+</text>
+    <text x="440" y="730" text-anchor="middle" class="label-bold">🌹 Rose</text>
+    
+    <!-- Exemple 3 -->
+    <rect x="580" y="650" width="220" height="100" rx="8" fill="#FFFFFF" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="690" y="680" text-anchor="middle" class="label-bold">🍏 Pomme verte</text>
+    <text x="690" y="705" text-anchor="middle" class="label">+</text>
+    <text x="690" y="730" text-anchor="middle" class="label-bold">🧀 Cheddar</text>
+    
+    <!-- Exemple 4 -->
+    <rect x="830" y="650" width="220" height="100" rx="8" fill="#FFFFFF" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="940" y="680" text-anchor="middle" class="label-bold">☕ Café</text>
+    <text x="940" y="705" text-anchor="middle" class="label">+</text>
+    <text x="940" y="730" text-anchor="middle" class="label-bold">🥩 Viande grillée</text>
+  </g>
+  
+</svg>
