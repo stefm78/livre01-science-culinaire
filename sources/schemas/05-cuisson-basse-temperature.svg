@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;family=Open+Sans:ital,wght@0,400;0,600;1,400&amp;display=swap');
+      .title { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 28px; fill: #D4735C; }
+      .subtitle { font-family: 'Open Sans', sans-serif; font-size: 15px; fill: #666666; }
+      .label { font-family: 'Open Sans', sans-serif; font-size: 13px; fill: #1A1A1A; }
+      .label-bold { font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 15px; fill: #1A1A1A; }
+      .big-text { font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 18px; fill: #D4735C; }
+      .annotation { font-family: 'Open Sans', sans-serif; font-style: italic; font-size: 11px; fill: #666666; }
+      .temp-label { font-family: 'Open Sans', sans-serif; font-weight: 600; font-size: 14px; fill: #FFFFFF; }
+    </style>
+  </defs>
+  
+  <!-- Fond blanc -->
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+  
+  <!-- Titre -->
+  <text x="600" y="50" text-anchor="middle" class="title">Cuisson Basse Température (Sous Vide)</text>
+  <text x="600" y="75" text-anchor="middle" class="subtitle">Contrôler précisément la cuisson pour des résultats parfaits</text>
+  
+  <!-- Principe -->
+  <rect x="100" y="100" width="1000" height="70" rx="8" fill="#F5F5F5"/>
+  <text x="600" y="125" text-anchor="middle" class="big-text">Le Principe</text>
+  <text x="600" y="148" text-anchor="middle" class="label">Cuire longuement à température précise (50-70°C) dans un sachet étanche</text>
+  <text x="600" y="165" text-anchor="middle" class="label">pour une cuisson uniforme, sans dessécher ni surcuire</text>
+  
+  <!-- Gradient de température vertical -->
+  <g id="gradient-temp">
+    <!-- Zone 1 : Trop froid (< 50°C) -->
+    <rect x="150" y="210" width="200" height="120" fill="#E3F2FD" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="250" y="235" text-anchor="middle" class="label-bold" style="fill: #666666;">❄️ TROP FROID</text>
+    <text x="250" y="255" text-anchor="middle" class="big-text" style="fill: #666666;">&lt; 50°C</text>
+    <text x="250" y="280" text-anchor="middle" class="annotation">Pas assez de chaleur pour</text>
+    <text x="250" y="295" text-anchor="middle" class="annotation">cuire les protéines. Risque</text>
+    <text x="250" y="310" text-anchor="middle" class="annotation">de développement bactérien</text>
+    
+    <!-- Zone 2 : Sous vide optimal (50-65°C) -->
+    <rect x="150" y="330" width="200" height="150" fill="#8B9B8E" opacity="0.3" stroke="#8B9B8E" stroke-width="3"/>
+    <text x="250" y="360" text-anchor="middle" class="label-bold" style="fill: #8B9B8E;">✓ ZONE OPTIMALE</text>
+    <text x="250" y="385" text-anchor="middle" class="big-text" style="fill: #8B9B8E;">50-65°C</text>
+    <text x="250" y="410" text-anchor="middle" class="label" style="font-weight: 600;">Cuisson sous vide parfaite</text>
+    <text x="250" y="430" text-anchor="middle" class="annotation">Les protéines cuisent doucement</text>
+    <text x="250" y="445" text-anchor="middle" class="annotation">sans se contracter brutalement.</text>
+    <text x="250" y="460" text-anchor="middle" class="annotation">Texture tendre et juteuse</text>
+    
+    <!-- Zone 3 : Cuisson traditionnelle (65-80°C) -->
+    <rect x="150" y="480" width="200" height="110" fill="#FFE4B5" stroke="#D4735C" stroke-width="2"/>
+    <text x="250" y="505" text-anchor="middle" class="label-bold" style="fill: #D4735C;">CUISSON CLASSIQUE</text>
+    <text x="250" y="525" text-anchor="middle" class="big-text" style="fill: #D4735C;">65-80°C</text>
+    <text x="250" y="550" text-anchor="middle" class="annotation">Température traditionnelle</text>
+    <text x="250" y="565" text-anchor="middle" class="annotation">Résultat correct mais moins</text>
+    <text x="250" y="580" text-anchor="middle" class="annotation">de contrôle sur la texture</text>
+    
+    <!-- Zone 4 : Surcuisson (> 80°C) -->
+    <rect x="150" y="590" width="200" height="110" fill="#D4735C" opacity="0.4" stroke="#D4735C" stroke-width="3"/>
+    <text x="250" y="615" text-anchor="middle" class="label-bold" style="fill: #D4735C;">⚠️ SURCUISSON</text>
+    <text x="250" y="635" text-anchor="middle" class="big-text" style="fill: #D4735C;">&gt; 80°C</text>
+    <text x="250" y="660" text-anchor="middle" class="annotation">Les protéines se contractent</text>
+    <text x="250" y="675" text-anchor="middle" class="annotation">trop fort : perte de jus, texture</text>
+    <text x="250" y="690" text-anchor="middle" class="annotation">sèche et filandreuse</text>
+  </g>
+  
+  <!-- Exemples pratiques -->
+  <g id="exemples">
+    <rect x="400" y="210" width="750" height="490" rx="10" fill="#F5F5F5"/>
+    
+    <text x="775" y="245" text-anchor="middle" class="big-text">Exemples de Températures Précises</text>
+    
+    <!-- Saumon -->
+    <rect x="430" y="270" width="300" height="100" rx="8" fill="#FFF5E6" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="470" y="295" text-anchor="start" style="font-size: 30px;">🐟</text>
+    <text x="520" y="298" text-anchor="start" class="label-bold">Saumon</text>
+    <text x="470" y="325" text-anchor="start" class="label" style="fill: #8B9B8E; font-weight: 600;">51-52°C pendant 30-45 min</text>
+    <text x="470" y="345" text-anchor="start" class="annotation">Texture fondante, juteux, mi-cuit parfait</text>
+    <text x="470" y="360" text-anchor="start" class="annotation">À cette température, les protéines restent tendres</text>
+    
+    <!-- Poulet -->
+    <rect x="430" y="385" width="300" height="100" rx="8" fill="#FFF5E6" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="470" y="410" text-anchor="start" style="font-size: 30px;">🍗</text>
+    <text x="520" y="413" text-anchor="start" class="label-bold">Poulet</text>
+    <text x="470" y="440" text-anchor="start" class="label" style="fill: #8B9B8E; font-weight: 600;">64-65°C pendant 1-2 heures</text>
+    <text x="470" y="460" text-anchor="start" class="annotation">Viande blanche tendre, pas sèche</text>
+    <text x="470" y="475" text-anchor="start" class="annotation">Sécurité alimentaire assurée sans surcuisson</text>
+    
+    <!-- Bœuf -->
+    <rect x="430" y="500" width="300" height="100" rx="8" fill="#FFF5E6" stroke="#8B9B8E" stroke-width="2"/>
+    <text x="470" y="525" text-anchor="start" style="font-size: 30px;">🥩</text>
+    <text x="520" y="528" text-anchor="start" class="label-bold">Bœuf (rosé)</text>
+    <text x="470" y="555" text-anchor="start" class="label" style="fill: #8B9B8E; font-weight: 600;">55-57°C pendant 1-4 heures</text>
+    <text x="470" y="575" text-anchor="start" class="annotation">Cuisson rosée homogène de bord en bord</text>
+    <text x="470" y="590" text-anchor="start" class="annotation">Pas de gradient gris/rosé comme au four</text>
+    
+    <!-- Avantages -->
+    <rect x="770" y="270" width="350" height="330" rx="8" fill="#FFF5E6" stroke="#D4735C" stroke-width="2"/>
+    <text x="945" y="300" text-anchor="middle" class="label-bold" style="fill: #D4735C; font-size: 16px;">Avantages de la cuisson sous vide</text>
+    
+    <text x="795" y="335" text-anchor="start" class="label">✓ Cuisson ultra-précise</text>
+    <text x="795" y="353" text-anchor="start" class="annotation">Impossible de surcuire : la viande ne</text>
+    <text x="795" y="368" text-anchor="start" class="annotation">dépassera jamais la température du bain</text>
+    
+    <text x="795" y="395" text-anchor="start" class="label">✓ Texture optimale</text>
+    <text x="795" y="413" text-anchor="start" class="annotation">Les protéines cuisent sans stress,</text>
+    <text x="795" y="428" text-anchor="start" class="annotation">restent tendres et juteuses</text>
+    
+    <text x="795" y="455" text-anchor="start" class="label">✓ Zéro perte de jus</text>
+    <text x="795" y="473" text-anchor="start" class="annotation">Le sachet hermétique empêche</text>
+    <text x="795" y="488" text-anchor="start" class="annotation">l'évaporation des liquides</text>
+    
+    <text x="795" y="515" text-anchor="start" class="label">✓ Cuisson uniforme</text>
+    <text x="795" y="533" text-anchor="start" class="annotation">Même cuisson du centre aux bords,</text>
+    <text x="795" y="548" text-anchor="start" class="annotation">pas de zones trop cuites</text>
+    
+    <text x="795" y="575" text-anchor="start" class="label-bold" style="fill: #D4735C;">⚠️ Astuce finale</text>
+    <text x="795" y="593" text-anchor="start" class="annotation">Pour une croûte dorée, saisir rapidement</text>
+    <text x="795" y="608" text-anchor="start" class="annotation">à la poêle très chaude après le sous vide</text>
+  </g>
+  
+  <!-- Légende bas de page -->
+  <rect x="100" y="730" width="1000" height="50" rx="5" fill="#FFF5E6" stroke="#D4735C" stroke-width="2"/>
+  <text x="600" y="752" text-anchor="middle" class="label-bold">💡 Le saviez-vous ?</text>
+  <text x="600" y="770" text-anchor="middle" class="annotation">La cuisson sous vide a été développée dans les années 1970 par le chef Georges Pralus pour cuire le foie gras. Aujourd'hui, elle révolutionne la cuisine domestique avec des appareils accessibles à tous.</text>
+  
+</svg>
