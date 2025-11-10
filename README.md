@@ -1,67 +1,213 @@
-# 🧬 Projet Template - Génome Minimal ADN
+# 🍳 Livre Science Culinaire - Production Collaborative IA
 
-Template pour créer des projets IA avec un "génome minimal" garantissant efficacité, simplicité et gouvernance distribuée.
-
-## 🎯 Philosophie ADN
-
-**Efficacité par la Simplicité** : Chaque élément a sa raison d'être précise. Aucun "bloatware", aucune bureaucratie paralysante.
-
-**Émergence Guidée** : Les projets évoluent organiquement, guidés par des invariants clairs plutôt que par des spécifications rigides.
-
-**Gouvernance Distribuée** : Les IA prennent des décisions dans leur domaine d'expertise, coordonnées par des workflows transparents.
-
-## 📋 Structure du Génome
-
-### Fichiers Vitaux (Invariants)
-- `constitution-projet-ai.md` : Règles fondamentales du projet
-- `AI_CORE.yml` : Configuration des personas IA et workflows
-- `README.md` : Documentation essentielle
-- `PROJECT_DNA.yml` : Patrimoine génétique évolutif du projet
-
-### Outillage ADN Minimal
-- `.github/scripts/common.sh` : Fonctions utilitaires robustes (retry, diagnostics, validation)
-- `.github/templates/` : Contenus statiques versionnés (seed_header.md, seed_guidelines.md)
-- `.github/workflows/lint-guard.yml` : Garde-fou qualité (yamllint, actionlint, shellcheck, vérification fichiers ADN)
-- `.github/workflows/evolution.yml` : Gestion du feedback IA et des verrous
-- `.github/workflows/issue-orchestration.yml` : Orchestration automatique des phases projet
-
-### Documentation Organisée
-- `docs/personas.md` : Documentation des rôles IA
-- `templates/` : Modèles de fichiers pour démarrage rapide
-
-## 🔒 Gouvernance des IA
-
-### Système de Verrous
-- **ia-locked** : Une IA travaille sur cette issue (timeout: 30min)
-- **ia-available** : Issue disponible pour prise en charge IA
-- **Relais automatique** : En cas d'inactivité > 30min, nouvelle IA peut prendre la main
-
-### Feedback et Évolution
-- `IA_FEEDBACK.yml` : Historique des interactions IA (max 50 entrées)
-- **Synthèse automatique** : Issue "meta-synth" créée si feedback > seuil
-- **Traçabilité complète** : Chaque action IA documentée et versionnée
-
-## ⚙️ Garde-fous Qualité
-
-**Lint Guard** bloque automatiquement :
-- ❌ Erreurs syntaxe YAML/Actions/Shell
-- ❌ Fichiers ADN vitaux manquants ou corrompus
-- ❌ Templates invalides ou mal encodés
-- ❌ Scripts non exécutables ou avec erreurs
-
-**Conformité ADN** garantie :
-- ✅ Frugalité : Outillage minimal nécessaire
-- ✅ Émergence : Scripts modulaires et évolutifs
-- ✅ Lisibilité : Logique externalisée des YAML
-- ✅ Traçabilité : Diagnostics explicites, pas d'actions silencieuses
-
-## 🚀 Utilisation
-
-1. **Créer un projet** via [ia-activation](https://github.com/stefm78/ia-activation)
-2. **Les IA se connectent** automatiquement via les labels `ia-available`
-3. **Évolution organique** guidée par les workflows et la Constitution
-4. **Qualité garantie** par les garde-fous automatiques
+**Projet** : Livre de cuisine scientifique (30 recettes, 8 chapitres, 200-250 pages)  
+**Statut** : 🟡 Phase Conception-Validation  
+**Infrastructure** : ✅ Opérationnelle (Nov 2025)
 
 ---
 
-*Génome Minimal v1.1 - Efficacité par la Simplicité*
+## 🚀 Démarrage Rapide
+
+### ⚡ Via GitHub Codespaces (Recommandé)
+
+**Environnement prêt en 20 secondes** :
+
+1. Cliquer sur **Code** → **Codespaces** → **Create codespace on main**
+2. Ouvrir terminal (`` Ctrl+` ``)
+3. Utiliser commandes projet : `help-projet`
+
+**Fonctionnalités** :
+- ✅ Python 3.11 + dépendances
+- ✅ Git pré-configuré
+- ✅ VS Code avec extensions
+- ✅ Alias bash pratiques
+- ✅ Scripts validation prêts
+
+📚 [Guide Codespaces](.devcontainer/README.md) | ⚡ [Quick Start](.devcontainer/QUICKSTART.md)
+
+---
+
+## 📊 Vue d'Ensemble Projet
+
+### Objectif
+
+Créer un livre de cuisine scientifique combinant :
+- 🔬 Science culinaire (réactions chimiques, associations moléculaires)
+- 👨‍🍳 Recettes pratiques (30 fiches, 8 chapitres)
+- 📸 Photographies IA (style minimaliste scientifique)
+- 📈 Schémas pédagogiques (8 concepts clés)
+
+### Cible
+
+**200-250 pages** | **30 recettes** | **8 chapitres** | **60+ images**
+
+---
+
+## 🏗️ Architecture
+
+```
+livre01-science-culinaire/
+├── sources/                   # Documentation cadrage
+│   ├── cadrage-editorial.md    # Structure 8 chapitres
+│   ├── charte-visuelle.md      # Style photographique
+│   ├── base-documentaire.md    # Sources scientifiques
+│   ├── images/                 # Maquettes visuelles
+│   └── schemas/                # Schémas scientifiques
+│
+├── recettes/                  # ⭐ Production 30 fiches
+│   ├── _template/             # Templates standardisés
+│   └── [nom-recette]/        # Architecture self-contained
+│       ├── recette.md
+│       ├── metadata.json
+│       └── images/
+│
+├── images/tests/             # Photos validation charte
+├── scripts/                  # Outils automatisation
+└── .devcontainer/            # Config Codespaces
+```
+
+📚 [Documentation complète](INFRASTRUCTURE.md)
+
+---
+
+## 📝 Workflow Production
+
+### Pour les IAs Contributrices
+
+**1. Créer une recette** :
+```bash
+nouvelle-recette nom-recette  # Via Codespaces
+```
+
+**2. Rédiger contenu** :
+- `recette.md` : Structure 2 pages (template fourni)
+- `metadata.json` : Métadonnées structurées
+
+**3. Générer images** :
+- Via ChatGPT DALL-E 3 (ou autre)
+- Placer dans `images/` de la recette
+
+**4. Valider** :
+```bash
+validate recettes/nom-recette
+```
+
+**5. Commit** :
+```bash
+ga recettes/nom-recette
+gc "feat(recettes): ajout [Titre]"
+gp
+```
+
+📚 [Workflow détaillé](recettes/README.md)
+
+---
+
+## 🔗 Documentation Principale
+
+### Pour Démarrer
+- ⚡ [Quick Start Codespaces](.devcontainer/QUICKSTART.md)
+- 🏗️ [Infrastructure Production](INFRASTRUCTURE.md)
+- 📚 [Workflow Recettes](recettes/README.md)
+
+### Cadrage Projet
+- 📝 [Cadrage Éditorial](sources/cadrage-editorial.md)
+- 🎨 [Charte Visuelle](sources/charte-visuelle.md)
+- 📖 [Base Documentaire](sources/base-documentaire.md)
+
+### Templates
+- 📝 [Template Recette](recettes/_template/recette.md)
+- 🗂️ [Template Métadonnées](recettes/_template/metadata.json)
+
+---
+
+## 📊 Progression Projet
+
+| Composant | Statut | Progression |
+|-----------|--------|-------------|
+| **Infrastructure** | ✅ Complète | 100% |
+| **Codespaces** | ✅ Configuré | 100% |
+| **Templates** | ✅ Prêts | 100% |
+| **Photos Tests** | 🟡 En cours | 100% (correction emplacement requise) |
+| **Schémas** | ⏳ À démarrer | 0% (0/8) |
+| **Recettes** | ⏳ À démarrer | 0% (0/30) |
+
+**Phase actuelle** : Conception-Validation  
+**Phase suivante** : Production-Contenu (~15 nov 2025)
+
+---
+
+## 🛠️ Outils Disponibles
+
+### Scripts Automatisation
+- `scripts/validate-recipe.py` : Validation complète recette
+- `scripts/generate-index.py` : Génération index automatique
+
+### Commandes Codespaces
+- `nouvelle-recette <nom>` : Créer depuis template
+- `validate <dossier>` : Valider recette
+- `validate-all` : Valider tout
+- `genindex` : Générer index
+- `stats` : Statistiques projet
+- `help-projet` : Aide complète
+
+---
+
+## 💬 Issues et Suivi
+
+### Issues Actives
+
+- **#7** : 🟡 Banque 15 photos tests (correction emplacement requise)
+- **#8** : ⏳ Création 8 schémas scientifiques
+- **#9** : ✅ Infrastructure production recettes
+
+### Labels
+- `infrastructure` : Outillage et configuration
+- `documentation` : Cadrage et guides
+- `recettes` : Production fiches recettes
+- `validation` : Contrôle qualité
+
+---
+
+## 👥 Contribution
+
+### Pour IAs
+
+1. Consulter documentation dans `sources/` et `recettes/README.md`
+2. Utiliser templates dans `recettes/_template/`
+3. Valider via `scripts/validate-recipe.py`
+4. Commit avec messages conventionnels : `feat(recettes): ajout [Titre]`
+
+### Pour Humains
+
+1. **Codespaces** : Cliquer **Code** → **Codespaces** → **Create**
+2. Suivre [Quick Start](.devcontainer/QUICKSTART.md)
+3. Utiliser alias bash : `help-projet`
+
+---
+
+## 📋 ADN Projet
+
+**Invariants** :
+- ✅ **Frugalité** : Infrastructure minimale efficace
+- ✅ **Émergence** : Évolution organique guidée
+- ✅ **Lisibilité** : Documentation claire, workflow transparent
+- ✅ **Traçabilité** : Historique complet, validation automatique
+
+**Gouvernance** : Distribuée (IAs autonomes, coordination workflow)
+
+📚 [PROJECT_DNA.yml](PROJECT_DNA.yml)
+
+---
+
+## 🔗 Liens Utiles
+
+- **Dépôt** : https://github.com/stefm78/livre01-science-culinaire
+- **Issues** : https://github.com/stefm78/livre01-science-culinaire/issues
+- **Codespaces** : https://github.com/codespaces
+
+---
+
+**Créé le** : Nov 2025  
+**Maintenu par** : Chef de Projet IA  
+**Licence** : Privé
