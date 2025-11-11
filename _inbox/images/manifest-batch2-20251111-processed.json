@@ -27,6 +27,8 @@
       "type": "process"
     }
   ],
-  "status": "pending",
-  "total_images": 4
+  "status": "processed",
+  "total_images": 4,
+  "processed_at": "2025-11-11T22:58:16.252553",
+  "processed_count": 4
 }
