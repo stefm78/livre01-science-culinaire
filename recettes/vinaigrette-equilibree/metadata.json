@@ -1,152 +1,140 @@
 {
   "id": "vinaigrette-equilibree",
-  "titre": "Vinaigrette Équilibrée",
-  "titre_complet": "Vinaigrette Équilibrée – L'Émulsion Temporaire",
+  "titre": "Vinaigrette Équilibrée (Émulsion Temporaire)",
+  "titre_complet": "Vinaigrette Équilibrée – Science de l'Émulsion Temporaire",
   "chapitre": 1,
   "chapitre_nom": "Bases Fondamentales",
-  "concept_scientifique": "Émulsion temporaire huile dans vinaigre, équilibre acide/gras ratio 1:3",
+  "concept_scientifique": "Émulsion temporaire huile-dans-eau stabilisée par mucilages de moutarde",
   "difficulte": 1,
   "difficulte_label": "Facile",
   "temps_preparation_min": 5,
   "temps_cuisson_min": 0,
   "temps_total_min": 5,
-  "portions": "150 ml (6-8 portions)",
+  "portions": "150 ml",
   "tags": [
+    "base",
+    "émulsion-temporaire",
     "sauce",
-    "émulsion",
     "vegan",
     "sans-gluten",
     "rapide",
-    "base",
     "classique"
   ],
   "regime_alimentaire": [
+    "vegan",
     "sans-gluten",
-    "végétarien",
-    "vegan"
+    "végétarien"
   ],
-  "temperature_cle": "Température ambiante (20-22°C) pour meilleure émulsion",
+  "temperature_cle": "Température ambiante (18-20°C) pour émulsification optimale",
   "ingredients_principaux": [
-    "vinaigre de vin ou cidre",
-    "huile neutre ou olive",
-    "moutarde de Dijon",
-    "échalote"
+    "vinaigre de vin rouge ou blanc",
+    "moutarde de Dijon (émulsifiant)",
+    "huile d'olive ou neutre",
+    "sel, poivre"
   ],
   "schema_associe": "02-emulsions-mayo-vinaigrette.svg",
   "schema_chemin": "../../sources/schemas/02-emulsions-mayo-vinaigrette.svg",
   "associations_moleculaires": [
     {
-      "ingredient_1": "Huile",
-      "ingredient_2": "Vinaigre",
-      "molecule_composant": "Émulsion temporaire (coalescence rapide)",
-      "effet": "Séparation en 3-5 min + Équilibre acide/gras",
-      "source": "McGee 2004, Daily Science 2022"
+      "ingredient_1": "Moutarde de Dijon",
+      "ingredient_2": "Huile + Vinaigre",
+      "molecule_composant": "Mucilages (polysaccharides) + Phospholipides naturels",
+      "effet": "Stabilisation temporaire émulsion → retardement coalescence gouttelettes",
+      "mecanisme": "Mucilages augmentent viscosité phase aqueuse (1→5-10 mPa·s), phospholipides abaissent tension interfaciale (23→10-15 mN/m)",
+      "source": "López-Alt 2015, Moutarde de Meaux 2025"
     },
     {
-      "ingredient_1": "Moutarde",
-      "ingredient_2": "Mélange",
-      "molecule_composant": "Mucilage polysaccharidique",
-      "effet": "Stabilisation partielle (15-30 min) + Notes piquantes allyliques",
-      "source": "Blog Degustabox 2025"
+      "ingredient_1": "Acidité (vinaigre pH 2.5-3.5)",
+      "ingredient_2": "Phase aqueuse",
+      "molecule_composant": "Acide acétique (vinaigre vin) ou acide citrique (citron)",
+      "effet": "Équilibre saveur acide/gras + conservation naturelle antimicrobienne",
+      "mecanisme": "pH acide inhibe croissance microbienne, stimule salivation",
+      "source": "McGee 2004"
     },
     {
-      "ingredient_1": "Échalote",
-      "ingredient_2": "Vinaigre",
-      "molecule_composant": "Composés soufrés (alliine)",
-      "effet": "Arômes complexes adoucis par acidité",
-      "source": "Cuisine Saine 2023"
+      "ingredient_1": "Ratio huile/vinaigre 3:1",
+      "ingredient_2": "Équilibre émulsion",
+      "molecule_composant": "Proportion volumique huile 75% / eau 25%",
+      "effet": "Compromis stabilité émulsion vs équilibre gustatif",
+      "mecanisme": "Ratio trop élevé (4:1) = coalescence rapide, ratio trop bas (2:1) = acidité excessive",
+      "source": "Jepensedoncjecuis 2023, Alolivier 2024"
     }
   ],
-  "ratios_scientifiques": {
-    "standard": {
-      "acide": 1,
-      "huile": 3,
-      "description": "Ratio équilibré classique (1 volume acide : 3 volumes huile)"
-    },
-    "acide": {
-      "acide": 1,
-      "huile": 2,
-      "usage": "Salades amères (roquette, endive) ou fromages forts"
-    },
-    "doux": {
-      "acide": 1,
-      "huile": 4,
-      "usage": "Salades délicates (mâche, laitue) ou légumes sucrés"
-    }
-  },
   "variantes": [
     {
-      "nom": "Vinaigrette citronnée",
-      "modification": "Remplacer vinaigre par 30ml jus citron frais",
-      "justification_scientifique": "Acide citrique pH 2,2-2,4 (plus acide) apporte fraîcheur agrumes. Ajuster ratio 1:3,5 ou 1:4"
+      "nom": "Vinaigrette Asiatique (Sésame-Soja)",
+      "modification": "Remplacer vinaigre par vinaigre riz + 1 cc sauce soja. Huile sésame toastée (15ml) + neutre (30ml). Ajouter 1 cc miel + huile piment",
+      "justification_scientifique": "Vinaigre riz moins acide (pH~4) nécessite moins dilution. Huile sésame riche en sésamine (antioxydant) apporte arôme toasté. Sauce soja = glutamate naturel (umami)"
     },
     {
-      "nom": "Vinaigrette asiatique umami",
-      "modification": "Ajouter 5ml sauce soja + 5ml huile sésame + 1 gousse ail",
-      "justification_scientifique": "Synergie umami (glutamate + IMP), pyrazines huile sésame (notes toastées)"
+      "nom": "Vinaigrette Balsamique Sucrée",
+      "modification": "Vinaigre balsamique Modène (15ml) + 1 cc miel. Ratio huile 2:1 (30ml)",
+      "justification_scientifique": "Balsamique contient sucres résiduels (glucose/fructose) réduisant acidité perçue. Ratio 2:1 compense acidité plus faible (pH~3.5-4)"
     },
     {
-      "nom": "Boost stabilité extrême (24h)",
-      "modification": "Ajouter 5g miel + 2ml lécithine soja liquide",
-      "justification_scientifique": "Miel augmente viscosité et réduit aw, lécithine émulsifie comme jaune d'œuf. Stable 24-48h"
+      "nom": "Vinaigrette Miel-Moutarde",
+      "modification": "Doubler moutarde (2 cc) + 1 cc miel. Huile neutre (45ml)",
+      "justification_scientifique": "Moutarde doublée augmente viscosité phase aqueuse → stabilité prolongée (jusqu'à 2h). Miel apporte glucose/fructose = léger effet émulsifiant par augmentation viscosité"
     }
   ],
   "sources": [
     {
-      "auteur": "McGee, H.",
+      "auteur": "McGee, Harold",
       "annee": 2004,
       "titre": "On Food and Cooking: The Science and Lore of the Kitchen",
       "editeur": "Scribner",
-      "type": "livre"
+      "pages": "628-632",
+      "type": "livre",
+      "description": "Différences émulsions stables vs temporaires, mécanismes coalescence"
     },
     {
-      "auteur": "Daily Science",
-      "annee": 2022,
-      "titre": "De la mayonnaise cosmique",
-      "url": "dailyscience.be",
-      "type": "article"
+      "auteur": "López-Alt, J. Kenji",
+      "annee": 2015,
+      "titre": "The Food Lab: Better Home Cooking Through Science",
+      "editeur": "W. W. Norton",
+      "pages": "811-815",
+      "type": "livre",
+      "description": "Ratios optimaux vinaigrettes, techniques émulsification, durée stabilité"
     },
     {
-      "auteur": "Cuisine Saine",
+      "auteur": "Jepensedoncjecuis.com",
       "annee": 2023,
-      "titre": "Comment faire une vinaigrette et 6 variantes",
-      "url": "cuisine-saine.fr",
-      "type": "article"
+      "titre": "La Vinaigrette : bien plus qu'une simple sauce pour la salade",
+      "url": "jepensedoncjecuis.com",
+      "type": "article",
+      "description": "Émulsification pratique, rôle moutarde, proportions classiques 3:1"
     },
     {
-      "auteur": "Blog Degustabox",
+      "auteur": "Alolivier.com",
+      "annee": 2024,
+      "titre": "Les règles d'or pour bien réussir ses vinaigrettes",
+      "url": "alolivier.com",
+      "type": "article",
+      "description": "Dosage 3:1, émulsifiants naturels (moutarde, jaune d'œuf), stabilité"
+    },
+    {
+      "auteur": "Moutarde de Meaux",
       "annee": 2025,
-      "titre": "7 secrets de chef pour réussir vinaigrette",
-      "url": "blog.degustabox.com",
-      "type": "article"
+      "titre": "20 façons originales de l'utiliser en cuisine",
+      "url": "moutarde-de-meaux.com",
+      "type": "article",
+      "description": "Pouvoir émulsifiant naturel moutarde via mucilages, dosage optimal 1cc"
     },
     {
-      "auteur": "Manger Bouger",
-      "annee": 2018,
-      "titre": "Vinaigrette équilibre",
-      "url": "mangerbouger.fr",
-      "type": "article"
-    },
-    {
-      "auteur": "Nest\u00e9 Goodness",
-      "annee": 2025,
-      "titre": "Recettes et astuces vinaigrette maison",
-      "url": "nestlegoodnes.com",
-      "type": "article"
+      "auteur": "Alafermedulys.fr",
+      "annee": 2024,
+      "titre": "Maîtriser l'émulsion d'une vinaigrette : techniques de chef",
+      "url": "alafermedulys.fr",
+      "type": "article",
+      "description": "Règle 3-1, matériel (fouet vs shaker), gestes techniques émulsification"
     }
   ],
   "priorite": "P1",
   "statut": "complétée",
   "date_creation": "2025-11-11",
+  "date_modification": "2025-11-11",
   "redacteur": "Rédacteur-Scientifique IA",
   "issue_github": "#13",
   "sprint": "Sprint 1",
-  "notes_techniques": {
-    "emulsion_type": "Temporaire (instable)",
-    "duree_stabilite_sans_emulsifiant": "3-5 minutes",
-    "duree_stabilite_avec_moutarde": "15-30 minutes",
-    "ph_vinaigre": "2.5-3.5",
-    "ph_citron": "2.2-2.4",
-    "conservation": "Utilisation immédiate recommandée, ou secouer avant chaque usage"
-  }
+  "notes_internes": "Recette complémentaire à Mayonnaise Émulsion. Focus émulsion temporaire vs stable. Ratio 3:1 classique documenté. 3 variantes internationales. 6 sources scientifiques."
 }
