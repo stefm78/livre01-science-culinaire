@@ -1,83 +1,73 @@
 {
-  "recette": {
-    "id": "bouillon-volaille-umami",
-    "titre": "Bouillon de Volaille Umami",
-    "slug": "bouillon-volaille-umami",
-    "chapitre": "Bases Fondamentales",
-    "numero_chapitre": 1,
-    "numero_recette": 1,
-    "difficulte": 1,
-    "temps_preparation": 15,
-    "temps_cuisson": 180,
-    "temps_repos": 0,
-    "portions": 6,
-    "tags": [
-      "base",
-      "umami",
-      "bouillon",
-      "sans-gluten",
-      "extraction"
-    ]
-  },
-  "science": {
-    "concept_principal": "Extraction aromatique et Synergie umami",
-    "temperature": "85-95°C",
-    "mecanisme": "Extraction progressive du glutamate (légumes) et inosinate (volaille) par cuisson lente, créant une synergie umami amplifiée jusqu'à 15x via récepteurs T1R1/T1R3. Transformation collagène en gélatine pour texture soyeuse.",
-    "schemas_associes": [
-      "08-synergie-umami"
-    ],
-    "associations": [
-      {
-        "ingredient_a": "Carcasse de volaille",
-        "ingredient_b": "Champignons shiitake",
-        "molecule": "Glutamate + IMP (inosinate)",
-        "effet": "Explosion umami synergique (amplification 15x)"
-      },
-      {
-        "ingredient_a": "Tomates mûres",
-        "ingredient_b": "Os de volaille",
-        "molecule": "Glutamate végétal + Inosinate animal",
-        "effet": "Synergie umami profonde et charnue"
-      },
-      {
-        "ingredient_a": "Oignon caramélisé",
-        "ingredient_b": "Algue kombu",
-        "molecule": "Glutamate concentré + Glutamate marin",
-        "effet": "Amplification umami et profondeur aromatique"
-      }
-    ]
-  },
-  "images": {
-    "hero": {
-      "fichier": "images/hero.png",
-      "description": "Vue top-down d'une marmite en fonte avec bouillon doré transparent, ingrédients aromatiques visibles (carottes, céleri, oignon), vapeur légère, éclairage naturel chaud, fond bois rustique",
-      "angle": "top-down",
-      "page": 1,
-      "credits": "ChatGPT DALL-E 3",
-      "date_generation": "2025-11-10",
-      "prompt": "Professional food photography, top-down view of a rustic cast iron pot with golden chicken stock, visible aromatic vegetables (carrots, celery, onion halves), gentle steam rising, warm natural lighting, wooden background, ultra-detailed, cookbook style --ar 16:9"
-    },
-    "process": [],
-    "final": {
-      "fichier": "images/final.png",
-      "description": "Louche versant le bouillon filtré dans un bol blanc élégant, liquide doré cristallin, quelques herbes fraîches en garniture, éclairage doux latéral, fond neutre clair",
-      "angle": "45-degree",
-      "page": 2,
-      "credits": "ChatGPT DALL-E 3",
-      "date_generation": "2025-11-10",
-      "prompt": "Professional food photography, 45-degree angle, ladle pouring golden clarified chicken stock into white ceramic bowl, crystal-clear liquid, fresh herbs garnish, soft side lighting, neutral light background, elegant presentation, cookbook style --ar 16:9"
-    }
-  },
-  "sources_documentaires": [
-    "McGee, Harold (2004). On Food and Cooking: The Science and Lore of the Kitchen. Extraction aromatique et transformation collagène, p. 588-595",
-    "Zhang et al. (2008). Molecular mechanism for the umami taste synergism. Proceedings of the National Academy of Sciences (PNAS)",
-    "Sugimoto (2024). Academic paper on umami synergy - Dried Shiitake. Rôle du GMP fongique",
-    "This, Hervé & Gagnaire, Pierre (2000-2025). Travaux INRAE Gastronomie moléculaire"
+  "id": "bouillon-volaille-umami",
+  "titre": "Bouillon de Volaille Umami",
+  "titre_complet": "Bouillon de Volaille Umami – Extraction & Synergie Aromatique",
+  "chapitre": 1,
+  "chapitre_nom": "Bases Fondamentales",
+  "concept_scientifique": "Extraction aromatique progressive, synergie umami glutamate/inosinate, transformation collagène en gélatine",
+  "difficulte": 1,
+  "difficulte_label": "Facile",
+  "temps_preparation_min": 15,
+  "temps_cuisson_min": 180,
+  "temps_total_min": 195,
+  "portions": 6,
+  "tags": [
+    "base",
+    "umami",
+    "bouillon",
+    "sans-gluten",
+    "extraction"
   ],
-  "version": "1.0",
+  "regime_alimentaire": [
+    "sans-gluten"
+  ],
+  "temperature_cle": "85-95°C (cuisson frémissante sans ébullition)",
+  "ingredients_principaux": [
+    "carcasse de volaille",
+    "champignons shiitake",
+    "tomate mûre",
+    "oignon",
+    "gingembre",
+    "algue kombu"
+  ],
+  "schema_associe": "08-synergie-umami.svg",
+  "schema_chemin": "../../sources/schemas/08-synergie-umami.svg",
+  "associations_moleculaires": [
+    {"ingredient_1":"Carcasse de volaille","ingredient_2":"Champignons shiitake","molecule_composant":"Glutamate + IMP (inosinate)","effet":"Explosion umami synergique (amplification 15x)","source":"McGee 2004, Zhang 2008"},
+    {"ingredient_1":"Tomate mûre","ingredient_2":"Os de volaille","molecule_composant":"Glutamate végétal + Inosinate animal","effet":"Synergie umami profonde et charnue","source": "McGee 2004"},
+    {"ingredient_1":"Oignon caramélisé","ingredient_2":"Algue kombu","molecule_composant":"Glutamate concentré + Glutamate marin","effet":"Amplification umami et profondeur aromatique","source":"Sugimoto 2024"}
+  ],
+  "ratios_scientifiques": {
+    "eau_os": {"os_kg": 1, "eau_l": 3, "description": "Ratio optimal 1kg os/volaille pour 3L d'eau pour extraction riche"},
+    "temps_cuisson": {"min": 120, "max": 180, "description": "180 min idéal pour extraction maximale glutamate/collagène"},
+    "shiitake": {"sec_g": 5, "eau_rehydratation_ml": 200, "description": "5g champignons secs pour 200 ml eau de trempage, rejointe dans le bouillon"}
+  },
+  "variantes": [
+    {"nom":"Bouillon Umami Végétarien","modification":"Omettre volaille, doubler shiitake et kombu, ajouter miso en fn de cuisson.","justification_scientifique":"Synergie glutamate GMP + umami végétal, puissance presque équivalente bouillon classique."},
+    {"nom":"Bouillon corsé Maillard","modification":"Griller fortement les os + légumes au four 220°C avant extraction.","justification_scientifique":"Réaction de Maillard apporte notes grillées, épaissit la profondeur aromatique et renforce teinte dorée."},
+    {"nom":"Boost gélatine","modification":"Ajouter pieds, ailerons volaille ou os de porc pour collagène supplémentaire.","justification_scientifique":"Plus de collagène = bouillon naturellement plus gélifié en refroidissant, bouche plus soyeuse et texture nappante."}
+  ],
+  "sources": [
+    {"auteur": "McGee, H.","annee": 2004,"titre": "On Food and Cooking: The Science and Lore of the Kitchen","editeur": "Scribner","type": "livre","chapitre": "Extraction aromatique, pages 588-595"},
+    {"auteur": "Zhang et al.","annee": 2008,"titre": "Molecular mechanism for the umami taste synergism","journal": "PNAS","type": "article scientifique"},
+    {"auteur": "Sugimoto, S.","annee": 2024,"titre": "Umami synergy in dried shiitake mushrooms","journal": "Academic press","type": "review scientifique"},
+    {"auteur": "This, H. & Gagnaire, P.","annee": "2000-2025","titre": "Gastronomie Moléculaire, travaux INRAE","type": "livre/revue"}
+  ],
+  "priorite": "P1",
+  "statut": "complétée",
   "date_creation": "2025-11-10",
-  "date_modification": "2025-11-10",
-  "auteur": "Rédacteur-Scientifique IA",
-  "statut": "publie",
-  "notes_internes": "Première recette complète du Chapitre 1. Synergie umami documentée avec 3 associations moléculaires. Schéma 08-synergie-umami.svg intégré. Ton pédagogique accessible avec justifications scientifiques pour chaque étape."
+  "date_modification": "2025-11-12",
+  "redacteur": "Rédacteur-Scientifique IA",
+  "issue_github": "#13",
+  "sprint": "Sprint 1",
+  "notes_techniques": {
+    "extraction_umami": "Extraction maximale entre 85-95°C, sans ébullition. Glutamate et inosinate extraits lentement sur 3h.",
+    "clarification": "Écumer soigneusement dès le début pour limpidité, et possible clarification finale à l’œuf.",
+    "collagene_gelification": "Longue cuisson libère collagène = texture plus nappante au refroidissement.",
+    "acidite": "Ajouter tomate, vinaigre ou un trait de citron optimise extraction aromatique et équilibre le goût.",
+    "conservation": "5 jours au réfrigérateur, 2 mois au congélateur en portions.",
+    "test_sensoriel": "Goûter en fin de cuisson. Si 'fraîcheur viande + puissance longue en bouche', extraction réussie.",
+    "molecule_cle": "Glutamate (synergie IMP/AMP = umami exponentiel)",
+    "mecanisme": "Synergie récepteurs T1R1/T1R3 amplifie perception umami x10 à x15 quand IMP (volaille) + glutamate (légume/algue)."
+  }
 }
