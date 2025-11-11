@@ -1,10 +1,13 @@
 name: Import batch images IA
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   push:
     paths:
-      - '_inbox/images/manifest-*.json'
+      - '_inbox/images/*.json'
       - '_inbox/images/*.zip'
     branches:
       - main
@@ -36,6 +39,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git diff --staged --quiet || git commit -m "feat(images): import automatique batch (zip ou manifest) depuis _inbox"
+          git diff --staged --quiet || git commit -m "feat(images): import automatique batch (zip/json) depuis _inbox"
           git push
         continue-on-error: true
