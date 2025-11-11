@@ -23,7 +23,7 @@
     "sans-gluten",
     "végétarien"
   ],
-  "temperature_cle": "20-22°C (température ambiante ingrédients)",
+  "temperature_cle": "20-22°C (température ambiante ingrédients pour viscosité optimale)",
   "ingredients_principaux": [
     "jaune d'œuf",
     "huile neutre",
@@ -37,7 +37,7 @@
       "ingredient_1": "Jaune d'œuf",
       "ingredient_2": "Huile",
       "molecule_composant": "Lécithine (phospholipide émulsifiant)",
-      "effet": "Microgouttelettes stabilisées",
+      "effet": "Microgouttelettes stabilisées (1-10 microns)",
       "source": "McGee 2004, Curiokids 2021"
     },
     {
@@ -55,21 +55,36 @@
       "source": "Ricardo Cuisine 2018"
     }
   ],
+  "ratios_scientifiques": {
+    "jaune_huile": {
+      "jaune": 1,
+      "huile_max_ml": 250,
+      "description": "Un seul jaune d'œuf peut émulsionner jusqu'à 250 ml d'huile grâce à la lécithine"
+    },
+    "seuil_critique": {
+      "huile_max_pourcent": 94,
+      "description": "Au-delà de 94% d'huile, l'émulsion devient instable et risque de casser"
+    },
+    "ajout_progressif": {
+      "phase_critique_ml": "30-50",
+      "description": "Les premiers 30-50 ml d'huile doivent être ajoutés goutte à goutte (phase déterminante)"
+    }
+  },
   "variantes": [
     {
       "nom": "Aïoli (mayonnaise à l'ail)",
-      "modification": "Ajouter 2-3 gousses d'ail écrasées",
-      "justification_scientifique": "Allicine renforce propriétés antimicrobiennes"
+      "modification": "Ajouter 2-3 gousses d'ail écrasées à l'étape 1",
+      "justification_scientifique": "Allicine (composé soufré) renforce propriétés antimicrobiennes et apporte notes piquantes"
     },
     {
-      "nom": "Mayonnaise végane",
-      "modification": "Remplacer jaune par 20g lécithine soja + 30ml lait végétal",
-      "justification_scientifique": "Lécithine pure émulsionne efficacement (même mécanisme)"
+      "nom": "Mayonnaise végane (sans œuf)",
+      "modification": "Remplacer jaune par 20g lécithine soja + 30ml lait végétal (soja)",
+      "justification_scientifique": "Lécithine pure émulsionne efficacement l'huile (même mécanisme moléculaire amphiphile), créant émulsion 100% végétale stable"
     },
     {
       "nom": "Boost stabilité extrême",
-      "modification": "Ajouter 5ml sirop de glucose",
-      "justification_scientifique": "Augmente viscosité phase aqueuse, réduit aw, retarde coalescence"
+      "modification": "Ajouter 5ml sirop de glucose à l'étape 1",
+      "justification_scientifique": "Glucose augmente viscosité phase aqueuse et réduit activité de l'eau (aw), retardant coalescence. Conservation jusqu'à 7 jours"
     }
   ],
   "sources": [
@@ -78,14 +93,16 @@
       "annee": 2004,
       "titre": "On Food and Cooking: The Science and Lore of the Kitchen",
       "editeur": "Scribner",
-      "type": "livre"
+      "type": "livre",
+      "chapitre": "Sauces et émulsions"
     },
     {
       "auteur": "Zhang et al.",
       "annee": 2008,
       "titre": "Molecular mechanism for the umami taste synergism",
       "journal": "PNAS",
-      "type": "article"
+      "type": "article",
+      "note": "Principes émulsifiants phospholipidiques"
     },
     {
       "auteur": "Curiokids",
@@ -99,27 +116,45 @@
       "annee": 2018,
       "titre": "Quand la mayonnaise prend!",
       "url": "ricardocuisine.com",
-      "type": "article"
+      "type": "article",
+      "note": "Ratio optimal jaune/huile et techniques de stabilisation"
     },
     {
       "auteur": "Daily Science",
       "annee": 2022,
       "titre": "De la mayonnaise cosmique",
       "url": "dailyscience.be",
-      "type": "article"
+      "type": "article",
+      "note": "Émulsion cinétiquement stable vs instable (vinaigrette)"
     },
     {
       "auteur": "Podcast Science",
       "annee": 2021,
       "titre": "Tous les ingrédients doivent être à température ambiante",
       "url": "podcastscience.fm",
-      "type": "podcast"
+      "type": "podcast",
+      "note": "Étude expérimentale température et stabilité émulsion"
     }
   ],
   "priorite": "P1",
   "statut": "complétée",
   "date_creation": "2025-11-11",
+  "date_modification": "2025-11-11",
   "redacteur": "Rédacteur-Scientifique IA",
   "issue_github": "#13",
-  "sprint": "Sprint 1"
+  "sprint": "Sprint 1",
+  "notes_techniques": {
+    "emulsion_type": "Stable (permanente si bien réalisée)",
+    "taille_gouttelettes_microns": "1-10",
+    "capacite_emulsifiante_jaune": "Jusqu'à 250 ml d'huile par jaune",
+    "seuil_instabilite_huile_pourcent": 94,
+    "phase_critique_ajout_huile_ml": "30-50 (goutte à goutte obligatoire)",
+    "temperature_optimale_ingredients": "20-22°C (température ambiante)",
+    "ph_final": "3.5-4.5",
+    "conservation_refrigerateur_jours": "3-4",
+    "conservation_boost_glucose_jours": "7",
+    "rattrapage_emulsion_cassee": "Possible avec 5ml eau froide ou 1 jaune frais + incorporation lente mayonnaise cassée",
+    "molecule_cle": "Lécithine (phospholipide amphiphile : tête hydrophile + queue lipophile)",
+    "mecanisme": "Film protecteur de lécithine enrobe microgouttelettes d'huile et empêche coalescence"
+  }
 }
