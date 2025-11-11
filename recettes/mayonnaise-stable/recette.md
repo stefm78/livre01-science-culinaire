@@ -10,7 +10,7 @@
 
 🔬 **LA SCIENCE**
 
-La mayonnaise est une émulsion **huile dans eau** (phase huileuse dispersée dans phase aqueuse) stabilisée par la **lécithine** du jaune d'œuf. Cette molécule amphiphile possède une tête hydrophile (qui aime l'eau) et une queue lipophile (qui aime l'huile), permettant d'enrober les microgouttelettes d'huile et de les maintenir en suspension stable dans la phase aqueuse. Un seul jaune d'œuf contient suffisamment de lécithine pour émulsionner jusqu'à 250 ml d'huile. Le fouettage vigoureux fractionne l'huile en gouttelettes microscopiques (1-10 microns) qui restent dispersées grâce au film protecteur de lécithine, empêchant leur coalescence et la séparation des phases.
+La mayonnaise est une émulsion **huile dans eau** (phase huileuse dispersée dans phase aqueuse) stabilisée par la **lécithine** du jaune d'œuf. Cette molécule amphiphile possède une tête hydrophile (qui aime l'eau) et une queue lipophile (qui aime l'huile), permettant d'enrober les microgouttelettes d'huile et de les maintenir en suspension stable dans la phase aqueuse. Un seul jaune d'œuf contient suffisamment de lécithine pour émulsionner jusqu'à 250 ml d'huile. Le fouettage vigoureux fractionne l'huile en gouttelettes microscopiques (2-10 μm) qui restent dispersées grâce au film protecteur de lécithine, empêchant leur coalescence et la séparation des phases.
 
 ![Schéma Émulsions](../../sources/schemas/02-emulsions-mayo-vinaigrette.svg)
 
@@ -53,22 +53,21 @@ Préparation : 10 min | Cuisson : 0 min | Difficulté : ●●○ | Pour 250 ml 
 
 🔄 **VARIANTES SCIENTIFIQUES**
 
-- **Mayonnaise à l'ail (Aïoli)** : Ajouter 2-3 gousses d'ail écrasées à l'étape 1. L'allicine de l'ail (composé soufré) renforce les propriétés antimicrobiennes et apporte des notes piquantes caractéristiques.
+- **Mayonnaise à l'ail (Aïoli)** : Ajouter 2-3 gousses d'ail écrasées à l'étape 1. L'allicine de l'ail (composé soufré, formée par réaction enzymatique après écrasement) renforce les propriétés antimicrobiennes et apporte des notes piquantes caractéristiques.
 
-- **Mayonnaise végane (sans œuf)** : Remplacer le jaune d'œuf par 20 g de lécithine de soja + 30 ml de lait végétal (soja). La lécithine pure émulsionne efficacement l'huile (même mécanisme moléculaire), créant une émulsion 100% végétale stable.
+- **Mayonnaise végane (sans œuf)** : Remplacer le jaune d'œuf par 20 g de lécithine de soja + 30 ml de lait végétal (soja). La lécithine pure émulsionne efficacement l'huile (même mécanisme moléculaire amphiphile), créant une émulsion 100% végétale stable.
 
-- **Boost stabilité extrême** : Ajouter 1 c. à café (5 ml) de sirop de glucose à l'étape 1. Le glucose augmente la viscosité de la phase aqueuse et réduit l'activité de l'eau (aw), retardant la coalescence et améliorant la conservation jusqu'à 7 jours.
+- **Boost stabilité extrême** : Ajouter 1 c. à café (5 ml) de sirop de glucose à l'étape 1. Le glucose augmente la viscosité de la phase aqueuse et réduit l'activité de l'eau (aw), retardant la coalescence et permet une conservation prolongée **de 1 à 2 jours supplémentaires**.
 
 💡 **ASTUCE SCIENCE – Rattrapage d'émulsion cassée**
 
-Si la mayonnaise "tourne" (séparation huile/eau visible), ne paniquez pas ! Dans un nouveau bol propre, placer 1 c. à café (5 ml) d'eau froide ou 1 jaune d'œuf frais. Incorporer **très lentement** la mayonnaise cassée goutte à goutte en fouettant vigoureusement, comme pour une mayonnaise initiale. L'émulsion se reforme progressivement grâce au nouvel apport d'émulsifiant et à la réduction du ratio huile/phase aqueuse sous le seuil critique de 94% d'huile (limite de stabilité).
+Si la mayonnaise "tourne" (séparation huile/eau visible), ne paniquez pas ! Dans un nouveau bol propre, placer 1 c. à café (5 ml) d'eau froide ou 1 jaune d'œuf frais. Incorporer **très lentement** la mayonnaise cassée goutte à goutte en fouettant vigoureusement, comme pour une mayonnaise initiale. L'émulsion se reforme progressivement grâce au nouvel apport d'émulsifiant et à la réduction du ratio huile/phase aqueuse sous le seuil critique d'environ **80-85% d'huile maximum** (stabilité optimale).
 
 ---
 
 ## 📚 Sources Scientifiques
 
 - **McGee, H. (2004)**. *On Food and Cooking: The Science and Lore of the Kitchen*. Scribner. Chapitre sur les émulsions et sauces.
-- **Zhang et al. (2008)**. Molecular mechanism for the umami taste synergism. *PNAS*. (Principes émulsifiants phospholipidiques)
 - **Curiokids (2021)**. La chimie qui fait prendre la mayonnaise. Explication pédagogique lécithine et micelles.
 - **Ricardo Cuisine (2018)**. Quand la mayonnaise prend! Ratio optimal jaune/huile et techniques de stabilisation.
 - **Daily Science (2022)**. De la mayonnaise cosmique. Émulsion cinétiquement stable vs instable (vinaigrette).

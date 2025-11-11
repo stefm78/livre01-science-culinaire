@@ -37,7 +37,7 @@
       "ingredient_1": "Jaune d'œuf",
       "ingredient_2": "Huile",
       "molecule_composant": "Lécithine (phospholipide émulsifiant)",
-      "effet": "Microgouttelettes stabilisées (1-10 microns)",
+      "effet": "Microgouttelettes stabilisées (2-10 μm)",
       "source": "McGee 2004, Curiokids 2021"
     },
     {
@@ -95,14 +95,6 @@
       "editeur": "Scribner",
       "type": "livre",
       "chapitre": "Sauces et émulsions"
-    },
-    {
-      "auteur": "Zhang et al.",
-      "annee": 2008,
-      "titre": "Molecular mechanism for the umami taste synergism",
-      "journal": "PNAS",
-      "type": "article",
-      "note": "Principes émulsifiants phospholipidiques"
     },
     {
       "auteur": "Curiokids",
