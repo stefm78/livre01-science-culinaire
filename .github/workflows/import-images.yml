@@ -5,32 +5,37 @@ on:
   push:
     paths:
       - '_inbox/images/manifest-*.json'
+      - '_inbox/images/*.zip'
     branches:
       - main
 
 jobs:
   import-images:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      
+      - name: Extract zip archives if present
+        run: |
+          for zipfile in _inbox/images/*.zip; do
+            if [ -f "$zipfile" ]; then
+              unzip -o "$zipfile" -d _inbox/images/
+              rm "$zipfile"
+            fi
+          done
       - name: Run import script
         run: python import_batch_images.py
-      
       - name: Commit changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git diff --staged --quiet || git commit -m "feat(images): import automatique batch depuis _inbox"
+          git diff --staged --quiet || git commit -m "feat(images): import automatique batch (zip ou manifest) depuis _inbox"
           git push
         continue-on-error: true
