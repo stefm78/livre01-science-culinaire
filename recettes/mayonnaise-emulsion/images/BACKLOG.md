@@ -1,108 +1,99 @@
-# BACKLOG Images - Mayonnaise Maison (Émulsion)
+# BACKLOG Images - Mayonnaise Émulsion
 
-## Images à générer
-
-### 📸 Image 1 : hero.png
-**Description** : Photo principale de la recette - Vue de dessus d'une mayonnaise maison dans un bol en verre
-
-**Prompt optimisé** :
-```
-Top-down food photography of homemade mayonnaise in a glass bowl, creamy smooth texture, whisk visible, drops of lemon juice, fresh egg yolk in small dish nearby, olive oil bottle, minimalist white marble surface, natural lighting, professional culinary shot, 4K
-```
-
-**Spécifications techniques** :
-- Format : PNG
-- Dimensions : 1920x1080 pixels (16:9)
-- Résolution : 300 DPI
-- Poids cible : < 2 MB
-
-**Statut** : ❌ À générer
+## Statut Actuel
+🔴 **IMAGES MANQUANTES** - Aucune image générée
 
 ---
 
-### 📸 Image 2 : final.png
-**Description** : Photo du résultat final - Gros plan de la mayonnaise dans une cuillère
+## Images Requises (4 au total)
 
-**Prompt optimisé** :
-```
-Close-up 45-degree angle of thick creamy mayonnaise being dolloped with a spoon, showing glossy texture and perfect emulsion, white porcelain dish, soft natural light, shallow depth of field, photorealistic
-```
+### ✅ Priorité P0 - CRITIQUE (Bloque publication)
 
-**Spécifications techniques** :
-- Format : PNG
-- Dimensions : 1920x1080 pixels (16:9)
-- Résolution : 300 DPI
-- Poids cible : < 2 MB
+#### 1. Hero Image ⚠️ MANQUANTE
+- **Fichier :** `hero.png`
+- **Statut :** 🔴 Non générée
+- **Page :** 1
+- **Type :** Photo principale
+- **Assigné à :** Équipe graphique / DALL-E 3
+- **Deadline :** URGENT
+- **Notes :** Image centrale de la recette, visible page 1
 
-**Statut** : ❌ À générer
-
----
-
-### 📸 Image 3 : process-01.png
-**Description** : Photo du processus - Action de fouetter la mayonnaise en formation
-
-**Prompt optimisé** :
-```
-Action shot of whisking mayonnaise, egg yolk and oil combining, emulsion forming, hand holding whisk, glass bowl, motion blur on whisk, warm kitchen lighting, documentary food photography
-```
-
-**Spécifications techniques** :
-- Format : PNG
-- Dimensions : 1200x800 pixels (3:2)
-- Résolution : 300 DPI
-- Poids cible : < 1.5 MB
-
-**Statut** : ❌ À générer
+#### 2. Final Image ⚠️ MANQUANTE
+- **Fichier :** `final.png`
+- **Statut :** 🔴 Non générée
+- **Page :** 2
+- **Type :** Présentation finale
+- **Assigné à :** Équipe graphique / DALL-E 3
+- **Deadline :** URGENT
+- **Notes :** Montre le résultat final appétissant
 
 ---
 
-### 📸 Image 4 : process-02.png
-**Description** : Photo comparative - Mayonnaise cassée vs mayonnaise parfaite
+### ✅ Priorité P1 - HAUTE (Complète l'expérience)
 
-**Prompt optimisé** :
-```
-Split comparison showing broken vs perfect mayonnaise emulsion, two bowls side by side, educational food photography, clear difference in texture, top-down view, bright even lighting
-```
+#### 3. Process-01 ⚠️ MANQUANTE
+- **Fichier :** `process-01.png`
+- **Statut :** 🔴 Non générée
+- **Page :** 2
+- **Type :** Étape processus
+- **Assigné à :** Équipe graphique / DALL-E 3
+- **Deadline :** Sprint actuel
+- **Notes :** Mélange jaune d'œuf + moutarde
 
-**Spécifications techniques** :
-- Format : PNG
-- Dimensions : 1200x800 pixels (3:2)
-- Résolution : 300 DPI
-- Poids cible : < 1.5 MB
-
-**Statut** : ❌ À générer
+#### 4. Process-02 ⚠️ MANQUANTE
+- **Fichier :** `process-02.png`
+- **Statut :** 🔴 Non générée
+- **Page :** 2
+- **Type :** Étape processus
+- **Assigné à :** Équipe graphique / DALL-E 3
+- **Deadline :** Sprint actuel
+- **Notes :** Ajout goutte-à-goutte huile (moment critique)
 
 ---
 
-## Notes de production
+## Actions Requises
 
-### Outils recommandés
-- **Génération IA** : Midjourney v6, DALL-E 3, Stable Diffusion XL
-- **Retouches** : Adobe Photoshop, GIMP
-- **Compression** : TinyPNG, ImageOptim
+### Étape 1 : Génération Images
+- [ ] Générer `hero.png` via DALL-E 3 avec prompt fourni dans README.md
+- [ ] Générer `final.png` via DALL-E 3
+- [ ] Générer `process-01.png` via DALL-E 3
+- [ ] Générer `process-02.png` via DALL-E 3
 
-### Critères de qualité
-- ✅ Réalisme photographique
-- ✅ Éclairage naturel et doux
-- ✅ Texture crémeuse et brillante de la mayonnaise visible
-- ✅ Composition épurée et professionnelle
-- ✅ Cohérence avec la charte visuelle du livre
+### Étape 2 : Validation Qualité
+- [ ] Vérifier résolution minimale 1024x1024 px
+- [ ] Valider cohérence style photographique
+- [ ] Contrôler palette de couleurs (tons chauds/naturels)
+- [ ] Vérifier netteté et éclairage
 
-### Priorité de génération
-1. **hero.png** (Priorité haute - image principale)
-2. **final.png** (Priorité haute - résultat final)
-3. **process-01.png** (Priorité moyenne - illustration du processus)
-4. **process-02.png** (Priorité basse - illustration éducative)
+### Étape 3 : Intégration
+- [ ] Placer les images dans `/recettes/mayonnaise-emulsion/images/`
+- [ ] Mettre à jour metadata.json avec infos images
+- [ ] Vérifier références dans recette.md
+- [ ] Commit avec message approprié
 
 ---
 
 ## Historique
 
-- **2025-11-11** : Création du backlog avec 4 prompts optimisés
-- **À venir** : Génération et intégration des images
+**2025-11-11** - Création du BACKLOG, identification des 4 images manquantes  
+**2025-11-11** - Création briefs DALL-E 3 dans README.md
 
 ---
 
-**Responsable** : Rédacteur-Scientifique  
-**Issue associée** : #13 - Sprint 1  
-**Statut global** : 🔴 En attente
+## Dépendances
+
+⚠️ **BLOQUANT** : La publication de la recette est bloquée tant que les images P0 ne sont pas générées.
+
+---
+
+## Ressources
+
+- Voir `README.md` pour prompts DALL-E 3 détaillés
+- Style référence : Photographie culinaire professionnelle, éclairage naturel
+- Formats : PNG, min 1024x1024 px
+
+---
+
+## Contact
+
+Pour questions ou assistance : Contacter Chef de Projet ou Rédacteur-Scientifique IA
