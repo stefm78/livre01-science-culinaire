@@ -1,7 +1,7 @@
 # 🏗️ Infrastructure Projet - Livre Science Culinaire
 
-**Version** : 1.0  
-**Date** : 2025-11-10  
+**Version** : 1.1  
+**Date** : 2025-11-11  
 **Statut** : ✅ Opérationnelle
 
 ---
@@ -27,6 +27,12 @@ livre01-science-culinaire/
 │       ├── test-photo-01.png à 15.png
 │       └── README.md
 │
+├── _inbox/                    # ⭐ NOUVEAU : Pipeline images IA
+│   └── images/
+│       ├── BATCH-TEMPLATE.md         # Template instructions IA
+│       ├── manifest-*.json           # Manifests en attente
+│       └── manifest-*-processed.json # Archives traitées
+│
 ├── recettes/                  # ⭐ Production recettes (30 fiches)
 │   ├── README.md              # Documentation workflow
 │   ├── _template/             # Templates standardisés
@@ -48,13 +54,120 @@ livre01-science-culinaire/
 │   ├── validate-recipe.py     # Validation recette individuelle
 │   └── generate-index.py      # Génération index automatique
 │
+├── import_batch_images.py     # ⭐ NOUVEAU : Import batch images IA
+│
 ├── .github/
 │   └── workflows/             # GitHub Actions (CI/CD)
+│       └── import-images.yml      # ⭐ NOUVEAU : Workflow import images
 │
 ├── PROJECT_DNA.yml           # Métadonnées projet
 ├── INFRASTRUCTURE.md         # Ce fichier
 └── README.md                 # Documentation principale
 ```
+
+---
+
+## 🖼️ Pipeline Images IA Automatisé ⭐ NOUVEAU
+
+### Vue d'ensemble
+
+Le projet utilise un pipeline automatisé pour l'intégration des images générées par IA (ChatGPT, DALL-E, etc.) dans les dossiers des recettes.
+
+### Workflow
+
+```
+1. IA génère images selon BATCH-TEMPLATE.md
+   ↓
+2. Upload images + manifest dans _inbox/images/
+   ↓
+3. GitHub Action détecte nouveau manifest
+   ↓
+4. Script Python lit manifest et déplace images
+   ↓
+5. Commit automatique + archivage manifest
+   ↓
+6. Images disponibles dans recettes/*/images/
+```
+
+### Processus pour générer un nouveau batch
+
+#### 1. Préparer les instructions
+
+- Copier `_inbox/images/BATCH-TEMPLATE.md`
+- Créer `BATCH-XX-INSTRUCTIONS.md` (remplacer XX par le numéro)
+- Personnaliser :
+  - `{{BATCH_ID}}` → ex: batch3
+  - `{{DATE}}` → ex: 20251112
+  - `{{DATE_ISO}}` → ex: 2025-11-12T23:00:00Z
+  - Ajouter les prompts d'images spécifiques
+  - Compléter le manifest avec les bonnes recettes/types
+- **IMPORTANT : Ne jamais dépasser 10-12 images par batch**
+
+#### 2. Fournir à l'IA
+
+- Copier tout le contenu du fichier BATCH-XX-INSTRUCTIONS.md
+- Le coller dans ChatGPT ou l'IA de génération
+- Attendre la génération des images + manifest
+- Si plus de 12 images nécessaires : diviser en plusieurs batchs
+
+#### 3. Upload dans le repo
+
+- Télécharger toutes les images générées
+- Télécharger le fichier `manifest-batchXX.json`
+- Uploader dans `_inbox/images/` sur GitHub (via interface web ou ligne de commande)
+
+#### 4. Traitement automatique
+
+- Le workflow GitHub Actions se déclenche automatiquement
+- Le script `import_batch_images.py` déplace les images vers leurs destinations
+- Archivage du manifest avec status "processed"
+- Commit automatique des changements
+
+### Conventions de nommage
+
+#### Fichiers manifest
+- Format : `manifest-{batch_id}.json`
+- Exemple : `manifest-batch3-20251112.json`
+- Après traitement : `manifest-batch3-20251112-processed.json`
+
+#### Fichiers images dans le batch
+- Format : `{recette}-{type}.png`
+- Exemples :
+  - `bouillon-volaille-hero.png`
+  - `steak-maillard-final.png`
+  - `mayonnaise-process-01.png`
+
+#### Fichiers images finaux (dans recettes)
+- Format : `{type}.png`
+- Exemples : `hero.png`, `final.png`, `process-01.png`, `process-02.png`
+
+### Types d'images
+
+- **hero** : Image principale de la recette (plat fini, mise en scène)
+- **final** : Résultat final du plat (présentation assiette)
+- **process-XX** : Étapes de préparation (XX = 01, 02, 03, etc.)
+
+### Limite de taille des batchs
+
+🚨 **IMPORTANT : Maximum 10-12 images par batch**
+
+Raisons :
+- Évite surcharge cognitive humain/IA
+- Facilite traçabilité et débogage
+- Réduit risque erreurs dans manifest
+- Permet validation incrémentale
+
+### Dépannage pipeline images
+
+#### Le workflow ne se déclenche pas
+- Vérifier que le fichier est nommé `manifest-*.json`
+- Vérifier qu'il est dans `_inbox/images/`
+- Vérifier que le status est `"pending"`
+
+#### Les images ne sont pas déplacées
+- Vérifier les noms de fichiers dans le manifest
+- Vérifier les chemins `target_path`
+- Consulter les logs du workflow GitHub Actions
 
 ---
 
@@ -101,11 +214,11 @@ livre01-science-culinaire/
 **Workflow** :
 1. Copier templates
 2. Rédiger contenu
-3. Générer images IA
+3. Générer images IA (via pipeline automatisé)
 4. Valider via script
 5. Commit sur GitHub
 
-**Statut** : ✅ Infrastructure prête, production à démarrer
+**Statut** : ✅ Infrastructure prête, production en cours (Sprint 1)
 
 ---
 
@@ -143,20 +256,21 @@ python scripts/generate-index.py
 
 ## 🔄 Workflow de Production
 
-### Phase 1 : Préparation (Actuelle)
+### Phase 1 : Préparation
 
 - [x] Infrastructure créée
 - [x] Templates standardisés
 - [x] Scripts de validation
+- [x] Pipeline images IA automatisé ⭐ NOUVEAU
 - [ ] Finalisation photos tests (issue #7)
 - [ ] Création schémas scientifiques (issue #8)
 
-### Phase 2 : Migration Pilote
+### Phase 2 : Sprint 1 (EN COURS)
 
-- [ ] Transformer `sources/steak-maillard.md` en format production
-- [ ] Générer images pour steak-maillard
-- [ ] Valider workflow complet
-- [ ] Ajuster templates si nécessaire
+- [x] Migration fiche pilote steak-maillard
+- [ ] Production Chapitre 1 (5-6 recettes)
+- [ ] Génération images via pipeline automatisé
+- [ ] Validation workflow complet
 
 ### Phase 3 : Production Masse (30 Recettes)
 
@@ -170,14 +284,6 @@ python scripts/generate-index.py
 6. **Pains & Pâtisseries** (3-4 recettes)
 7. **Desserts scientifiques** (4-5 recettes)
 8. **Créations audacieuses** (3-4 recettes)
-
-**Pour chaque recette** :
-1. Rédaction contenu (`recette.md`)
-2. Remplissage métadonnées (`metadata.json`)
-3. Génération images (ChatGPT DALL-E 3)
-4. Validation automatique (`validate-recipe.py`)
-5. Commit Git structuré
-6. Mise à jour index (`generate-index.py`)
 
 ### Phase 4 : Finalisation
 
@@ -211,27 +317,6 @@ Avant validation finale :
 
 ---
 
-## 📊 Suivi et KPIs
-
-### Métriques Projet
-
-**Générées via** : `scripts/generate-index.py`
-
-- Total recettes complétées / 30
-- Répartition par chapitre
-- Répartition par difficulté
-- Temps moyen par recette
-- Taux de validation automatique
-
-### Issues GitHub
-
-**Organisation** :
-- Issue par recette (optionnel)
-- Issue par chapitre (recommandé)
-- Labels : `recettes`, `chapitre-X`, `validation`
-
----
-
 ## 🔗 Liens Utiles
 
 ### Documentation Principale
@@ -245,11 +330,13 @@ Avant validation finale :
 
 - [recettes/_template/recette.md](recettes/_template/recette.md)
 - [recettes/_template/metadata.json](recettes/_template/metadata.json)
+- [_inbox/images/BATCH-TEMPLATE.md](_inbox/images/BATCH-TEMPLATE.md) ⭐ NOUVEAU
 
 ### Outils
 
 - [scripts/validate-recipe.py](scripts/validate-recipe.py)
 - [scripts/generate-index.py](scripts/generate-index.py)
+- [import_batch_images.py](import_batch_images.py) ⭐ NOUVEAU
 
 ---
 
@@ -273,42 +360,19 @@ Avant validation finale :
 1. Vérifier noms fichiers (case-sensitive)
 2. Contrôler chemins relatifs dans metadata
 3. Vérifier présence dossier `images/`
-
-### Index Non Généré
-
-**Problème** : `generate-index.py` ne trouve pas les recettes
-
-**Solutions** :
-1. Exécuter depuis racine projet
-2. Vérifier structure dossiers
-3. Contrôler `metadata.json` valides
-
----
-
-## 🛠️ Maintenance
-
-### Mise à Jour Templates
-
-**Si modifications nécessaires** :
-
-1. Modifier `recettes/_template/`
-2. Documenter changements dans `recettes/README.md`
-3. Commit avec message : `feat(templates): [description]`
-4. Notifier dans issue projet
-
-### Ajout Nouveaux Scripts
-
-**Pour nouveaux outils** :
-
-1. Créer dans `scripts/`
-2. Ajouter shebang Python : `#!/usr/bin/env python3`
-3. Documenter usage dans docstring
-4. Mettre à jour cette documentation
-5. Commit : `feat(scripts): [description]`
+4. Vérifier traitement batch dans GitHub Actions
 
 ---
 
 ## 📌 Version History
+
+### v1.1 (2025-11-11) ⭐ NOUVEAU
+
+- ✅ Ajout pipeline images IA automatisé
+- ✅ Script `import_batch_images.py`
+- ✅ Workflow GitHub Actions `import-images.yml`
+- ✅ Template `BATCH-TEMPLATE.md` pour génération IA
+- ✅ Documentation complète workflow images
 
 ### v1.0 (2025-11-10)
 
@@ -317,10 +381,10 @@ Avant validation finale :
 - ✅ Scripts validation + génération index
 - ✅ Documentation workflow
 - 🟡 Migration fiche pilote (en cours)
-- ⏳ Production 30 recettes (à démarrer)
+- ⏳ Production 30 recettes (en cours Sprint 1)
 
 ---
 
 **Maintenu par** : Chef de Projet IA  
 **Contact** : Issues GitHub avec label `infrastructure`  
-**Dernière mise à jour** : 2025-11-10
+**Dernière mise à jour** : 2025-11-11
