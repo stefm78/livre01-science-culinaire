@@ -1,0 +1,125 @@
+{
+  "id": "mayonnaise-stable",
+  "titre": "Mayonnaise Stable",
+  "titre_complet": "Mayonnaise Stable – L'Art de l'Émulsion",
+  "chapitre": 1,
+  "chapitre_nom": "Bases Fondamentales",
+  "concept_scientifique": "Émulsion huile dans eau, rôle émulsifiant du jaune d'œuf (lécithine)",
+  "difficulte": 2,
+  "difficulte_label": "Moyen",
+  "temps_preparation_min": 10,
+  "temps_cuisson_min": 0,
+  "temps_total_min": 10,
+  "portions": "250 ml (8-10 portions)",
+  "tags": [
+    "sauce",
+    "émulsion",
+    "sans-gluten",
+    "classique",
+    "rapide",
+    "base"
+  ],
+  "regime_alimentaire": [
+    "sans-gluten",
+    "végétarien"
+  ],
+  "temperature_cle": "20-22°C (température ambiante ingrédients)",
+  "ingredients_principaux": [
+    "jaune d'œuf",
+    "huile neutre",
+    "moutarde de Dijon",
+    "vinaigre ou citron"
+  ],
+  "schema_associe": "02-emulsions-mayo-vinaigrette.svg",
+  "schema_chemin": "../../sources/schemas/02-emulsions-mayo-vinaigrette.svg",
+  "associations_moleculaires": [
+    {
+      "ingredient_1": "Jaune d'œuf",
+      "ingredient_2": "Huile",
+      "molecule_composant": "Lécithine (phospholipide émulsifiant)",
+      "effet": "Microgouttelettes stabilisées",
+      "source": "McGee 2004, Curiokids 2021"
+    },
+    {
+      "ingredient_1": "Moutarde",
+      "ingredient_2": "Émulsion",
+      "molecule_composant": "Mucilage polysaccharidique",
+      "effet": "Stabilisation supplémentaire + Viscosité accrue",
+      "source": "Daily Science 2022"
+    },
+    {
+      "ingredient_1": "Vinaigre/Citron",
+      "ingredient_2": "Phase aqueuse",
+      "molecule_composant": "Acidité pH 3,5-4,5",
+      "effet": "Conservation antimicrobienne + Renforcement goût",
+      "source": "Ricardo Cuisine 2018"
+    }
+  ],
+  "variantes": [
+    {
+      "nom": "Aïoli (mayonnaise à l'ail)",
+      "modification": "Ajouter 2-3 gousses d'ail écrasées",
+      "justification_scientifique": "Allicine renforce propriétés antimicrobiennes"
+    },
+    {
+      "nom": "Mayonnaise végane",
+      "modification": "Remplacer jaune par 20g lécithine soja + 30ml lait végétal",
+      "justification_scientifique": "Lécithine pure émulsionne efficacement (même mécanisme)"
+    },
+    {
+      "nom": "Boost stabilité extrême",
+      "modification": "Ajouter 5ml sirop de glucose",
+      "justification_scientifique": "Augmente viscosité phase aqueuse, réduit aw, retarde coalescence"
+    }
+  ],
+  "sources": [
+    {
+      "auteur": "McGee, H.",
+      "annee": 2004,
+      "titre": "On Food and Cooking: The Science and Lore of the Kitchen",
+      "editeur": "Scribner",
+      "type": "livre"
+    },
+    {
+      "auteur": "Zhang et al.",
+      "annee": 2008,
+      "titre": "Molecular mechanism for the umami taste synergism",
+      "journal": "PNAS",
+      "type": "article"
+    },
+    {
+      "auteur": "Curiokids",
+      "annee": 2021,
+      "titre": "La chimie qui fait prendre la mayonnaise",
+      "url": "curiokids.net",
+      "type": "article_pedagogique"
+    },
+    {
+      "auteur": "Ricardo Cuisine",
+      "annee": 2018,
+      "titre": "Quand la mayonnaise prend!",
+      "url": "ricardocuisine.com",
+      "type": "article"
+    },
+    {
+      "auteur": "Daily Science",
+      "annee": 2022,
+      "titre": "De la mayonnaise cosmique",
+      "url": "dailyscience.be",
+      "type": "article"
+    },
+    {
+      "auteur": "Podcast Science",
+      "annee": 2021,
+      "titre": "Tous les ingrédients doivent être à température ambiante",
+      "url": "podcastscience.fm",
+      "type": "podcast"
+    }
+  ],
+  "priorite": "P1",
+  "statut": "complétée",
+  "date_creation": "2025-11-11",
+  "redacteur": "Rédacteur-Scientifique IA",
+  "issue_github": "#13",
+  "sprint": "Sprint 1"
+}
