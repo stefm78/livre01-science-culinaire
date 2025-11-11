@@ -1,0 +1,22 @@
+{
+  "titre": "Vinaigrette Classique (Émulsion Temporaire)",
+  "difficulte": "●○○",
+  "temps_preparation": "5 min",
+  "temps_cuisson": "0 min",
+  "portions": "150 ml",
+  "tags": [
+    "base",
+    "sauce",
+    "émulsion-temporaire",
+    "sans-gluten",
+    "vegan"
+  ],
+  "concept_scientifique": "Émulsion temporaire",
+  "ratio_cle": "1:3 (vinaigre:huile)",
+  "sources": [
+    "McGee - On Food and Cooking - p.632-634",
+    "Ruhlman - Ratio - p.156-160",
+    "This - Les Secrets de la Casserole - p.234-237"
+  ],
+  "schema_associe": "sources/schemas/05-emulsion.svg"
+}
