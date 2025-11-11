@@ -84,17 +84,74 @@ Gros plan extrême d'une mayonnaise réussie formant un ruban épais et brillant
 
 ---
 
+## 🔍 Spécificités Recette Mayonnaise
+
+### Points Visuels Clés à Mettre en Valeur
+1. **Texture crémeuse stable** : Montrer onctuosité, brillance, consistance épaisse
+2. **Test du ruban** : La mayonnaise réussie forme des rubans épais qui retombent du fouet
+3. **Couleur ivoire naturelle** : Jaune pâle dû au jaune d'œuf (pas blanc pur, pas jaune vif)
+4. **Émulsion stable** : Texture homogène sans séparation visible huile/eau
+5. **Transformation visible** : Si process, montrer passage liquide → crémeux
+
+### Éléments à Éviter
+- Texture trop liquide ou séparée (signe d'émulsion cassée)
+- Couleur jaune trop vive ou artificielle
+- Mayonnaise industrielle (texture et couleur différentes de maison)
+- Excès de brillance artificielle ou huileuse
+- Bulles d'air excessives (signe de sur-fouettage)
+
+### Contraste avec Vinaigrette (même schéma)
+- **Mayonnaise** : Texture **crémeuse épaisse**, émulsion **stable permanente**
+- **Vinaigrette** : Texture **liquide**, émulsion **temporaire** (séparation visible)
+- Importance de montrer visuellement cette différence pédagogique
+
+---
+
 ## 📝 Notes Production
 
 **Statut** : Brief complet, prêt génération IA  
 **Priorité** : P1 (Hero + Final obligatoires)  
 **Optionnel** : Process-01 + Detail-texture (enrichissement pédagogique)  
-**Outils suggérés** : Midjourney, DALL-E 3, Stable Diffusion XL  
+**Outils suggérés** : Midjourney v6, DALL-E 3, Stable Diffusion XL  
 
 **Validation** : Images conformes charte visuelle `sources/charte-visuelle.md`
+
+**Caractéristiques visuelles uniques** :
+- Recette la plus "crémeuse" du Chapitre 1 (contraste avec vinaigrette liquide)
+- Opportunité montrer science émulsion **stable** grâce à lécithine
+- Test du ruban = indicateur visuel de réussite (pédagogie)
+- Duo pédagogique avec vinaigrette (même schéma 02-emulsions)
+
+---
+
+## 🔧 Recommandations Techniques IA
+
+### Midjourney v6 (Recommandé)
+- Excellent rendu texture crémeuse et brillance naturelle
+- Paramètres : `--style raw --ar 16:9` (hero) ou `--ar 1:1` (final)
+- Ajouter : "high-end food photography, soft natural lighting, creamy texture"
+
+### DALL-E 3
+- Bon pour compositions épurées et mise en scène ingrédients
+- Préciser : "professional food photography, shallow depth of field"
+
+### Stable Diffusion XL
+- Contrôle précis style réaliste et photographie macro
+- Checkpoints recommandés : RealVisXL, JuggernautXL
+
+### Mots-clés IA Efficaces
+- "professional food photography"
+- "creamy homemade mayonnaise"
+- "soft natural lighting 45 degree"
+- "pale yellow ivory color"
+- "silky ribbon texture"
+- "minimalist white background"
+- "shallow depth of field"
+- "high-end editorial style"
 
 ---
 
 **Création** : 2025-11-11  
+**Modification** : 2025-11-11  
 **Recette** : Mayonnaise Stable - Chapitre 1  
 **Issue** : #13
