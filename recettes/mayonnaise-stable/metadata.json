@@ -37,7 +37,7 @@
       "ingredient_1": "Jaune d'œuf",
       "ingredient_2": "Huile",
       "molecule_composant": "Lécithine (phospholipide émulsifiant)",
-      "effet": "Microgouttelettes stabilisées",
+      "effet": "Microgouttelettes stabilisées (2-10 μm)",
       "source": "McGee 2004, Curiokids 2021"
     },
     {
@@ -59,17 +59,17 @@
     {
       "nom": "Aïoli (mayonnaise à l'ail)",
       "modification": "Ajouter 2-3 gousses d'ail écrasées",
-      "justification_scientifique": "Allicine renforce propriétés antimicrobiennes"
+      "justification_scientifique": "Allicine (formée par réaction enzymatique après écrasement) renforce propriétés antimicrobiennes"
     },
     {
       "nom": "Mayonnaise végane",
       "modification": "Remplacer jaune par 20g lécithine soja + 30ml lait végétal",
-      "justification_scientifique": "Lécithine pure émulsionne efficacement (même mécanisme)"
+      "justification_scientifique": "Lécithine pure émulsionne efficacement (même mécanisme moléculaire amphiphile que œuf)"
     },
     {
       "nom": "Boost stabilité extrême",
       "modification": "Ajouter 5ml sirop de glucose",
-      "justification_scientifique": "Augmente viscosité phase aqueuse, réduit aw, retarde coalescence"
+      "justification_scientifique": "Augmente viscosité phase aqueuse et apporte des sucres hygroscopiques qui stabilisent l'émulsion, permet une conservation prolongée de 1 à 2 jours supplémentaires"
     }
   ],
   "sources": [
@@ -79,13 +79,6 @@
       "titre": "On Food and Cooking: The Science and Lore of the Kitchen",
       "editeur": "Scribner",
       "type": "livre"
-    },
-    {
-      "auteur": "Zhang et al.",
-      "annee": 2008,
-      "titre": "Molecular mechanism for the umami taste synergism",
-      "journal": "PNAS",
-      "type": "article"
     },
     {
       "auteur": "Curiokids",
