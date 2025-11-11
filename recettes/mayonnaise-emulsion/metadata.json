@@ -1,0 +1,22 @@
+{
+  "titre": "Mayonnaise Maison (Science de l'Émulsion)",
+  "difficulte": "●●○",
+  "temps_preparation": "10 min",
+  "temps_cuisson": "0 min",
+  "portions": "300 ml",
+  "tags": [
+    "base",
+    "émulsion",
+    "sauce",
+    "sans-gluten",
+    "végétarien"
+  ],
+  "concept_scientifique": "Émulsion",
+  "temperature_cle": "18-20°C",
+  "sources": [
+    "McGee - On Food and Cooking - p.628-632",
+    "Hervé This - La Cuisine Moléculaire - p.89-95",
+    "Lopez-Alt - The Food Lab - p.806-810"
+  ],
+  "schema_associe": "02-emulsion-huile-eau.svg"
+}
