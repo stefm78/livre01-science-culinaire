@@ -1,0 +1,32 @@
+{
+  "batch_id": "batch2-20251111",
+  "created_at": "2025-11-11T19:55:00Z",
+  "images": [
+    {
+      "source_file": "bouillon-final.png",
+      "target_path": "recettes/bouillon-volaille-umami/images/final.png",
+      "recipe": "bouillon-volaille-umami",
+      "type": "final"
+    },
+    {
+      "source_file": "steak-final.png",
+      "target_path": "recettes/steak-maillard/images/final.png",
+      "recipe": "steak-maillard",
+      "type": "final"
+    },
+    {
+      "source_file": "steak-process-01.png",
+      "target_path": "recettes/steak-maillard/images/process-01.png",
+      "recipe": "steak-maillard",
+      "type": "process"
+    },
+    {
+      "source_file": "steak-process-02.png",
+      "target_path": "recettes/steak-maillard/images/process-02.png",
+      "recipe": "steak-maillard",
+      "type": "process"
+    }
+  ],
+  "status": "pending",
+  "total_images": 4
+}
