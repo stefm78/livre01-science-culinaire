@@ -1,22 +1,170 @@
 {
+  "id": "mayonnaise-emulsion",
   "titre": "Mayonnaise Maison (Science de l'Émulsion)",
-  "difficulte": "●●○",
-  "temps_preparation": "10 min",
-  "temps_cuisson": "0 min",
+  "titre_complet": "Mayonnaise Maison – Science de l'Émulsion",
+  "chapitre": 1,
+  "chapitre_nom": "Bases Fondamentales",
+  "concept_scientifique": "Émulsion huile-dans-eau stabilisée par lécithine (phospholipide amphiphile)",
+  "difficulte": 2,
+  "difficulte_label": "Moyen",
+  "temps_preparation_min": 10,
+  "temps_cuisson_min": 0,
+  "temps_total_min": 10,
   "portions": "300 ml",
   "tags": [
     "base",
     "émulsion",
     "sauce",
     "sans-gluten",
+    "végétarien",
+    "classique",
+    "rapide"
+  ],
+  "regime_alimentaire": [
+    "sans-gluten",
     "végétarien"
   ],
-  "concept_scientifique": "Émulsion",
-  "temperature_cle": "18-20°C",
-  "sources": [
-    "McGee - On Food and Cooking - p.628-632",
-    "Hervé This - La Cuisine Moléculaire - p.89-95",
-    "Lopez-Alt - The Food Lab - p.806-810"
+  "temperature_cle": "18-20°C (température optimale pour émulsification)",
+  "ingredients_principaux": [
+    "jaune d'œuf",
+    "huile neutre (tournesol, pépins de raisin)",
+    "moutarde de Dijon",
+    "vinaigre de vin blanc ou jus de citron"
   ],
-  "schema_associe": "02-emulsion-huile-eau.svg"
+  "schema_associe": "02-emulsion-huile-eau.svg",
+  "schema_chemin": "../../sources/schemas/02-emulsion-huile-eau.svg",
+  "associations_moleculaires": [
+    {
+      "ingredient_1": "Jaune d'œuf (lécithine)",
+      "ingredient_2": "Huile + Eau",
+      "molecule_composant": "Lécithine (phospholipide avec tête hydrophile + queue lipophile)",
+      "effet": "Stabilisation interface huile/eau → formation microgouttelettes 2-10 μm",
+      "mecanisme": "Molécules amphiphiles réduisent tension superficielle 25→5 mN/m",
+      "source": "McGee 2004, This 2000-2025"
+    },
+    {
+      "ingredient_1": "Moutarde de Dijon",
+      "ingredient_2": "Émulsion",
+      "molecule_composant": "Mucilages (polysaccharides)",
+      "effet": "Renforcement stabilité émulsion + viscosité accrue",
+      "mecanisme": "Émulsifiant secondaire augmente viscosité phase aqueuse",
+      "source": "López-Alt 2015"
+    },
+    {
+      "ingredient_1": "Acidité (vinaigre/citron)",
+      "ingredient_2": "Phase aqueuse",
+      "molecule_composant": "Acide acétique / acide citrique (pH 3,5-4)",
+      "effet": "Conservation antimicrobienne + amélioration saveur + stabilité charges électriques",
+      "mecanisme": "pH acide neutralise charges identiques → réduit répulsion gouttelettes",
+      "source": "Curiokids 2021, Génie Alimentaire 2024"
+    },
+    {
+      "ingredient_1": "Sel",
+      "ingredient_2": "Jaune d'œuf",
+      "molecule_composant": "Ions sodium (Na+)",
+      "effet": "Augmentation stabilité micelles + aide rupture molécules jaune",
+      "mecanisme": "Ions augmentent stabilité colloïdale de l'émulsion",
+      "source": "Émulsion culinaire YouTube 2016"
+    }
+  ],
+  "variantes": [
+    {
+      "nom": "Aïoli Provençal",
+      "modification": "Ajouter 2-3 gousses d'ail écrasées + remplacer vinaigre par jus citron",
+      "justification_scientifique": "Allicine (composé soufré ail) renforce stabilité émulsion + propriétés antimicrobiennes"
+    },
+    {
+      "nom": "Sauce Tartare",
+      "modification": "Incorporer 2 c.à.s câpres hachées + 2 cornichons + 1 c.à.s persil + 1 c.à.c échalote",
+      "justification_scientifique": "Ajouts post-émulsion conservent structure colloïdale stable"
+    },
+    {
+      "nom": "Mayonnaise aux Herbes",
+      "modification": "Mixer 20g herbes fraîches avec eau → incorporer jus vert à mayo terminée",
+      "justification_scientifique": "Chlorophylles apportent antioxydants + couleur sans déstabiliser émulsion"
+    },
+    {
+      "nom": "Mayonnaise végane (lécithine de soja)",
+      "modification": "Remplacer jaune par 15g lécithine soja + 30ml lait végétal",
+      "justification_scientifique": "Lécithine pure (E322) émulsionne par même mécanisme amphiphile"
+    }
+  ],
+  "sources": [
+    {
+      "auteur": "McGee, Harold",
+      "annee": 2004,
+      "titre": "On Food and Cooking: The Science and Lore of the Kitchen",
+      "editeur": "Scribner",
+      "pages": "628-632",
+      "type": "livre",
+      "description": "Mécanismes formation et stabilisation émulsions alimentaires, rôle lécithine"
+    },
+    {
+      "auteur": "This, Hervé",
+      "annee": "2000-2025",
+      "titre": "La Cuisine Moléculaire - Physico-chimie en Cuisine",
+      "editeur": "Belin / Pour la Science",
+      "pages": "89-95",
+      "type": "livre",
+      "description": "Études émulsions, tension superficielle, molécules amphiphiles"
+    },
+    {
+      "auteur": "López-Alt, J. Kenji",
+      "annee": 2015,
+      "titre": "The Food Lab: Better Home Cooking Through Science",
+      "editeur": "W. W. Norton",
+      "pages": "806-810",
+      "type": "livre",
+      "description": "Techniques pratiques mayonnaise, température optimale, rattrapage émulsion"
+    },
+    {
+      "auteur": "Taslikh, M. et al.",
+      "annee": 2021,
+      "titre": "Mayonnaise main ingredients influence on its structure as an emulsion",
+      "journal": "PMC NCBI",
+      "type": "article_scientifique",
+      "url": "pmc.ncbi.nlm.nih.gov",
+      "description": "Influence ingrédients sur structure émulsion, stabilité, rhéologie"
+    },
+    {
+      "auteur": "Curiokids",
+      "annee": 2021,
+      "titre": "La chimie qui fait prendre la mayonnaise",
+      "url": "curiokids.net",
+      "type": "article_pedagogique",
+      "description": "Explication molécules amphiphiles, lécithine, mécanisme émulsion"
+    },
+    {
+      "auteur": "Génie Alimentaire",
+      "annee": 2024,
+      "titre": "Emulsifiant - Lécithine et émulsions alimentaires",
+      "url": "genie-alimentaire.com",
+      "type": "article",
+      "description": "Propriétés émulsifiants naturels, lécithine végétale/animale"
+    },
+    {
+      "auteur": "Podcast Science",
+      "annee": 2021,
+      "titre": "Tous les ingrédients doivent être à température ambiante",
+      "url": "podcastscience.fm",
+      "type": "podcast",
+      "description": "Mythes et réalités mayonnaise, tests empiriques températures"
+    },
+    {
+      "auteur": "Le Chaud Patate",
+      "annee": 2019,
+      "titre": "Les secrets de la mayonnaise",
+      "url": "lechaudpatate.com",
+      "type": "article",
+      "description": "Science émulsion, proportions optimales, techniques pratiques"
+    }
+  ],
+  "priorite": "P1",
+  "statut": "completée",
+  "date_creation": "2025-11-11",
+  "date_modification": "2025-11-11",
+  "redacteur": "Rédacteur-Scientifique IA",
+  "issue_github": "#TBD",
+  "sprint": "Sprint 1",
+  "notes_internes": "Métadata complété avec associations moléculaires détaillées, variantes scientifiques, et sources documentaires enrichies (8 sources vs 3 initiales). Taille passée de 556 bytes à ~6600 bytes."
 }
