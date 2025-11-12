@@ -1,52 +1,261 @@
 {
-  "titre": "Vinaigrette Classique (Émulsion Temporaire)",
-  "difficulte": "●○○",
-  "temps_preparation": "5 min",
-  "temps_cuisson": "0 min",
-  "portions": "150 ml",
-  "tags": [
-    "base",
-    "sauce",
-    "émulsion-temporaire",
-    "sans-gluten",
-    "vegan"
-  ],
-  "concept_scientifique": "Émulsion temporaire",
-  "ratio_cle": "1:3 (vinaigre:huile)",
-  "sources": [
-    "McGee - On Food and Cooking - p.632-634",
-    "Ruhlman - Ratio - p.156-160",
-    "This - Les Secrets de la Casserole - p.234-237",
+  "nom": "Vinaigrette Émulsion Temporaire",
+  "categorie": "Sauces et émulsions",
+  "type_emulsion": "Huile dans Eau (H/E) temporaire",
+  "stabilite": "Faible - Séparation 5-15 minutes",
+  "description_courte": "Émulsion temporaire huile-vinaigre dont la cinétique de séparation suit la loi de Stokes. Système instable par absence d'émulsifiant fort, démonstration des phénomènes de coalescence et crémage.",
+  "description_scientifique": "La vinaigrette représente une émulsion H/E cinétiquement instable caractérisée par une séparation spontanée en 5-15 minutes. Contrairement à la mayonnaise (émulsion stable), l'absence d'émulsifiant puissant entraîne une coalescence rapide des gouttelettes d'huile (15-50 μm vs 2-10 μm pour la mayonnaise). La vitesse de séparation obéit à la loi de Stokes, fonction du rayon des gouttelettes, de la différence de densité huile/eau (0.92 vs 1.0) et de la viscosité du milieu. L'ajout de moutarde apporte des mucilages polysaccharidiques qui stabilisent faiblement l'émulsion sans empêcher la coalescence finale.",
+  "associations_moleculaires": [
     {
-      "titre": "Some Qualitative and Rheological Properties of Virgin Olive Oil-Apple Vinegar Salad Dressing Stabilized With Xanthan Gum",
-      "auteurs": "Abedinzadeh, Solmaz et al.",
-      "journal": "Advanced Pharmaceutical Bulletin",
-      "annee": 2016,
-      "doi": "10.15171/apb.2016.074",
-      "url": "https://apb.tbzmed.ac.ir/Article/apb-11556",
-      "pertinence": "Analyse le comportement rhéologique pseudoplastique des vinaigrettes huile-vinaigre et démontre que la viscosité retarde la coalescence des gouttelettes d'huile dans les émulsions temporaires."
+      "composant": "Ratio Vinaigre/Huile 1:3",
+      "molecule_cle": "Phase aqueuse/Phase huileuse",
+      "role": "Équilibre acide/gras optimal",
+      "explication_scientifique": "Le ratio classique 1:3 (25% phase aqueuse, 75% phase huileuse) permet de disperser l'huile en gouttelettes dans le vinaigre tout en restant sous le seuil d'inversion de phase (rapport 0.74). Ce ratio minimise la tension interfaciale entre les deux phases immiscibles (environ 20-30 mN/m pour huile/eau) sans nécessiter d'émulsifiant fort. Au-delà de ce ratio, les gouttelettes d'huile sont trop serrées et l'émulsion devient instable.",
+      "mecanisme": "Dispersion colloïdale avec tension superficielle élevée due à l'absence de tensioactifs puissants",
+      "temperature_optimale": "20-25°C (température ambiante)",
+      "reversibilite": "Totalement réversible - ré-émulsification par agitation"
     },
     {
-      "titre": "Coalescence kinetics of high internal phase emulsions observed by microfluidics",
-      "auteurs": "Williams, Yvonne et al.",
-      "journal": "Journal of Food Engineering",
-      "annee": 2024,
-      "doi": "10.1016/j.jfoodeng.2023.111739",
-      "url": "https://research.wur.nl/en/publications/coalescence-kinetics-of-high-internal-phase-emulsions-observed-by",
-      "pertinence": "Quantifie la cinétique de coalescence dans les émulsions alimentaires en fonction de la vitesse de cisaillement et démontre le rôle de la compression droplet-droplet dans la déstabilisation des émulsions temporaires."
+      "composant": "Moutarde (mucilages)",
+      "molecule_cle": "Polysaccharides émulsifiants faibles",
+      "role": "Stabilisation temporaire 5-15 minutes",
+      "explication_scientifique": "Les graines de moutarde contiennent des mucilages composés de polysaccharides hétérogènes (arabinoxylanes neutres 75%, rhamnogalacturonanes 25%) qui forment un gel aqueux. Ces macromolécules se positionnent à l'interface huile/eau, réduisant modérément la tension interfaciale et retardant la coalescence sans la prévenir totalement. Contrairement aux phospholipides du jaune d'œuf (lécithine), les mucilages n'ont pas de structure amphiphile optimale.",
+      "mecanisme": "Formation de film interfacial faible à base de polysaccharides, augmentation de la viscosité du milieu continu",
+      "concentration_typique": "5-10% en poids (1 cuillère à café pour 200ml)",
+      "limitation": "Émulsifiant faible - ne prévient pas la coalescence finale"
     },
     {
-      "titre": "Rheological and structural evaluations of commercial Italian salad dressings",
-      "auteurs": "Perrechil, Fabiana Andreia et al.",
-      "journal": "Food Science and Technology (Ciência e Tecnologia de Alimentos)",
-      "annee": 2010,
-      "doi": "10.1590/S0101-20612010000600030",
-      "url": "https://scielo.br/j/cta/a/BqVSV8TtNcKvTYPqMqWkz7D/",
-      "pertinence": "Établit la relation entre taille des gouttelettes, comportement rhéologique thixotrope et stabilité des vinaigrettes commerciales, démontrant que les petites gouttelettes et viscosité élevée empêchent la coalescence."
+      "composant": "Acidité (pH 2-3)",
+      "molecule_cle": "Acide acétique",
+      "role": "Impact sur coalescence et conservation",
+      "explication_scientifique": "Le pH acide du vinaigre (environ 2-3 dû à l'acide acétique 5-8%) influence la charge de surface des gouttelettes d'huile et la stabilité des mucilages polysaccharidiques de la moutarde. L'acidité prolonge également la conservation en inhibant le développement microbien. Le pH acide favorise légèrement la répulsion électrostatique entre gouttelettes mais reste insuffisant pour stabiliser l'émulsion à long terme.",
+      "mecanisme": "Modification des charges de surface, effet antimicrobien",
+      "conservation": "5-7 jours au réfrigérateur (vinaigrette simple), 2-3 jours avec ingrédients frais"
     }
   ],
-  "schema_associe": "sources/schemas/05-emulsion.svg",
-  "version": "1.1",
-  "date_modification": "2025-11-12",
-  "notes_internes": "Sources académiques complétées (Issue #32 - P2.1) avec 3 articles peer-reviewed couvrant coalescence, rhéologie et stabilité des émulsions temporaires."
+  "ratios_scientifiques": {
+    "ratio_classique": {
+      "vinaigre": 1,
+      "huile": 3,
+      "justification": "Ratio optimal pour émulsion H/E temporaire - permet dispersion sans inversion de phase (seuil 0.74)"
+    },
+    "taille_gouttelettes": {
+      "vinaigrette": "15-50 μm",
+      "comparaison_mayonnaise": "2-10 μm",
+      "explication": "Gouttelettes plus grosses en vinaigrette par fouettage moins énergique et absence d'émulsifiant fort. Plus la taille augmente, plus la coalescence s'accélère selon loi de Stokes."
+    },
+    "cinetique_separation": {
+      "temps_separation": "5-15 minutes",
+      "facteurs": "Fonction de la taille des gouttelettes, viscosité du milieu, intensité du fouettage initial"
+    },
+    "densite": {
+      "huile": 0.92,
+      "eau": 1.0,
+      "difference": "8% - responsable du crémage (remontée de l'huile)"
+    },
+    "temperature": {
+      "preparation": "20-25°C (ambiante)",
+      "conservation": "4-7°C (réfrigérateur)",
+      "effet": "Température élevée réduit viscosité et accélère séparation"
+    },
+    "viscosite": {
+      "vinaigre_pur": "~1 mPa.s",
+      "avec_moutarde": "5-15 mPa.s",
+      "effet": "Augmentation de viscosité ralentit vitesse de migration selon Stokes"
+    }
+  },
+  "mecanisme_coalescence": {
+    "titre": "Coalescence et Loi de Stokes",
+    "description": "Mécanisme de déstabilisation spontanée d'une émulsion temporaire",
+    "etapes": [
+      {
+        "etape": "1. Formation initiale",
+        "phenomene": "Fouettage énergique disperse huile en gouttelettes 15-50 μm dans phase aqueuse",
+        "energie": "Énergie mécanique fournie par fouet/shaker divise l'huile"
+      },
+      {
+        "etape": "2. Floculation",
+        "phenomene": "Rapprochement réversible des gouttelettes par mouvement brownien et collisions",
+        "reversibilite": "Réversible par agitation"
+      },
+      {
+        "etape": "3. Coalescence",
+        "phenomene": "Fusion irréversible des gouttelettes par rupture du film interfacial",
+        "irreversibilite": "Irréversible - augmente taille moyenne des gouttelettes"
+      },
+      {
+        "etape": "4. Crémage (Loi de Stokes)",
+        "phenomene": "Migration verticale des gouttelettes d'huile vers la surface",
+        "loi": "Vitesse de sédimentation selon Stokes"
+      }
+    ],
+    "loi_stokes": {
+      "formule": "v = (2/9) × (r²×g×Δρ)/η",
+      "parametres": {
+        "v": "Vitesse de migration verticale (m/s)",
+        "r": "Rayon de la gouttelette (m) - typiquement 7.5-25 × 10⁻⁶ m",
+        "g": "Accélération pesanteur (9.81 m/s²)",
+        "Δρ": "Différence de densité huile/eau (ρeau - ρhuile ≈ 80 kg/m³)",
+        "η": "Viscosité dynamique phase continue (1-15 × 10⁻³ Pa.s)"
+      },
+      "interpretation": "La vitesse de séparation est proportionnelle au carré du rayon des gouttelettes. Doubler la taille augmente la vitesse ×4. La viscosité du milieu ralentit inversement proportionnellement la migration.",
+      "application": "Une gouttelette de 25 μm migre 4× plus vite qu'une de 12.5 μm. L'ajout de moutarde (viscosité ×5-15) ralentit la séparation mais ne l'empêche pas."
+    },
+    "tension_superficielle": {
+      "valeur_huile_eau": "20-30 mN/m",
+      "role": "Force de rétraction des gouttelettes vers forme sphérique minimisant surface",
+      "absence_stabilisant_fort": "Sans phospholipides (lécithine), tension reste élevée favorisant coalescence",
+      "comparaison_mayonnaise": "Mayonnaise: 3-8 mN/m grâce à lécithine du jaune d'œuf"
+    },
+    "viscosite_impact": {
+      "phase_continue": "Viscosité du vinaigre (avec ou sans moutarde) détermine résistance à l'écoulement",
+      "effet_moutarde": "Mucilages augmentent viscosité ×5-15 retardant crémage",
+      "limite": "Même avec moutarde, viscosité insuffisante pour bloquer coalescence long terme"
+    },
+    "comparaison_emulsions": {
+      "vinaigrette_temporaire": {
+        "stabilite": "5-15 minutes",
+        "taille_gouttelettes": "15-50 μm",
+        "emulsifiant": "Mucilages faibles (moutarde optionnelle)",
+        "reversibilite": "Ré-émulsifiable par agitation"
+      },
+      "mayonnaise_stable": {
+        "stabilite": "Plusieurs semaines",
+        "taille_gouttelettes": "2-10 μm",
+        "emulsifiant": "Lécithine forte (jaune d'œuf)",
+        "reversibilite": "Cassage difficile à récupérer"
+      }
+    },
+    "effet_tyndall": {
+      "phenomene": "Diffusion de la lumière par gouttelettes colloïdales (15-50 μm)",
+      "observation": "Aspect blanchâtre/opalescent de l'émulsion fraîchement préparée",
+      "explication": "Les gouttelettes d'huile dispersées diffractent la lumière visible, rendant émulsion trouble. Après séparation complète, phases redeviennent transparentes."
+    }
+  },
+  "variantes": [
+    {
+      "nom": "Vinaigrette Balsamique-Miel",
+      "ingredients_cles": {
+        "vinaigre_balsamique": "1 part",
+        "huile_olive": "3 parts",
+        "miel": "0.3 part",
+        "moutarde": "0.2 part"
+      },
+      "justification_rheologique": "Le miel (viscosité 2000-10000 mPa.s) augmente drastiquement la viscosité du milieu continu, ralentissant la migration des gouttelettes selon Stokes. Effet synergique avec mucilages de moutarde pour stabilisation temporaire prolongée (15-20 min). Vinaigre balsamique apporte viscosité supplémentaire (5-10× vinaigre blanc).",
+      "caracteristiques": {
+        "stabilite": "15-20 minutes",
+        "viscosite_resultante": "30-60 mPa.s",
+        "texture": "Plus épaisse et sirupeuse"
+      }
+    },
+    {
+      "nom": "Vinaigrette Citron-Herbes",
+      "ingredients_cles": {
+        "jus_citron": "1 part",
+        "huile": "3 parts",
+        "moutarde": "0.2 part",
+        "herbes_fraiches": "au goût"
+      },
+      "justification_rheologique": "Jus de citron (pH 2-2.5) similaire au vinaigre mais avec pectines résiduelles augmentant légèrement viscosité. Herbes fraîches hachées créent particules solides (émulsion Pickering partielle) aidant à piéger gouttelettes d'huile mécaniquement. Conservation réduite (2-3 jours) due aux herbes périssables.",
+      "caracteristiques": {
+        "stabilite": "8-12 minutes",
+        "pH": "2.5-3.0",
+        "conservation": "2-3 jours maximum"
+      }
+    },
+    {
+      "nom": "Vinaigrette Asiatique (Sésame-Soja)",
+      "ingredients_cles": {
+        "vinaigre_riz": "1 part",
+        "huile_sesame": "2 parts",
+        "sauce_soja": "0.5 part",
+        "miel_gingembre": "0.2 part"
+      },
+      "justification_rheologique": "Sauce soja contient protéines et polysaccharides fermentés agissant comme émulsifiants secondaires. Ratio huile/eau réduit (2:1.5 au lieu de 3:1) favorise stabilité accrue. Huile de sésame plus dense (0.93 vs 0.92) réduit légèrement Δρ et donc vitesse crémage. Viscosité combinée sauce soja + miel prolonge stabilité.",
+      "caracteristiques": {
+        "stabilite": "12-18 minutes",
+        "ratio_modifie": "2:1.5 (huile:phase aqueuse)",
+        "densite_huile": "0.93 (vs 0.92 huile standard)"
+      }
+    }
+  ],
+  "sources_documentaires": [
+    {
+      "auteur": "Harold McGee",
+      "titre": "On Food and Cooking: The Science and Lore of the Kitchen",
+      "annee": 2004,
+      "pertinence": "Référence fondamentale sur chimie émulsions alimentaires, coalescence et stabilité cinétique"
+    },
+    {
+      "auteur": "Michael Ruhlman",
+      "titre": "Ratio: The Simple Codes Behind the Craft of Everyday Cooking",
+      "annee": 2009,
+      "pertinence": "Ratios scientifiques vinaigrettes et émulsions temporaires vs stables"
+    },
+    {
+      "auteur": "Hervé This",
+      "titre": "Molecular Gastronomy: Exploring the Science of Flavor",
+      "annee": 2006,
+      "pertinence": "Physico-chimie moléculaire des émulsions culinaires, loi de Stokes appliquée"
+    },
+    {
+      "auteur": "D.J. McClements",
+      "titre": "Food Emulsions: Principles, Practices, and Techniques",
+      "annee": 2015,
+      "editeur": "CRC Press",
+      "pertinence": "Étude approfondie coalescence et stabilité émulsions alimentaires, cinétique de séparation, taille gouttelettes"
+    },
+    {
+      "auteur": "AgroParisTech Formation Continue",
+      "titre": "Les émulsions alimentaires : enjeux de reformulation",
+      "annee": 2023,
+      "url": "formation-continue.agroparistech.fr",
+      "pertinence": "Phénomènes crémage, coalescence et stabilité physique émulsions alimentaires"
+    },
+    {
+      "auteur": "P. Walstra",
+      "titre": "Physical Chemistry of Foods",
+      "annee": 2003,
+      "editeur": "Marcel Dekker",
+      "pertinence": "Rhéologie vinaigrettes, viscosité et comportement émulsions temporaires"
+    }
+  ],
+  "notes_techniques": {
+    "cinetique_stokes": "La vitesse de séparation suit v ∝ r² (carré du rayon). Gouttelettes 50 μm se séparent 16× plus vite que celles de 12.5 μm. Fouettage énergique initial crucial pour minimiser taille moyenne et retarder coalescence.",
+    "taille_gouttelettes": "Vinaigrette 15-50 μm vs Mayonnaise 2-10 μm. Différence due à: (1) énergie de cisaillement moindre (fouet manuel vs robot), (2) absence émulsifiant fort empêchant fractionnement fin, (3) tension superficielle élevée favorisant gouttelettes plus grosses.",
+    "technique_fouettage": "Pour émulsion optimale: (1) Fouetter vinaigre + moutarde ensemble d'abord pour disperser mucilages, (2) Ajouter huile en filet mince continu en fouettant énergiquement, (3) Utiliser récipient large pour maximiser cisaillement, (4) Alternative: shaker fermé avec agitation vigoureuse 30-60s.",
+    "re_emulsification": "Émulsion cassée se régénère par simple agitation - preuve de nature temporaire. Contrairement à mayonnaise cassée (nécessite reconstitution complète), vinaigrette tolère séparation/ré-émulsification multiples sans dégradation.",
+    "effet_tyndall": "Émulsion fraîche présente aspect opalescent/blanchâtre par diffusion Tyndall (longueur d'onde bleue plus diffusée). Indicateur visuel de présence gouttelettes colloïdales 15-50 μm. Disparition de l'opalescence indique séparation complète des phases.",
+    "conservation_optimale": "Vinaigrette simple (huile+vinaigre+moutarde): 5-7 jours réfrigérateur. pH acide (2-3) inhibe micro-organismes. Avec ingrédients frais (échalote, herbes): 2-3 jours maximum. Température élevée accélère séparation ET dégradation microbiologique.",
+    "temperature_impact": "Viscosité diminue avec température (loi d'Arrhenius). À 30°C vs 20°C, viscosité réduite de 30-40% accélère crémage proportionnellement. Servir à température ambiante mais conserver au froid.",
+    "ratio_optimisation": "Ratio 1:3 est optimal pour texture et stabilité. Ratio 1:2 donne vinaigrette plus acide et moins stable (gouttelettes trop serrées). Ratio 1:4 approche inversion de phase (instabilité maximale)."
+  },
+  "tags": [
+    "émulsion temporaire",
+    "coalescence",
+    "loi de Stokes",
+    "crémage",
+    "mucilages",
+    "polysaccharides",
+    "tension superficielle",
+    "viscosité",
+    "cinétique séparation",
+    "effet Tyndall",
+    "huile dans eau",
+    "émulsion instable",
+    "ré-émulsification",
+    "rhéologie alimentaire"
+  ],
+  "mots_cles_recherche": [
+    "vinaigrette science",
+    "émulsion temporaire vs stable",
+    "coalescence gouttelettes huile",
+    "loi Stokes cuisine",
+    "moutarde émulsifiant",
+    "ratio huile vinaigre",
+    "crémage émulsion",
+    "taille gouttelettes vinaigrette mayonnaise",
+    "mucilages polysaccharides",
+    "viscosité rhéologie sauce"
+  ]
 }
