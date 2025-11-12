@@ -1,0 +1,3 @@
+# Test global correction lint-guard
+Ce commit sert à déclencher le workflow lint-guard après correction de tous les fichiers YAML.
+(Cette étape doit afficher le check lint-guard '✅' sans erreurs d'indentation !)
