@@ -8,6 +8,19 @@ Ce dossier contient les **30 fiches recettes** du livre, organisées selon une a
 
 ---
 
+## ⚖️ Comparatif Mayonnaises Chapitre 1 (Option B)
+
+| Aspect               | Mayonnaise Stable                          | Mayonnaise Émulsion                             |
+|----------------------|--------------------------------------------|------------------------------------------------|
+| Focus principal      | Science fondamentale, physico-chimie       | Applications culinaires, créativité, variantes  |
+| Objectif pédagogique | Comprendre le mécanisme                    | Maîtriser variations, troubleshooting           |
+| Ton                  | Rigoureux, méthodique                      | Accessible, inspirant, orienté solutions        |
+| Public cible         | Curieux de science, amateurs procéduraux   | Cuisiniers créatifs, recherche alternatives     |
+| Contenus clés        | Ratios, stabilisation, analyse d'échecs    | Usages innovants, troubleshooting, fermentations|
+| Encarts spécifiques  | "Science en Bref", tableaux de stabilité  | "Créez votre recette", "Usages créatifs"      |
+
+---
+
 ## 🏗️ Structure par Recette
 
 Chaque recette suit cette architecture :
@@ -381,6 +394,6 @@ Pour toute question ou problème :
 ---
 
 **Version** : 1.0  
-**Date** : 2025-11-10  
+**Date** : 2025-11-12 (Option B Mayonnaises validée)  
 **Auteur** : Chef de Projet IA  
 **Statut** : ✅ Infrastructure opérationnelle
