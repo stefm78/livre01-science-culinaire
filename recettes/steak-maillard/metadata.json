@@ -49,6 +49,109 @@
       }
     ]
   },
+  "variantes": [
+    {
+      "nom": "Version Végétale",
+      "description": "Tofu ferme ou champignons portobello avec réaction de Maillard végétale",
+      "ingredients_specifiques": {
+        "tofu_ferme": "200g (pressé 30 min)",
+        "portobello": "2 gros champignons (150g chacun)",
+        "huile_vegetale": "15 ml"
+      },
+      "temps_saisie": {
+        "tofu": "2 min/face",
+        "portobello": "3 min/face"
+      },
+      "temperature_poele": "200°C",
+      "note_scientifique": "Sucres réducteurs + acides aminés végétaux → Maillard efficace"
+    },
+    {
+      "nom": "Boost Umami Maximum",
+      "description": "Amplification des saveurs par ajout de composés umami",
+      "ingredients_specifiques": {
+        "worcestershire": "10 ml (badigeonner avant saisie)",
+        "parmesan": "20g râpé (saupoudrer après repos)",
+        "sauce_soja_alternative": "5 ml"
+      },
+      "timing": {
+        "worcestershire": "avant cuisson",
+        "parmesan": "après repos"
+      },
+      "teneur_glutamate": {
+        "parmesan": "1200 mg/100g",
+        "worcestershire": "200-400 mg/100g"
+      },
+      "note_scientifique": "Glutamate amplifie saveur viande via récepteurs gustatifs umami"
+    },
+    {
+      "nom": "Aromates Alternatifs",
+      "description": "Variations aromatiques avec herbes à composés terpéniques",
+      "ingredients_specifiques": {
+        "romarin": "2 branches (notes résineuses)",
+        "sauge": "6-8 feuilles (profil terreux)"
+      },
+      "note_scientifique": "Composés terpéniques complémentaires aux molécules Maillard"
+    }
+  ],
+  "ratios_scientifiques": {
+    "temperatures_cuisson": {
+      "bleu": {
+        "temperature_coeur": "50-52°C",
+        "temps_face": "60-75 sec",
+        "etat_proteines": "Dénaturation minimale myoglobine, protéines intactes"
+      },
+      "saignant": {
+        "temperature_coeur": "52-55°C",
+        "temps_face": "90 sec",
+        "etat_proteines": "Dénaturation partielle actine (55°C), myosine stable",
+        "recommandation": true
+      },
+      "a_point": {
+        "temperature_coeur": "55-60°C",
+        "temps_face": "2 min",
+        "etat_proteines": "Dénaturation complète actine, myosine partielle (60°C)"
+      },
+      "bien_cuit": {
+        "temperature_coeur": "65-70°C",
+        "temps_face": "3-4 min",
+        "etat_proteines": "Dénaturation complète actine + myosine, perte jus maximale",
+        "avertissement": "Perte qualité gustative"
+      }
+    },
+    "denaturation_proteines": {
+      "myoglobine": {
+        "temperature": "55-65°C",
+        "effet": "Changement couleur rouge → rose → gris-brun",
+        "role": "Indicateur visuel cuisson",
+        "type": "Pigment rouge"
+      },
+      "actine": {
+        "temperature": "55-60°C",
+        "effet": "Raccourcissement fibres, expulsion jus",
+        "role": "Transition texture tendre → ferme",
+        "type": "Protéine fibre musculaire"
+      },
+      "myosine": {
+        "temperature": "60-65°C",
+        "effet": "Contraction sarcomère, expulsion eau maximale",
+        "role": "Assèchement viande bien cuite",
+        "type": "Protéine fibre musculaire"
+      },
+      "collagene": {
+        "temperature": "60-70°C",
+        "temperature_gelatinisation": "160°C+",
+        "effet": "Conversion gélatine (cuissons longues uniquement)",
+        "role": "Non concerné cuisson rapide steak",
+        "type": "Tissu conjonctif"
+      }
+    }
+  },
+  "notes_techniques": [
+    "Utiliser un thermomètre à sonde pour précision maximale",
+    "Planter la sonde horizontalement au centre de la partie la plus épaisse",
+    "Retirer du feu 2-3°C avant température cible (cuisson résiduelle)",
+    "Temps de repos obligatoire : 3-5 minutes pour redistribution des jus"
+  ],
   "images": {
     "hero": {
       "fichier": "images/hero.png",
@@ -96,29 +199,13 @@
     "This, Hervé - La Cuisine Moléculaire (1995), Chapitre sur la réaction de Maillard",
     "Myhrvold, Nathan - Modernist Cuisine (2011), Volume 3: Animals and Plants, Maillard Reaction section",
     "Blumenthal, Heston - The Fat Duck Cookbook (2008), Techniques de cuisson des viandes",
-    {
-      "titre": "Effects of Searing Cooking on Sensory and Physicochemical Properties of Beef Steak",
-      "auteurs": "Yoo, Ji Hyun et al.",
-      "journal": "Korean Journal for Food Science of Animal Resources (Food Science of Animal Resources)",
-      "annee": 2020,
-      "doi": "10.5851/kosfa.2020.e1",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6941144/",
-      "pertinence": "Démontre que la cuisson à 250°C (searing) augmente significativement les produits de Maillard et réduit les sucres réducteurs comparé à une cuisson au four à 180°C, améliorant la saveur grillée du steak."
-    },
-    {
-      "titre": "Cooking Surface Temperatures, Steak Thickness, and Quality Grade Affect Flavor and Volatile Aroma Compound Profiles of Grilled Beef Steaks",
-      "auteurs": "Wall, Kayley R. et al.",
-      "journal": "Meat Science (Iowa State University Digital Press - Animal Industry Report)",
-      "annee": 2019,
-      "doi": "10.31274/ans_air-180814-1312",
-      "url": "https://iastatedigitalpress.com/amrc/article/id/1238/",
-      "pertinence": "Quantifie l'impact de températures de grill (177°C vs 232°C) sur la formation de pyrazines et composés de Maillard, confirmant qu'une température élevée et temps de cuisson prolongé développent les arômes grillés caractéristiques."
-    }
+    "Tornberg, Eva (2005) - Effects of heat on meat proteins: Implications on structure and quality of meat products",
+    "Baldwin, Douglas - Sous Vide Cooking: A practical guide to precise cooking times and temperatures"
   ],
   "version": "1.1",
   "date_creation": "2025-11-10",
   "date_modification": "2025-11-12",
   "auteur": "Rédacteur-Scientifique IA",
   "statut": "production",
-  "notes_internes": "Recette pilote migrée depuis sources/steak-maillard.md. Contenu enrichi avec détails scientifiques supplémentaires. Sources académiques complétées (Issue #32 - P2.1). Images à générer par Créatif-Designer (T1.3). Prête pour validation."
+  "notes_internes": "Recette enrichie avec quantités précises pour variantes, températures à cœur détaillées, et justifications scientifiques dénaturation protéines. Complète Issue #34. Images à générer par Créatif-Designer (T1.3)."
 }

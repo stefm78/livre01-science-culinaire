@@ -42,13 +42,79 @@ Préparation : 10 min | Cuisson : 5 min | Difficulté : ●○○ | Pour 2 perso
 
 ![Photo finale](images/final.png)
 
+---
+
+## 🌡️ **DEGRÉS DE CUISSON ET TEMPÉRATURES À CŒUR**
+
+La maîtrise de la température interne est essentielle pour obtenir la cuisson désirée. La dénaturation progressive des protéines musculaires transforme la texture et la couleur de la viande.
+
+| Cuisson | Température à Cœur | Temps/Face | Science | Texture |
+|---------|-------------------|------------|---------|----------|
+| **Bleu** | 50-52°C | 60-75 sec | Dénaturation minimale de la myoglobine. Les protéines myofibrillaires restent intactes. Rouge vif conservé au centre. | Très tendre, fibres intactes, jus abondant |
+| **Saignant** ⭐ | 52-55°C | 90 sec | Dénaturation partielle de l'actine (début à 55°C), myosine stable. Myoglobine partiellement dénaturée donnant la couleur rose-rouge caractéristique. | Tendre, juteux, centre rosé |
+| **À Point** | 55-60°C | 2 min | Dénaturation complète de l'actine, myosine partiellement dénaturée (60°C). Myoglobine transformée en hémichrome (rose-gris). | Ferme mais juteux, centre rosé pâle |
+| **Bien Cuit** | 65-70°C | 3-4 min | Dénaturation complète des protéines contractiles (actine + myosine). Expulsion maximale des jus. Myoglobine entièrement transformée (gris-brun). | Ferme, sec, gris-brun uniforme ⚠️ |
+
+⭐ **Cuisson recommandée** : Le saignant offre le meilleur équilibre entre développement des saveurs Maillard en surface et conservation de la tendreté.
+
+**Note importante** : Utilisez un thermomètre à sonde pour garantir la précision. Plantez-le au centre de la partie la plus épaisse du steak, horizontalement.
+
+---
+
 🔄 **VARIANTES**
-- **Version végétale** : Utiliser un steak de tofu extra-ferme pressé et mariné (sauce soja + huile de sésame), ou champignons portobello épais. La réaction de Maillard fonctionne aussi sur les protéines végétales.
-- **Boost umami maximum** : Ajouter 1 cuillère à café de sauce Worcestershire ou 10 g de parmesan finement râpé dans le beurre en fin de cuisson pour amplifier les saveurs umami naturelles.
-- **Aromates alternatifs** : Remplacer le thym par du romarin ou de la sauge pour des profils aromatiques différents mais tout aussi complémentaires.
+
+**Version Végétale (Tofu/Portobello)**
+- **Tofu ferme** : 200g (même poids que steak), pressé 30 minutes entre deux torchons
+- **Portobello** : 2 gros champignons (150g chacun), tiges retirées
+- **Huile végétale** : 15 ml (remplace les 10g de beurre)
+- **Temps de saisie** : Tofu 2 min/face, Portobello 3 min/face
+- **Température poêle** : 200°C (identique à la version viande)
+- **Note scientifique** : Les protéines végétales (acides aminés) du tofu et les sucres réducteurs des champignons permettent une réaction de Maillard efficace, créant une croûte dorée similaire à celle de la viande.
+
+**Boost Umami Maximum (Worcestershire/Parmesan)**
+- **Sauce Worcestershire** : 10 ml (badigeonner avant saisie)
+- **Parmesan** : 20g râpé finement (saupoudrer après repos)
+- **Alternative** : Sauce soja 5 ml (glutamate naturel)
+- **Timing** : Worcestershire avant cuisson pour créer une couche aromatique, Parmesan après repos pour préserver ses arômes
+- **Justification scientifique** : Le parmesan contient 1200 mg de glutamate libre/100g, la sauce Worcestershire environ 200-400 mg/100g. Ces composés umami amplifient naturellement la saveur de la viande en stimulant les récepteurs gustatifs spécifiques.
+
+**Aromates Alternatifs**
+- **Romarin** : 2 branches (remplace le thym) pour des notes résineuses et camphrées
+- **Sauge** : 6-8 feuilles fraîches pour un profil terreux et légèrement amer
+- **Note** : Tous ces aromates contiennent des composés terpéniques qui se marient avec les molécules créées par Maillard
+
+---
 
 💡 **ASTUCE SCIENCE**
 Le secret d'une croûte Maillard parfaite : **sécher méticuleusement la surface de la viande** avec du papier absorbant avant la cuisson. L'eau en surface doit d'abord s'évaporer avant que la température puisse monter au-dessus de 100 °C. Une surface humide retarde considérablement la réaction de Maillard et produit une viande bouillie en surface plutôt qu'une croûte dorée et savoureuse.
+
+---
+
+### 🔬 **DÉNATURATION DES PROTÉINES SELON LA TEMPÉRATURE**
+
+La cuisson du steak implique la transformation de plusieurs protéines clés, chacune se dénaturant à des températures spécifiques :
+
+**Myoglobine** (pigment rouge)
+- **Température de dénaturation** : 55-65°C
+- **Effet** : Changement de couleur rouge → rose → gris-brun
+- **Pertinence** : Principal indicateur visuel du degré de cuisson
+
+**Actine** (protéine de la fibre musculaire)
+- **Température de dénaturation** : 55-60°C
+- **Effet** : Raccourcissement des fibres, début de l'expulsion des jus
+- **Pertinence** : Transition de la texture tendre vers ferme
+
+**Myosine** (protéine de la fibre musculaire)
+- **Température de dénaturation** : 60-65°C
+- **Effet** : Contraction maximale du sarcomère, expulsion importante d'eau
+- **Pertinence** : Responsable de l'assèchement du steak bien cuit
+
+**Collagène** (tissu conjonctif)
+- **Température de dénaturation** : 60-70°C (conversion en gélatine à partir de 160°C)
+- **Effet** : Dissolution progressive en gélatine lors de cuissons longues uniquement
+- **Pertinence** : Non concerné par la cuisson rapide du steak (temps insuffisant)
+
+Cette compréhension permet de choisir consciemment la température cible selon la texture désirée.
 
 ---
 
