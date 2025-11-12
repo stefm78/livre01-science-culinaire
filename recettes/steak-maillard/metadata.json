@@ -11,85 +11,40 @@
     "temps_cuisson": 5,
     "temps_repos": 30,
     "portions": 2,
-    "tags": [
-      "boeuf",
-      "viande",
-      "maillard",
-      "cuisson-haute-temperature",
-      "proteine",
-      "facile",
-      "rapide"
-    ]
+    "tags": ["boeuf","viande","maillard","cuisson-haute-temperature","proteine","facile","rapide"]
   },
   "science": {
     "concept_principal": "Réaction de Maillard",
     "temperature": "140-180°C",
     "mecanisme": "Réaction chimique entre sucres réducteurs et acides aminés produisant des composés aromatiques et une croûte dorée",
-    "schemas_associes": [
-      "01-reaction-maillard"
-    ],
+    "schemas_associes": ["01-reaction-maillard"],
     "associations": [
-      {
-        "ingredient_a": "Bœuf",
-        "ingredient_b": "Beurre",
-        "molecule": "Lactones",
-        "effet": "Notes beurrées et toastées"
-      },
-      {
-        "ingredient_a": "Bœuf",
-        "ingredient_b": "Champignons",
-        "molecule": "Glutamate",
-        "effet": "Synergie umami naturelle"
-      },
-      {
-        "ingredient_a": "Bœuf",
-        "ingredient_b": "Thym",
-        "molecule": "Composés terpéniques",
-        "effet": "Complexité aromatique herbacée"
-      }
+      {"ingredient_a": "Bœuf","ingredient_b": "Beurre","molecule": "Lactones","effet": "Notes beurrées et toastées"},
+      {"ingredient_a": "Bœuf","ingredient_b": "Champignons","molecule": "Glutamate","effet": "Synergie umami naturelle"},
+      {"ingredient_a": "Bœuf","ingredient_b": "Thym","molecule": "Composés terpéniques","effet": "Complexité aromatique herbacée"}
     ]
   },
   "variantes": [
     {
       "nom": "Version Végétale",
       "description": "Tofu ferme ou champignons portobello avec réaction de Maillard végétale",
-      "ingredients_specifiques": {
-        "tofu_ferme": "200g (pressé 30 min)",
-        "portobello": "2 gros champignons (150g chacun)",
-        "huile_vegetale": "15 ml"
-      },
-      "temps_saisie": {
-        "tofu": "2 min/face",
-        "portobello": "3 min/face"
-      },
+      "ingredients_specifiques": {"tofu_ferme": "200g (pressé 30 min)","portobello": "2 gros champignons (150g chacun)","huile_vegetale": "15 ml"},
+      "temps_saisie": {"tofu": "2 min/face","portobello": "3 min/face"},
       "temperature_poele": "200°C",
       "note_scientifique": "Sucres réducteurs + acides aminés végétaux → Maillard efficace"
     },
     {
       "nom": "Boost Umami Maximum",
       "description": "Amplification des saveurs par ajout de composés umami",
-      "ingredients_specifiques": {
-        "worcestershire": "10 ml (badigeonner avant saisie)",
-        "parmesan": "20g râpé (saupoudrer après repos)",
-        "sauce_soja_alternative": "5 ml"
-      },
-      "timing": {
-        "worcestershire": "avant cuisson",
-        "parmesan": "après repos"
-      },
-      "teneur_glutamate": {
-        "parmesan": "1200 mg/100g",
-        "worcestershire": "200-400 mg/100g"
-      },
-      "note_scientifique": "Glutamate amplifie saveur viande via récepteurs gustatifs umami"
+      "ingredients_specifiques": {"worcestershire": "10 ml (badigeonner avant saisie)","parmesan": "20g râpé (saupoudrer après repos)","sauce_soja_alternative": "5 ml"},
+      "timing": {"worcestershire": "avant cuisson","parmesan": "après repos"},
+      "teneur_glutamate": {"parmesan": "1200 mg/100g","worcestershire": "200-400 mg/100g (fermentation)"},
+      "note_scientifique": "Glutamate naturel issu de la fermentation (Worcestershire) ou maturation (parmesan) amplifie la saveur via récepteurs umami"
     },
     {
       "nom": "Aromates Alternatifs",
       "description": "Variations aromatiques avec herbes à composés terpéniques",
-      "ingredients_specifiques": {
-        "romarin": "2 branches (notes résineuses)",
-        "sauge": "6-8 feuilles (profil terreux)"
-      },
+      "ingredients_specifiques": {"romarin": "2 branches (notes résineuses)","sauge": "6-8 feuilles (profil terreux)"},
       "note_scientifique": "Composés terpéniques complémentaires aux molécules Maillard"
     }
   ],
@@ -103,18 +58,18 @@
       "saignant": {
         "temperature_coeur": "52-55°C",
         "temps_face": "90 sec",
-        "etat_proteines": "Dénaturation partielle actine (55°C), myosine stable",
+        "etat_proteines": "Dénaturation partielle myosine (40-60°C, pic 55°C), myoglobine partiellement altérée",
         "recommandation": true
       },
       "a_point": {
         "temperature_coeur": "55-60°C",
         "temps_face": "2 min",
-        "etat_proteines": "Dénaturation complète actine, myosine partielle (60°C)"
+        "etat_proteines": "Dénaturation progressive actine (66-80°C), myoglobine transformée (rose-gris)"
       },
       "bien_cuit": {
         "temperature_coeur": "65-70°C",
         "temps_face": "3-4 min",
-        "etat_proteines": "Dénaturation complète actine + myosine, perte jus maximale",
+        "etat_proteines": "Dénaturation quasi-totale actine (66-80°C) + myosine, perte jus maximale",
         "avertissement": "Perte qualité gustative"
       }
     },
@@ -125,16 +80,16 @@
         "role": "Indicateur visuel cuisson",
         "type": "Pigment rouge"
       },
-      "actine": {
-        "temperature": "55-60°C",
-        "effet": "Raccourcissement fibres, expulsion jus",
-        "role": "Transition texture tendre → ferme",
+      "myosine": {
+        "temperature": "40-60°C",
+        "effet": "Contraction musculaire progressive, rôle central en texture basse température",
+        "role": "Tendreté initiale du steak",
         "type": "Protéine fibre musculaire"
       },
-      "myosine": {
-        "temperature": "60-65°C",
-        "effet": "Contraction sarcomère, expulsion eau maximale",
-        "role": "Assèchement viande bien cuite",
+      "actine": {
+        "temperature": "66-80°C",
+        "effet": "Raccourcissement fort des fibres, perte de jus et texture plus ferme",
+        "role": "Ferme, typique après 70°C bien cuit",
         "type": "Protéine fibre musculaire"
       },
       "collagene": {
@@ -200,12 +155,18 @@
     "Myhrvold, Nathan - Modernist Cuisine (2011), Volume 3: Animals and Plants, Maillard Reaction section",
     "Blumenthal, Heston - The Fat Duck Cookbook (2008), Techniques de cuisson des viandes",
     "Tornberg, Eva (2005) - Effects of heat on meat proteins: Implications on structure and quality of meat products",
-    "Baldwin, Douglas - Sous Vide Cooking: A practical guide to precise cooking times and temperatures"
+    "Baldwin, Douglas - Sous Vide Cooking: A practical guide to precise cooking times and temperatures",
+    "ScienceDirect - Effects of heat on actin & myosin denaturation in meat proteins (2013)",
+    "OUP - The role of actin and myosin denaturation on meat texture (2022)",
+    "Britannica - Meat cookery: Protein denaturation",
+    "Info.newbiotic - Glutamate content in foods (2020)",
+    "Wikipedia - Glutamate flavoring: fermentation, sources, physiology",
+    "PMC - Maillard reaction in plant proteins (2023)"
   ],
-  "version": "1.1",
+  "version": "1.2",
   "date_creation": "2025-11-10",
   "date_modification": "2025-11-12",
   "auteur": "Rédacteur-Scientifique IA",
   "statut": "production",
-  "notes_internes": "Recette enrichie avec quantités précises pour variantes, températures à cœur détaillées, et justifications scientifiques dénaturation protéines. Complète Issue #34. Images à générer par Créatif-Designer (T1.3)."
+  "notes_internes": "Recette enrichie, précision scientifique conforme Issue #34."
 }
