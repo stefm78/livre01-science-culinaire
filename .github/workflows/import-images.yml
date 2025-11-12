@@ -27,10 +27,10 @@ jobs:
       - name: Extract zip archives if present
         run: |
           for zipfile in _inbox/images/*.zip; do
-            if [ -f "$zipfile" ]; then
-              unzip -o "$zipfile" -d _inbox/images/
-              rm "$zipfile"
-            fi
+          if [ -f "$zipfile" ]; then
+            unzip -o "$zipfile" -d _inbox/images/
+            rm "$zipfile"
+          fi
           done
       - name: Run import script
         run: python import_batch_images.py
