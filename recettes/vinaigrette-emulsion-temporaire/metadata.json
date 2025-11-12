@@ -16,7 +16,37 @@
   "sources": [
     "McGee - On Food and Cooking - p.632-634",
     "Ruhlman - Ratio - p.156-160",
-    "This - Les Secrets de la Casserole - p.234-237"
+    "This - Les Secrets de la Casserole - p.234-237",
+    {
+      "titre": "Some Qualitative and Rheological Properties of Virgin Olive Oil-Apple Vinegar Salad Dressing Stabilized With Xanthan Gum",
+      "auteurs": "Abedinzadeh, Solmaz et al.",
+      "journal": "Advanced Pharmaceutical Bulletin",
+      "annee": 2016,
+      "doi": "10.15171/apb.2016.074",
+      "url": "https://apb.tbzmed.ac.ir/Article/apb-11556",
+      "pertinence": "Analyse le comportement rhéologique pseudoplastique des vinaigrettes huile-vinaigre et démontre que la viscosité retarde la coalescence des gouttelettes d'huile dans les émulsions temporaires."
+    },
+    {
+      "titre": "Coalescence kinetics of high internal phase emulsions observed by microfluidics",
+      "auteurs": "Williams, Yvonne et al.",
+      "journal": "Journal of Food Engineering",
+      "annee": 2024,
+      "doi": "10.1016/j.jfoodeng.2023.111739",
+      "url": "https://research.wur.nl/en/publications/coalescence-kinetics-of-high-internal-phase-emulsions-observed-by",
+      "pertinence": "Quantifie la cinétique de coalescence dans les émulsions alimentaires en fonction de la vitesse de cisaillement et démontre le rôle de la compression droplet-droplet dans la déstabilisation des émulsions temporaires."
+    },
+    {
+      "titre": "Rheological and structural evaluations of commercial Italian salad dressings",
+      "auteurs": "Perrechil, Fabiana Andreia et al.",
+      "journal": "Food Science and Technology (Ciência e Tecnologia de Alimentos)",
+      "annee": 2010,
+      "doi": "10.1590/S0101-20612010000600030",
+      "url": "https://scielo.br/j/cta/a/BqVSV8TtNcKvTYPqMqWkz7D/",
+      "pertinence": "Établit la relation entre taille des gouttelettes, comportement rhéologique thixotrope et stabilité des vinaigrettes commerciales, démontrant que les petites gouttelettes et viscosité élevée empêchent la coalescence."
+    }
   ],
-  "schema_associe": "sources/schemas/05-emulsion.svg"
+  "schema_associe": "sources/schemas/05-emulsion.svg",
+  "version": "1.1",
+  "date_modification": "2025-11-12",
+  "notes_internes": "Sources académiques complétées (Issue #32 - P2.1) avec 3 articles peer-reviewed couvrant coalescence, rhéologie et stabilité des émulsions temporaires."
 }
