@@ -1,0 +1,3 @@
+# Test lint guard workflow
+Ce commit déclenche volontairement le CI pour valider la correction du workflow !
+(Doit afficher le check "⚙️ Lint Guard" dans Actions)
