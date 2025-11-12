@@ -50,10 +50,10 @@ La maîtrise de la température interne est essentielle pour obtenir la cuisson 
 
 | Cuisson | Température à Cœur | Temps/Face | Science | Texture |
 |---------|-------------------|------------|---------|----------|
-| **Bleu** | 50-52°C | 60-75 sec | Dénaturation minimale de la myoglobine. Les protéines myofibrillaires restent intactes. Rouge vif conservé au centre. | Très tendre, fibres intactes, jus abondant |
-| **Saignant** ⭐ | 52-55°C | 90 sec | Dénaturation partielle de l'actine (début à 55°C), myosine stable. Myoglobine partiellement dénaturée donnant la couleur rose-rouge caractéristique. | Tendre, juteux, centre rosé |
-| **À Point** | 55-60°C | 2 min | Dénaturation complète de l'actine, myosine partiellement dénaturée (60°C). Myoglobine transformée en hémichrome (rose-gris). | Ferme mais juteux, centre rosé pâle |
-| **Bien Cuit** | 65-70°C | 3-4 min | Dénaturation complète des protéines contractiles (actine + myosine). Expulsion maximale des jus. Myoglobine entièrement transformée (gris-brun). | Ferme, sec, gris-brun uniforme ⚠️ |
+| **Bleu** | 50-52°C | 60-75 sec | Dénaturation minimale de la myoglobine, protéines intactes. | Très tendre, fibres intactes, jus abondant |
+| **Saignant** ⭐ | 52-55°C | 90 sec | Dénaturation partielle de la myosine (dès 40-60°C, pic 55°C), myoglobine partiellement dénaturée donnant la couleur rose-rouge caractéristique. | Tendre, juteux, centre rosé |
+| **À Point** | 55-60°C | 2 min | Dénaturation progressive de l'actine (66-80°C), myoglobine transformée en hémichrome (rose-gris). | Ferme mais juteux, centre rosé pâle |
+| **Bien Cuit** | 65-70°C | 3-4 min | Dénaturation quasi-totale actine (66-80°C) + myosine, expulsion maximale des jus. Myoglobine entièrement transformée (gris-brun). | Ferme, sec, gris-brun uniforme ⚠️ |
 
 ⭐ **Cuisson recommandée** : Le saignant offre le meilleur équilibre entre développement des saveurs Maillard en surface et conservation de la tendreté.
 
@@ -72,11 +72,11 @@ La maîtrise de la température interne est essentielle pour obtenir la cuisson 
 - **Note scientifique** : Les protéines végétales (acides aminés) du tofu et les sucres réducteurs des champignons permettent une réaction de Maillard efficace, créant une croûte dorée similaire à celle de la viande.
 
 **Boost Umami Maximum (Worcestershire/Parmesan)**
-- **Sauce Worcestershire** : 10 ml (badigeonner avant saisie)
+- **Sauce Worcestershire** : 10 ml (badigeonner avant saisie) [richesse en glutamate naturellement élevée grâce à la fermentation]
 - **Parmesan** : 20g râpé finement (saupoudrer après repos)
 - **Alternative** : Sauce soja 5 ml (glutamate naturel)
 - **Timing** : Worcestershire avant cuisson pour créer une couche aromatique, Parmesan après repos pour préserver ses arômes
-- **Justification scientifique** : Le parmesan contient 1200 mg de glutamate libre/100g, la sauce Worcestershire environ 200-400 mg/100g. Ces composés umami amplifient naturellement la saveur de la viande en stimulant les récepteurs gustatifs spécifiques.
+- **Justification scientifique** : Le parmesan contient 1200 mg de glutamate libre/100g, la sauce Worcestershire 200-400 mg/100g environ (valeurs issues de la fermentation du produit). Ces composés umami amplifient la saveur de la viande en stimulant les récepteurs gustatifs spécifiques.
 
 **Aromates Alternatifs**
 - **Romarin** : 2 branches (remplace le thym) pour des notes résineuses et camphrées
@@ -92,27 +92,27 @@ Le secret d'une croûte Maillard parfaite : **sécher méticuleusement la surfac
 
 ### 🔬 **DÉNATURATION DES PROTÉINES SELON LA TEMPÉRATURE**
 
-La cuisson du steak implique la transformation de plusieurs protéines clés, chacune se dénaturant à des températures spécifiques :
+La cuisson du steak implique la transformation de plusieurs protéines clés, chacune se dénaturant à des températures spécifiques, selon la littérature scientifique récente :
 
 **Myoglobine** (pigment rouge)
-- **Température de dénaturation** : 55-65°C
-- **Effet** : Changement de couleur rouge → rose → gris-brun
-- **Pertinence** : Principal indicateur visuel du degré de cuisson
+- **Température de dénaturation** : 55-65°C
+- **Effet** : Changement de couleur rouge → rose → gris-brun
+- **Pertinence** : Principal indicateur visuel du degré de cuisson
 
-**Actine** (protéine de la fibre musculaire)
-- **Température de dénaturation** : 55-60°C
-- **Effet** : Raccourcissement des fibres, début de l'expulsion des jus
-- **Pertinence** : Transition de la texture tendre vers ferme
+**Myosine** (protéine fibre musculaire)
+- **Température de dénaturation** : 40-60°C (dès 40°C dénaturation progressive, pic 55°C)
+- **Effet** : Début contraction musculaire, expulsion eau progressive
+- **Pertinence** : Responsable de la tendreté des cuissons à basse température
 
-**Myosine** (protéine de la fibre musculaire)
-- **Température de dénaturation** : 60-65°C
-- **Effet** : Contraction maximale du sarcomère, expulsion importante d'eau
-- **Pertinence** : Responsable de l'assèchement du steak bien cuit
+**Actine** (protéine fibre musculaire)
+- **Température de dénaturation** : 66-80°C
+- **Effet** : Raccourcissement fort des fibres, perte majeure de jus et fermeté accrue
+- **Pertinence** : Texture très ferme, typique du bien cuit, effet visible après 70°C
 
 **Collagène** (tissu conjonctif)
-- **Température de dénaturation** : 60-70°C (conversion en gélatine à partir de 160°C)
-- **Effet** : Dissolution progressive en gélatine lors de cuissons longues uniquement
-- **Pertinence** : Non concerné par la cuisson rapide du steak (temps insuffisant)
+- **Température de dénaturation** : 60-70°C (conversion lente en gélatine, 160°C+ pour cuisson longue)
+- **Effet** : Dissolution en gélatine (cuissons longues uniquement)
+- **Pertinence** : Peu d’effet pour cuisson rapide steak
 
 Cette compréhension permet de choisir consciemment la température cible selon la texture désirée.
 
@@ -120,6 +120,6 @@ Cette compréhension permet de choisir consciemment la température cible selon 
 
 ## 📚 Schémas Scientifiques
 
-Pour mieux comprendre la réaction de Maillard :
+Pour mieux comprendre la réaction de Maillard :
 
 ![Schéma Réaction de Maillard](../../sources/schemas/01-reaction-maillard.svg)
