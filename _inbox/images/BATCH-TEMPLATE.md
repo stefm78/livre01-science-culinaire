@@ -72,6 +72,8 @@ Crée un fichier texte nommé **manifest-{{BATCH_ID}}.json** avec ce contenu EXA
 
 **Le ZIP doit contenir UNIQUEMENT les fichiers, SANS aucun dossier ou hiérarchie.**
 
+**Important : Le ZIP final doit contenir non seulement le fichier manifest, mais aussi TOUTES LES IMAGES générées pour le batch. Vérifie que chaque fichier image et le manifest est bien présent dans le ZIP (pas uniquement le manifest).**
+
 ### Code Python à exécuter
 
 ```python
@@ -173,5 +175,6 @@ Ce ZIP contient :
 - [ ] **ZIP créé avec code Python fourni ci-dessus**
 - [ ] **Vérification ZIP exécutée : aucun "/" dans les noms de fichiers**
 - [ ] **Structure du ZIP validée : fichiers à plat, pas de dossier**
+- [ ] **Le ZIP doit contenir TOUTES LES IMAGES générées ET le manifest, pas uniquement le manifest !**
 
 **Confirme-moi quand le ZIP est prêt à télécharger avec la sortie de la vérification !**
