@@ -1,0 +1,34 @@
+{
+  "batch_id": "batch02-20251112",
+  "created_at": "2025-11-12T07:43:26.839480Z",
+  "images": [
+    {
+      "source_file": "hero.png",
+      "target_path": "recettes/vinaigrette-equilibree/images/hero.png",
+      "recipe": "vinaigrette-equilibree",
+      "type": "hero"
+    },
+    {
+      "source_file": "final.png",
+      "target_path": "recettes/vinaigrette-equilibree/images/final.png",
+      "recipe": "vinaigrette-equilibree",
+      "type": "final"
+    },
+    {
+      "source_file": "process-01.png",
+      "target_path": "recettes/vinaigrette-equilibree/images/process-01.png",
+      "recipe": "vinaigrette-equilibree",
+      "type": "process"
+    },
+    {
+      "source_file": "detail-ratios.png",
+      "target_path": "recettes/vinaigrette-equilibree/images/detail-ratios.png",
+      "recipe": "vinaigrette-equilibree",
+      "type": "detail"
+    }
+  ],
+  "status": "processed",
+  "total_images": 4,
+  "processed_at": "2025-11-12T07:51:55.344553",
+  "processed_count": 4
+}
