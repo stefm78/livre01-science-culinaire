@@ -95,12 +95,30 @@
     "McGee, Harold - On Food and Cooking: The Science and Lore of the Kitchen (2004), Chapter 3: Meat, pp. 148-167",
     "This, Hervé - La Cuisine Moléculaire (1995), Chapitre sur la réaction de Maillard",
     "Myhrvold, Nathan - Modernist Cuisine (2011), Volume 3: Animals and Plants, Maillard Reaction section",
-    "Blumenthal, Heston - The Fat Duck Cookbook (2008), Techniques de cuisson des viandes"
+    "Blumenthal, Heston - The Fat Duck Cookbook (2008), Techniques de cuisson des viandes",
+    {
+      "titre": "Effects of Searing Cooking on Sensory and Physicochemical Properties of Beef Steak",
+      "auteurs": "Yoo, Ji Hyun et al.",
+      "journal": "Korean Journal for Food Science of Animal Resources (Food Science of Animal Resources)",
+      "annee": 2020,
+      "doi": "10.5851/kosfa.2020.e1",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6941144/",
+      "pertinence": "Démontre que la cuisson à 250°C (searing) augmente significativement les produits de Maillard et réduit les sucres réducteurs comparé à une cuisson au four à 180°C, améliorant la saveur grillée du steak."
+    },
+    {
+      "titre": "Cooking Surface Temperatures, Steak Thickness, and Quality Grade Affect Flavor and Volatile Aroma Compound Profiles of Grilled Beef Steaks",
+      "auteurs": "Wall, Kayley R. et al.",
+      "journal": "Meat Science (Iowa State University Digital Press - Animal Industry Report)",
+      "annee": 2019,
+      "doi": "10.31274/ans_air-180814-1312",
+      "url": "https://iastatedigitalpress.com/amrc/article/id/1238/",
+      "pertinence": "Quantifie l'impact de températures de grill (177°C vs 232°C) sur la formation de pyrazines et composés de Maillard, confirmant qu'une température élevée et temps de cuisson prolongé développent les arômes grillés caractéristiques."
+    }
   ],
-  "version": "1.0",
+  "version": "1.1",
   "date_creation": "2025-11-10",
-  "date_modification": "2025-11-10",
+  "date_modification": "2025-11-12",
   "auteur": "Rédacteur-Scientifique IA",
   "statut": "production",
-  "notes_internes": "Recette pilote migrée depuis sources/steak-maillard.md. Contenu enrichi avec détails scientifiques supplémentaires. Images à générer par Créatif-Designer (T1.3). Prête pour validation."
+  "notes_internes": "Recette pilote migrée depuis sources/steak-maillard.md. Contenu enrichi avec détails scientifiques supplémentaires. Sources académiques complétées (Issue #32 - P2.1). Images à générer par Créatif-Designer (T1.3). Prête pour validation."
 }
