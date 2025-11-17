@@ -1,0 +1,46 @@
+{
+  "batch_id": "batch4-20251117",
+  "created_at": "2025-11-17T11:02:58Z",
+  "images": [
+    {
+      "source_file": "bouillon-process-02.png",
+      "target_path": "recettes/bouillon-volaille-umami/images/process-02.png",
+      "recipe": "bouillon-volaille-umami",
+      "type": "process-02"
+    },
+    {
+      "source_file": "vinaigrette-temporaire-process-01.png",
+      "target_path": "recettes/vinaigrette-emulsion-temporaire/images/process-01.png",
+      "recipe": "vinaigrette-emulsion-temporaire",
+      "type": "process-01"
+    },
+    {
+      "source_file": "vinaigrette-temporaire-process-02.png",
+      "target_path": "recettes/vinaigrette-emulsion-temporaire/images/process-02.png",
+      "recipe": "vinaigrette-emulsion-temporaire",
+      "type": "process-02"
+    },
+    {
+      "source_file": "vinaigrette-equilibree-process-02.png",
+      "target_path": "recettes/vinaigrette-equilibree/images/process-02.png",
+      "recipe": "vinaigrette-equilibree",
+      "type": "process-02"
+    },
+    {
+      "source_file": "mayonnaise-stable-detail-texture.png",
+      "target_path": "recettes/mayonnaise-stable/images/detail-texture.png",
+      "recipe": "mayonnaise-stable",
+      "type": "detail-texture"
+    },
+    {
+      "source_file": "mayonnaise-stable-process-01.png",
+      "target_path": "recettes/mayonnaise-stable/images/process-01.png",
+      "recipe": "mayonnaise-stable",
+      "type": "process-01"
+    }
+  ],
+  "status": "processed",
+  "total_images": 6,
+  "processed_at": "2025-11-17T11:06:35.474775",
+  "processed_count": 6
+}
