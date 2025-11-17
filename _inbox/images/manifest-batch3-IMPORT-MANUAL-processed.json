@@ -1,0 +1,46 @@
+{
+  "batch_id": "batch3-IMPORT-MANUAL",
+  "created_at": "2025-11-17T11:24:00Z",
+  "images": [
+    {
+      "source_file": "steak-hero.png",
+      "target_path": "recettes/steak-maillard/images/hero.png",
+      "recipe": "steak-maillard",
+      "type": "hero"
+    },
+    {
+      "source_file": "mayonnaise-stable-hero.png",
+      "target_path": "recettes/mayonnaise-stable/images/hero.png",
+      "recipe": "mayonnaise-stable",
+      "type": "hero"
+    },
+    {
+      "source_file": "mayonnaise-stable-final.png",
+      "target_path": "recettes/mayonnaise-stable/images/final.png",
+      "recipe": "mayonnaise-stable",
+      "type": "final"
+    },
+    {
+      "source_file": "vinaigrette-temporaire-hero.png",
+      "target_path": "recettes/vinaigrette-emulsion-temporaire/images/hero.png",
+      "recipe": "vinaigrette-emulsion-temporaire",
+      "type": "hero"
+    },
+    {
+      "source_file": "vinaigrette-temporaire-final.png",
+      "target_path": "recettes/vinaigrette-emulsion-temporaire/images/final.png",
+      "recipe": "vinaigrette-emulsion-temporaire",
+      "type": "final"
+    },
+    {
+      "source_file": "bouillon-process-01.png",
+      "target_path": "recettes/bouillon-volaille-umami/images/process-01.png",
+      "recipe": "bouillon-volaille-umami",
+      "type": "process"
+    }
+  ],
+  "status": "processed",
+  "total_images": 6,
+  "processed_at": "2025-11-17T10:30:17.462926",
+  "processed_count": 6
+}
