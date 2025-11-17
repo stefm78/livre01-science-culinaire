@@ -1,106 +1,130 @@
 #!/usr/bin/env python3
 """
-Script universel pour committer des images dans le repository
-Utilisable par toute IA avec accès GitHub API
-Conserve les URLs sources pour traçabilité
+Script de téléchargement et commit d'images depuis URLs externes
+Lit tools/images-to-commit.json et commit dans Git
 """
-
-import requests
 import json
+import os
 import sys
+import subprocess
+import requests
 from pathlib import Path
-
-def load_image_manifest():
-    """Charge le manifeste des images à committer"""
-    try:
-        with open('tools/images-to-commit.json', 'r') as f:
-            return json.load(f)
-    except FileNotFoundError:
-        print("❌ Fichier images-to-commit.json introuvable")
-        sys.exit(1)
-
-def download_image(url):
-    """Télécharge une image et retourne son contenu"""
-    try:
-        response = requests.get(url, timeout=30)
-        response.raise_for_status()
-        return response.content
-    except Exception as e:
-        print(f"❌ Erreur téléchargement: {e}")
-        return None
+from collections import defaultdict
 
 def main():
     print("🚀 Commit Images Script - Version 1.0")
-    print("=" * 50)
+    print("="*50)
     
-    # Charge le manifeste
-    manifest = load_image_manifest()
+    # Charger la config
+    config_path = Path('tools/images-to-commit.json')
+    if not config_path.exists():
+        print("❌ Fichier tools/images-to-commit.json introuvable")
+        sys.exit(1)
     
-    if not manifest.get('images'):
-        print("⚠️ Aucune image à committer")
-        return
+    with open(config_path) as f:
+        manifest = json.load(f)
     
-    print(f"📋 {len(manifest['images'])} image(s) à traiter")
-    print()
+    images = manifest.get('images', [])
+    print(f"📋 {len(images)} image(s) à traiter\n")
     
+    # Grouper par destination
+    by_destination = defaultdict(list)
     results = []
     
-    for img in manifest['images']:
+    for img in images:
         filename = img['filename']
         url = img['url']
         destination = img.get('destination', 'sources/images')
-        issue_ref = img.get('issue', 'N/A')
         
         print(f"⏳ Traitement: {filename}")
         print(f"   Source: {url[:60]}...")
-        print(f"   Issue: #{issue_ref}")
+        print(f"   Destination: {destination}")
         
-        # Téléchargement
-        content = download_image(url)
-        if not content:
-            print(f"❌ Échec téléchargement {filename}")
-            print()
-            continue
+        try:
+            # Télécharger
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+            
+            # Créer le dossier de destination
+            dest_path = Path(destination)
+            dest_path.mkdir(parents=True, exist_ok=True)
+            
+            # Sauvegarder
+            file_path = dest_path / filename
+            file_path.write_bytes(response.content)
+            
+            print(f"✅ {filename} téléchargé ({len(response.content)} bytes)")
+            
+            by_destination[destination].append({
+                'filename': filename,
+                'size': len(response.content),
+                'url': url
+            })
+            results.append({
+                'filename': filename,
+                'destination': destination,
+                'size': len(response.content)
+            })
+            
+        except Exception as e:
+            print(f"❌ Erreur: {e}")
         
-        # Sauvegarde locale
-        local_path = Path(destination) / filename
-        local_path.parent.mkdir(parents=True, exist_ok=True)
-        local_path.write_bytes(content)
-        
-        print(f"✅ {filename} téléchargé ({len(content)} bytes)")
-        
-        results.append({
-            'filename': filename,
-            'path': f"{destination}/{filename}",
-            'size': len(content),
-            'source_url': url,
-            'issue': issue_ref,
-            'status': 'ready'
-        })
         print()
     
-    # Génère rapport
-    print("=" * 50)
+    if not results:
+        print("⚠️ Aucune image téléchargée")
+        sys.exit(1)
+    
+    # Sauvegarder traçabilité
+    trace_path = Path('tools/images-committed.json')
+    trace_path.write_text(json.dumps({
+        'issue_number': manifest.get('issue_number'),
+        'images': results,
+        'destinations': list(by_destination.keys())
+    }, indent=2))
+    
+    print("="*50)
     print("📊 RÉSUMÉ")
-    print(f"✅ {len(results)} image(s) prête(s) pour commit Git")
-    print()
-    print("📝 Commandes Git:")
-    print("   git add sources/images/")
-    print(f"   git commit -m '🎨 Ajout {len(results)} maquettes (Issue #{manifest.get('issue_number', 'N/A')})'")
-    print("   git push")
-    print()
+    print(f"✅ {len(results)} image(s) prête(s) pour commit Git\n")
     
-    # Traçabilité
-    trace_file = Path('tools/images-committed.json')
-    trace_data = {
-        'commit_date': manifest.get('date'),
-        'issue': manifest.get('issue_number'),
-        'persona': manifest.get('persona'),
-        'images': results
-    }
-    
-    trace_file.write_text(json.dumps(trace_data, indent=2))
-    print(f"📋 Traçabilité: {trace_file}")
+    # Git commit
+    issue_num = manifest.get('issue_number', 'N/A')
+    commit_and_push(by_destination, len(results), issue_num)
 
-if __name__ == "__main__":
+def commit_and_push(by_destination, img_count, issue_num):
+    """Commit et push des images téléchargées"""
+    
+    # Config Git
+    subprocess.run(['git', 'config', '--local', 'user.email', 'github-actions[bot]@users.noreply.github.com'], check=True)
+    subprocess.run(['git', 'config', '--local', 'user.name', 'github-actions[bot]'], check=True)
+    
+    # Git add par destination
+    for dest in sorted(by_destination.keys()):
+        count = len(by_destination[dest])
+        print(f"📁 git add {dest}/ ({count} image(s))")
+        subprocess.run(['git', 'add', f'{dest}/'], check=False)
+    
+    # Add traçabilité
+    subprocess.run(['git', 'add', 'tools/images-committed.json'], check=False)
+    
+    # Vérifier s'il y a des changements
+    result = subprocess.run(['git', 'diff', '--staged', '--name-only'], capture_output=True, text=True)
+    if not result.stdout.strip():
+        print("⚠️ Aucun changement à committer")
+        return
+    
+    # Commit
+    commit_msg = f"🎨 Ajout {img_count} images (Issue #{issue_num})"
+    print(f"\n💾 Commit: {commit_msg}")
+    subprocess.run(['git', 'commit', '-m', commit_msg], check=True)
+    
+    # Pull rebase
+    subprocess.run(['git', 'pull', '--rebase', '--autostash', 'origin', 'main'], check=True)
+    
+    # Push
+    subprocess.run(['git', 'push'], check=True)
+    
+    print(f"✅ {img_count} images commitées avec succès")
+
+if __name__ == '__main__':
     main()
