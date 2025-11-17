@@ -35,11 +35,11 @@ jobs:
       - name: Vérifier les images téléchargées
         run: |
           if [ -d "sources/images" ]; then
-          echo "✅ Dossier sources/images créé"
-          ls -lh sources/images/
+            echo "✅ Dossier sources/images créé"
+            ls -lh sources/images/
           else
-          echo "⚠️ Aucune image trouvée"
-          exit 1
+            echo "⚠️ Aucune image trouvée"
+            exit 1
           fi
 
       - name: Commit et push des images
@@ -50,8 +50,8 @@ jobs:
           git add tools/images-committed.json || true
           CHANGES=$(git diff --staged --name-only)
           if [ -z "$CHANGES" ]; then
-          echo "⚠️ Aucun changement à committer"
-          exit 0
+            echo "⚠️ Aucun changement à committer"
+            exit 0
           fi
           ISSUE_NUM=$(python3 -c "import json; print(json.load(open('tools/images-to-commit.json')).get('issue_number', 'N/A'))")
           IMG_COUNT=$(ls sources/images/*.png 2>/dev/null | wc -l)
