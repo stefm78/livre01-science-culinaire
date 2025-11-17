@@ -1,6 +1,10 @@
 ---
 name: "🧬 Auto-Évolution (refactored)"
 
+permissions:
+  contents: write
+  issues: write
+
 on:
   issues:
     types: [opened, edited, closed]
@@ -13,12 +17,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y jq
-
+        shell: bash
       - name: Run evolution core
         env:
           TIMEOUT_MINUTES: 30
@@ -26,3 +29,4 @@ jobs:
         run: |
           chmod +x .github/scripts/*.sh || true
           bash .github/scripts/evolution-core.sh "${{ github.event_name }}"
+        shell: bash
