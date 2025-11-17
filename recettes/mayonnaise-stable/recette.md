@@ -40,7 +40,7 @@ La stabilité de l'émulsion dépend d'un contrôle rigoureux de plusieurs varia
 
 **Cisaillement mécanique** : Le fouettage crée les forces de cisaillement nécessaires pour fragmenter l'huile en gouttelettes uniformes. L'homogénéité de taille (distribution étroite autour de 5 μm) maximise la stabilité en minimisant les phénomènes de mûrissement d'Ostwald (migration moléculaire des petites vers les grandes gouttelettes).
 
-![Schéma Émulsions](../../sources/schemas/02-emulsions-mayo-vinaigrette.svg)
+![Schéma Émulsions](../../sources/schemas/02-emulsions-comparaison.svg)
 
 📊 **SCIENCE EN BREF - PARAMÈTRES CRITIQUES**
 
