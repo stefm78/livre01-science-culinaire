@@ -7,8 +7,9 @@ on:
     branches: [main]
   push:
     branches: [main]
-    # Suppression paths: pour déclencher sur TOUS les commits vers main
-    # Évite le blocage "Waiting for status to be reported" sur commits hors-paths
+
+permissions:
+  contents: write
 
 jobs:
   lint-workflows:
@@ -16,24 +17,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: "Install yamllint"
         run: pip install yamllint
-
+        shell: bash
       - name: "Lint YAML files"
         run: |
           echo "=== YAML LINTING ==="
           if ls .github/workflows/*.yml 1> /dev/null 2>&1; then
-          yamllint .github/workflows/ || {
-          echo "❌ YAML lint errors found"
-          echo "Fix syntax errors before merge"
-          exit 1
-          }
-          echo "✅ YAML syntax OK"
+            yamllint .github/workflows/ || {
+              echo "❌ YAML lint errors found"
+              echo "Fix syntax errors before merge"
+              exit 1
+            }
+            echo "✅ YAML syntax OK"
           else
-          echo "✅ No YAML workflows to check"
+            echo "✅ No YAML workflows to check"
           fi
-
+        shell: bash
       - name: "Install actionlint"
         run: |
           set -euo pipefail
@@ -41,86 +41,84 @@ jobs:
           curl -fsSL "https://github.com/rhysd/actionlint/releases/download/${ver}/actionlint_${ver#v}_linux_amd64.tar.gz" -o actionlint.tgz
           sudo tar -xzf actionlint.tgz -C /usr/local/bin actionlint
           actionlint --version
-
+        shell: bash
       - name: "Lint GitHub Actions workflows"
         run: |
           echo "=== ACTIONS LINTING ==="
           if ls .github/workflows/*.yml 1> /dev/null 2>&1; then
-          (cd .github/workflows && actionlint) || {
-          echo "❌ Action lint errors found"
-          echo "Fix workflow issues before merge"
-          exit 1
-          }
-          echo "✅ Actions syntax OK"
+            (cd .github/workflows && actionlint) || {
+              echo "❌ Action lint errors found"
+              echo "Fix workflow issues before merge"
+              exit 1
+            }
+            echo "✅ Actions syntax OK"
           else
-          echo "✅ No workflows to check"
+            echo "✅ No workflows to check"
           fi
-
+        shell: bash
   lint-scripts:
     name: "Scripts Quality"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: "Install tools"
         run: |
           sudo apt-get update
           sudo apt-get install -y shellcheck python3-yaml jq
           pip install pylint || true
-
+        shell: bash
       - name: "Make scripts executable"
         run: |
           if ls .github/scripts/*.sh 1> /dev/null 2>&1; then
-          chmod +x .github/scripts/*.sh
-          echo "✅ Shell scripts made executable"
+            chmod +x .github/scripts/*.sh
+            echo "✅ Shell scripts made executable"
           fi
           if ls .github/scripts/*.py 1> /dev/null 2>&1; then
-          chmod +x .github/scripts/*.py
-          echo "✅ Python scripts made executable"
+            chmod +x .github/scripts/*.py
+            echo "✅ Python scripts made executable"
           fi
-
+        shell: bash
       - name: "Lint shell scripts (ShellCheck)"
         run: |
           echo "=== SHELLCHECK ==="
           if ls .github/scripts/*.sh 1> /dev/null 2>&1; then
-          shellcheck .github/scripts/*.sh || {
-          echo "❌ ShellCheck issues found"
-          exit 1
-          }
-          echo "✅ Shell scripts OK"
+            shellcheck .github/scripts/*.sh || {
+              echo "❌ ShellCheck issues found"
+              exit 1
+            }
+            echo "✅ Shell scripts OK"
           else
-          echo "✅ No shell scripts to check"
+            echo "✅ No shell scripts to check"
           fi
-
+        shell: bash
       - name: "Validate Python scripts"
         run: |
           echo "=== PYTHON SCRIPT VALIDATION ==="
           if ls .github/scripts/*.py 1> /dev/null 2>&1; then
-          python3 -m py_compile .github/scripts/*.py || {
-          echo "❌ Python syntax error"
-          exit 1
-          }
-          echo "✅ Python scripts syntax OK"
+            python3 -m py_compile .github/scripts/*.py || {
+              echo "❌ Python syntax error"
+              exit 1
+            }
+            echo "✅ Python scripts syntax OK"
           else
-          echo "✅ No Python scripts to check"
+            echo "✅ No Python scripts to check"
           fi
-
+        shell: bash
   verify-adn-files:
     name: "ADN Vital Files"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - name: "Vérifier fichiers ADN vitaux"
         run: |
           echo "=== VÉRIFICATION FICHIERS ADN VITAUX ==="
           for f in "constitution-projet-ai.md" "AI_CORE.yml" "README.md"; do
-          if [[ ! -f "$f" ]]; then echo "❌ MANQUANT: $f"; exit 1; fi
-          if [[ ! -s "$f" ]]; then echo "❌ VIDE: $f"; exit 1; fi
-          echo "✅ $f présent et non vide"
+            if [[ ! -f "$f" ]]; then echo "❌ MANQUANT: $f"; exit 1; fi
+            if [[ ! -s "$f" ]]; then echo "❌ VIDE: $f"; exit 1; fi
+            echo "✅ $f présent et non vide"
           done
           python3 .github/scripts/check-ai-core.py
-
+        shell: bash
   integration-test:
     name: "Integration Test"
     runs-on: ubuntu-latest
@@ -134,8 +132,9 @@ jobs:
         run: |
           chmod +x .github/scripts/*.sh || true
           for s in .github/scripts/*.sh; do
-          if [ -f "$s" ]; then
-          bash -n "$s" || true
-          fi
+            if [ -f "$s" ]; then
+              bash -n "$s" || true
+            fi
           done
           echo "✅ Integration sanity passed"
+        shell: bash
