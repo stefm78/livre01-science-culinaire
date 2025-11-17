@@ -20,20 +20,25 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+
       - name: Extract zip archives if present
+        shell: bash
         run: |
           for zipfile in _inbox/images/*.zip; do
-          if [ -f "$zipfile" ]; then
-          unzip -o "$zipfile" -d _inbox/images/
-          rm "$zipfile"
-          fi
+            if [ -f "$zipfile" ]; then
+              unzip -o "$zipfile" -d _inbox/images/
+              rm "$zipfile"
+            fi
           done
+
       - name: Run import script
         run: python import_batch_images.py
+
       - name: Commit changes
         run: |
           git config --local user.name "github-actions[bot]"
