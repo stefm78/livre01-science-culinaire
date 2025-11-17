@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Définitions -->
+  <defs>
+    <style>
+      .title { font-family: 'Inter', sans-serif; font-size: 28px; font-weight: 700; fill: #1A1A1A; }
+      .subtitle { font-family: 'Inter', sans-serif; font-size: 20px; font-weight: 600; fill: #D4735C; }
+      .label { font-family: 'Inter', sans-serif; font-size: 14px; fill: #1A1A1A; }
+      .label-small { font-family: 'Inter', sans-serif; font-size: 12px; fill: #666666; }
+      .table-header { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 600; fill: #1A1A1A; }
+      .table-cell { font-family: 'Inter', sans-serif; font-size: 12px; fill: #1A1A1A; }
+    </style>
+  </defs>
+  
+  <!-- Fond blanc -->
+  <rect width="1200" height="800" fill="#FFFFFF"/>
+  
+  <!-- Titre principal -->
+  <text x="600" y="50" text-anchor="middle" class="title">ÉMULSIONS : COMPARAISON STABLE VS TEMPORAIRE</text>
+  
+  <!-- ========== PARTIE GAUCHE : ÉMULSION STABLE (MAYONNAISE) ========== -->
+  <g id="emulsion-stable">
+    <!-- Cadre de fond -->
+    <rect x="30" y="100" width="340" height="650" rx="8" fill="#F5F5F5"/>
+    
+    <!-- Titre section -->
+    <text x="200" y="140" text-anchor="middle" class="subtitle">ÉMULSION STABLE</text>
+    <text x="200" y="165" text-anchor="middle" class="label">(Mayonnaise)</text>
+    
+    <!-- Schéma moléculaire -->
+    <g id="molecules-stable">
+      <!-- Phase aqueuse (fond bleu clair) -->
+      <rect x="60" y="190" width="280" height="200" fill="#E3F2FD" opacity="0.5"/>
+      <text x="200" y="215" text-anchor="middle" class="label-small">Phase aqueuse (jaune d'œuf)</text>
+      
+      <!-- Microgouttelettes d'huile avec lécithine -->
+      <!-- Gouttelette 1 -->
+      <circle cx="120" cy="260" r="18" fill="#FFF9C4" stroke="#8B9B8E" stroke-width="3"/>
+      <circle cx="120" cy="260" r="22" fill="none" stroke="#D4735C" stroke-width="2" stroke-dasharray="3,3"/>
+      
+      <!-- Gouttelette 2 -->
+      <circle cx="200" cy="280" r="16" fill="#FFF9C4" stroke="#8B9B8E" stroke-width="3"/>
+      <circle cx="200" cy="280" r="20" fill="none" stroke="#D4735C" stroke-width="2" stroke-dasharray="3,3"/>
+      
+      <!-- Gouttelette 3 -->
+      <circle cx="160" cy="320" r="20" fill="#FFF9C4" stroke="#8B9B8E" stroke-width="3"/>
+      <circle cx="160" cy="320" r="24" fill="none" stroke="#D4735C" stroke-width="2" stroke-dasharray="3,3"/>
+      
+      <!-- Gouttelette 4 -->
+      <circle cx="240" cy="300" r="15" fill="#FFF9C4" stroke="#8B9B8E" stroke-width="3"/>
+      <circle cx="240" cy="300" r="19" fill="none" stroke="#D4735C" stroke-width="2" stroke-dasharray="3,3"/>
+      
+      <!-- Gouttelette 5 -->
+      <circle cx="280" cy="260" r="17" fill="#FFF9C4" stroke="#8B9B8E" stroke-width="3"/>
+      <circle cx="280" cy="260" r="21" fill="none" stroke="#D4735C" stroke-width="2" stroke-dasharray="3,3"/>
+      
+      <!-- Légende -->
+      <text x="200" y="360" text-anchor="middle" class="label-small">Gouttelettes huile : 2-10 μm</text>
+    </g>
+    
+    <!-- Molécule de lécithine (détail) -->
+    <g id="lecithine-detail">
+      <rect x="60" y="410" width="280" height="120" fill="#FFFFFF" stroke="#8B9B8E" stroke-width="2" rx="5"/>
+      
+      <!-- Tête hydrophile -->
+      <circle cx="90" cy="460" r="15" fill="#D4735C"/>
+      <text x="90" y="495" text-anchor="middle" class="label-small">Tête hydrophile</text>
+      
+      <!-- Queue lipophile -->
+      <line x1="105" y1="460" x2="180" y2="460" stroke="#1A1A1A" stroke-width="3"/>
+      <line x1="105" y1="470" x2="180" y2="470" stroke="#1A1A1A" stroke-width="3"/>
+      <text x="140" y="495" text-anchor="middle" class="label-small">Queues lipophiles</text>
+      
+      <!-- Gouttelette protégée -->
+      <circle cx="240" cy="465" r="30" fill="#FFF9C4" stroke="#8B9B8E" stroke-width="3"/>
+      <text x="240" y="505" text-anchor="middle" class="label-small">Huile protégée</text>
+    </g>
+    
+    <!-- Caractéristiques clés -->
+    <g id="caracteristiques-stable">
+      <text x="70" y="560" class="label-small" font-weight="600">✓ Stabilité : Permanente</text>
+      <text x="70" y="585" class="label-small">✓ Émulsifiant : Lécithine forte</text>
+      <text x="70" y="610" class="label-small">✓ Tension superficielle : 25→5 mN/m</text>
+      <text x="70" y="635" class="label-small">✓ Conservation : Plusieurs jours</text>
+      <text x="70" y="660" class="label-small">✓ Exemples : Mayo, hollandaise</text>
+    </g>
+  </g>
+  
+  <!-- ========== PARTIE CENTRALE : TABLEAU COMPARATIF ========== -->
+  <g id="tableau-comparatif">
+    <rect x="400" y="100" width="380" height="650" fill="#FFFFFF" stroke="#CCCCCC" stroke-width="2"/>
+    
+    <!-- En-tête tableau -->
+    <rect x="400" y="100" width="380" height="60" fill="#8B9B8E"/>
+    <text x="590" y="140" text-anchor="middle" class="subtitle" fill="#FFFFFF">TABLEAU COMPARATIF</text>
+    
+    <!-- Lignes du tableau -->
+    <line x1="400" y1="200" x2="780" y2="200" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="400" y1="270" x2="780" y2="270" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="400" y1="340" x2="780" y2="340" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="400" y1="410" x2="780" y2="410" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="400" y1="480" x2="780" y2="480" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="400" y1="550" x2="780" y2="550" stroke="#CCCCCC" stroke-width="1"/>
+    <line x1="400" y1="620" x2="780" y2="620" stroke="#CCCCCC" stroke-width="1"/>
+    
+    <!-- Colonne séparatrice -->
+    <line x1="590" y1="160" x2="590" y2="750" stroke="#CCCCCC" stroke-width="1"/>
+    
+    <!-- Contenu tableau -->
+    <!-- Ligne 1 : Critère -->
+    <text x="420" y="185" class="table-header">Critère</text>
+    <text x="600" y="185" class="table-header" fill="#D4735C">Stable</text>
+    <text x="690" y="185" class="table-header" fill="#8B9B8E">Temporaire</text>
+    
+    <!-- Ligne 2 : Taille gouttelettes -->
+    <text x="420" y="230" class="table-cell" font-weight="600">Taille gouttelettes</text>
+    <text x="600" y="230" class="table-cell">2-10 μm</text>
+    <text x="690" y="230" class="table-cell">15-50 μm</text>
+    
+    <!-- Ligne 3 : Type émulsifiant -->
+    <text x="420" y="300" class="table-cell" font-weight="600">Type émulsifiant</text>
+    <text x="600" y="300" class="table-cell">Lécithine</text>
+    <text x="690" y="300" class="table-cell">Mucilages</text>
+    <text x="600" y="320" class="table-cell">(forte)</text>
+    <text x="690" y="320" class="table-cell">(faible)</text>
+    
+    <!-- Ligne 4 : Stabilité temporelle -->
+    <text x="420" y="370" class="table-cell" font-weight="600">Stabilité</text>
+    <text x="600" y="370" class="table-cell">Permanente</text>
+    <text x="690" y="370" class="table-cell">5-15 min</text>
+    
+    <!-- Ligne 5 : Mécanisme -->
+    <text x="420" y="440" class="table-cell" font-weight="600">Mécanisme</text>
+    <text x="600" y="440" class="table-cell">Film</text>
+    <text x="690" y="440" class="table-cell">Tension</text>
+    <text x="600" y="460" class="table-cell">protecteur</text>
+    <text x="690" y="460" class="table-cell">réduite</text>
+    
+    <!-- Ligne 6 : Coalescence -->
+    <text x="420" y="510" class="table-cell" font-weight="600">Coalescence</text>
+    <text x="600" y="510" class="table-cell">Bloquée</text>
+    <text x="690" y="510" class="table-cell">Progressive</text>
+    
+    <!-- Ligne 7 : Exemples -->
+    <text x="420" y="580" class="table-cell" font-weight="600">Exemples</text>
+    <text x="600" y="580" class="table-cell">Mayonnaise</text>
+    <text x="690" y="580" class="table-cell">Vinaigrette</text>
+    <text x="600" y="600" class="table-cell">Hollandaise</text>
+    <text x="690" y="600" class="table-cell">Sauce vierge</text>
+    
+    <!-- Ligne 8 : Usage -->
+    <text x="420" y="650" class="table-cell" font-weight="600">Usage culinaire</text>
+    <text x="600" y="650" class="table-cell">Accompag.</text>
+    <text x="690" y="650" class="table-cell">Assaisonn.</text>
+    <text x="600" y="670" class="table-cell">froid/chaud</text>
+    <text x="690" y="670" class="table-cell">immédiat</text>
+  </g>
+  
+  <!-- ========== PARTIE DROITE : ÉMULSION TEMPORAIRE (VINAIGRETTE) ========== -->
+  <g id="emulsion-temporaire">
+    <!-- Cadre de fond -->
+    <rect x="810" y="100" width="360" height="650" rx="8" fill="#F5F5F5"/>
+    
+    <!-- Titre section -->
+    <text x="990" y="140" text-anchor="middle" class="subtitle">ÉMULSION TEMPORAIRE</text>
+    <text x="990" y="165" text-anchor="middle" class="label">(Vinaigrette)</text>
+    
+    <!-- Schéma moléculaire - État initial -->
+    <g id="molecules-temporaire-t0">
+      <rect x="840" y="190" width="300" height="120" fill="#E3F2FD" opacity="0.5"/>
+      <text x="990" y="215" text-anchor="middle" class="label-small" font-weight="600">T = 0 min (après agitation)</text>
+      
+      <!-- Gouttelettes plus grosses, moins nombreuses -->
+      <circle cx="880" cy="260" r="25" fill="#FFF9C4" stroke="#8B9B8E" stroke-width="2" opacity="0.8"/>
+      <circle cx="960" cy="270" r="28" fill="#FFF9C4" stroke="#8B9B8E" stroke-width="2" opacity="0.8"/>
+      <circle cx="1040" cy="255" r="26" fill="#FFF9C4" stroke="#8B9B8E" stroke-width="2" opacity="0.8"/>
+      <circle cx="1100" cy="270" r="24" fill="#FFF9C4" stroke="#8B9B8E" stroke-width="2" opacity="0.8"/>
+    </g>
+    
+    <!-- Flèche temporelle -->
+    <g id="fleche-temps">
+      <line x1="990" y1="330" x2="990" y2="360" stroke="#D4735C" stroke-width="3" marker-end="url(#arrowhead)"/>
+      <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+          <polygon points="0 0, 10 5, 0 10" fill="#D4735C"/>
+        </marker>
+      </defs>
+      <text x="990" y="350" text-anchor="middle" class="label-small" fill="#D4735C" font-weight="600">5-15 min</text>
+    </g>
+    
+    <!-- Schéma moléculaire - Séparation -->
+    <g id="molecules-temporaire-t15">
+      <rect x="840" y="380" width="300" height="140" fill="#E3F2FD" opacity="0.5"/>
+      <text x="990" y="405" text-anchor="middle" class="label-small" font-weight="600">T = 15 min (séparation)</text>
+      
+      <!-- Phase huile (dessus) -->
+      <rect x="850" y="420" width="280" height="40" fill="#FFF9C4" opacity="0.9"/>
+      <text x="990" y="445" text-anchor="middle" class="label-small">HUILE (dessus)</text>
+      
+      <!-- Ligne de séparation -->
+      <line x1="850" y1="460" x2="1130" y2="460" stroke="#D4735C" stroke-width="2" stroke-dasharray="5,5"/>
+      
+      <!-- Phase vinaigre (dessous) -->
+      <rect x="850" y="460" width="280" height="50" fill="#E3F2FD"/>
+      <text x="990" y="490" text-anchor="middle" class="label-small">VINAIGRE (dessous)</text>
+    </g>
+    
+    <!-- Caractéristiques clés -->
+    <g id="caracteristiques-temporaire">
+      <text x="850" y="560" class="label-small" font-weight="600">✓ Stabilité : 5-15 minutes</text>
+      <text x="850" y="585" class="label-small">✓ Émulsifiant : Mucilages moutarde</text>
+      <text x="850" y="610" class="label-small">✓ Gouttelettes : 15-50 μm</text>
+      <text x="850" y="635" class="label-small">✓ Coalescence progressive</text>
+      <text x="850" y="660" class="label-small">✓ Nécessite ré-émulsion avant usage</text>
+      <text x="850" y="685" class="label-small">✓ Exemples : Vinaigrette, sauce vierge</text>
+    </g>
+  </g>
+  
+  <!-- Pied de page -->
+  <text x="600" y="780" text-anchor="middle" class="label-small" fill="#666666">Source : Projet Livre01 Science Culinaire - Schéma unifié émulsions</text>
+</svg>
