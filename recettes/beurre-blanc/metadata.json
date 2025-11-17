@@ -1,0 +1,305 @@
+{
+  "titre": "Beurre Blanc — L'Émulsion Chaude Fragile",
+  "slug": "beurre-blanc",
+  "chapitre": 2,
+  "numero_recette": "2.X",
+  "categorie": "Sauces",
+  "sous_categorie": "Émulsions Chaudes",
+  
+  "difficulte": "expert",
+  "niveau_symboles": "●●●○",
+  "temps_preparation": 10,
+  "temps_cuisson": 15,
+  "temps_total": 25,
+  "portions": 4,
+  "rendement": "280ml sauce",
+  
+  "concept_scientifique_principal": "Émulsion chaude huile-dans-eau (O/W) fragile",
+  "concepts_secondaires": [
+    "Inversion émulsion W/O → O/W",
+    "Dénaturation thermique caséine",
+    "Stabilisation électrostatique pH acide",
+    "Fenêtre température critique 49-60°C",
+    "Coalescence gouttelettes grasses"
+  ],
+  
+  "tags": [
+    "émulsion-chaude",
+    "beurre",
+    "sauce-classique",
+    "technique-avancée",
+    "contrôle-température",
+    "caséine",
+    "lécithine",
+    "fragile",
+    "nantais",
+    "poisson",
+    "thermosensible"
+  ],
+  
+  "ingredients_cles": [
+    "Beurre doux 82% MG (250g)",
+    "Échalotes grises (80g)",
+    "Vin blanc sec Muscadet (150ml)",
+    "Vinaigre vin blanc 6° (30ml)",
+    "Poivre blanc (5 grains)"
+  ],
+  
+  "molecules_aromatiques": [
+    {
+      "ingredient": "Échalote",
+      "molecules": ["Allicine", "Disulfures"],
+      "effet": "Fond aromatique umami"
+    },
+    {
+      "ingredient": "Vin blanc",
+      "molecules": ["Acétate d'éthyle", "Esters"],
+      "effet": "Fruité acidulé"
+    },
+    {
+      "ingredient": "Vinaigre",
+      "molecules": ["Acide acétique"],
+      "effet": "Acidité contrôlée pH 4.2-4.8"
+    },
+    {
+      "ingredient": "Beurre",
+      "molecules": ["Diacétyle (2,3-butanedione)", "Acides gras libres"],
+      "effet": "Rondeur lactique beurrée"
+    },
+    {
+      "ingredient": "Poivre blanc",
+      "molecules": ["Pipérine"],
+      "effet": "Exhausteur sensoriel"
+    }
+  ],
+  
+  "temperatures_critiques": [
+    {
+      "zone": "Fusion beurre",
+      "temperature": "28-36°C",
+      "phenomene": "Graisses laitières fondent"
+    },
+    {
+      "zone": "Démarrage émulsion",
+      "temperature": "49-52°C",
+      "phenomene": "Incorporation possible"
+    },
+    {
+      "zone": "Zone stable",
+      "temperature": "52-60°C",
+      "phenomene": "Émulsification optimale"
+    },
+    {
+      "zone": "Limite supérieure",
+      "temperature": "60°C",
+      "phenomene": "Approche dénaturation - retrait feu immédiat"
+    },
+    {
+      "zone": "Dénaturation caséine",
+      "temperature": "65-70°C",
+      "phenomene": "Perte capacité émulsifiante"
+    },
+    {
+      "zone": "Rupture certaine",
+      "temperature": ">70°C",
+      "phenomene": "Séparation phases - sauce cassée"
+    },
+    {
+      "zone": "Conservation",
+      "temperature": "45-50°C",
+      "phenomene": "Stabilité prolongée bain-marie 30-45 min"
+    }
+  ],
+  
+  "sources_scientifiques": [
+    {
+      "auteur": "Harold McGee",
+      "titre": "On Food and Cooking: The Science and Lore of the Kitchen",
+      "annee": 2004,
+      "pages": "628-642",
+      "type": "livre"
+    },
+    {
+      "auteur": "Hervé This",
+      "titre": "Casseroles et éprouvettes",
+      "annee": 1999,
+      "pages": "112-118",
+      "type": "livre"
+    },
+    {
+      "auteur": "J. Kenji López-Alt",
+      "titre": "The Food Lab",
+      "annee": 2015,
+      "pages": "572-578",
+      "type": "livre"
+    },
+    {
+      "auteur": "PMC/NCBI",
+      "titre": "Influence of Emulsifiers and Dairy Ingredients on Manufacturing",
+      "annee": 2021,
+      "type": "article"
+    },
+    {
+      "auteur": "ACS Publications",
+      "titre": "Casein-Phospholipid Combinations as Emulsifier",
+      "annee": 2014,
+      "type": "article"
+    },
+    {
+      "auteur": "The Culinary Pro",
+      "titre": "Emulsion Sauces",
+      "annee": 2024,
+      "type": "technique"
+    },
+    {
+      "auteur": "ChefSteps",
+      "titre": "Science of Emulsions",
+      "annee": 2025,
+      "type": "video"
+    },
+    {
+      "auteur": "Agriculture Institute",
+      "titre": "Butter Product Technology",
+      "annee": 2024,
+      "type": "technique"
+    }
+  ],
+  
+  "schemas_associes": [
+    {
+      "fichier": "../../sources/schemas/emulsion-chaude-beurre-blanc-temperature.svg",
+      "titre": "Diagramme Température & Zones Critiques Beurre Blanc",
+      "description": "Graphique courbes température-temps avec zones colorées (verte 49-60°C stable, orange 60-70°C dangereuse, rouge >70°C rupture)"
+    },
+    {
+      "fichier": "../../sources/schemas/emulsion-inversion-wo-ow.svg",
+      "titre": "Schéma Moléculaire Inversion Émulsion W/O → O/W",
+      "description": "Illustration structure micellaire : beurre (eau-dans-huile) → fouettage → beurre blanc (huile-dans-eau), films caséine-lécithine"
+    },
+    {
+      "fichier": "../../sources/schemas/02-emulsion-huile-eau.svg",
+      "titre": "Mécanisme Émulsion Huile-Eau (général)",
+      "description": "Schéma existant projet - structure émulsion O/W, émulsifiants amphiphiles"
+    }
+  ],
+  
+  "images": [
+    {
+      "fichier": "images/hero.png",
+      "description": "Vue top-down beurre blanc dans saucière, texture laiteuse ivoire, brillance caractéristique",
+      "credit": "À générer - Créatif-Designer"
+    },
+    {
+      "fichier": "images/final.png",
+      "description": "Assiette bar grillé nappé beurre blanc, asperges blanches, présentation gastronomique",
+      "credit": "À générer - Créatif-Designer"
+    },
+    {
+      "fichier": "images/process-01.png",
+      "description": "Réduction échalotes vin blanc dans casserole, texture sirupeuse",
+      "credit": "À générer - Créatif-Designer (optionnel)"
+    },
+    {
+      "fichier": "images/process-02.png",
+      "description": "Fouettage incorporation beurre froid, émulsion en formation, aspect laiteux",
+      "credit": "À générer - Créatif-Designer (optionnel)"
+    },
+    {
+      "fichier": "images/process-03.png",
+      "description": "Thermomètre infrarouge contrôle température émulsion 55°C",
+      "credit": "À générer - Créatif-Designer (optionnel)"
+    }
+  ],
+  
+  "equipement_specifique": [
+    "Thermomètre cuisson digital ±1°C ou infrarouge",
+    "Casserole inox fond épais 18-20 cm",
+    "Fouet manuel qualité fils souples",
+    "Chinois étamine ou passoire fine",
+    "Saucière préchauffée",
+    "Bain-marie (si conservation)"
+  ],
+  
+  "variantes": [
+    {
+      "nom": "Classique Nantaise",
+      "modification": "Ajout 1 cs crème fraîche 30% MG dans réduction",
+      "effet": "Stabilité thermique 62-65°C, texture onctueuse, goût adouci"
+    },
+    {
+      "nom": "Stabilisée Moderne",
+      "modification": "Xanthan gum 0.2% ou whey poudre 1 cs",
+      "effet": "Stabilité jusqu'à 70-75°C, conservation 1-2h bain-marie"
+    },
+    {
+      "nom": "Végétale Sans Lactose",
+      "modification": "Beurre végétal 80% MG + lécithine tournesol 1%",
+      "effet": "Alternative végane, stabilité réduite, service immédiat"
+    }
+  ],
+  
+  "troubleshooting": [
+    {
+      "probleme": "Sauce casse (séparation phase grasse)",
+      "cause": "Température excessive >70°C ou ajout beurre trop rapide",
+      "solution": "Méthode glaçons (refroidissement rapide) ou rebasing (nouvelle émulsion base)"
+    },
+    {
+      "probleme": "Émulsion trop liquide",
+      "cause": "Ratio graisses/eau déséquilibré (<40% graisses)",
+      "solution": "Ajouter 30-50g beurre froid supplémentaire progressivement"
+    },
+    {
+      "probleme": "Texture granuleuse",
+      "cause": "Dénaturation partielle caséine (60-65°C)",
+      "solution": "Filtrage chinois étamine, ajout 1 cs crème fraîche froide"
+    },
+    {
+      "probleme": "Goût trop acide",
+      "cause": "Réduction insuffisante ou excès vinaigre",
+      "solution": "Ajouter 1 cs crème fraîche ou 20g beurre supplémentaire"
+    },
+    {
+      "probleme": "Sauce se sépare après 15 min",
+      "cause": "Conservation température inadéquate ou absence agitation",
+      "solution": "Bain-marie 45-50°C max, agitation douce toutes les 5-10 min"
+    }
+  ],
+  
+  "accords_mets": [
+    "Bar de ligne grillé",
+    "Turbot poché",
+    "Sole meunière",
+    "Homard grillé",
+    "Langoustines rôties",
+    "Saint-Jacques poêlées",
+    "Asperges blanches vapeur",
+    "Poireaux fondants",
+    "Cabillaud vapeur"
+  ],
+  
+  "vins_accords": [
+    "Muscadet Sèvre-et-Maine sur lie",
+    "Gros Plant du Pays Nantais",
+    "Chablis Premier Cru",
+    "Sancerre blanc",
+    "Pouilly-Fumé"
+  ],
+  
+  "notes_chef": [
+    "Le beurre blanc est la sauce la plus technique de la cuisine classique française - maîtrise température critique.",
+    "Investir dans un thermomètre infrarouge de qualité transforme cette recette de difficile à maîtrisable.",
+    "Toujours réserver 2 cs de réduction initiale comme 'base de secours' pour rattrapage éventuel.",
+    "En service restaurant, préparer beurre blanc à la commande - conservation >30 min = risque qualité.",
+    "Version stabilisée xanthan = acceptable pour traiteurs/collectivités, puristes préféreront version classique fragile."
+  ],
+  
+  "historique": "Le beurre blanc trouve ses origines à Nantes (Loire-Atlantique) au XIXe siècle. Selon la légende, le chef Clémence Lefeuvre aurait créé cette sauce par accident en oubliant d'ajouter les œufs dans une béarnaise. La sauce accompagnait traditionnellement le brochet au beurre blanc, plat emblématique de la région. Aujourd'hui, le beurre blanc est devenu une référence de la haute cuisine française, symbole de maîtrise technique et de rigueur culinaire. Sa fragilité thermique en fait un marqueur d'excellence : réussir un beurre blanc stable démontre la parfaite compréhension des émulsions chaudes.",
+  
+  "statut_validation": "À valider",
+  "version": "1.0",
+  "date_creation": "2025-11-17",
+  "auteur": "Rédacteur-Scientifique IA",
+  "sprint": "Sprint 2 - Semaine 2",
+  "issue": "#27"
+}
