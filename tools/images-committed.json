@@ -1,62 +1,38 @@
 {
-  "commit_date": "2025-11-10",
-  "issue": 7,
-  "persona": "creatif-designer",
+  "commit_date": null,
+  "issue": 21,
+  "persona": null,
   "images": [
     {
-      "filename": "test-photo-01.png",
-      "path": "sources/images/test-photo-01.png",
-      "size": 961313,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/400eb3be-c158-4e49-964c-61889b226aab.png",
-      "issue": 7,
+      "filename": "hero.png",
+      "path": "recettes/steak-maillard/images/hero.png",
+      "size": 1157868,
+      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/7aa3c23f-4212-4d05-bb5f-ea2578ec0969.png",
+      "issue": "N/A",
       "status": "ready"
     },
     {
-      "filename": "test-photo-02.png",
-      "path": "sources/images/test-photo-02.png",
-      "size": 832073,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/08e86684-fffa-4f4e-9582-ce24aff28afc.png",
-      "issue": 7,
+      "filename": "final.png",
+      "path": "recettes/steak-maillard/images/final.png",
+      "size": 982668,
+      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/2a241896-b096-453b-a0c4-e0f1f34c4293.png",
+      "issue": "N/A",
       "status": "ready"
     },
     {
-      "filename": "test-photo-03.png",
-      "path": "sources/images/test-photo-03.png",
-      "size": 894666,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/e787e6fa-69b3-4853-ad8f-19bf413f7030.png",
-      "issue": 7,
+      "filename": "process-01.png",
+      "path": "recettes/steak-maillard/images/process-01.png",
+      "size": 1151621,
+      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/1f1d0021-d993-4cdd-a7e7-4692dbbbe4b8.png",
+      "issue": "N/A",
       "status": "ready"
     },
     {
-      "filename": "test-photo-04.png",
-      "path": "sources/images/test-photo-04.png",
-      "size": 906922,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/8c062963-6d36-4e62-a441-7291247c4bf9.png",
-      "issue": 7,
-      "status": "ready"
-    },
-    {
-      "filename": "test-photo-05.png",
-      "path": "sources/images/test-photo-05.png",
-      "size": 1147179,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/20637a85-03dd-4eff-8402-20cfafcbc74e.png",
-      "issue": 7,
-      "status": "ready"
-    },
-    {
-      "filename": "test-photo-06.png",
-      "path": "sources/images/test-photo-06.png",
-      "size": 895911,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/39b25a2f-ddd1-4391-8a5a-e3bf33741c4c.png",
-      "issue": 7,
-      "status": "ready"
-    },
-    {
-      "filename": "test-photo-07.png",
-      "path": "sources/images/test-photo-07.png",
-      "size": 894158,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/f2d83ed7-00e1-4805-b2e8-9eeab53f6834.png",
-      "issue": 7,
+      "filename": "process-02.png",
+      "path": "recettes/steak-maillard/images/process-02.png",
+      "size": 1135445,
+      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/c8b1bc31-6fd0-40dc-b052-d9ac6460549d.png",
+      "issue": "N/A",
       "status": "ready"
     }
   ]
