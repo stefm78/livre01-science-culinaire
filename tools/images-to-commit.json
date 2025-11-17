@@ -2,20 +2,24 @@
   "issue_number": 21,
   "images": [
     {
+      "filename": "hero.png",
       "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/7aa3c23f-4212-4d05-bb5f-ea2578ec0969.png",
-      "path": "recettes/steak-maillard/images/hero.png"
+      "destination": "recettes/steak-maillard/images"
     },
     {
+      "filename": "final.png",
       "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/2a241896-b096-453b-a0c4-e0f1f34c4293.png",
-      "path": "recettes/steak-maillard/images/final.png"
+      "destination": "recettes/steak-maillard/images"
     },
     {
+      "filename": "process-01.png",
       "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/1f1d0021-d993-4cdd-a7e7-4692dbbbe4b8.png",
-      "path": "recettes/steak-maillard/images/process-01.png"
+      "destination": "recettes/steak-maillard/images"
     },
     {
+      "filename": "process-02.png",
       "url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/c8b1bc31-6fd0-40dc-b052-d9ac6460549d.png",
-      "path": "recettes/steak-maillard/images/process-02.png"
+      "destination": "recettes/steak-maillard/images"
     }
   ]
 }
