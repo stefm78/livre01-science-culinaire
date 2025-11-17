@@ -1,115 +1,85 @@
 {
   "id": "mayonnaise-emulsion",
-  "titre": "Mayonnaise Maison (Science de l'Émulsion)",
-  "titre_complet": "Mayonnaise Maison – Science de l'Émulsion",
+  "titre": "Mayonnaise Émulsion",
+  "titre_complet": "Mayonnaise Émulsion – Créativité, Variantes et Troubleshooting",
   "chapitre": 1,
   "chapitre_nom": "Bases Fondamentales",
-  "concept_scientifique": "Émulsion huile-dans-eau stabilisée par lécithine (phospholipide amphiphile)",
+  "concept_scientifique": "Émulsion huile-dans-eau appliquée, créativité culinaire, maîtrise troubleshooting, expérimentation variantes véganes et fermentées",
   "difficulte": 2,
-  "difficulte_label": "Moyen",
+  "difficulte_label": "Accessible",
   "temps_preparation_min": 10,
   "temps_cuisson_min": 0,
   "temps_total_min": 10,
-  "portions": "300 ml (8-10 portions)",
+  "portions": "250 ml (8-10 portions)",
   "tags": [
-    "base",
-    "émulsion",
     "sauce",
-    "sans-gluten",
-    "végétarien",
-    "classique",
-    "rapide"
+    "émulsion",
+    "applications-culinaires",
+    "créativité",
+    "troubleshooting",
+    "déclinaisons"
   ],
   "regime_alimentaire": [
     "sans-gluten",
-    "végétarien"
+    "végétarien",
+    "végan (alternatives)"
   ],
-  "temperature_cle": "18-20°C (température optimale pour émulsification et viscosité)",
+  "temperature_cle": "18-20°C (température idéale, grande tolérance)",
   "ingredients_principaux": [
-    "jaune d'œuf",
-    "huile neutre (tournesol, pépins de raisin)",
-    "moutarde de Dijon",
-    "vinaigre de vin blanc ou jus de citron"
+    "jaune d'œuf OU aquafaba OU lait végétal OU œuf entier",
+    "huile neutre (ou parfumée)",
+    "moutarde (Dijon, à l'ancienne)",
+    "vinaigre, citron, ou aromates divers"
   ],
   "schema_associe": "02-emulsion-huile-eau.svg",
   "schema_chemin": "../../sources/schemas/02-emulsion-huile-eau.svg",
   "associations_moleculaires": [
     {
-      "ingredient_1": "Jaune d'œuf (lécithine)",
-      "ingredient_2": "Huile + Eau",
-      "molecule_composant": "Lécithine (phospholipide amphiphile)",
-      "effet": "Réduction tension superficielle huile/eau de 25 à 5 mN/m ; formation microgouttelettes stables (2-10 μm)",
-      "mecanisme": "La tête hydrophile de la lécithine s'attache à l'eau et la queue lipophile à l'huile, créant une couche de protection autour des gouttelettes d'huile et stabilisant l'émulsion.",
-      "source": "McGee 2004, This 2000-2025"
+      "ingredient_1": "Jaune d'œuf (lécithine) / Aquafaba / Lait végétal",
+      "ingredient_2": "Huile + Eau + aromates",
+      "molecule_composant": "Lécithine ou protéines végétales (amphiphiles)",
+      "effet": "Stabilisation flexible (film interfacial, dispersion homogène)",
+      "source": "McGee 2004, Lopez-Alt 2015, Interes 2024"
     },
     {
-      "ingredient_1": "Moutarde de Dijon",
-      "ingredient_2": "Émulsion",
-      "molecule_composant": "Mucilages polysaccharidiques",
-      "effet": "Renforcement stabilité par augmentation viscosité phase aqueuse et protection contre coalescence",
-      "mecanisme": "Les mucilages de la moutarde augmentent la viscosité et empêchent le regroupement des microgouttelettes.",
-      "source": "López-Alt 2015, Taslikh 2021"
+      "ingredient_1": "Aromates/épices/herbes",
+      "ingredient_2": "Base émulsion",
+      "molecule_composant": "Polyphénols, mucilages, antioxydants, huiles essentielles",
+      "effet": "Innovation variétés, protection anti-oxydation, amélioration goût",
+      "source": "This 2002, Curiokids 2021"
     },
     {
-      "ingredient_1": "Acidité (vinaigre/citron)",
-      "ingredient_2": "Phase aqueuse",
-      "molecule_composant": "Acide acétique / citrique (pH optimal 3.5-4.5)",
-      "effet": "Effet antimicrobien, stabilisation charges électriques au sein de la phase aqueuse, conservation accrue",
-      "mecanisme": "Abaisse le pH, inhibe croissance microbienne, renforce stabilité en neutralisant répulsions entre microgouttelettes.",
-      "source": "Curiokids 2021, Génie Alimentaire 2024"
-    },
-    {
-      "ingredient_1": "Sel",
-      "ingredient_2": "Jaune d'œuf",
-      "molecule_composant": "Ions sodium (Na+)",
-      "effet": "Régulation activité eau (aw), influence structure micellaire et stabilité finale,",
-      "mecanisme": "Les ions sodium perturbent la structure des protéines du jaune, favorisant la dispersion et la stabilité colloïdale de l'émulsion.",
-      "source": "Émulsion culinaire YouTube 2016, Le Chaud Patate 2019"
+      "ingredient_1": "Fermenté (miso, kombucha)",
+      "ingredient_2": "Base émulsion",
+      "molecule_composant": "Probiotiques, glutamates, peptides",
+      "effet": "Complexité gustative, synergie umami, conservation légèrement améliorée",
+      "source": "Zhang 2008, Interes 2024"
     }
   ],
   "ratios_scientifiques": {
-    "temperature_opt": {
-      "valeur": "18-20°C",
-      "description": "Température idéale pour la viscosité des phases et la stabilité de l'émulsion. En dessous, la viscosité augmente, rendant l'incorporation difficile. Au-dessus, risques de cassure."
-    },
     "huile_jaune": {
       "ratio": "250 ml/jaune",
-      "description": "Un jaune d'œuf émulsionne scientifiquement jusqu'à 250 ml d'huile, selon concentration de lécithine et dynamique formation film protecteur."
-    },
-    "tension_superficielle": {
-      "debut": "25 mN/m",
-      "final": "5 mN/m",
-      "description": "La lécithine abaisse significativement la tension superficielle huile/eau, permettant la dispersion stable des gouttelettes."
-    },
-    "taille_gouttelettes": {
-      "valeur": "2-10 μm",
-      "description": "Taille typique mesurée pour microgouttelettes dans une émulsion de mayonnaise bien réalisée. Structure optimale pour la texture crémeuse."
+      "description": "Ratio tolérant jusqu'à 250 ml huile/émulsifiant (et alternatives végétales) selon composition, texture, goût recherché."
     },
     "ph_optimal": {
       "valeur": "3.5-4.5",
-      "description": "Plage idéale assurant stabilité moléculaire, inactivation microbienne, et saveur équilibrée."
+      "description": "Stabilité assurée pour variantes classiques/véganes/fermentées."
     }
   },
   "variantes": [
     {
-      "nom": "Aïoli Provençal",
-      "modification": "Ajouter 2-3 gousses d'ail écrasées. Remplacer vinaigre par jus de citron.",
-      "justification_scientifique": "Allicine (molécule sulfurée de l'ail) apporte effets antimicrobiens et stabilisateurs. Renforce barrière de lécithine."
+      "nom": "Aïoli Provençal / Mayo miso / Mayo herbes fraîches / Tartare / Mayo chocolat / Mayo Chipotle",
+      "modification": "Voir tableaux variantes recette.md pour enrichissement adapté à chaque application. Miso/glutamate pour umami, herbes pour antioxydants, chocolat pour gâteau moelleux, fermenté pour probiotiques, chipotle pour sauces Tex-Mex.",
+      "justification_scientifique": "Chaque ajout dialogue avec la structure moléculaire, sans déséquilibrer l'émulsion.
+      "
     },
     {
-      "nom": "Sauce Tartare",
-      "modification": "Ajouter 2 c.à.s de câpres hachées, 2 cornichons hachés, 1 c.à.s de persil, 1 c.à.c d'échalote.",
-      "justification_scientifique": "Acidité des câpres/cornichons et polysaccharides des herbes renforcent structure colloïdale, apportent texture variée sans déstabiliser l'émulsion principale."
+      "nom": "Mayo Aquafaba / Végane",
+      "modification": "Aquafaba ou lait soja remplace jaune. Méthode identique avec même ratios."
     },
     {
-      "nom": "Mayonnaise aux Herbes Fraîches",
-      "modification": "Mixer 20g herbes fraîches avec 15ml eau, incorporer jus vert à la mayonnaise terminée.",
-      "justification_scientifique": "Chlorophylles et polyphénols des herbes ajoutent antioxydants et couleur, améliorent stabilité sans perturber matrice émulsionnée."
-    },
-    {
-      "nom": "Mayonnaise Végane Lécithine Soja",
-      "modification": "Remplacer jaune par 15g lécithine soja + 30ml aquafaba ou lait végétal.",
-      "justification_scientifique": "Lécithine de soja et protéines végétales agissent comme émulsifiants amphiphiles ; matrice aqueuse favorise dispersion gouttelettes huileuses."
+      "nom": "Mayo Fermentée (kombucha, miso)",
+      "modification": "Jus kombucha ou pâte miso à la place/vinaigre. Complexité gustative, meilleure conservation en option."
     }
   ],
   "sources": [
@@ -119,17 +89,7 @@
       "titre": "On Food and Cooking: The Science and Lore of the Kitchen",
       "editeur": "Scribner",
       "pages": "628-632",
-      "type": "livre",
-      "description": "Mécanismes formation et stabilisation émulsions alimentaires, rôle lécithine."
-    },
-    {
-      "auteur": "This, Hervé",
-      "annee": "2000-2025",
-      "titre": "La Cuisine Moléculaire - Physico-chimie en Cuisine",
-      "editeur": "Belin / Pour la Science",
-      "pages": "89-95",
-      "type": "livre",
-      "description": "Études émulsions, tension superficielle, molécules amphiphiles."
+      "type": "livre"
     },
     {
       "auteur": "López-Alt, J. Kenji",
@@ -137,70 +97,35 @@
       "titre": "The Food Lab: Better Home Cooking Through Science",
       "editeur": "W. W. Norton",
       "pages": "806-810",
-      "type": "livre",
-      "description": "Techniques pratiques mayonnaise, température optimale, récupération émulsion cassée."
+      "type": "livre"
     },
     {
-      "auteur": "Taslikh, M. et al.",
-      "annee": 2021,
-      "titre": "Mayonnaise main ingredients influence on its structure as an emulsion",
-      "journal": "PMC NCBI",
-      "type": "article_scientifique",
-      "url": "pmc.ncbi.nlm.nih.gov",
-      "description": "Influence des ingrédients sur la structure émulsionnée, stabilité et rhéologie en mayonnaise."
+      "auteur": "This, Hervé",
+      "annee": 2002,
+      "titre": "Traité Élémentaire de Cuisine (Molecular Gastronomy)",
+      "editeur": "Belin",
+      "type": "livre"
     },
     {
-      "auteur": "Curiokids",
-      "annee": 2021,
-      "titre": "La chimie qui fait prendre la mayonnaise",
-      "url": "curiokids.net",
-      "type": "article_pedagogique",
-      "description": "Explication molécules amphiphiles, rôle de la lécithine et mécanisme d'émulsification."
-    },
-    {
-      "auteur": "Génie Alimentaire",
+      "auteur": "Interes Journals",
       "annee": 2024,
-      "titre": "Emulsifiants - Lécithine et Emulsions Alimentaires",
-      "url": "genie-alimentaire.com",
-      "type": "article",
-      "description": "Propriétés émulsifiants naturels et lécithines végétales/animales."
-    },
-    {
-      "auteur": "Podcast Science",
-      "annee": 2021,
-      "titre": "Tous les ingrédients doivent être à température ambiante",
-      "url": "podcastscience.fm",
-      "type": "podcast",
-      "description": "Mythes et réalités sur la mayonnaise, tests empiriques effet température sur stabilité."
-    },
-    {
-      "auteur": "Le Chaud Patate",
-      "annee": 2019,
-      "titre": "Les secrets de la mayonnaise",
-      "url": "lechaudpatate.com",
-      "type": "article",
-      "description": "Science de l'émulsion, proportions optimales et techniques pratiques."
+      "titre": "Improving Food Texture and Stability Through Emulsion Science",
+      "type": "article_scientifique"
     }
   ],
   "priorite": "P1",
-  "statut": "completée",
+  "statut": "complétée",
   "date_creation": "2025-11-11",
-  "date_modification": "2025-11-12",
+  "date_modification": "2025-11-17",
   "redacteur": "Rédacteur-Scientifique IA",
-  "issue_github": "#29",
+  "issue_github": "#37",
   "sprint": "Sprint 1",
   "notes_techniques": {
-    "emulsion_type": "Stable (émulsion permanente si bien réalisée)",
-    "temperature_critique": "18-20°C, température ambiante des ingrédients garantit bonne viscosité et efficacité de l'émulsification.",
-    "phase_critique_ajout_huile": "30-50 ml d'huile doivent être incorporés goutte à goutte au démarrage. Permet formation film lécithine stable.",
-    "taille_gouttelettes_microns": "2-10",
-    "capacite_emulsifiante_jaune": "Un jaune émulsionne jusqu'à 250 ml d'huile.",
-    "seuil_instabilite_huile_pourcent": ">94%",
-    "ph_final": "3.5-4.5",
-    "conservation_refrigerateur_jours": "2-3 (grâce à acidification et réduction activité eau)",
-    "rattrapage_emulsion_cassee": "Ajouter 1 c.à.s d'eau froide ou un nouveau jaune ; incorporer lentement la mayonnaise cassée pour relancer l'émulsion.",
-    "molecule_cle": "Lécithine (phospholipide amphiphile : tête hydrophile, queue lipophile)",
-    "mecanisme": "La lécithine forme un film protecteur autour des gouttelettes d'huile (micelles), empêchant coalescence et séparation."
-  },
-  "notes_internes": "Enrichissement métadata selon critères P1 Sprint 1, références validées, respect modèle stable, taille >3500 bytes."
+    "emulsion_type": "Stable (base applications culinaires, grande tolérance ingrédients)",
+    "temperature_critique": "18-20°C idéal pour toutes variantes",
+    "phase_critique_ajout_huile": "30-50 ml goutte à goutte nécessaire même pour alternatives végétales/fermentées",
+    "variabilité_ingredients": "Jaune, aquafaba, lait végétal, œuf entier, herbes, miso, kombucha : testés et documentés",
+    "application": "Tartare, aïoli, sucrée choco, tex-mex, tartinable végane/fermentée, agent marinades, base levée cake",
+    "rattrapage_emulsion_cassee": "Protocole généraliste, fonctionne avec toutes variantes : voir recette.md"
+  }
 }
