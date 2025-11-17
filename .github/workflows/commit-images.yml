@@ -10,11 +10,9 @@ jobs:
   commit-images:
     name: "Télécharger et committer les images"
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
       issues: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -28,9 +26,11 @@ jobs:
 
       - name: Install dependencies
         run: pip install requests
+        shell: bash
 
       - name: Exécuter le script de téléchargement
         run: python3 tools/commit-images.py
+        shell: bash
 
       - name: Vérifier les images téléchargées
         run: |
@@ -41,6 +41,7 @@ jobs:
             echo "⚠️ Aucune image trouvée"
             exit 1
           fi
+        shell: bash
 
       - name: Commit et push des images
         run: |
@@ -59,6 +60,7 @@ jobs:
           git pull --rebase --autostash origin main
           git push
           echo "✅ $IMG_COUNT images commitées avec succès"
+        shell: bash
 
       - name: Commenter l'issue
         if: success()
@@ -81,3 +83,4 @@ jobs:
           🔗 [Voir les images](https://github.com/${{ github.repository }}/tree/main/sources/images)
           EOF
           gh issue comment "$ISSUE_NUM" --body-file comment.md || true
+        shell: bash
