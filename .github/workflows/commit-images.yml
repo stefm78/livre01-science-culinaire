@@ -1,7 +1,7 @@
 name: "🎨 Commit Images depuis Cloud"
 
 on:
-  workflow_dispatch: true
+  workflow_dispatch:
   push:
     paths:
       - 'tools/images-to-commit.json'
