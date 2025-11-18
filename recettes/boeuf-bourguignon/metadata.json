@@ -1,0 +1,114 @@
+{
+  "recette": {
+    "id": "boeuf-bourguignon",
+    "titre": "Bœuf Bourguignon (Conversion Collagène en Gélatine)",
+    "slug": "boeuf-bourguignon",
+    "chapitre": "Viandes & Volailles",
+    "numero_chapitre": 2,
+    "numero_recette": 3,
+    "difficulte": 2,
+    "temps_preparation": 30,
+    "temps_cuisson": 240,
+    "temps_repos": 720,
+    "portions": 6,
+    "tags": [
+      "boeuf",
+      "braiser",
+      "mijotage",
+      "collagene",
+      "gelatine",
+      "vin-rouge",
+      "bourguignon",
+      "plat-mitonne"
+    ]
+  },
+  "science": {
+    "concept_principal": "Conversion Collagène en Gélatine par Mijotage Prolongé",
+    "temperature": "80°C (mijotage optimal 3h30-4h)",
+    "mecanisme": "Hydrolyse thermique du collagène (60-70°C) en gélatine soluble, créant texture fondante et onctuosité de sauce",
+    "schemas_associes": [
+      "collagene-gelatine"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Bœuf",
+        "ingredient_b": "Vin rouge",
+        "molecule": "Tanins + anthocyanes",
+        "effet": "Attendrissement protéines et coloration"
+      },
+      {
+        "ingredient_a": "Bœuf",
+        "ingredient_b": "Lardons fumés",
+        "molecule": "Glutamate fumé",
+        "effet": "Amplification umami"
+      },
+      {
+        "ingredient_a": "Bœuf",
+        "ingredient_b": "Champignons",
+        "molecule": "IMP + glutamate",
+        "effet": "Synergie umami multiplicatrice"
+      },
+      {
+        "ingredient_a": "Carottes + Oignons",
+        "ingredient_b": "Chaleur",
+        "molecule": "Composés Maillard",
+        "effet": "Fond de sauce complexe"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Cocotte en fonte avec bœuf bourguignon fumant, sauce rouge sombre brillante, légumes glacés",
+      "angle": "45-degree",
+      "page": 1,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Professional food photography of beef bourguignon in a cast iron pot, rich dark red wine sauce with tender meat chunks, glazed pearl onions and mushrooms, steam rising, rustic French style, natural lighting from side, 45-degree angle, shallow depth of field"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Cubes de bœuf en train d'être saisis dans cocotte, croûte Maillard dorée",
+        "angle": "top-down",
+        "etape": "Saisie de la viande",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18",
+        "prompt": "Top-down view of beef cubes being seared in cast iron pot, golden-brown Maillard crust forming, oil glistening, professional kitchen setting, natural daylight"
+      },
+      {
+        "fichier": "images/process-02.png",
+        "description": "Bourguignon mijoté avec thermomètre montrant 80°C, légumes fondants",
+        "angle": "close-up",
+        "etape": "Mijotage contrôlé",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18",
+        "prompt": "Close-up of simmering beef bourguignon with digital thermometer showing 80°C, tender meat falling apart, rich sauce, vegetables visible, steam, scientific precision"
+      }
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Assiette avec portion de bœuf bourguignon, viande fondante, sauce brillante nappante",
+      "angle": "45-degree",
+      "page": 2,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Plated beef bourguignon on white dish, fork-tender meat pieces in glossy wine sauce, glazed vegetables, garnished with parsley, side view 45-degree angle, restaurant-quality presentation, natural lighting"
+    }
+  },
+  "sources_documentaires": [
+    "Ricardo Cuisine, 2018 - L'art du braisé (dégradation collagène en gélatine)",
+    "Agriculture Institute, 2024 - Connective Tissue: Structure and Importance in Meat",
+    "Stefan Gourmet, 2016 - Understanding What Happens To Meat When You Cook It (52°C collagène)",
+    "Joël Robuchon, 2025 - Bœuf Bourguignon : La Vraie Recette Traditionnelle (80°C optimal)",
+    "PMC, 2023 - Application of Plant Proteases in Meat Tenderization"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "Chef Projet IA + Rédacteur-Scientifique",
+  "statut": "brouillon",
+  "notes_internes": "Sprint 2 - Chapitre 2 - Recette 2.3 - Concept collagène→gélatine validé, température 80°C optimale pour conversion, repos 12h recommandé"
+}
