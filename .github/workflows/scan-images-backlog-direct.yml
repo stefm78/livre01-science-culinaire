@@ -1,9 +1,13 @@
-name: Scan Backlog Images IA (Direct)
+name: "03-Images 🔍 Scan Backlog Auto"
 
 on:
   workflow_dispatch:
+    inputs:
+      description:
+        description: 'Scanne recettes/* pour détecter images manquantes -> rapport _inbox/images/BACKLOG-REPORT.md'
+        required: false
   schedule:
-    - cron: '0 9 * * 1'
+    - cron: '0 9 * * 1'  # Tous les lundis à 9h
 
 permissions:
   contents: write
@@ -11,33 +15,42 @@ permissions:
 
 jobs:
   scan-and-report:
+    name: "Scanner et générer rapport backlog"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Installer dépendances
         run: pip install Pillow
 
-      - name: Run scan
-        run: python scripts/scan-images-backlog.py
+      - name: Exécuter scan backlog
+        run: |
+          echo "🔍 Lancement scan backlog images..."
+          python scripts/scan-images-backlog.py
+          echo "✅ Scan terminé"
 
-      - name: Commit reports
+      - name: Commit rapports générés
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions Bot"
           git add _inbox/images/
-          git diff --staged --quiet || git commit -m "chore(images): scan backlog automatique"
-          git push
+          if git diff --staged --quiet; then
+            echo "ℹ️ Aucun changement dans les rapports"
+          else
+            git commit -m "chore(images): scan backlog automatique"
+            git push
+            echo "✅ Rapports committés"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Update issue #25 with results
+      - name: Commenter issue #25 avec résultats
         uses: actions/github-script@v7
         with:
           script: |
