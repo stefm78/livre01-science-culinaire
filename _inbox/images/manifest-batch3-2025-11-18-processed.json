@@ -1,0 +1,76 @@
+{
+  "batch_id": "batch3-2025-11-18",
+  "created_at": "2025-11-18T14:12:00+01:00",
+  "images": [
+    {
+      "source_file": "saumon-mi-cuit-55c-hero.png",
+      "target_path": "recettes/saumon-mi-cuit-55c/images/hero.png",
+      "recipe": "saumon-mi-cuit-55c",
+      "type": "hero"
+    },
+    {
+      "source_file": "saumon-mi-cuit-55c-process-01.png",
+      "target_path": "recettes/saumon-mi-cuit-55c/images/process-01.png",
+      "recipe": "saumon-mi-cuit-55c",
+      "type": "process-01"
+    },
+    {
+      "source_file": "saumon-mi-cuit-55c-final.png",
+      "target_path": "recettes/saumon-mi-cuit-55c/images/final.png",
+      "recipe": "saumon-mi-cuit-55c",
+      "type": "final"
+    },
+    {
+      "source_file": "ceviche-marinade-acide-hero.png",
+      "target_path": "recettes/ceviche-marinade-acide/images/hero.png",
+      "recipe": "ceviche-marinade-acide",
+      "type": "hero"
+    },
+    {
+      "source_file": "ceviche-marinade-acide-process-01.png",
+      "target_path": "recettes/ceviche-marinade-acide/images/process-01.png",
+      "recipe": "ceviche-marinade-acide",
+      "type": "process-01"
+    },
+    {
+      "source_file": "ceviche-marinade-acide-final.png",
+      "target_path": "recettes/ceviche-marinade-acide/images/final.png",
+      "recipe": "ceviche-marinade-acide",
+      "type": "final"
+    },
+    {
+      "source_file": "moules-marinieres-extraction-hero.png",
+      "target_path": "recettes/moules-marinieres-extraction/images/hero.png",
+      "recipe": "moules-marinieres-extraction",
+      "type": "hero"
+    },
+    {
+      "source_file": "moules-marinieres-extraction-final.png",
+      "target_path": "recettes/moules-marinieres-extraction/images/final.png",
+      "recipe": "moules-marinieres-extraction",
+      "type": "final"
+    },
+    {
+      "source_file": "lotte-rotie-texture-ferme-hero.png",
+      "target_path": "recettes/lotte-rotie-texture-ferme/images/hero.png",
+      "recipe": "lotte-rotie-texture-ferme",
+      "type": "hero"
+    },
+    {
+      "source_file": "lotte-rotie-texture-ferme-process-01.png",
+      "target_path": "recettes/lotte-rotie-texture-ferme/images/process-01.png",
+      "recipe": "lotte-rotie-texture-ferme",
+      "type": "process-01"
+    },
+    {
+      "source_file": "lotte-rotie-texture-ferme-final.png",
+      "target_path": "recettes/lotte-rotie-texture-ferme/images/final.png",
+      "recipe": "lotte-rotie-texture-ferme",
+      "type": "final"
+    }
+  ],
+  "status": "processed",
+  "total_images": 11,
+  "processed_at": "2025-11-18T14:19:41.432338",
+  "processed_count": 11
+}
