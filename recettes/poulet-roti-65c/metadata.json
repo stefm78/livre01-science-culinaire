@@ -1,0 +1,62 @@
+{
+  "recette": {
+    "id": "poulet-roti-65c",
+    "titre": "Poulet Rôti Juteux (65°C)",
+    "slug": "poulet-roti-65c",
+    "chapitre": "Viandes & Volailles",
+    "numero_chapitre": 2,
+    "numero_recette": 2,
+    "difficulte": 2,
+    "temps_preparation": 25,
+    "temps_cuisson": 130,
+    "temps_repos": 10,
+    "portions": 4,
+    "tags": [
+      "basse-temperature",
+      "maillard",
+      "volaille"
+    ]
+  },
+  "science": {
+    "concept_principal": "Cuisson basse température & dénaturation protéines",
+    "temperature": "65°C",
+    "mecanisme": "La myosine commence à se dénaturer dès 55°C, l’actine entre 66 et 80°C. Cuire à 65°C permet la gélification des protéines sans assèchement.",
+    "schemas_associes": [
+      "01-reaction-maillard"
+    ],
+    "associations": [
+      {"ingredient_a": "Poulet", "ingredient_b": "Beurre", "molecule": "Lactones, aldéhydes", "effet": "saveur de rôti, notes grillées"},
+      {"ingredient_a": "Poulet", "ingredient_b": "Citron", "molecule": "Aldéhydes", "effet": "fraîcheur, parfum"}
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Poulet doré entier sur planche bois, tranches juteuses, brillance peau, éclairage naturel.",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    },
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Zoom découpe, chair moelleuse, jus visible, accompagnement herbes.",
+      "angle": "45-degrees",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
+    "BCCDC, 2024",
+    "IAM, 2023",
+    "Safefood, 2019",
+    "NIH, 2025",
+    "McGee, On Food and Cooking, 2004"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "AI Contributor (Sprint 2)",
+  "statut": "brouillon"
+}
