@@ -1,34 +1,79 @@
 {
-  "id": "oeuf-mollet-parfait",
-  "titre": "Œuf Mollet Parfait (6 min 30)",
-  "chapitre": 5,
-  "chapitre_nom": "Œufs & Laitages",
-  "numero_recette": "5.1",
-  "concept_scientifique": "Coagulation protéines",
-  "difficulte": 1,
-  "temps_preparation": 5,
-  "temps_cuisson": 6.5,
-  "portions": 4,
-  "tags": [
-    "oeufs",
-    "coagulation",
-    "proteines",
-    "cuisson-precision",
-    "temperature-controlee",
-    "basique"
-  ],
-  "temperature_cle": "100°C (eau bouillante) - 62-65°C (coagulation blanc) - 65-70°C (coagulation jaune)",
-  "reaction_chimique": "Dénaturation et coagulation protéines albumine et vitelline",
-  "sources": [
+  "recette": {
+    "id": "oeuf-mollet-parfait",
+    "titre": "Œuf Mollet Parfait (6 min 30)",
+    "slug": "oeuf-mollet-parfait",
+    "chapitre": "Œufs & Laitages",
+    "numero_chapitre": 5,
+    "numero_recette": 1,
+    "difficulte": 1,
+    "temps_preparation": 5,
+    "temps_cuisson": 6.5,
+    "temps_repos": 0,
+    "portions": 4,
+    "tags": [
+      "oeufs",
+      "coagulation",
+      "proteines",
+      "cuisson-precision",
+      "temperature-controlee",
+      "basique"
+    ]
+  },
+  "science": {
+    "concept_principal": "Coagulation protéines",
+    "temperature": "100°C (eau bouillante) - 62-65°C (blanc coagulation) - 65-70°C (jaune coagulation)",
+    "mecanisme": "Dénaturation et coagulation protéines albumine et vitelline",
+    "schemas_associes": [],
+    "associations": [
+      {
+        "ingredient_a": "Blanc d'œuf",
+        "ingredient_b": "Chaleur 100°C",
+        "molecule": "Albumine",
+        "effet": "Coagulation (texture ferme)"
+      },
+      {
+        "ingredient_a": "Jaune d'œuf",
+        "ingredient_b": "Cuisson partielle",
+        "molecule": "Vitelline",
+        "effet": "Partiellement coagulée (crémeuse/coulante)"
+      },
+      {
+        "ingredient_a": "Vinaigre blanc",
+        "ingredient_b": "Eau cuisson",
+        "molecule": "Acide acétique",
+        "effet": "Accélération coagulation (barrière/coques fissurées)"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Œuf mollet coupé révélant jaune crémeux, présenté sur salade ou asperges.",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    },
+    "process": [],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Présentation finale : œuf mollet parfaitement écalé, jaune coulant.",
+      "angle": "45-degree",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
     "INRA - Coagulation protéines œuf (20 secondes à 90°C)",
     "Agriculture Institute, 2025 - Protein Denaturation (40-60°C)",
     "Agafonkina et al., 2019 - Thermal denaturation (45-90°C)"
   ],
-  "schemas_associes": [],
-  "images": {
-    "hero": "images/hero.png",
-    "final": "images/final.png"
-  },
+  "version": "1.1",
   "date_creation": "2025-11-18",
-  "statut": "complet"
+  "date_modification": "2025-11-18",
+  "auteur": "IA Contributrice",
+  "statut": "complet",
+  "notes_internes": "Mise à jour metadata.json pour conformité avec template standard - Structuration détaillée section science : albumine, vitelline, acide acétique, températures clés."
 }
