@@ -1,0 +1,125 @@
+{
+  "recette": {
+    "id": "magret-canard-laque",
+    "titre": "Magret de Canard Laqué (Maillard + Caramélisation)",
+    "slug": "magret-canard-laque",
+    "chapitre": "Viandes & Volailles",
+    "numero_chapitre": 2,
+    "numero_recette": 4,
+    "difficulte": 2,
+    "temps_preparation": 10,
+    "temps_cuisson": 18,
+    "temps_repos": 125,
+    "portions": 2,
+    "tags": [
+      "canard",
+      "magret",
+      "laque",
+      "maillard",
+      "caramelisation",
+      "miel",
+      "sauce-soja",
+      "asiatique"
+    ]
+  },
+  "science": {
+    "concept_principal": "Réaction de Maillard + Caramélisation Combinées",
+    "temperature": "120-140°C (fonte graisse) puis 180-220°C (caramélisation), cœur 55-58°C",
+    "mecanisme": "Double réaction: Maillard (protéines+sucres 140-180°C) sur chair, caramélisation sucres (160°C+) sur peau laquée. Cuisson deux temps pour peau croustillante + chair rosée",
+    "schemas_associes": [
+      "reaction-maillard",
+      "caramelisation-sucres"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Canard",
+        "ingredient_b": "Miel",
+        "molecule": "Sucres (fructose, glucose)",
+        "effet": "Caramélisation croûte laquée dorée"
+      },
+      {
+        "ingredient_a": "Canard",
+        "ingredient_b": "Sauce soja",
+        "molecule": "Glutamate",
+        "effet": "Synergie umami multiplicatrice avec IMP canard"
+      },
+      {
+        "ingredient_a": "Canard",
+        "ingredient_b": "Cinq-épices",
+        "molecule": "Composés terpéniques (anéthole, cinnamaldéhyde)",
+        "effet": "Notes épicées anisées et cannelées"
+      },
+      {
+        "ingredient_a": "Miel",
+        "ingredient_b": "Vinaigre balsamique",
+        "molecule": "Acide acétique",
+        "effet": "Équilibre sucre-acidité"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Magret de canard entier laqué brillant, peau caramélisée brun-noir quadrillée, sur planche bois",
+      "angle": "45-degree",
+      "page": 1,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Professional food photography of glazed duck breast magret with shiny caramelized dark brown skin, diamond crosshatch pattern visible, placed on wooden board, glossy lacquer finish, natural lighting from side, 45-degree angle, shallow depth of field, appetizing presentation"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Peau de magret quadrillée en croisillons profonds avant cuisson",
+        "angle": "top-down",
+        "etape": "Quadrillage de la peau",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18",
+        "prompt": "Top-down close-up of raw duck breast with skin scored in deep crosshatch diamond pattern, knife visible, clean cutting board, natural daylight, precise knife work detail"
+      },
+      {
+        "fichier": "images/process-02.png",
+        "description": "Magret en cuisson côté peau, graisse fondant dans poêle",
+        "angle": "side-view",
+        "etape": "Fonte de la graisse",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18",
+        "prompt": "Side view of duck breast cooking skin-side down in pan, melted fat pooling, golden skin crisping, steam rising, professional cooking technique, natural kitchen lighting"
+      },
+      {
+        "fichier": "images/process-03.png",
+        "description": "Badigeonnage du magret avec laque miel-soja à la cuillère",
+        "angle": "close-up",
+        "etape": "Glaçage",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18",
+        "prompt": "Close-up of glazing duck breast with honey-soy lacquer using spoon, glossy sauce dripping, caramelized skin visible underneath, brush or spoon in action, dramatic lighting"
+      }
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Magret tranché en biais révélant chair rose, peau laquée brillante, disposé en éventail",
+      "angle": "45-degree",
+      "page": 2,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Sliced duck breast magret fanned out on white plate, revealing perfectly pink interior, glossy caramelized skin, sauce drizzled, garnished with micro herbs, 45-degree angle, restaurant plating, natural lighting, appetizing colors"
+    }
+  },
+  "sources_documentaires": [
+    "Hofmann & Schieberle, 2000 - Formation of aroma-active strecker-aldehydes (Maillard)",
+    "Jesperequeceserabon.wordpress.com, 2022 - Magret de canard laqué au miel",
+    "Aufilduthym.fr, 2023 - Magret de canard laqué, soja et miel",
+    "Šimkovič et al., 2003 - Primary reactions of sucrose thermal degradation (caramélisation)",
+    "Zhang et al., 2008 - Molecular mechanism for the umami taste synergism (glutamate-IMP)"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "Chef Projet IA + Rédacteur-Scientifique",
+  "statut": "brouillon",
+  "notes_internes": "Sprint 2 - Chapitre 2 - Recette 2.4 - Double réaction Maillard+Caramélisation, cuisson deux temps validée, température cœur 55-58°C optimale"
+}
