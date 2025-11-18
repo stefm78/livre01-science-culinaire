@@ -1,0 +1,96 @@
+{
+  "recette": {
+    "id": "saumon-mi-cuit-55c",
+    "titre": "Saumon Mi-Cuit (55°C)",
+    "slug": "saumon-mi-cuit-55c",
+    "chapitre": "Poissons & Fruits de Mer",
+    "numero_chapitre": 3,
+    "numero_recette": 1,
+    "difficulte": 2,
+    "temps_preparation": 10,
+    "temps_cuisson": 25,
+    "temps_repos": 20,
+    "portions": 2,
+    "tags": [
+      "saumon",
+      "poisson",
+      "basse-temperature",
+      "cuisson-precision",
+      "denaturation-proteique",
+      "texture-fondante",
+      "P1"
+    ]
+  },
+  "science": {
+    "concept_principal": "Dénaturation protéique contrôlée à basse température",
+    "temperature": "55°C (cuisson) / 52-55°C (cœur)",
+    "mecanisme": "Coagulation progressive des protéines myofibrillaires sans contraction brutale, préservation des jus interstitiels, collagène intact",
+    "schemas_associes": [
+      "denaturation-proteines"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Saumon",
+        "ingredient_b": "Beurre",
+        "molecule": "Acides gras oméga-3 + lipides laitiers",
+        "effet": "Onctuosité renforcée, texture fondante"
+      },
+      {
+        "ingredient_a": "Citron",
+        "ingredient_b": "Chair cuite",
+        "molecule": "Acide citrique + protéines dénaturées",
+        "effet": "Contraste acidulé, exhausteur de saveur"
+      },
+      {
+        "ingredient_a": "Aneth",
+        "ingredient_b": "Saumon",
+        "molecule": "Carvone + composés iodés",
+        "effet": "Synergie aromatique nordique"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Pavé de saumon mi-cuit à 55°C, texture translucide au centre, servi sur assiette blanche avec aneth frais et citron",
+      "angle": "45-degree",
+      "page": 1,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Minimalist food photography of perfectly cooked salmon fillet at 55°C, translucent center, 45-degree angle, natural soft lighting from left, white plate on marble surface, fresh dill and lemon wedge, elegant presentation, photorealistic, modern culinary style"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Thermomètre de cuisson montrant 55°C dans la chair du saumon",
+        "angle": "macro",
+        "etape": "Vérification température interne",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      }
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Saumon mi-cuit dressé avec aneth, zeste de citron et beurre noisette, vue top-down",
+      "angle": "top-down",
+      "page": 2,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Minimalist top-down food photography of cooked salmon fillet with dill, lemon zest, brown butter sauce, white plate on light marble, natural window lighting, clean composition, soft shadows, high-end cookbook aesthetic"
+    }
+  },
+  "sources_documentaires": [
+    "NIH (2025) - Effect of low-temperature sous vide under high-pressure on pork quality. PMC. (Validation températures 55-65°C pour protéines)",
+    "Agriculture Institute (2025) - What is Protein Denaturation? (Dénaturation graduelle 40-60°C)",
+    "Agafonkina et al. (2019) - Thermal denaturation of beef, chicken, turkey. Meat Journal. (Dénaturation irréversible >45°C)",
+    "BCCDC (2024) - Guidelines for restaurant sous vide cooking safety. (Température minimale 55°C acceptable)",
+    "IAM (2023) - Sous Vide Cooking and Food Safety. Municipal Affairs Macao. (Sécurité 64°C/12min37s recommandée)"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "IA Rédacteur-Scientifique (Perplexity AI)",
+  "statut": "production",
+  "notes_internes": "Recette 3.1 - Sprint 3 - Chapitre 3. Concept : dénaturation protéique contrôlée. Niveau P1 (priorité haute). Sécurité alimentaire documentée."
+}
