@@ -71,8 +71,11 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions Bot"
           git add _inbox/images/backlog-scan.json _inbox/images/BACKLOG-REPORT.md
-          git diff --staged --quiet || git commit -m "chore(images): scan backlog automatique via commande /scan-images"
-          git push
+          git diff --staged --quiet || (
+            git pull --rebase origin main &&
+            git commit -m "chore(images): scan backlog automatique via commande /scan-images" &&
+            git push
+          )
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Add completion reaction
