@@ -68,14 +68,14 @@ Créer un livre de cuisine scientifique combinant :
 
 ---
 
-### Prochaine Phase : Production Contenu (⏳ 0%)
+### Prochaine Phase : Production Contenu (⏳ 13%)
 
 **Dates** : 18 nov 2025 - 17 jan 2026 (8 semaines)
 
 | Sprint | Chapitre | Recettes | Dates | Statut |
 |--------|----------|----------|-------|--------|
 | Sprint 1 | Ch.1 Bases | 5 | 18-22 Nov | Issue #13 ✅ |
-| Sprint 2 | Ch.2 Viandes | 4 | 25-29 Nov | ⏳ |
+| Sprint 2 | Ch.2 Viandes | 4 | 25-29 Nov | ✅ |
 | Sprint 3 | Ch.3 Poissons | 4 | 2-6 Dec | ⏳ |
 | Sprint 4 | Ch.4 Légumes | 4 | 9-13 Dec | ⏳ |
 | Sprint 5 | Ch.5 Œufs | 4 | 16-20 Dec | ⏳ |
@@ -97,7 +97,7 @@ Créer un livre de cuisine scientifique combinant :
 | **Schémas Scientifiques** | ✅ Créés | 100% (8/8) |
 | **Liste Recettes** | ✅ Définie | 100% (31/31) |
 | **Photos Tests** | 🟡 En cours | 47% (7/15) |
-| **Recettes** | ⏳ À démarrer | 0% (0/31) |
+| **Recettes** | 🟢 En cours | 13% (4/31) |
 
 ---
 
@@ -238,7 +238,7 @@ gp
 ### Métriques Clés
 
 - **Recettes définies** : 31/31 (100%) ✅
-- **Recettes produites** : 0/31 (0%)
+- **Recettes produites** : 4/31 (13%)
 - **Images** : 7/60+ (12%)
 - **Schémas** : 8/8 (100%) ✅
 - **Pages Livre** : 0/200-250 (0%)
