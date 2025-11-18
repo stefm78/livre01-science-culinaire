@@ -1,0 +1,107 @@
+{
+  "recette": {
+    "id": "pain-levain-fermentation",
+    "titre": "Pain au Levain (Fermentation Naturelle)",
+    "slug": "pain-levain-fermentation",
+    "chapitre": "Pains & Pâtisseries",
+    "numero_chapitre": 6,
+    "numero_recette": 1,
+    "difficulte": 2,
+    "temps_preparation": 30,
+    "temps_cuisson": 45,
+    "temps_repos": 1140,
+    "portions": 8,
+    "tags": [
+      "pain",
+      "levain",
+      "fermentation",
+      "fermentation-lactique",
+      "bactéries-lactiques",
+      "levures-sauvages",
+      "P2"
+    ]
+  },
+  "science": {
+    "concept_principal": "Fermentation levain (levures + bactéries lactiques)",
+    "temperature": "24-26°C (fermentation) / 250°C puis 220°C (cuisson)",
+    "mecanisme": "Symbiose levures (CO2, éthanol) et lactobacilles (acide lactique/acétique, pH 3.8-4.5). Fermentation longue développe arômes complexes, améliore conservation et digestibilité via dégradation phytates.",
+    "schemas_associes": [
+      "fermentation-levain",
+      "reseau-gluten"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Farine + Eau + Levain",
+        "ingredient_b": "Levures + Lactobacilles",
+        "molecule": "CO2 + Acide lactique + Acide acétique",
+        "effet": "Alvéolage, acidité caractéristique, arômes complexes"
+      },
+      {
+        "ingredient_a": "Gluten",
+        "ingredient_b": "Pétrissage + Fermentation",
+        "molecule": "Réseau protéique élastique",
+        "effet": "Structure alvéolée, texture moelleuse"
+      },
+      {
+        "ingredient_a": "Croûte chaude",
+        "ingredient_b": "Réaction de Maillard",
+        "molecule": "Composés aromatiques (pyrazines, furanones)",
+        "effet": "Arômes caramélisés, noix, croûte dorée"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Pain au levain entier posé sur planche en bois, vue top-down, croûte dorée et craquelée, lumière naturelle",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Professional food photography of artisan sourdough bread loaf on wooden board, top-down view, golden cracked crust, natural daylight, minimalist style, scientific aesthetic"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Levain actif bullé dans bocal en verre, vue 45 degrés",
+        "angle": "45-degree",
+        "etape": "Activation du levain",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      },
+      {
+        "fichier": "images/process-02.png",
+        "description": "Pâte en cours de fermentation dans bol, surface bombée et alvéolée",
+        "angle": "45-degree",
+        "etape": "Première fermentation",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      }
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Pain au levain tranché révélant mie alvéolée irrégulière, vue 45 degrés, lumière naturelle",
+      "angle": "45-degree",
+      "page": 2,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Professional food photography of sliced sourdough bread revealing irregular crumb structure with air pockets, 45-degree angle, natural light, minimalist scientific aesthetic"
+    }
+  },
+  "sources_documentaires": [
+    "[Nature, 2023] Probiotic potentials of lactic acid bacteria from Egyptian fermented foods. Lactiplantibacillus plantarum, activité antimicrobienne et antioxydante.",
+    "[Frontiers, 2023] In vitro screening of lactic acid bacteria from Lithuanian fermented foods. Lacticaseibacillus paracasei, Lactiplantibacillus plantarum.",
+    "[Tandfonline, 2025] Exploring lactic acid bacteria in food, human health, and agriculture. Fermentation LAB : saveur, texture, conservation, réduction phytates.",
+    "[Dergipark, 2024] Industrial Application of Lactic Acid Bacteria. Production yogourt, fromage, choucroute, kimchi ; métabolisation sucres en acide lactique.",
+    "[Agriculture Institute, 2024] Understanding Molecular Structure of Gluten. Liaisons disulfure, hydratation/pétrissage pour élasticité.",
+    "[Mioduszewski et al., 2021] Viscoelastic properties of wheat gluten in molecular dynamics. Modélisation moléculaire élasticité gluten."
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "IA Contributrice Perplexity",
+  "statut": "production",
+  "notes_internes": "Sprint 6 - Chapitre 6 : Pains & Pâtisseries. Recette 6.1 complète avec focus fermentation lactique et symbiose levures-bactéries."
+}
