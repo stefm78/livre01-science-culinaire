@@ -1,5 +1,5 @@
 {
-  "scan_date": "2025-11-18T13:32:52.214055",
+  "scan_date": "2025-11-18T15:13:25.752937",
   "recipes": [
     {
       "name": "beurre-blanc",
@@ -39,9 +39,9 @@
           "file_exists": true,
           "is_valid": false,
           "issues": [
-            "⚠️ PLACEHOLDER DÉTECTÉ: 39 bytes (min: 50000)"
+            "❌ RÉSOLUTION INSUFFISANTE: 1024x1024 (min: 1500)"
           ],
-          "file_size": 39
+          "file_size": 1809287
         },
         {
           "filename": "final.png",
@@ -81,12 +81,25 @@
         "total_expected": 4,
         "valid": 0,
         "missing": 2,
-        "invalid": 1,
-        "placeholder": 1
+        "invalid": 2,
+        "placeholder": 0
       }
     },
     {
-      "name": "ceviche",
+      "name": "brioche-moelleuse-gluten",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "carottes-roties-caramelisees",
       "images_dir_exists": false,
       "readme_exists": false,
       "images": [],
@@ -100,6 +113,19 @@
     },
     {
       "name": "ceviche-marinade-acide",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "champignons-umami-shiitake",
       "images_dir_exists": false,
       "readme_exists": false,
       "images": [],
@@ -112,7 +138,33 @@
       }
     },
     {
-      "name": "lotte-rotie",
+      "name": "chou-fleur-texture",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "creme-brulee-caramelisee",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "kimchi-express",
       "images_dir_exists": false,
       "readme_exists": false,
       "images": [],
@@ -126,7 +178,7 @@
     },
     {
       "name": "lotte-rotie-texture-ferme",
-      "images_dir_exists": false,
+      "images_dir_exists": true,
       "readme_exists": false,
       "images": [],
       "stats": {
@@ -177,7 +229,20 @@
       }
     },
     {
-      "name": "moules-mariniere",
+      "name": "moules-marinieres-extraction",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "mousse-chocolat-aerienne",
       "images_dir_exists": false,
       "readme_exists": false,
       "images": [],
@@ -190,7 +255,46 @@
       }
     },
     {
-      "name": "moules-marinieres-extraction",
+      "name": "oeuf-mollet-parfait",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "pain-croute-maillard",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "pain-levain-fermentation",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "panna-cotta-gelification",
       "images_dir_exists": false,
       "readme_exists": false,
       "images": [],
@@ -216,21 +320,8 @@
       }
     },
     {
-      "name": "saumon-mi-cuit",
-      "images_dir_exists": false,
-      "readme_exists": false,
-      "images": [],
-      "stats": {
-        "total_expected": 0,
-        "valid": 0,
-        "missing": 0,
-        "invalid": 0,
-        "placeholder": 0
-      }
-    },
-    {
       "name": "saumon-mi-cuit-55c",
-      "images_dir_exists": false,
+      "images_dir_exists": true,
       "readme_exists": false,
       "images": [],
       "stats": {
@@ -327,12 +418,12 @@
     }
   ],
   "summary": {
-    "total_recipes": 18,
+    "total_recipes": 25,
     "total_images_expected": 8,
     "total_valid": 0,
     "total_missing": 4,
-    "total_placeholder": 1,
-    "total_invalid": 3,
+    "total_placeholder": 0,
+    "total_invalid": 4,
     "completion_rate": 0.0
   },
   "issues": [
@@ -342,7 +433,12 @@
       "message": "README.md images manquant"
     },
     {
-      "recipe": "ceviche",
+      "recipe": "brioche-moelleuse-gluten",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "carottes-roties-caramelisees",
       "type": "NO_README",
       "message": "README.md images manquant"
     },
@@ -352,7 +448,22 @@
       "message": "README.md images manquant"
     },
     {
-      "recipe": "lotte-rotie",
+      "recipe": "champignons-umami-shiitake",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "chou-fleur-texture",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "creme-brulee-caramelisee",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "kimchi-express",
       "type": "NO_README",
       "message": "README.md images manquant"
     },
@@ -367,22 +478,37 @@
       "message": "README.md images manquant"
     },
     {
-      "recipe": "moules-mariniere",
-      "type": "NO_README",
-      "message": "README.md images manquant"
-    },
-    {
       "recipe": "moules-marinieres-extraction",
       "type": "NO_README",
       "message": "README.md images manquant"
     },
     {
-      "recipe": "poulet-roti-65c",
+      "recipe": "mousse-chocolat-aerienne",
       "type": "NO_README",
       "message": "README.md images manquant"
     },
     {
-      "recipe": "saumon-mi-cuit",
+      "recipe": "oeuf-mollet-parfait",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "pain-croute-maillard",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "pain-levain-fermentation",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "panna-cotta-gelification",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "poulet-roti-65c",
       "type": "NO_README",
       "message": "README.md images manquant"
     },
