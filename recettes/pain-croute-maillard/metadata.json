@@ -1,0 +1,115 @@
+{
+  "recette": {
+    "id": "pain-croute-maillard",
+    "titre": "Pain Croûte Maillard (Croute Croustillante Scientifique)",
+    "slug": "pain-croute-maillard",
+    "chapitre": "Pains & Pâtisseries",
+    "numero_chapitre": 6,
+    "numero_recette": 3,
+    "difficulte": 3,
+    "temps_preparation": 20,
+    "temps_cuisson": 40,
+    "temps_repos": 960,
+    "portions": 8,
+    "tags": [
+      "pain",
+      "maillard",
+      "croute-croustillante",
+      "caramelisation",
+      "vapeur",
+      "fermentation-froide",
+      "P3"
+    ]
+  },
+  "science": {
+    "concept_principal": "Réaction de Maillard en croûte (>140°C) + Caramelisation + Déshydratation + Injection vapeur",
+    "temperature": "24-26°C (fermentation) / 250°C puis 240°C (cuisson) / 96-98°C (à cœur)",
+    "mecanisme": "Trois phénomènes simultanés à haute température : 1) Réaction Maillard acides aminés + sucres (>140°C) produit mélanoïdines, pyrazines, furanones (arômes grillés, croûte dorée). 2) Caramelisation sucres libérés (>160°C). 3) Déshydratation rapide surface crée texture croustillante. Vapeur initiale retarde formation croûte (oven spring) puis accélère gélatinisation amidon surface.",
+    "schemas_associes": [
+      "reaction-maillard",
+      "caramelisation",
+      "reseau-gluten"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Acides aminés + Sucres réducteurs",
+        "ingredient_b": "Chaleur >140°C",
+        "molecule": "Mélanoïdines + Pyrazines + Furanones",
+        "effet": "Croûte dorée, arômes grillés/noix"
+      },
+      {
+        "ingredient_a": "Amidon de surface",
+        "ingredient_b": "Vapeur + Chaleur",
+        "molecule": "Amidon gélatinisé",
+        "effet": "Accélération Maillard, croûte brillante initiale"
+      },
+      {
+        "ingredient_a": "Surface pain",
+        "ingredient_b": "Chaleur intense (240-250°C) + Déshydratation",
+        "molecule": "Structure rigide déshydratée",
+        "effet": "Texture croustillante, croûte épaisse"
+      },
+      {
+        "ingredient_a": "Sucres libérés (hydrolyse amidon)",
+        "ingredient_b": "Température >160°C",
+        "molecule": "Composés de caramelisation",
+        "effet": "Arômes caramélisés, couleur brun-orangé"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Pain artisanal avec croûte très dorée et craquelée, grigne ouverte spectaculaire, vue top-down, lumière naturelle",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Professional food photography of artisan bread with deep golden cracked crust and dramatic open scoring, top-down view, natural daylight, minimalist style, scientific aesthetic"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Pain juste scarifié avant cuisson, montrant entailles profondes, vue rapprochée",
+        "angle": "close-up",
+        "etape": "Scarification",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      },
+      {
+        "fichier": "images/process-02.png",
+        "description": "Injection vapeur dans cocotte brûlante, nuage de vapeur visible",
+        "angle": "45-degree",
+        "etape": "Injection vapeur",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      }
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Pain avec croûte ultra-croustillante brun-orangé, grigne largement ouverte, vue 45 degrés, éclats de croûte visibles",
+      "angle": "45-degree",
+      "page": 2,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Professional food photography of bread with ultra-crispy deep bronze crust and wide open scoring, 45-degree angle, crust shards visible, natural light, minimalist scientific aesthetic"
+    }
+  },
+  "sources_documentaires": [
+    "[Hofmann & Schieberle, 2000] Formation of aroma-active strecker-aldehydes by direct oxidative degradation of Amadori compounds. J Agric Food Chem. Mécanisme Maillard, aldéhydes de Strecker.",
+    "[Baristahustle, 2021] Strecker Degradation in Coffee Roasting. Conversion acides aminés en aldéhydes aromatiques volatils.",
+    "[Piornos et al., 2025] Multi-response kinetic modelling of Strecker aldehydes formation in malt. Centaur Reading. Modélisation cinétique formation aldéhydes, sensibilité température.",
+    "[Hartel, 1991] Sugar crystallization in food products. PubMed. Mécanismes nucléation, caramelisation.",
+    "[ScienceDirect, 2025] Starch Gelatinization overview. Gélatinisation amidon 60-80°C selon type, gonflement granules.",
+    "[SciFoodBlog, 2025] Starch and Gelatinisation in Cooking. Températures gélatinisation varient : maïs 62-72°C, farine 51-60°C.",
+    "[Agriculture Institute, 2024] Understanding Molecular Structure of Gluten. Liaisons disulfure, hydratation/pétrissage."
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "IA Contributrice Perplexity",
+  "statut": "production",
+  "notes_internes": "Sprint 6 - Chapitre 6 : Pains & Pâtisseries. Recette 6.3 complète avec focus réaction Maillard croûte, injection vapeur, optimisation croustillant. Difficulté P3 (technique vapeur, températures élevées, timing critique)."
+}
