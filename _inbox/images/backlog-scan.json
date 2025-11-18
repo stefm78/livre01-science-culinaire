@@ -1,5 +1,5 @@
 {
-  "scan_date": "2025-11-18T11:10:46.911027",
+  "scan_date": "2025-11-18T11:25:57.706307",
   "recipes": [
     {
       "name": "beurre-blanc",
@@ -50,7 +50,7 @@
           "file_exists": true,
           "is_valid": false,
           "issues": [
-            "❌ RÉSOLUTION INSUFFISANTE: 1536x1024 (min: 2048)"
+            "❌ RÉSOLUTION INSUFFISANTE: 1536x1024 (min: 1500)"
           ],
           "file_size": 2424549
         },
@@ -149,7 +149,7 @@
           "file_exists": true,
           "is_valid": false,
           "issues": [
-            "❌ RÉSOLUTION INSUFFISANTE: 2304x1728 (min: 2048)"
+            "❌ FORMAT INVALIDE: JPEG (requis: PNG)"
           ],
           "file_size": 1157868
         },
@@ -182,7 +182,7 @@
           "file_exists": true,
           "is_valid": false,
           "issues": [
-            "❌ RÉSOLUTION INSUFFISANTE: 2304x1728 (min: 2048)"
+            "❌ FORMAT INVALIDE: JPEG (requis: PNG)"
           ],
           "file_size": 982668
         }

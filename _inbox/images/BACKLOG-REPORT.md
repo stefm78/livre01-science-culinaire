@@ -1,4 +1,4 @@
-# 📊 Rapport Backlog Images IA - 2025-11-18 11:10
+# 📊 Rapport Backlog Images IA - 2025-11-18 11:25
 
 ## 📈 Vue d'ensemble
 
@@ -31,7 +31,7 @@
 
 **À générer/corriger** :
 - `hero.png` (OPTIONNEL) - ⬜ MANQUANTE
-- `final.png` (OPTIONNEL) - ⚠️ ❌ RÉSOLUTION INSUFFISANTE: 1536x1024 (min: 2048)
+- `final.png` (OPTIONNEL) - ⚠️ ❌ RÉSOLUTION INSUFFISANTE: 1536x1024 (min: 1500)
 - `01.png` (OPTIONNEL) - ⬜ MANQUANTE
 - `02.png` (OPTIONNEL) - ⬜ MANQUANTE
 
@@ -61,10 +61,10 @@
 **Stats** : 0/4 valides | Manquantes: 2 | Placeholders: 0 | Invalides: 2
 
 **À générer/corriger** :
-- `hero.png` (OPTIONNEL) - ⚠️ ❌ RÉSOLUTION INSUFFISANTE: 2304x1728 (min: 2048)
+- `hero.png` (OPTIONNEL) - ⚠️ ❌ FORMAT INVALIDE: JPEG (requis: PNG)
 - `01.png` (OPTIONNEL) - ⬜ MANQUANTE
 - `02.png` (OPTIONNEL) - ⬜ MANQUANTE
-- `final.png` (OPTIONNEL) - ⚠️ ❌ RÉSOLUTION INSUFFISANTE: 2304x1728 (min: 2048)
+- `final.png` (OPTIONNEL) - ⚠️ ❌ FORMAT INVALIDE: JPEG (requis: PNG)
 
 
 ### vinaigrette-emulsion-temporaire
