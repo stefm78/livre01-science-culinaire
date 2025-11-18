@@ -1,0 +1,76 @@
+{
+  "batch_id": "batch02-20251118",
+  "created_at": "2025-11-18T12:47:00+01:00",
+  "images": [
+    {
+      "source_file": "poulet-roti-hero.png",
+      "target_path": "recettes/poulet-roti-juteux/images/hero.png",
+      "recipe": "poulet-roti-juteux",
+      "type": "hero"
+    },
+    {
+      "source_file": "poulet-roti-final.png",
+      "target_path": "recettes/poulet-roti-juteux/images/final.png",
+      "recipe": "poulet-roti-juteux",
+      "type": "final"
+    },
+    {
+      "source_file": "poulet-roti-process-01.png",
+      "target_path": "recettes/poulet-roti-juteux/images/process-01.png",
+      "recipe": "poulet-roti-juteux",
+      "type": "process"
+    },
+    {
+      "source_file": "boeuf-bourguignon-hero.png",
+      "target_path": "recettes/boeuf-bourguignon/images/hero.png",
+      "recipe": "boeuf-bourguignon",
+      "type": "hero"
+    },
+    {
+      "source_file": "boeuf-bourguignon-final.png",
+      "target_path": "recettes/boeuf-bourguignon/images/final.png",
+      "recipe": "boeuf-bourguignon",
+      "type": "final"
+    },
+    {
+      "source_file": "boeuf-bourguignon-process-01.png",
+      "target_path": "recettes/boeuf-bourguignon/images/process-01.png",
+      "recipe": "boeuf-bourguignon",
+      "type": "process"
+    },
+    {
+      "source_file": "magret-canard-hero.png",
+      "target_path": "recettes/magret-canard-laque/images/hero.png",
+      "recipe": "magret-canard-laque",
+      "type": "hero"
+    },
+    {
+      "source_file": "magret-canard-final.png",
+      "target_path": "recettes/magret-canard-laque/images/final.png",
+      "recipe": "magret-canard-laque",
+      "type": "final"
+    },
+    {
+      "source_file": "magret-canard-process-01.png",
+      "target_path": "recettes/magret-canard-laque/images/process-01.png",
+      "recipe": "magret-canard-laque",
+      "type": "process"
+    },
+    {
+      "source_file": "magret-canard-process-02.png",
+      "target_path": "recettes/magret-canard-laque/images/process-02.png",
+      "recipe": "magret-canard-laque",
+      "type": "process"
+    },
+    {
+      "source_file": "magret-canard-process-03.png",
+      "target_path": "recettes/magret-canard-laque/images/process-03.png",
+      "recipe": "magret-canard-laque",
+      "type": "process"
+    }
+  ],
+  "status": "processed",
+  "total_images": 11,
+  "processed_at": "2025-11-18T12:38:39.389458",
+  "processed_count": 11
+}
