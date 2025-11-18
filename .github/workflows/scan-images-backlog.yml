@@ -4,6 +4,11 @@ on:
   issue_comment:
     types: [created]
 
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 jobs:
   scan-on-command:
     if: |
@@ -54,7 +59,7 @@ jobs:
             if (fs.existsSync('scan_output.txt')) {
               consoleOutput = fs.readFileSync('scan_output.txt', 'utf8');
             }
-            const comment = `## 🤖 Scan Backlog Images IA - Résultats\n\n${report}\n\n---\n\n<details>\n<summary>📋 Sortie console complète</summary>\n\n\u0060\u0060\u0060\n${consoleOutput}\n\u0060\u0060\u0060\n\n</details>\n\n---\n\n**Rapports générés** :\n- 📄 JSON : \`_inbox/images/backlog-scan.json\`\n- 📝 Markdown : \`_inbox/images/BACKLOG-REPORT.md\`\n\n*Déclenché par @${context.payload.comment.user.login} via commande \`/scan-images\`*`;
+            const comment = `## 🤖 Scan Backlog Images IA - Résultats\n\n${report}\n\n---\n\n<details>\n<summary>📋 Sortie console complète</summary>\n\n\`\`\`\n${consoleOutput}\n\`\`\`\n\n</details>\n\n---\n\n**Rapports générés** :\n- 📄 JSON : \`_inbox/images/backlog-scan.json\`\n- 📝 Markdown : \`_inbox/images/BACKLOG-REPORT.md\`\n\n*Déclenché par @${context.payload.comment.user.login} via commande \`/scan-images\`*`;
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
