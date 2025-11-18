@@ -1,0 +1,50 @@
+name: Scan Backlog Images IA (Direct)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 9 * * 1'
+
+jobs:
+  scan-and-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install Pillow
+
+      - name: Run scan
+        run: python scripts/scan-images-backlog.py
+
+      - name: Commit reports
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add _inbox/images/
+          git diff --staged --quiet || git commit -m "chore(images): scan backlog automatique"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Update issue #25 with results
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let report = 'Scan images IA: rapport manquant';
+            if (fs.existsSync('_inbox/images/BACKLOG-REPORT.md')) {
+              report = fs.readFileSync('_inbox/images/BACKLOG-REPORT.md', 'utf8');
+            }
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: 25,
+              body: `## 🤖 Scan automatique du backlog images\n\n${report}\n\n*Scan automatique déclenché par workflow (bouton Run ou schedule)*`
+            });
