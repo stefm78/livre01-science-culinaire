@@ -1,0 +1,95 @@
+{
+  "recette": {
+    "id": "lotte-rotie-texture-ferme",
+    "titre": "Lotte Rotie (Texture Ferme)",
+    "slug": "lotte-rotie-texture-ferme",
+    "chapitre": "Poissons & Fruits de Mer",
+    "numero_chapitre": 3,
+    "numero_recette": 4,
+    "difficulte": 3,
+    "temps_preparation": 15,
+    "temps_cuisson": 18,
+    "temps_repos": 3,
+    "portions": 2,
+    "tags": [
+      "lotte",
+      "poisson-ferme",
+      "rotissage",
+      "maillard",
+      "denaturation-controllee",
+      "collagene",
+      "P3"
+    ]
+  },
+  "science": {
+    "concept_principal": "Denaturation proteique + reaction Maillard + transformation collagene",
+    "temperature": "200C (saisie) / 180C (four) / 60-62C (coeur)",
+    "mecanisme": "Haute temperature denature proteines myofibrillaires et cree croute Maillard. Collagene abondant se gelifie 65C apportant onctuosite. Double cuisson maximise contraste textural",
+    "schemas_associes": [
+      "reaction-maillard",
+      "denaturation-proteines",
+      "collagene-gelatine"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Lotte",
+        "ingredient_b": "Beurre haute temp",
+        "molecule": "Proteines + lipides + chaleur",
+        "effet": "Maillard, croute doree aromatique"
+      },
+      {
+        "ingredient_a": "Ail",
+        "ingredient_b": "Thym chaleur",
+        "molecule": "Allicine + thymol",
+        "effet": "Aromes volatils amplifies"
+      },
+      {
+        "ingredient_a": "Citron",
+        "ingredient_b": "Collagene cuit",
+        "molecule": "Acide citrique + gelatine",
+        "effet": "Brillance, exhausteur"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Medaillon lotte rotie croute Maillard doree, ail thym, poele fonte",
+      "angle": "45-degree",
+      "page": 1,
+      "credits": "A generer",
+      "date_generation": "2025-11-18",
+      "prompt": "Minimalist food photography roasted monkfish medallion golden Maillard crust, garlic thyme in cast iron pan, 45-degree angle, dramatic lighting, elegant presentation"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Saisie haute temperature lotte dans poele fonte fumante",
+        "angle": "macro",
+        "etape": "Saisie Maillard",
+        "page": 2,
+        "credits": "A generer",
+        "date_generation": "2025-11-18"
+      }
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Lotte rotie dressee assiette blanche, jus citron zeste, vue top-down",
+      "angle": "top-down",
+      "page": 2,
+      "credits": "A generer",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
+    "McGee, Harold (2004) - On Food and Cooking. (Structure collagene poissons vs viande)",
+    "Agriculture Institute (2024) - Connective Tissue Structure Meat. (Collagene, conversion gelatine)",
+    "Hofmann & Schieberle (2000) - Formation aroma-active Strecker-aldehydes. (Maillard, temperatures optimales)",
+    "Agafonkina et al. (2019) - Thermal denaturation proteins. (Temperatures denaturation)"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "IA Redacteur-Scientifique",
+  "statut": "production"
+}
