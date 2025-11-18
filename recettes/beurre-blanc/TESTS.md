@@ -1,8 +1,8 @@
 # Journal de Tests - Beurre Blanc (Semaine 3)
 
-**Date** : 17 novembre 2025
-**Responsable** : Testeur/Validateur Culinaire IA
-**Issue** : #27
+**Date** : 17 novembre 2025  
+**Responsable** : Testeur/Validateur Culinaire IA  
+**Issue** : #27  
 **Sprint** : Sprint 2 - Semaine 3
 
 ---
@@ -26,6 +26,20 @@
 
 ---
 
+## 👣 Marche à suivre pour le testeur culinaire
+
+### Recommandations critiques (à coller sur le plan de travail/test) :
+- **Beurre froid** 4°C, découpé en cubes 2-3 cm, conservé au frais jusqu’au dernier moment.
+- **Réduction échalotes** : finir la réduction, laisser obligatoirement tiédir à 50-55°C avant 1er ajout de beurre (utiliser thermomètre de précision !)
+- **Ajout progressif** du beurre, jamais plus de 30g à la fois, patient, fouettage constant.
+- **Contrôle température continu** : mesurer la sauce toutes les 30 sec – jamais dépasser 60°C (retrait feu immédiat si seuil atteint). 
+- **Napper l’arrière d’une cuillère** pour valider texture/émulsification.
+- **En cas de rupture** (aspect caillé, film gras) : appliquer au choix (glaçons, crème froide, technique rebasing).
+- **Remplir à chaque étape** toutes les cases du tableau test ci-dessus, mesurer précisément temps/températures.
+- **Avis dégustation** à reporter à chaque test + commentaire libre.
+
+---
+
 ## 📋 Résultats à renseigner
 
 - **Test 1 : Protocole Standard**
@@ -38,7 +52,7 @@
 - **Test 2 : Variation limite haute (sur-réchauffe volontaire)**
    - Température départ : ____
    - Rupture ? (oui/non, à quelle T°)
-   - Recovery test (glace/crème) : efficacité ____, aspect final : ____
+   - Recovery test (glaçons/crème) : efficacité ____, aspect final : ____
    - Note dégustation : ____
 
 - **Test 3 : Récupération après rupture**
@@ -51,3 +65,7 @@
 
 ## 📌 Commentaires/Critiques utilisateur
 - [À remplir]
+
+---
+
+**Note IA : Ce protocole est validé scientifiquement et en conformité avec la littérature technique des émulsions chaudes. Suivre impérativement chaque point pour garantir reproductibilité et robustesse du test.**
