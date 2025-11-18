@@ -1,10 +1,14 @@
-name: Import batch images IA
+name: "02-Images 📦 Import Batch IA"
 
 permissions:
   contents: write
 
 on:
   workflow_dispatch:
+    inputs:
+      description:
+        description: 'Importe images depuis _inbox/images/ (ZIP ou JSON) vers recettes/*/images/'
+        required: false
   push:
     paths:
       - '_inbox/images/*.json'
@@ -14,6 +18,7 @@ on:
 
 jobs:
   import-images:
+    name: "Extraire et importer batch images"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -26,24 +31,34 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Extract zip archives if present
+      - name: Extraire archives ZIP si présentes
         shell: bash
         run: |
           for zipfile in _inbox/images/*.zip; do
             if [ -f "$zipfile" ]; then
+              echo "📦 Extraction de $zipfile..."
               unzip -o "$zipfile" -d _inbox/images/
               rm "$zipfile"
+              echo "✅ $zipfile extrait et supprimé"
             fi
           done
 
-      - name: Run import script
-        run: python import_batch_images.py
+      - name: Exécuter script d'import
+        run: |
+          echo "🚀 Exécution import_batch_images.py..."
+          python import_batch_images.py
+          echo "✅ Import terminé"
 
-      - name: Commit changes
+      - name: Commit et push des changements
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git add .
-          git diff --staged --quiet || git commit -m "feat(images): import automatique batch (zip/json) depuis _inbox"
-          git push
+          if git diff --staged --quiet; then
+            echo "ℹ️ Aucun changement à committer"
+          else
+            git commit -m "feat(images): import automatique batch (zip/json) depuis _inbox"
+            git push
+            echo "✅ Changements committés et pushés"
+          fi
         continue-on-error: true
