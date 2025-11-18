@@ -1,7 +1,11 @@
-name: "🎨 Commit Images depuis Cloud"
+name: "01-Images 🎨 Commit depuis Cloud"
 
 on:
   workflow_dispatch:
+    inputs:
+      description:
+        description: 'Télécharge et committe les images depuis cloud vers sources/images/'
+        required: false
   push:
     paths:
       - 'tools/images-to-commit.json'
@@ -59,7 +63,7 @@ jobs:
           git commit -m "🎨 Ajout $IMG_COUNT maquettes visuelles (Issue #$ISSUE_NUM)"
           git pull --rebase --autostash origin main
           git push
-          echo "✅ $IMG_COUNT images commitées avec succès"
+          echo "✅ $IMG_COUNT images committées avec succès"
         shell: bash
 
       - name: Commenter l'issue
@@ -71,7 +75,7 @@ jobs:
           IMG_COUNT=$(ls sources/images/*.png 2>/dev/null | wc -l)
           COMMIT_SHA=$(git rev-parse HEAD)
           cat << EOF > comment.md
-          ✅ **Images commitées automatiquement dans le repository**
+          ✅ **Images committées automatiquement dans le repository**
 
           - **Nombre d'images**: $IMG_COUNT maquettes
           - **Commit SHA**: \`$COMMIT_SHA\`
