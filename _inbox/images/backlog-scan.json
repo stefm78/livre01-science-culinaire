@@ -1,0 +1,256 @@
+{
+  "scan_date": "2025-11-18T10:28:29.775408",
+  "recipes": [
+    {
+      "name": "beurre-blanc",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "boeuf-bourguignon-collagene",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "bouillon-volaille-umami",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [
+        {
+          "filename": "hero.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": false,
+          "is_valid": false,
+          "issues": [
+            "Fichier absent"
+          ],
+          "file_size": 0
+        },
+        {
+          "filename": "final.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": true,
+          "is_valid": false,
+          "issues": [
+            "❌ RÉSOLUTION INSUFFISANTE: 1536x1024 (min: 2048)"
+          ],
+          "file_size": 2424549
+        },
+        {
+          "filename": "01.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": false,
+          "is_valid": false,
+          "issues": [
+            "Fichier absent"
+          ],
+          "file_size": 0
+        },
+        {
+          "filename": "02.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": false,
+          "is_valid": false,
+          "issues": [
+            "Fichier absent"
+          ],
+          "file_size": 0
+        }
+      ],
+      "stats": {
+        "total_expected": 4,
+        "valid": 0,
+        "missing": 3,
+        "invalid": 1,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "magret-canard-laque",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "mayonnaise-emulsion",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "mayonnaise-stable",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "poulet-roti-65c",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "steak-maillard",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [
+        {
+          "filename": "hero.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": true,
+          "is_valid": false,
+          "issues": [
+            "❌ RÉSOLUTION INSUFFISANTE: 2304x1728 (min: 2048)"
+          ],
+          "file_size": 1157868
+        },
+        {
+          "filename": "01.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": false,
+          "is_valid": false,
+          "issues": [
+            "Fichier absent"
+          ],
+          "file_size": 0
+        },
+        {
+          "filename": "02.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": false,
+          "is_valid": false,
+          "issues": [
+            "Fichier absent"
+          ],
+          "file_size": 0
+        },
+        {
+          "filename": "final.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": true,
+          "is_valid": false,
+          "issues": [
+            "❌ RÉSOLUTION INSUFFISANTE: 2304x1728 (min: 2048)"
+          ],
+          "file_size": 982668
+        }
+      ],
+      "stats": {
+        "total_expected": 4,
+        "valid": 0,
+        "missing": 2,
+        "invalid": 2,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "vinaigrette-emulsion-temporaire",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "vinaigrette-equilibree",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    }
+  ],
+  "summary": {
+    "total_recipes": 10,
+    "total_images_expected": 8,
+    "total_valid": 0,
+    "total_missing": 5,
+    "total_placeholder": 0,
+    "total_invalid": 3,
+    "completion_rate": 0.0
+  },
+  "issues": [
+    {
+      "recipe": "boeuf-bourguignon-collagene",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "magret-canard-laque",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "poulet-roti-65c",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "vinaigrette-emulsion-temporaire",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    }
+  ]
+}
