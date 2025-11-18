@@ -1,0 +1,62 @@
+{
+  "recette": {
+    "id": "saumon-mi-cuit-55c",
+    "titre": "Saumon Mi-Cuit 55°C",
+    "slug": "saumon-mi-cuit-55c",
+    "chapitre": "Poissons & Fruits de Mer",
+    "numero_chapitre": 3,
+    "numero_recette": 1,
+    "difficulte": 2,
+    "temps_preparation": 15,
+    "temps_cuisson": 20,
+    "temps_repos": 0,
+    "portions": 2,
+    "tags": ["basse-température","protéines","saumon","texture-moelleuse"]
+  },
+  "science": {
+    "concept_principal": "Dénaturation Progressive des Protéines du Saumon",
+    "temperature": "50-55°C",
+    "mecanisme": "Cuisson douce favorise dénaturation partielle sans coagulation intense. Myosine et actine se transforment graduellement, conservant humidité et moelleux.",
+    "schemas_associes": ["denaturation-proteines-fish.svg"],
+    "associations": [
+      {"ingredient_a": "Saumon", "ingredient_b": "Fenouil", "molecule": "Anéthol", "effet": "Fraîcheur anisée"},
+      {"ingredient_a": "Saumon", "ingredient_b": "Citron", "molecule": "Acide citrique", "effet": "Équilibre acidité"}
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Pavé de saumon mi-cuit à 55°C avec fenouil.",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Minimalist top-down food photography of salmon steak, white marble surface, photorealistic"
+    },
+    "process": [
+      {"fichier": "images/process-01.png", "description": "Mise sous-vide saumon avant cuisson.", "angle": "top-down", "etape": "Mise en sachet", "page": 2, "credits": "ChatGPT DALL-E 3", "date_generation": "2025-11-18" },
+      {"fichier": "images/process-02.png", "description": "Contrôle température du bain à 55°C.", "angle": "macro", "etape": "Température contrôle", "page": 2, "credits": "ChatGPT DALL-E 3", "date_generation": "2025-11-18" }
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Saumon mi-cuit dressé avec fenouil et citron.",
+      "angle": "top-down",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
+    "McGee, Harold - On Food and Cooking",
+    "NIH, 2025 - Effect of low-temperature sous vide",
+    "Agafonkina et al., 2019 - Thermal denaturation of beef, chicken, turkey. Meat Journal.",
+    "explore.typhur.com - La température interne parfaite pour un saumon parfait, 2025",
+    "bloc-notes-culinaire.com - température cuisson à coeur poissons"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "IA Science Culinaire",
+  "statut": "brouillon",
+  "notes_internes": "Recette validée template, données scientifiques actualisées. Sprints3/Chap3."
+}
