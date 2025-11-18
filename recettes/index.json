@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "total_recettes": 4,
+    "total_chapitres": 1,
+    "date_generation": "2025-11-18T09:50:00Z",
+    "version": "1.0"
+  },
+  "recettes": [
+    {
+      "id": "steak-maillard",
+      "titre": "Steak Parfait (Réaction de Maillard)",
+      "slug": "steak-maillard",
+      "chapitre": "Viandes & Volailles",
+      "numero_chapitre": 2,
+      "numero_recette": 1,
+      "difficulte": 1,
+      "temps_total": 15,
+      "portions": 2,
+      "concept_scientifique": "Réaction de Maillard",
+      "tags": ["maillard", "cuisson-vif"],
+      "hero_image": "steak-maillard/images/hero.png",
+      "statut": "validé"
+    },
+    {
+      "id": "poulet-roti-65c",
+      "titre": "Poulet Rôti Juteux (65°C)",
+      "slug": "poulet-roti-65c",
+      "chapitre": "Viandes & Volailles",
+      "numero_chapitre": 2,
+      "numero_recette": 2,
+      "difficulte": 2,
+      "temps_total": 165,
+      "portions": 4,
+      "concept_scientifique": "Cuisson basse température & dénaturation protéines",
+      "tags": ["basse-temperature", "maillard", "volaille"],
+      "hero_image": "poulet-roti-65c/images/hero.png",
+      "statut": "brouillon"
+    },
+    {
+      "id": "boeuf-bourguignon-collagene",
+      "titre": "Bœuf Bourguignon (Collagène)",
+      "slug": "boeuf-bourguignon-collagene",
+      "chapitre": "Viandes & Volailles",
+      "numero_chapitre": 2,
+      "numero_recette": 3,
+      "difficulte": 2,
+      "temps_total": 260,
+      "portions": 6,
+      "concept_scientifique": "Transformation collagène en gélatine",
+      "tags": ["braisage", "collagene", "ragoût"],
+      "hero_image": "boeuf-bourguignon-collagene/images/hero.png",
+      "statut": "brouillon"
+    },
+    {
+      "id": "magret-canard-laque",
+      "titre": "Magret de Canard Laqué",
+      "slug": "magret-canard-laque",
+      "chapitre": "Viandes & Volailles",
+      "numero_chapitre": 2,
+      "numero_recette": 4,
+      "difficulte": 2,
+      "temps_total": 38,
+      "portions": 2,
+      "concept_scientifique": "Maillard & caramélisation laquage",
+      "tags": ["maillard", "caramelisation", "laquage"],
+      "hero_image": "magret-canard-laque/images/hero.png",
+      "statut": "brouillon"
+    }
+  ],
+  "par_chapitre": {
+    "Viandes & Volailles": [
+      {
+        "id": "steak-maillard",
+        "titre": "Steak Parfait (Réaction de Maillard)",
+        "slug": "steak-maillard",
+        "chapitre": "Viandes & Volailles",
+        "numero_chapitre": 2,
+        "numero_recette": 1,
+        "difficulte": 1,
+        "temps_total": 15,
+        "portions": 2,
+        "concept_scientifique": "Réaction de Maillard",
+        "tags": ["maillard", "cuisson-vif"],
+        "hero_image": "steak-maillard/images/hero.png",
+        "statut": "validé"
+      },
+      {
+        "id": "poulet-roti-65c",
+        "titre": "Poulet Rôti Juteux (65°C)",
+        "slug": "poulet-roti-65c",
+        "chapitre": "Viandes & Volailles",
+        "numero_chapitre": 2,
+        "numero_recette": 2,
+        "difficulte": 2,
+        "temps_total": 165,
+        "portions": 4,
+        "concept_scientifique": "Cuisson basse température & dénaturation protéines",
+        "tags": ["basse-temperature", "maillard", "volaille"],
+        "hero_image": "poulet-roti-65c/images/hero.png",
+        "statut": "brouillon"
+      },
+      {
+        "id": "boeuf-bourguignon-collagene",
+        "titre": "Bœuf Bourguignon (Collagène)",
+        "slug": "boeuf-bourguignon-collagene",
+        "chapitre": "Viandes & Volailles",
+        "numero_chapitre": 2,
+        "numero_recette": 3,
+        "difficulte": 2,
+        "temps_total": 260,
+        "portions": 6,
+        "concept_scientifique": "Transformation collagène en gélatine",
+        "tags": ["braisage", "collagene", "ragoût"],
+        "hero_image": "boeuf-bourguignon-collagene/images/hero.png",
+        "statut": "brouillon"
+      },
+      {
+        "id": "magret-canard-laque",
+        "titre": "Magret de Canard Laqué",
+        "slug": "magret-canard-laque",
+        "chapitre": "Viandes & Volailles",
+        "numero_chapitre": 2,
+        "numero_recette": 4,
+        "difficulte": 2,
+        "temps_total": 38,
+        "portions": 2,
+        "concept_scientifique": "Maillard & caramélisation laquage",
+        "tags": ["maillard", "caramelisation", "laquage"],
+        "hero_image": "magret-canard-laque/images/hero.png",
+        "statut": "brouillon"
+      }
+    ]
+  }
+}
