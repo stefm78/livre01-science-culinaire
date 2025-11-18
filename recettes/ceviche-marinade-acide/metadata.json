@@ -1,0 +1,66 @@
+{
+  "recette": {
+    "id": "ceviche-marinade-acide",
+    "titre": "Ceviche (Marinade Acide)",
+    "slug": "ceviche-marinade-acide",
+    "chapitre": "Poissons & Fruits de Mer",
+    "numero_chapitre": 3,
+    "numero_recette": 2,
+    "difficulte": 1,
+    "temps_preparation": 20,
+    "temps_cuisson": 0,
+    "temps_repos": 15,
+    "portions": 4,
+    "tags": [
+      "ceviche",
+      "poisson-cru",
+      "marinade-acide",
+      "denaturation-chimique",
+      "P1"
+    ]
+  },
+  "science": {
+    "concept_principal": "Denaturation proteique par acidite",
+    "temperature": "4-6C (refrigeration)",
+    "mecanisme": "pH 7 vers 3 via acide citrique rompt liaisons hydrogene proteines",
+    "schemas_associes": [
+      "denaturation-acide"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Citron vert",
+        "ingredient_b": "Poisson",
+        "molecule": "Acide citrique + proteines",
+        "effet": "Denaturation chimique"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Ceviche frais bol blanc",
+      "angle": "45-degree",
+      "page": 1,
+      "credits": "A generer",
+      "date_generation": "2025-11-18",
+      "prompt": "Minimalist food photography fresh ceviche white bowl, fish cubes lime juice red onion cilantro"
+    },
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Ceviche verrine top-down",
+      "angle": "top-down",
+      "page": 2,
+      "credits": "A generer",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
+    "Agriculture Institute (2025) - Protein Denaturation",
+    "McGee, Harold (2004) - On Food and Cooking"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "IA Redacteur-Scientifique",
+  "statut": "production"
+}
