@@ -1,39 +1,28 @@
 {
-  "commit_date": null,
-  "issue": 21,
-  "persona": null,
+  "issue_number": 21,
   "images": [
     {
       "filename": "hero.png",
-      "path": "recettes/steak-maillard/images/hero.png",
-      "size": 1157868,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/7aa3c23f-4212-4d05-bb5f-ea2578ec0969.png",
-      "issue": "N/A",
-      "status": "ready"
+      "destination": "recettes/steak-maillard/images",
+      "size": 1157868
     },
     {
       "filename": "final.png",
-      "path": "recettes/steak-maillard/images/final.png",
-      "size": 982668,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/2a241896-b096-453b-a0c4-e0f1f34c4293.png",
-      "issue": "N/A",
-      "status": "ready"
+      "destination": "recettes/steak-maillard/images",
+      "size": 982668
     },
     {
       "filename": "process-01.png",
-      "path": "recettes/steak-maillard/images/process-01.png",
-      "size": 1151621,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/1f1d0021-d993-4cdd-a7e7-4692dbbbe4b8.png",
-      "issue": "N/A",
-      "status": "ready"
+      "destination": "recettes/steak-maillard/images",
+      "size": 1151621
     },
     {
       "filename": "process-02.png",
-      "path": "recettes/steak-maillard/images/process-02.png",
-      "size": 1135445,
-      "source_url": "https://user-gen-media-assets.s3.amazonaws.com/seedream_images/c8b1bc31-6fd0-40dc-b052-d9ac6460549d.png",
-      "issue": "N/A",
-      "status": "ready"
+      "destination": "recettes/steak-maillard/images",
+      "size": 1135445
     }
+  ],
+  "destinations": [
+    "recettes/steak-maillard/images"
   ]
 }
