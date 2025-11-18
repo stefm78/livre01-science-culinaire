@@ -1,0 +1,52 @@
+{
+  "batch_id": "batch-beurre-blanc-1-2025-11-18",
+  "created_at": "2025-11-18T12:34:00+01:00",
+  "images": [
+    {
+      "source_file": "beurre-blanc-hero.png",
+      "target_path": "recettes/beurre-blanc/images/hero.png",
+      "recipe": "beurre-blanc",
+      "type": "hero"
+    },
+    {
+      "source_file": "beurre-blanc-final.png",
+      "target_path": "recettes/beurre-blanc/images/final.png",
+      "recipe": "beurre-blanc",
+      "type": "final"
+    },
+    {
+      "source_file": "beurre-blanc-process-01.png",
+      "target_path": "recettes/beurre-blanc/images/process-01.png",
+      "recipe": "beurre-blanc",
+      "type": "process-01"
+    },
+    {
+      "source_file": "beurre-blanc-process-02.png",
+      "target_path": "recettes/beurre-blanc/images/process-02.png",
+      "recipe": "beurre-blanc",
+      "type": "process-02"
+    },
+    {
+      "source_file": "beurre-blanc-process-03.png",
+      "target_path": "recettes/beurre-blanc/images/process-03.png",
+      "recipe": "beurre-blanc",
+      "type": "process-03"
+    },
+    {
+      "source_file": "beurre-blanc-diagram-temp.png",
+      "target_path": "recettes/beurre-blanc/images/diagram-temp.png",
+      "recipe": "beurre-blanc",
+      "type": "diagram-temp"
+    },
+    {
+      "source_file": "beurre-blanc-schema-emulsion.png",
+      "target_path": "recettes/beurre-blanc/images/schema-emulsion.png",
+      "recipe": "beurre-blanc",
+      "type": "schema-emulsion"
+    }
+  ],
+  "status": "processed",
+  "total_images": 7,
+  "processed_at": "2025-11-18T12:01:52.674187",
+  "processed_count": 7
+}
