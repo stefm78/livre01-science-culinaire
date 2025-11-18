@@ -11,11 +11,13 @@
 **Phase** : Production (0/30 faites)  
 **Ton rôle** : Selon ton expertise (voir ci-dessous)
 
+ℹ️ **Version ultra-courte pour IA** : Consulte [AI_ONBOARDING.md](AI_ONBOARDING.md)
+
 ---
 
 ## 🧠 ➕ Génération Images IA (Batch)
 
-Pour toute génération d'images IA, consulte le guide universel :
+Pour toute génération d'images IA, consulte le guide universel :
 - [`_inbox/images/README-GENERATE-BATCH-IMAGES.md`](./_inbox/images/README-GENERATE-BATCH-IMAGES.md)
 
 > **Ce fichier donne les instructions, le format, le template et la checklist pour produire UN ou PLUSIEURS batchs d'images IA pour ce projet.**
@@ -60,7 +62,9 @@ Prends la première issue **sans** label `ia-locked`
 
 ## 🔗 LIENS RAPIDES
 
-**Point d'entrée** : [START_HERE.md](START_HERE.md) ← TU ES ICI
+**Point d'entrée** :
+- [AI_ONBOARDING.md](AI_ONBOARDING.md) : Prompt ultra-court pour IA contributrice
+- [START_HERE.md](START_HERE.md) : Documentation complète ← TU ES ICI
 
 **Génération batch d'images IA** : [`_inbox/images/README-GENERATE-BATCH-IMAGES.md`](./_inbox/images/README-GENERATE-BATCH-IMAGES.md)
 
