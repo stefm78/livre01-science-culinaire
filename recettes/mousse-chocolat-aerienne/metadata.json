@@ -1,35 +1,80 @@
 {
-  "id": "mousse-chocolat-aerienne",
-  "titre": "Mousse au Chocolat Aérienne",
-  "chapitre": 5,
-  "chapitre_nom": "Œufs & Laitages",
-  "numero_recette": "5.2",
-  "concept_scientifique": "Foisonnement protéines",
-  "difficulte": 1,
-  "temps_preparation": 20,
-  "temps_repos": 120,
-  "portions": 6,
-  "tags": [
-    "oeufs",
-    "chocolat",
-    "foisonnement",
-    "proteines",
-    "emulsion",
-    "mousse",
-    "dessert"
-  ],
-  "temperature_cle": "40-50°C (fonte chocolat max 55°C) - Température ambiante (incorporation)",
-  "reaction_chimique": "Dénaturation albumine par action mécanique - Formation réseau tridimensionnel - Émulsion lécithines",
-  "sources": [
+  "recette": {
+    "id": "mousse-chocolat-aerienne",
+    "titre": "Mousse au Chocolat Aérienne",
+    "slug": "mousse-chocolat-aerienne",
+    "chapitre": "Œufs & Laitages",
+    "numero_chapitre": 5,
+    "numero_recette": 2,
+    "difficulte": 1,
+    "temps_preparation": 20,
+    "temps_cuisson": 0,
+    "temps_repos": 120,
+    "portions": 6,
+    "tags": [
+      "oeufs",
+      "chocolat",
+      "foisonnement",
+      "proteines",
+      "emulsion",
+      "mousse",
+      "dessert"
+    ]
+  },
+  "science": {
+    "concept_principal": "Foisonnement protéines",
+    "temperature": "40-50°C (fonte chocolat max 55°C) - Température ambiante (incorporation)",
+    "mecanisme": "Dénaturation albumine par action mécanique - Formation réseau tridimensionnel - Émulsion lécithines",
+    "schemas_associes": [],
+    "associations": [
+      {
+        "ingredient_a": "Blancs d'œuf",
+        "ingredient_b": "Fouettage mécanique",
+        "molecule": "Albumine",
+        "effet": "Réseau tridimensionnel piégeant l'air (foisonnement 7x)"
+      },
+      {
+        "ingredient_a": "Jaunes d'œuf",
+        "ingredient_b": "Sucre",
+        "molecule": "Lécithines",
+        "effet": "Émulsion crémeuse (technique du ruban)"
+      },
+      {
+        "ingredient_a": "Chocolat noir",
+        "ingredient_b": "Lécithines jaune",
+        "molecule": "Lécithines",
+        "effet": "Stabilisation émulsion phase grasse/aqueuse"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Mousse au chocolat aérienne dans des verrines, texture légère et onctueuse",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    },
+    "process": [],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Présentation finale de la mousse au chocolat en verrines",
+      "angle": "top-down",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
     "Sesame & Vanille, 2025 - Foisonnement protéines blancs œufs",
     "Sesame & Vanille, 2025 - Technique du ruban (jaunes + sucre)",
     "Sesame & Vanille, 2025 - Effet émulsifiant lécithines jaune"
   ],
-  "schemas_associes": [],
-  "images": {
-    "hero": "images/hero.png",
-    "final": "images/final.png"
-  },
+  "version": "1.1",
   "date_creation": "2025-11-18",
-  "statut": "complet"
+  "date_modification": "2025-11-18",
+  "auteur": "IA Contributrice",
+  "statut": "complet",
+  "notes_internes": "Mise à jour metadata.json pour conformité avec template standard - Restructuration en sections recette/science/images"
 }
