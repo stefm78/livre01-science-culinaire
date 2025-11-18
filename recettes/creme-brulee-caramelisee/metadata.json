@@ -1,38 +1,82 @@
 {
-  "id": "creme-brulee-caramelisee",
-  "titre": "Crème Brûlée Caramélisée",
-  "chapitre": 5,
-  "chapitre_nom": "Œufs & Laitages",
-  "numero_recette": "5.4",
-  "concept_scientifique": "Coagulation + Caramélisation",
-  "difficulte": 2,
-  "temps_preparation": 15,
-  "temps_cuisson": 40,
-  "temps_repos": 240,
-  "portions": 4,
-  "tags": [
-    "oeufs",
-    "laitages",
-    "coagulation",
-    "caramelisation",
-    "bain-marie",
-    "dessert",
-    "temperature-precision"
-  ],
-  "temperature_cle": "82°C (coagulation jaunes dilution) - 95-100°C (cuisson bain-marie) - 180-200°C (caramélisation sucre)",
-  "reaction_chimique": "Coagulation protéines LDL/HDL dilution - Décomposition thermique saccharose (caramélisation)",
-  "sources": [
+  "recette": {
+    "id": "creme-brulee-caramelisee",
+    "titre": "Crème Brûlée Caramélisée",
+    "slug": "creme-brulee-caramelisee",
+    "chapitre": "Œufs & Laitages",
+    "numero_chapitre": 5,
+    "numero_recette": 4,
+    "difficulte": 2,
+    "temps_preparation": 15,
+    "temps_cuisson": 40,
+    "temps_repos": 240,
+    "portions": 4,
+    "tags": [
+      "oeufs",
+      "laitages",
+      "coagulation",
+      "caramelisation",
+      "bain-marie",
+      "dessert",
+      "temperature-precision"
+    ]
+  },
+  "science": {
+    "concept_principal": "Coagulation + Caramélisation",
+    "temperature": "82°C (coagulation jaunes dilution) - 95-100°C (cuisson bain-marie) - 180-200°C (caramélisation sucre)",
+    "mecanisme": "Coagulation protéines LDL/HDL dilution - Décomposition thermique saccharose (caramélisation)",
+    "schemas_associes": [],
+    "associations": [
+      {
+        "ingredient_a": "Jaunes d'œuf",
+        "ingredient_b": "Crème-sucre + Chaleur 82°C",
+        "molecule": "Protéines LDL/HDL",
+        "effet": "Coagulation progressive (texture crémeuse onctueuse)"
+      },
+      {
+        "ingredient_a": "Crème 35% MG",
+        "ingredient_b": "Jaunes d'œuf",
+        "molecule": "Lécithines + Matières grasses",
+        "effet": "Émulsion stable (onctuosité veloutée)"
+      },
+      {
+        "ingredient_a": "Sucre en surface",
+        "ingredient_b": "Chalumeau 180-200°C",
+        "molecule": "Saccharose",
+        "effet": "Caramélisation (croûte craquante, fusion 160°C)"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Crème brûlée en ramequin avec surface caramélisée dorée et brillante",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    },
+    "process": [],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Présentation finale de la crème brûlée avec croûte caramélisée cassée",
+      "angle": "45-degree",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
     "Je Pense donc Je Cuis, 2024 - Coagulation 82°C jaunes dilution",
     "Creative Commons, 2024 - Température cœur 80°C texture onctueuse",
     "Je Pense donc Je Cuis, 2024 - Cuisson basse température 95°C",
     "Joel Robuchon, 2025 - Bain-marie 150°C technique 6 jaunes",
     "Hartel, 1991 - Sugar crystallization caramelization"
   ],
-  "schemas_associes": [],
-  "images": {
-    "hero": "images/hero.png",
-    "final": "images/final.png"
-  },
+  "version": "1.1",
   "date_creation": "2025-11-18",
-  "statut": "complet"
+  "date_modification": "2025-11-18",
+  "auteur": "IA Contributrice",
+  "statut": "complet",
+  "notes_internes": "Mise à jour metadata.json pour conformité avec template standard - Restructuration en sections recette/science/images - Double processus coagulation + caramélisation"
 }
