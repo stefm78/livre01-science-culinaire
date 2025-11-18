@@ -1,4 +1,4 @@
-name: Scan Backlog Images IA (Commande)
+name: "04-Images 💬 Scan Backlog Commande"
 
 on:
   issue_comment:
@@ -11,12 +11,13 @@ permissions:
 
 jobs:
   scan-on-command:
+    name: "Scanner via commande /scan-images"
     if: |
       github.event.issue.pull_request == null &&
       contains(github.event.comment.body, '/scan-images')
     runs-on: ubuntu-latest
     steps:
-      - name: Add reaction to comment
+      - name: Réaction rocket au commentaire
         uses: actions/github-script@v7
         with:
           script: |
@@ -26,27 +27,34 @@ jobs:
               comment_id: context.payload.comment.id,
               content: 'rocket'
             });
+            
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Set up Python
+        
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install dependencies
-        run: |
-          pip install Pillow
-      - name: Run image backlog scan
+          
+      - name: Installer dépendances
+        run: pip install Pillow
+        
+      - name: Exécuter scan backlog images
         id: scan
         run: |
+          echo "🔍 Lancement scan suite à commande /scan-images..."
           python scripts/scan-images-backlog.py > scan_output.txt 2>&1
           echo "scan_complete=true" >> $GITHUB_OUTPUT
-      - name: Read scan results
+          echo "✅ Scan terminé"
+          
+      - name: Vérifier résultats scan
         id: results
         run: |
           if [ -f "_inbox/images/BACKLOG-REPORT.md" ]; then
             echo "report_exists=true" >> $GITHUB_OUTPUT
           fi
-      - name: Post results to issue
+          
+      - name: Poster résultats dans l'issue
         uses: actions/github-script@v7
         with:
           script: |
@@ -66,19 +74,24 @@ jobs:
               issue_number: context.issue.number,
               body: comment
             });
-      - name: Commit and push reports
+            
+      - name: Commit et push rapports
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions Bot"
           git add _inbox/images/backlog-scan.json _inbox/images/BACKLOG-REPORT.md
-          git diff --staged --quiet || (
-            git pull --rebase origin main &&
-            git commit -m "chore(images): scan backlog automatique via commande /scan-images" &&
+          if git diff --staged --quiet; then
+            echo "ℹ️ Aucun changement dans les rapports"
+          else
+            git pull --rebase origin main
+            git commit -m "chore(images): scan backlog via commande /scan-images"
             git push
-          )
+            echo "✅ Rapports committés"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Add completion reaction
+          
+      - name: Réaction succès (hooray)
         if: success()
         uses: actions/github-script@v7
         with:
@@ -89,7 +102,8 @@ jobs:
               comment_id: context.payload.comment.id,
               content: 'hooray'
             });
-      - name: Add error reaction
+            
+      - name: Réaction erreur (confused)
         if: failure()
         uses: actions/github-script@v7
         with:
