@@ -1,0 +1,31 @@
+name: "🚦 QA Recette Individuelle"
+
+on:
+  workflow_dispatch:
+    inputs:
+      recipe_dir:
+        description: "Dossier de la recette (ex: recettes/oeuf-mollet-parfait)"
+        required: true
+        type: string
+
+jobs:
+  qa-indiv-recipe:
+    name: "Validation recette ${{ github.event.inputs.recipe_dir }}"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install -r requirements.txt || true
+      - name: Validate recipe via script
+        run: |
+          if [ -d "${{ github.event.inputs.recipe_dir }}" ]; then
+            python3 scripts/validate-recipe.py ${{ github.event.inputs.recipe_dir }}
+          else
+            echo "❌ Dossier ${{ github.event.inputs.recipe_dir }} introuvable !"
+            exit 1
+          fi
