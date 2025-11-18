@@ -1,0 +1,33 @@
+# Backlog images Sprint 2 - Viandes & Volailles
+
+A générer/compléter (par IA DALL-E 3 ou équivalent):
+
+## Poulet Rôti Juteux
+- images/hero.png : Poulet entier rôti doré, peau croustillante dorée, plat blanc, herbes fraîches. [prompt prêt]
+- images/process-01.png : Poulet cru badigeonné d'huile et herbes, top-down. [prompt prêt]
+- images/process-02.png : Thermomètre à sonde dans blanc de poulet à 72°C, close-up. [prompt prêt]
+- images/final.png : Poulet tranché, chair rosée, juteuse. [prompt prêt]
+
+## Bœuf Bourguignon
+- images/hero.png : Cocotte en fonte avec bourguignon sauce brillante, vapeur, légumes glacés. [prompt prêt]
+- images/process-01.png : Cubes bœuf saisis, croûte Maillard dorée. [prompt prêt]
+- images/process-02.png : Bourguignon mijoté, thermomètre à 80°C. [prompt prêt]
+- images/final.png : Assiette, viande fondante, sauce nappante. [prompt prêt]
+
+## Magret de Canard Laqué
+- images/hero.png : Magret entier laqué brun-noir quadrillé, planche bois. [prompt prêt]
+- images/process-01.png : Peau magret quadrillée avant cuisson, top-down. [prompt prêt]
+- images/process-02.png : Magret cuisson peau, fonte graisse, side-view. [prompt prêt]
+- images/process-03.png : Badigeonnage laque à la cuillère. [prompt prêt]
+- images/final.png : Magret tranché biais, chair rose, peau brillante. [prompt prêt]
+
+Checklist :
+- [ ] Génération
+- [ ] Optimisation poids (<3MB)
+- [ ] Conformité charte visuelle
+- [ ] Placement dossier recette/images/
+- [ ] Validation Reviewer
+
+---
+
+Sprint 2 - Suivi automatisé IA (Backlog images)
