@@ -522,5 +522,8 @@
       "type": "NO_README",
       "message": "README.md images manquant"
     }
-  ]
+  ],
+  "status": "processed",
+  "processed_at": "2025-11-18T18:06:06.765160",
+  "processed_count": 0
 }
