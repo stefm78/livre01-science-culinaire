@@ -1,0 +1,94 @@
+name: Scan Backlog Images IA (Commande)
+
+on:
+  issue_comment:
+    types: [created]
+
+jobs:
+  scan-on-command:
+    if: |
+      github.event.issue.pull_request == null &&
+      contains(github.event.comment.body, '/scan-images')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add reaction to comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.reactions.createForIssueComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              comment_id: context.payload.comment.id,
+              content: 'rocket'
+            });
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          pip install Pillow
+      - name: Run image backlog scan
+        id: scan
+        run: |
+          python scripts/scan-images-backlog.py > scan_output.txt 2>&1
+          echo "scan_complete=true" >> $GITHUB_OUTPUT
+      - name: Read scan results
+        id: results
+        run: |
+          if [ -f "_inbox/images/BACKLOG-REPORT.md" ]; then
+            echo "report_exists=true" >> $GITHUB_OUTPUT
+          fi
+      - name: Post results to issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let report = '## ⚠️ Erreur lors du scan';
+            if (fs.existsSync('_inbox/images/BACKLOG-REPORT.md')) {
+              report = fs.readFileSync('_inbox/images/BACKLOG-REPORT.md', 'utf8');
+            }
+            let consoleOutput = '';
+            if (fs.existsSync('scan_output.txt')) {
+              consoleOutput = fs.readFileSync('scan_output.txt', 'utf8');
+            }
+            const comment = `## 🤖 Scan Backlog Images IA - Résultats\n\n${report}\n\n---\n\n<details>\n<summary>📋 Sortie console complète</summary>\n\n\u0060\u0060\u0060\n${consoleOutput}\n\u0060\u0060\u0060\n\n</details>\n\n---\n\n**Rapports générés** :\n- 📄 JSON : \`_inbox/images/backlog-scan.json\`\n- 📝 Markdown : \`_inbox/images/BACKLOG-REPORT.md\`\n\n*Déclenché par @${context.payload.comment.user.login} via commande \`/scan-images\`*`;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: comment
+            });
+      - name: Commit and push reports
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add _inbox/images/backlog-scan.json _inbox/images/BACKLOG-REPORT.md
+          git diff --staged --quiet || git commit -m "chore(images): scan backlog automatique via commande /scan-images"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Add completion reaction
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.reactions.createForIssueComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              comment_id: context.payload.comment.id,
+              content: 'hooray'
+            });
+      - name: Add error reaction
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.reactions.createForIssueComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              comment_id: context.payload.comment.id,
+              content: 'confused'
+            });
