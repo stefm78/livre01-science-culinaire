@@ -1,4 +1,4 @@
-name: 📚 Mise à jour Index Recettes
+name: "05-Index 📚 Mise à jour"
 
 on:
   workflow_dispatch:
@@ -7,10 +7,13 @@ on:
         description: 'Raison de la mise à jour (optionnel)'
         required: false
         default: 'Mise à jour manuelle'
+      description:
+        description: 'Génère index.json et INDEX.md depuis recettes/*/metadata.json'
+        required: false
 
 jobs:
   update-index:
-    name: Générer index.json et INDEX.md
+    name: "Générer index.json et INDEX.md"
     runs-on: ubuntu-latest
     
     steps:
@@ -56,8 +59,9 @@ jobs:
           git add recettes/index.json recettes/INDEX.md
           git commit -m "docs(recettes): mise à jour automatique index - ${{ inputs.reason }}"
           git push
+          echo "✅ Index mis à jour et commité"
       
-      - name: ✅ Résultat
+      - name: ✅ Résultat final
         run: |
           if [ "${{ steps.git-check.outputs.changed }}" == "true" ]; then
             echo "✅ Index mis à jour et committé avec succès"
@@ -67,7 +71,7 @@ jobs:
       
       - name: 📊 Afficher statistiques
         run: |
-          echo "📈 Statistiques actuelles :"
+          echo "📊 Statistiques actuelles :"
           python -c "
           import json
           with open('recettes/index.json', 'r', encoding='utf-8') as f:
