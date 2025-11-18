@@ -1,16 +1,410 @@
 {
   "meta": {
-    "total_recettes": 12,
-    "total_chapitres": 3,
-    "date_generation": "2025-11-18T16:12:00.000Z",
-    "version": "1.3",
+    "total_recettes": 16,
+    "total_chapitres": 4,
+    "date_generation": "2025-11-18T18:45:00.000Z",
+    "version": "1.4",
     "mvp": {
       "recettes_mvp_target": 16,
-      "recettes_completes": 12,
-      "progression": "75%",
-      "chapitres_complets": [1,2,3]
+      "recettes_completes": 16,
+      "progression": "100%",
+      "chapitres_complets": [1, 2, 3, 4]
     }
   },
-  "recettes": [],
-  "par_chapitre": {}
+  "recettes": [
+    {
+      "id": "mayonnaise-stable",
+      "titre": "Mayonnaise Stable (Émulsion)",
+      "slug": "mayonnaise-stable",
+      "chapitre": "Bases & Techniques",
+      "numero_chapitre": 1,
+      "numero_recette": 1,
+      "difficulte": 2,
+      "temps_preparation": 10,
+      "temps_cuisson": 0,
+      "temps_repos": 5,
+      "temps_total": 15,
+      "portions": 4,
+      "concept_principal": "Émulsion stable eau-huile avec lécithine",
+      "tags": ["emulsion", "mayonnaise", "lecithine", "bases"]
+    },
+    {
+      "id": "vinaigrette-equilibree",
+      "titre": "Vinaigrette Équilibrée (Ratios)",
+      "slug": "vinaigrette-equilibree",
+      "chapitre": "Bases & Techniques",
+      "numero_chapitre": 1,
+      "numero_recette": 2,
+      "difficulte": 1,
+      "temps_preparation": 5,
+      "temps_cuisson": 0,
+      "temps_repos": 0,
+      "temps_total": 5,
+      "portions": 6,
+      "concept_principal": "Équilibre acide-gras optimal (ratio 1:3)",
+      "tags": ["vinaigrette", "ratios", "equilibre", "bases"]
+    },
+    {
+      "id": "bouillon-volaille-umami",
+      "titre": "Bouillon Volaille Umami (Extraction)",
+      "slug": "bouillon-volaille-umami",
+      "chapitre": "Bases & Techniques",
+      "numero_chapitre": 1,
+      "numero_recette": 3,
+      "difficulte": 1,
+      "temps_preparation": 15,
+      "temps_cuisson": 165,
+      "temps_repos": 0,
+      "temps_total": 180,
+      "portions": 8,
+      "concept_principal": "Extraction glutamate et synergie umami",
+      "tags": ["bouillon", "umami", "extraction", "bases"]
+    },
+    {
+      "id": "beurre-blanc",
+      "titre": "Beurre Blanc (Émulsion Chaude)",
+      "slug": "beurre-blanc",
+      "chapitre": "Bases & Techniques",
+      "numero_chapitre": 1,
+      "numero_recette": 4,
+      "difficulte": 3,
+      "temps_preparation": 10,
+      "temps_cuisson": 15,
+      "temps_repos": 0,
+      "temps_total": 25,
+      "portions": 4,
+      "concept_principal": "Émulsion chaude instable contrôlée par température",
+      "tags": ["beurre-blanc", "emulsion-chaude", "temperature", "bases"]
+    },
+    {
+      "id": "steak-maillard",
+      "titre": "Steak Parfait (Réaction de Maillard)",
+      "slug": "steak-maillard",
+      "chapitre": "Viandes & Volailles",
+      "numero_chapitre": 2,
+      "numero_recette": 1,
+      "difficulte": 1,
+      "temps_preparation": 5,
+      "temps_cuisson": 10,
+      "temps_repos": 0,
+      "temps_total": 15,
+      "portions": 2,
+      "concept_principal": "Réaction de Maillard",
+      "tags": ["maillard", "cuisson-vif"]
+    },
+    {
+      "id": "poulet-roti-65c",
+      "titre": "Poulet Rôti Juteux (65°C)",
+      "slug": "poulet-roti-65c",
+      "chapitre": "Viandes & Volailles",
+      "numero_chapitre": 2,
+      "numero_recette": 2,
+      "difficulte": 2,
+      "temps_preparation": 20,
+      "temps_cuisson": 135,
+      "temps_repos": 10,
+      "temps_total": 165,
+      "portions": 4,
+      "concept_principal": "Cuisson basse température & dénaturation protéines",
+      "tags": ["basse-temperature", "maillard", "volaille"]
+    },
+    {
+      "id": "boeuf-bourguignon-collagene",
+      "titre": "Bœuf Bourguignon (Collagène)",
+      "slug": "boeuf-bourguignon-collagene",
+      "chapitre": "Viandes & Volailles",
+      "numero_chapitre": 2,
+      "numero_recette": 3,
+      "difficulte": 2,
+      "temps_preparation": 30,
+      "temps_cuisson": 210,
+      "temps_repos": 20,
+      "temps_total": 260,
+      "portions": 6,
+      "concept_principal": "Transformation collagène en gélatine",
+      "tags": ["braisage", "collagene", "ragoût"]
+    },
+    {
+      "id": "magret-canard-laque",
+      "titre": "Magret de Canard Laqué",
+      "slug": "magret-canard-laque",
+      "chapitre": "Viandes & Volailles",
+      "numero_chapitre": 2,
+      "numero_recette": 4,
+      "difficulte": 2,
+      "temps_preparation": 10,
+      "temps_cuisson": 18,
+      "temps_repos": 10,
+      "temps_total": 38,
+      "portions": 2,
+      "concept_principal": "Maillard & caramélisation laquage",
+      "tags": ["maillard", "caramelisation", "laquage"]
+    },
+    {
+      "id": "saumon-mi-cuit-55c",
+      "titre": "Saumon Mi-Cuit (55°C)",
+      "slug": "saumon-mi-cuit-55c",
+      "chapitre": "Poissons & Fruits de Mer",
+      "numero_chapitre": 3,
+      "numero_recette": 1,
+      "difficulte": 2,
+      "temps_preparation": 10,
+      "temps_cuisson": 40,
+      "temps_repos": 5,
+      "temps_total": 55,
+      "portions": 2,
+      "concept_principal": "Dénaturation protéique contrôlée à basse température",
+      "tags": ["saumon", "poisson", "basse-temperature"]
+    },
+    {
+      "id": "ceviche-marinade-acide",
+      "titre": "Ceviche (Marinade Acide)",
+      "slug": "ceviche-marinade-acide",
+      "chapitre": "Poissons & Fruits de Mer",
+      "numero_chapitre": 3,
+      "numero_recette": 2,
+      "difficulte": 1,
+      "temps_preparation": 20,
+      "temps_cuisson": 0,
+      "temps_repos": 15,
+      "temps_total": 35,
+      "portions": 4,
+      "concept_principal": "Dénaturation protéique par acidité",
+      "tags": ["ceviche", "poisson-cru", "marinade-acide"]
+    },
+    {
+      "id": "moules-marinieres-extraction",
+      "titre": "Moules Marinières (Extraction Aromatique)",
+      "slug": "moules-marinieres-extraction",
+      "chapitre": "Poissons & Fruits de Mer",
+      "numero_chapitre": 3,
+      "numero_recette": 3,
+      "difficulte": 2,
+      "temps_preparation": 8,
+      "temps_cuisson": 10,
+      "temps_repos": 5,
+      "temps_total": 23,
+      "portions": 2,
+      "concept_principal": "Extraction aromatique + synergie umami iodée",
+      "tags": ["moules", "fruits-de-mer", "extraction-aromatique"]
+    },
+    {
+      "id": "lotte-rotie-texture-ferme",
+      "titre": "Lotte Rôtie (Texture Ferme)",
+      "slug": "lotte-rotie-texture-ferme",
+      "chapitre": "Poissons & Fruits de Mer",
+      "numero_chapitre": 3,
+      "numero_recette": 4,
+      "difficulte": 3,
+      "temps_preparation": 12,
+      "temps_cuisson": 14,
+      "temps_repos": 10,
+      "temps_total": 36,
+      "portions": 2,
+      "concept_principal": "Dénaturation protéique + réaction Maillard + transformation collagène",
+      "tags": ["lotte", "poisson-ferme", "rotissage", "maillard"]
+    },
+    {
+      "id": "carottes-roties-caramelisees",
+      "titre": "Carottes Rôties Caramélisées",
+      "slug": "carottes-roties-caramelisees",
+      "chapitre": "Légumes Révélés",
+      "numero_chapitre": 4,
+      "numero_recette": 1,
+      "difficulte": 1,
+      "temps_preparation": 12,
+      "temps_cuisson": 35,
+      "temps_repos": 0,
+      "temps_total": 47,
+      "portions": 4,
+      "concept_principal": "Caramélisation des sucres naturels",
+      "tags": ["caramélisation", "légume", "maillard", "recette-scientifique"]
+    },
+    {
+      "id": "chou-fleur-texture",
+      "titre": "Chou-Fleur Texturé",
+      "slug": "chou-fleur-texture",
+      "chapitre": "Légumes Révélés",
+      "numero_chapitre": 4,
+      "numero_recette": 2,
+      "difficulte": 1,
+      "temps_preparation": 8,
+      "temps_cuisson": 30,
+      "temps_repos": 0,
+      "temps_total": 38,
+      "portions": 4,
+      "concept_principal": "Modification texture par cuisson",
+      "tags": ["texture", "légume", "rôtissage", "recette-scientifique"]
+    },
+    {
+      "id": "kimchi-express",
+      "titre": "Kimchi Express (Fermentation Lactique)",
+      "slug": "kimchi-express",
+      "chapitre": "Légumes Révélés",
+      "numero_chapitre": 4,
+      "numero_recette": 3,
+      "difficulte": 2,
+      "temps_preparation": 30,
+      "temps_cuisson": 0,
+      "temps_repos": 0,
+      "temps_total": 30,
+      "portions": 1,
+      "concept_principal": "Fermentation lactique microbienne contrôlée",
+      "tags": ["kimchi", "fermentation", "lactique", "bactéries", "recette-scientifique"]
+    },
+    {
+      "id": "champignons-umami-shiitake",
+      "titre": "Champignons Umami (Shiitake)",
+      "slug": "champignons-umami-shiitake",
+      "chapitre": "Légumes Révélés",
+      "numero_chapitre": 4,
+      "numero_recette": 4,
+      "difficulte": 1,
+      "temps_preparation": 5,
+      "temps_cuisson": 12,
+      "temps_repos": 30,
+      "temps_total": 47,
+      "portions": 4,
+      "concept_principal": "Synergie umami par glutamate et nucléotides",
+      "tags": ["umami", "shiitake", "champignon", "glutamate", "recette-scientifique"]
+    }
+  ],
+  "par_chapitre": {
+    "1": [
+      {
+        "id": "mayonnaise-stable",
+        "titre": "Mayonnaise Stable (Émulsion)",
+        "concept": "Émulsion stable eau-huile avec lécithine",
+        "difficulte": 2,
+        "temps_total": 15,
+        "slug": "mayonnaise-stable"
+      },
+      {
+        "id": "vinaigrette-equilibree",
+        "titre": "Vinaigrette Équilibrée (Ratios)",
+        "concept": "Équilibre acide-gras optimal (ratio 1:3)",
+        "difficulte": 1,
+        "temps_total": 5,
+        "slug": "vinaigrette-equilibree"
+      },
+      {
+        "id": "bouillon-volaille-umami",
+        "titre": "Bouillon Volaille Umami (Extraction)",
+        "concept": "Extraction glutamate et synergie umami",
+        "difficulte": 1,
+        "temps_total": 180,
+        "slug": "bouillon-volaille-umami"
+      },
+      {
+        "id": "beurre-blanc",
+        "titre": "Beurre Blanc (Émulsion Chaude)",
+        "concept": "Émulsion chaude instable contrôlée par température",
+        "difficulte": 3,
+        "temps_total": 25,
+        "slug": "beurre-blanc"
+      }
+    ],
+    "2": [
+      {
+        "id": "steak-maillard",
+        "titre": "Steak Parfait (Réaction de Maillard)",
+        "concept": "Réaction de Maillard",
+        "difficulte": 1,
+        "temps_total": 15,
+        "slug": "steak-maillard"
+      },
+      {
+        "id": "poulet-roti-65c",
+        "titre": "Poulet Rôti Juteux (65°C)",
+        "concept": "Cuisson basse température & dénaturation protéines",
+        "difficulte": 2,
+        "temps_total": 165,
+        "slug": "poulet-roti-65c"
+      },
+      {
+        "id": "boeuf-bourguignon-collagene",
+        "titre": "Bœuf Bourguignon (Collagène)",
+        "concept": "Transformation collagène en gélatine",
+        "difficulte": 2,
+        "temps_total": 260,
+        "slug": "boeuf-bourguignon-collagene"
+      },
+      {
+        "id": "magret-canard-laque",
+        "titre": "Magret de Canard Laqué",
+        "concept": "Maillard & caramélisation laquage",
+        "difficulte": 2,
+        "temps_total": 38,
+        "slug": "magret-canard-laque"
+      }
+    ],
+    "3": [
+      {
+        "id": "saumon-mi-cuit-55c",
+        "titre": "Saumon Mi-Cuit (55°C)",
+        "concept": "Dénaturation protéique contrôlée à basse température",
+        "difficulte": 2,
+        "temps_total": 55,
+        "slug": "saumon-mi-cuit-55c"
+      },
+      {
+        "id": "ceviche-marinade-acide",
+        "titre": "Ceviche (Marinade Acide)",
+        "concept": "Dénaturation protéique par acidité",
+        "difficulte": 1,
+        "temps_total": 35,
+        "slug": "ceviche-marinade-acide"
+      },
+      {
+        "id": "moules-marinieres-extraction",
+        "titre": "Moules Marinières (Extraction Aromatique)",
+        "concept": "Extraction aromatique + synergie umami iodée",
+        "difficulte": 2,
+        "temps_total": 23,
+        "slug": "moules-marinieres-extraction"
+      },
+      {
+        "id": "lotte-rotie-texture-ferme",
+        "titre": "Lotte Rôtie (Texture Ferme)",
+        "concept": "Dénaturation protéique + réaction Maillard + transformation collagène",
+        "difficulte": 3,
+        "temps_total": 36,
+        "slug": "lotte-rotie-texture-ferme"
+      }
+    ],
+    "4": [
+      {
+        "id": "carottes-roties-caramelisees",
+        "titre": "Carottes Rôties Caramélisées",
+        "concept": "Caramélisation des sucres naturels",
+        "difficulte": 1,
+        "temps_total": 47,
+        "slug": "carottes-roties-caramelisees"
+      },
+      {
+        "id": "chou-fleur-texture",
+        "titre": "Chou-Fleur Texturé",
+        "concept": "Modification texture par cuisson",
+        "difficulte": 1,
+        "temps_total": 38,
+        "slug": "chou-fleur-texture"
+      },
+      {
+        "id": "kimchi-express",
+        "titre": "Kimchi Express (Fermentation Lactique)",
+        "concept": "Fermentation lactique microbienne contrôlée",
+        "difficulte": 2,
+        "temps_total": 30,
+        "slug": "kimchi-express"
+      },
+      {
+        "id": "champignons-umami-shiitake",
+        "titre": "Champignons Umami (Shiitake)",
+        "concept": "Synergie umami par glutamate et nucléotides",
+        "difficulte": 1,
+        "temps_total": 47,
+        "slug": "champignons-umami-shiitake"
+      }
+    ]
+  }
 }
