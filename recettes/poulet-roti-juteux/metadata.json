@@ -1,0 +1,106 @@
+{
+  "recette": {
+    "id": "poulet-roti-juteux",
+    "titre": "Poulet Rôti Juteux (Cuisson Basse Température)",
+    "slug": "poulet-roti-juteux",
+    "chapitre": "Viandes & Volailles",
+    "numero_chapitre": 2,
+    "numero_recette": 2,
+    "difficulte": 1,
+    "temps_preparation": 15,
+    "temps_cuisson": 195,
+    "temps_repos": 10,
+    "portions": 4,
+    "tags": [
+      "poulet",
+      "volaille",
+      "basse-temperature",
+      "cuisson-lente",
+      "denaturation-proteines",
+      "juteux"
+    ]
+  },
+  "science": {
+    "concept_principal": "Cuisson Basse Température et Dénaturation Contrôlée des Protéines",
+    "temperature": "65-75°C (cœur 72°C)",
+    "mecanisme": "Dénaturation progressive myosine (40-60°C) et actine (66-80°C) sans contraction brutale, préservant jutosité maximale",
+    "schemas_associes": [
+      "denaturation-proteines"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Poulet",
+        "ingredient_b": "Thym",
+        "molecule": "Composés terpéniques (thymol, carvacrol)",
+        "effet": "Notes herbacées et aromatiques"
+      },
+      {
+        "ingredient_a": "Poulet",
+        "ingredient_b": "Citron",
+        "molecule": "Acide citrique + limonène",
+        "effet": "Fraîcheur et équilibre du gras"
+      },
+      {
+        "ingredient_a": "Poulet",
+        "ingredient_b": "Ail",
+        "molecule": "Composés soufrés allicine",
+        "effet": "Profondeur aromatique"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Poulet entier rôti doré, peau croustillante dorée, servi sur plat blanc avec herbes fraîches",
+      "angle": "45-degree",
+      "page": 1,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Professional food photography of a golden roasted whole chicken with crispy skin, placed on a white serving platter, garnished with fresh thyme sprigs and lemon wedges, natural lighting from the side, minimalist scientific aesthetic, top-down 45-degree angle, shallow depth of field"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Poulet entier cru badigeonné d'huile et herbes, prêt à enfourner",
+        "angle": "top-down",
+        "etape": "Préparation et assaisonnement",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18",
+        "prompt": "Raw whole chicken being brushed with olive oil and herbs, top-down view, ingredients visible around (thyme, garlic, lemon), clean kitchen counter, natural daylight, minimalist composition"
+      },
+      {
+        "fichier": "images/process-02.png",
+        "description": "Thermomètre à sonde inséré dans le blanc du poulet montrant 72°C",
+        "angle": "close-up",
+        "etape": "Contrôle température",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18",
+        "prompt": "Close-up of a digital meat thermometer probe inserted into chicken breast showing 72°C on display, roasted chicken in background slightly blurred, scientific precision focus, natural lighting"
+      }
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Poulet rôti tranché révélant chair rosée et juteuse avec jus de cuisson",
+      "angle": "45-degree",
+      "page": 2,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Sliced roasted chicken breast and thigh on a white plate, revealing pink juicy meat with cooking juices, garnished with fresh herbs, side view 45-degree angle, natural lighting, food photography style, appetizing presentation"
+    }
+  },
+  "sources_documentaires": [
+    "NIH, 2025 - Effect of low-temperature sous vide under high-pressure on pork quality",
+    "Agafonkina et al., 2019 - Thermal denaturation of beef, chicken, turkey (Meat Journal)",
+    "BCCDC, 2024 - Guidelines for restaurant sous vide cooking safety",
+    "Warmcook.com, 2020 - Tableau de Cuisson Viandes à Basse Température",
+    "Undejeunerdesoleil.com, 2012 - Poulet rôti à haute ou basse température : les règles d'or"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "Chef Projet IA + Rédacteur-Scientifique",
+  "statut": "brouillon",
+  "notes_internes": "Sprint 2 - Chapitre 2 - Recette 2.2 - Concept basse température validé avec sources scientifiques NIH et études thermiques protéines volaille"
+}
