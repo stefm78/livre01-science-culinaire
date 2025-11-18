@@ -1,10 +1,10 @@
 # 📖 Index des Recettes
 
-**Généré le** : 18/11/2025 à 16:12
+**Généré le** : 18/11/2025 à 18:47
 
-**Total** : 12 recettes en 3 chapitres
+**Total** : 16 recettes en 4 chapitres
 
-**MVP** : 12/16 recettes complètes (75%)
+**MVP** : 16/16 recettes complètes (100%)
 
 ---
 
@@ -134,17 +134,59 @@
 - **Fichier** : [`lotte-rotie-texture-ferme/`](lotte-rotie-texture-ferme/recette.md)
 - **Statut** : production
 
+## Chapitre 4 : Légumes Révélés
+
+### Carottes Rôties Caramélisées
+
+- **Concept** : Caramélisation des sucres naturels
+- **Difficulté** : ●○○
+- **Temps total** : 47 min
+- **Portions** : 4 personnes
+- **Tags** : caramelisation, légume, maillard, recette-scientifique
+- **Fichier** : [`carottes-roties-caramelisees/`](carottes-roties-caramelisees/recette.md)
+- **Statut** : production
+
+### Chou-Fleur Texturé
+
+- **Concept** : Modification texture par cuisson
+- **Difficulté** : ●○○
+- **Temps total** : 38 min
+- **Portions** : 4 personnes
+- **Tags** : texture, légume, rôtissage, recette-scientifique
+- **Fichier** : [`chou-fleur-texture/`](chou-fleur-texture/recette.md)
+- **Statut** : production
+
+### Kimchi Express (Fermentation Lactique)
+
+- **Concept** : Fermentation lactique microbienne contrôlée
+- **Difficulté** : ●●○
+- **Temps total** : 30 min
+- **Portions** : 1 bocal
+- **Tags** : kimchi, fermentation, lactique, bactéries, recette-scientifique
+- **Fichier** : [`kimchi-express/`](kimchi-express/recette.md)
+- **Statut** : production
+
+### Champignons Umami (Shiitake)
+
+- **Concept** : Synergie umami par glutamate et nucléotides
+- **Difficulté** : ●○○
+- **Temps total** : 47 min
+- **Portions** : 4 personnes
+- **Tags** : umami, shiitake, champignon, glutamate, recette-scientifique
+- **Fichier** : [`champignons-umami-shiitake/`](champignons-umami-shiitake/recette.md)
+- **Statut** : production
+
 ---
 
 ## 📊 Progression MVP
 
-**Recettes complètes** : 12/16 (75%)
+**Recettes complètes** : 16/16 (100%)
 
 **Chapitres complets** :
 - ✅ Chapitre 1 : Bases & Techniques (4/4)
 - ✅ Chapitre 2 : Viandes & Volailles (4/4)
 - ✅ Chapitre 3 : Poissons & Fruits de Mer (4/4)
-- ⏳ Chapitre 4 : Légumes & Techniques (0/4)
+- ✅ Chapitre 4 : Légumes Révélés (4/4)
 
 ---
 
