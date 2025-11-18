@@ -1,0 +1,14 @@
+{
+  "batch_id": "batch01-20251118",
+  "created_at": "2025-11-18T09:44:00Z",
+  "images": [
+    {"source_file": "hero.png", "target_path": "recettes/poulet-roti-65c/images/hero.png", "recipe": "poulet-roti-65c", "type": "hero"},
+    {"source_file": "final.png", "target_path": "recettes/poulet-roti-65c/images/final.png", "recipe": "poulet-roti-65c", "type": "final"},
+    {"source_file": "hero.png", "target_path": "recettes/boeuf-bourguignon-collagene/images/hero.png", "recipe": "boeuf-bourguignon-collagene", "type": "hero"},
+    {"source_file": "final.png", "target_path": "recettes/boeuf-bourguignon-collagene/images/final.png", "recipe": "boeuf-bourguignon-collagene", "type": "final"},
+    {"source_file": "hero.png", "target_path": "recettes/magret-canard-laque/images/hero.png", "recipe": "magret-canard-laque", "type": "hero"},
+    {"source_file": "final.png", "target_path": "recettes/magret-canard-laque/images/final.png", "recipe": "magret-canard-laque", "type": "final"}
+  ],
+  "status": "pending",
+  "total_images": 6
+}
