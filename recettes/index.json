@@ -1,9 +1,9 @@
 {
   "meta": {
-    "total_recettes": 4,
-    "total_chapitres": 1,
-    "date_generation": "2025-11-18T13:54:00Z",
-    "version": "1.1"
+    "total_recettes": 8,
+    "total_chapitres": 2,
+    "date_generation": "2025-11-18T14:29:00.000Z",
+    "version": "1.2"
   },
   "recettes": [
     {
@@ -19,7 +19,7 @@
       "concept_scientifique": "Réaction de Maillard",
       "tags": ["maillard", "cuisson-vif"],
       "hero_image": "steak-maillard/images/hero.png",
-      "statut": "validé"
+      "statut": "production"
     },
     {
       "id": "poulet-roti-65c",
@@ -34,7 +34,7 @@
       "concept_scientifique": "Cuisson basse température & dénaturation protéines",
       "tags": ["basse-temperature", "maillard", "volaille"],
       "hero_image": "poulet-roti-65c/images/hero.png",
-      "statut": "validé"
+      "statut": "production"
     },
     {
       "id": "boeuf-bourguignon-collagene",
@@ -49,7 +49,7 @@
       "concept_scientifique": "Transformation collagène en gélatine",
       "tags": ["braisage", "collagene", "ragoût"],
       "hero_image": "boeuf-bourguignon-collagene/images/hero.png",
-      "statut": "validé"
+      "statut": "production"
     },
     {
       "id": "magret-canard-laque",
@@ -64,7 +64,67 @@
       "concept_scientifique": "Maillard & caramélisation laquage",
       "tags": ["maillard", "caramelisation", "laquage"],
       "hero_image": "magret-canard-laque/images/hero.png",
-      "statut": "validé"
+      "statut": "production"
+    },
+    {
+      "id": "saumon-mi-cuit-55c",
+      "titre": "Saumon Mi-Cuit (55°C)",
+      "slug": "saumon-mi-cuit-55c",
+      "chapitre": "Poissons & Fruits de Mer",
+      "numero_chapitre": 3,
+      "numero_recette": 1,
+      "difficulte": 2,
+      "temps_total": 55,
+      "portions": 2,
+      "concept_scientifique": "Dénaturation protéique contrôlée à basse température",
+      "tags": ["saumon", "poisson", "basse-temperature", "cuisson-precision", "denaturation-proteique", "texture-fondante", "P1"],
+      "hero_image": "saumon-mi-cuit-55c/images/hero.png",
+      "statut": "production"
+    },
+    {
+      "id": "ceviche-marinade-acide",
+      "titre": "Ceviche (Marinade Acide)",
+      "slug": "ceviche-marinade-acide",
+      "chapitre": "Poissons & Fruits de Mer",
+      "numero_chapitre": 3,
+      "numero_recette": 2,
+      "difficulte": 1,
+      "temps_total": 35,
+      "portions": 4,
+      "concept_scientifique": "Dénaturation protéique par acidité",
+      "tags": ["ceviche", "poisson-cru", "marinade-acide", "denaturation-chimique", "P1"],
+      "hero_image": "ceviche-marinade-acide/images/hero.png",
+      "statut": "production"
+    },
+    {
+      "id": "moules-marinieres-extraction",
+      "titre": "Moules Marinières (Extraction Aromatique)",
+      "slug": "moules-marinieres-extraction",
+      "chapitre": "Poissons & Fruits de Mer",
+      "numero_chapitre": 3,
+      "numero_recette": 3,
+      "difficulte": 2,
+      "temps_total": 23,
+      "portions": 2,
+      "concept_scientifique": "Extraction aromatique + synergie umami iodée",
+      "tags": ["moules", "fruits-de-mer", "extraction-aromatique", "synergie-umami", "vin-blanc", "P2"],
+      "hero_image": "moules-marinieres-extraction/images/hero.png",
+      "statut": "production"
+    },
+    {
+      "id": "lotte-rotie-texture-ferme",
+      "titre": "Lotte Rôtie (Texture Ferme)",
+      "slug": "lotte-rotie-texture-ferme",
+      "chapitre": "Poissons & Fruits de Mer",
+      "numero_chapitre": 3,
+      "numero_recette": 4,
+      "difficulte": 3,
+      "temps_total": 36,
+      "portions": 2,
+      "concept_scientifique": "Dénaturation protéique + réaction Maillard + transformation collagène",
+      "tags": ["lotte", "poisson-ferme", "rotissage", "maillard", "denaturation-controllee", "collagene", "P3"],
+      "hero_image": "lotte-rotie-texture-ferme/images/hero.png",
+      "statut": "production"
     }
   ],
   "par_chapitre": {
@@ -82,7 +142,7 @@
         "concept_scientifique": "Réaction de Maillard",
         "tags": ["maillard", "cuisson-vif"],
         "hero_image": "steak-maillard/images/hero.png",
-        "statut": "validé"
+        "statut": "production"
       },
       {
         "id": "poulet-roti-65c",
@@ -97,7 +157,7 @@
         "concept_scientifique": "Cuisson basse température & dénaturation protéines",
         "tags": ["basse-temperature", "maillard", "volaille"],
         "hero_image": "poulet-roti-65c/images/hero.png",
-        "statut": "validé"
+        "statut": "production"
       },
       {
         "id": "boeuf-bourguignon-collagene",
@@ -112,7 +172,7 @@
         "concept_scientifique": "Transformation collagène en gélatine",
         "tags": ["braisage", "collagene", "ragoût"],
         "hero_image": "boeuf-bourguignon-collagene/images/hero.png",
-        "statut": "validé"
+        "statut": "production"
       },
       {
         "id": "magret-canard-laque",
@@ -127,7 +187,69 @@
         "concept_scientifique": "Maillard & caramélisation laquage",
         "tags": ["maillard", "caramelisation", "laquage"],
         "hero_image": "magret-canard-laque/images/hero.png",
-        "statut": "validé"
+        "statut": "production"
+      }
+    ],
+    "Poissons & Fruits de Mer": [
+      {
+        "id": "saumon-mi-cuit-55c",
+        "titre": "Saumon Mi-Cuit (55°C)",
+        "slug": "saumon-mi-cuit-55c",
+        "chapitre": "Poissons & Fruits de Mer",
+        "numero_chapitre": 3,
+        "numero_recette": 1,
+        "difficulte": 2,
+        "temps_total": 55,
+        "portions": 2,
+        "concept_scientifique": "Dénaturation protéique contrôlée à basse température",
+        "tags": ["saumon", "poisson", "basse-temperature", "cuisson-precision", "denaturation-proteique", "texture-fondante", "P1"],
+        "hero_image": "saumon-mi-cuit-55c/images/hero.png",
+        "statut": "production"
+      },
+      {
+        "id": "ceviche-marinade-acide",
+        "titre": "Ceviche (Marinade Acide)",
+        "slug": "ceviche-marinade-acide",
+        "chapitre": "Poissons & Fruits de Mer",
+        "numero_chapitre": 3,
+        "numero_recette": 2,
+        "difficulte": 1,
+        "temps_total": 35,
+        "portions": 4,
+        "concept_scientifique": "Dénaturation protéique par acidité",
+        "tags": ["ceviche", "poisson-cru", "marinade-acide", "denaturation-chimique", "P1"],
+        "hero_image": "ceviche-marinade-acide/images/hero.png",
+        "statut": "production"
+      },
+      {
+        "id": "moules-marinieres-extraction",
+        "titre": "Moules Marinières (Extraction Aromatique)",
+        "slug": "moules-marinieres-extraction",
+        "chapitre": "Poissons & Fruits de Mer",
+        "numero_chapitre": 3,
+        "numero_recette": 3,
+        "difficulte": 2,
+        "temps_total": 23,
+        "portions": 2,
+        "concept_scientifique": "Extraction aromatique + synergie umami iodée",
+        "tags": ["moules", "fruits-de-mer", "extraction-aromatique", "synergie-umami", "vin-blanc", "P2"],
+        "hero_image": "moules-marinieres-extraction/images/hero.png",
+        "statut": "production"
+      },
+      {
+        "id": "lotte-rotie-texture-ferme",
+        "titre": "Lotte Rôtie (Texture Ferme)",
+        "slug": "lotte-rotie-texture-ferme",
+        "chapitre": "Poissons & Fruits de Mer",
+        "numero_chapitre": 3,
+        "numero_recette": 4,
+        "difficulte": 3,
+        "temps_total": 36,
+        "portions": 2,
+        "concept_scientifique": "Dénaturation protéique + réaction Maillard + transformation collagène",
+        "tags": ["lotte", "poisson-ferme", "rotissage", "maillard", "denaturation-controllee", "collagene", "P3"],
+        "hero_image": "lotte-rotie-texture-ferme/images/hero.png",
+        "statut": "production"
       }
     ]
   }
