@@ -1,0 +1,96 @@
+{
+  "recette": {
+    "id": "kimchi-express",
+    "titre": "Kimchi Express (Fermentation Lactique)",
+    "slug": "kimchi-express",
+    "chapitre": "Légumes Révélés",
+    "numero_chapitre": 4,
+    "numero_recette": 3,
+    "difficulte": 2,
+    "temps_preparation": 30,
+    "temps_cuisson": 0,
+    "temps_repos": 0,
+    "portions": 1,
+    "tags": [
+      "kimchi",
+      "fermentation",
+      "lactique",
+      "bactéries",
+      "recette-scientifique"
+    ]
+  },
+  "science": {
+    "concept_principal": "Fermentation lactique microbienne contrôlée",
+    "temperature": "5-22°C",
+    "mecanisme": "Transformation des sucres des légumes en acide lactique sous l'action de bactéries (Leuconostoc, Lactobacillus). Réduction du pH, développement d'arômes complexes.",
+    "schemas_associes": [
+      "fermentation-lactique.svg"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Chou chinois",
+        "ingredient_b": "Radis blanc",
+        "molecule": "Acide lactique, aldéhydes",
+        "effet": "Acidité contrôlée, fraîcheur, croquant"
+      },
+      {
+        "ingredient_a": "Gingembre",
+        "ingredient_b": "Ail",
+        "molecule": "Composés soufrés",
+        "effet": "Complexité aromatique, piquant"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Kimchi fermentant en bocal, vue top-down, couleurs vives.",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Minimalist food photography of homemade kimchi fermenting in jar, top-down, vibrant colors, marble background, clean airy style, soft shadows"
+    },
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Présentation finale kimchi, jarre ouverte, texture croquante.",
+      "angle": "top-down",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Étape massage et dégorgement du chou.",
+        "angle": "top-down",
+        "etape": "Salage/massage",
+        "page": 2,
+        "credits": "ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      }
+    ],
+    "detail": [
+      {
+        "fichier": "images/detail-01.png",
+        "description": "Macro sur bulles de fermentation lactique.",
+        "angle": "macro",
+        "page": 2,
+        "credits": "ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      }
+    ]
+  },
+  "sources_documentaires": [
+    "Editverse 2024",
+    "PubMed Choi 2003",
+    "Nature 2023",
+    "Frontiers 2023"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "Chef Projet IA",
+  "statut": "brouillon",
+  "notes_internes": "Kimchi, fermentation rapide ou longue, contrôle microbien."
+}
