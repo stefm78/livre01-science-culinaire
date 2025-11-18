@@ -1,0 +1,61 @@
+{
+  "recette": {
+    "id": "moules-mariniere",
+    "titre": "Moules Marinières Classiques",
+    "slug": "moules-mariniere",
+    "chapitre": "Poissons & Fruits de Mer",
+    "numero_chapitre": 3,
+    "numero_recette": 3,
+    "difficulte": 1,
+    "temps_preparation": 10,
+    "temps_cuisson": 4,
+    "temps_repos": 0,
+    "portions": 4,
+    "tags": ["umami","extraction-iodé","moules","cuisson-brève"]
+  },
+  "science": {
+    "concept_principal": "Extraction Composés Umami (GMP, Glutamate)",
+    "temperature": "Cuisson vive 100°C",
+    "mecanisme": "Ouverture rapide préserve texture et concentre umami (GMP, glutamate, ions iodés). Surcuisson = perte d'eau, texture caoutchouteuse.",
+    "schemas_associes": ["extraction-umami.svg"],
+    "associations": [
+      {"ingredient_a": "Moules","ingredient_b": "Vin blanc","molecule": "Lactate, glutamate","effet": "Umami, acidité douce"},
+      {"ingredient_a": "Moules","ingredient_b": "Persil","molecule": "Monoterpènes","effet": "Note herbale fraîche"}
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Moules ouvertes juste cuites, jus de cuisson, persil.",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Minimalist top-down photography of mussels marinières, white bowl, marble surface"
+    },
+    "process": [
+      {"fichier": "images/process-01.png","description": "Cuisson moules à feu vif dans vin blanc.","angle": "top-down","etape": "Cuisson ouverture rapide","page": 2,"credits": "ChatGPT DALL-E 3","date_generation": "2025-11-18"}
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Plat de moules dressé, sauce herbacée.",
+      "angle": "top-down",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
+    "Harold McGee - On Food and Cooking",
+    "Zhang et al., 2008 - Molecular mechanism for the umami taste synergism",
+    "Undejeunerdesoleil.com - Moules marinières",
+    "Science of Cooking - Umami and shellfish",
+    "Chefs et science (2025) - Extraction umami dans fruits de mer"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "IA Science Culinaire",
+  "statut": "brouillon",
+  "notes_internes": "Sprint3 Chapitre3 : recette umami, extraction rapide validée."
+}
