@@ -1,0 +1,78 @@
+name: 📚 Mise à jour Index Recettes
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'Raison de la mise à jour (optionnel)'
+        required: false
+        default: 'Mise à jour manuelle'
+
+jobs:
+  update-index:
+    name: Générer index.json et INDEX.md
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: 📊 Générer index recettes
+        run: |
+          echo "🚀 Exécution de generate-index.py..."
+          python scripts/generate-index.py
+          echo "✅ Index généré avec succès"
+      
+      - name: 🔍 Vérifier changements
+        id: git-check
+        run: |
+          if git diff --quiet recettes/index.json recettes/INDEX.md; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ Aucun changement détecté dans l'index"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "✨ Changements détectés dans l'index"
+          fi
+      
+      - name: 📝 Afficher différences
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          echo "📊 Différences détectées :"
+          git diff recettes/index.json recettes/INDEX.md
+      
+      - name: 💾 Commit et push
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add recettes/index.json recettes/INDEX.md
+          git commit -m "docs(recettes): mise à jour automatique index - ${{ inputs.reason }}"
+          git push
+      
+      - name: ✅ Résultat
+        run: |
+          if [ "${{ steps.git-check.outputs.changed }}" == "true" ]; then
+            echo "✅ Index mis à jour et committé avec succès"
+          else
+            echo "ℹ️ Index déjà à jour, aucune modification nécessaire"
+          fi
+      
+      - name: 📊 Afficher statistiques
+        run: |
+          echo "📈 Statistiques actuelles :"
+          python -c "
+          import json
+          with open('recettes/index.json', 'r', encoding='utf-8') as f:
+              data = json.load(f)
+          print(f\"  • Total recettes : {data['meta']['total_recettes']}\")
+          print(f\"  • Total chapitres : {data['meta']['total_chapitres']}\")
+          print(f\"  • Dernière mise à jour : {data['meta']['date_generation']}\")
+          "
