@@ -1,0 +1,94 @@
+{
+  "batch_id": "batch42-20251118",
+  "created_at": "2025-11-18T09:50:00Z",
+  "images": [
+    {
+      "source_file": "hero.png",
+      "target_path": "recettes/saumon-mi-cuit/images/hero.png",
+      "recipe": "saumon-mi-cuit-55c",
+      "type": "hero"
+    },
+    {
+      "source_file": "final.png",
+      "target_path": "recettes/saumon-mi-cuit/images/final.png",
+      "recipe": "saumon-mi-cuit-55c",
+      "type": "final"
+    },
+    {
+      "source_file": "process-01.png",
+      "target_path": "recettes/saumon-mi-cuit/images/process-01.png",
+      "recipe": "saumon-mi-cuit-55c",
+      "type": "process"
+    },
+    {
+      "source_file": "process-02.png",
+      "target_path": "recettes/saumon-mi-cuit/images/process-02.png",
+      "recipe": "saumon-mi-cuit-55c",
+      "type": "process"
+    },
+    {
+      "source_file": "hero.png",
+      "target_path": "recettes/ceviche/images/hero.png",
+      "recipe": "ceviche-poisson-blanc",
+      "type": "hero"
+    },
+    {
+      "source_file": "final.png",
+      "target_path": "recettes/ceviche/images/final.png",
+      "recipe": "ceviche-poisson-blanc",
+      "type": "final"
+    },
+    {
+      "source_file": "process-01.png",
+      "target_path": "recettes/ceviche/images/process-01.png",
+      "recipe": "ceviche-poisson-blanc",
+      "type": "process"
+    },
+    {
+      "source_file": "hero.png",
+      "target_path": "recettes/moules-mariniere/images/hero.png",
+      "recipe": "moules-mariniere",
+      "type": "hero"
+    },
+    {
+      "source_file": "final.png",
+      "target_path": "recettes/moules-mariniere/images/final.png",
+      "recipe": "moules-mariniere",
+      "type": "final"
+    },
+    {
+      "source_file": "process-01.png",
+      "target_path": "recettes/moules-mariniere/images/process-01.png",
+      "recipe": "moules-mariniere",
+      "type": "process"
+    },
+    {
+      "source_file": "hero.png",
+      "target_path": "recettes/lotte-rotie/images/hero.png",
+      "recipe": "lotte-rotie-maillard",
+      "type": "hero"
+    },
+    {
+      "source_file": "final.png",
+      "target_path": "recettes/lotte-rotie/images/final.png",
+      "recipe": "lotte-rotie-maillard",
+      "type": "final"
+    },
+    {
+      "source_file": "process-01.png",
+      "target_path": "recettes/lotte-rotie/images/process-01.png",
+      "recipe": "lotte-rotie-maillard",
+      "type": "process"
+    },
+    {
+      "source_file": "process-02.png",
+      "target_path": "recettes/lotte-rotie/images/process-02.png",
+      "recipe": "lotte-rotie-maillard",
+      "type": "process"
+    }
+  ],
+  "status": "processed",
+  "total_images": 14,
+  "processed_at": "2025-11-18T13:04:56.904956",
+  "processed_count": 0
+}
