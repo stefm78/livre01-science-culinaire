@@ -11,6 +11,9 @@ on:
         description: 'Génère index.json et INDEX.md depuis recettes/*/metadata.json'
         required: false
 
+permissions:
+  contents: write
+
 jobs:
   update-index:
     name: "Générer index.json et INDEX.md"
