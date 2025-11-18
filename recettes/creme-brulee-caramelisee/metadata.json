@@ -1,0 +1,38 @@
+{
+  "id": "creme-brulee-caramelisee",
+  "titre": "Crème Brûlée Caramélisée",
+  "chapitre": 5,
+  "chapitre_nom": "Œufs & Laitages",
+  "numero_recette": "5.4",
+  "concept_scientifique": "Coagulation + Caramélisation",
+  "difficulte": 2,
+  "temps_preparation": 15,
+  "temps_cuisson": 40,
+  "temps_repos": 240,
+  "portions": 4,
+  "tags": [
+    "oeufs",
+    "laitages",
+    "coagulation",
+    "caramelisation",
+    "bain-marie",
+    "dessert",
+    "temperature-precision"
+  ],
+  "temperature_cle": "82°C (coagulation jaunes dilution) - 95-100°C (cuisson bain-marie) - 180-200°C (caramélisation sucre)",
+  "reaction_chimique": "Coagulation protéines LDL/HDL dilution - Décomposition thermique saccharose (caramélisation)",
+  "sources": [
+    "Je Pense donc Je Cuis, 2024 - Coagulation 82°C jaunes dilution",
+    "Creative Commons, 2024 - Température cœur 80°C texture onctueuse",
+    "Je Pense donc Je Cuis, 2024 - Cuisson basse température 95°C",
+    "Joel Robuchon, 2025 - Bain-marie 150°C technique 6 jaunes",
+    "Hartel, 1991 - Sugar crystallization caramelization"
+  ],
+  "schemas_associes": [],
+  "images": {
+    "hero": "images/hero.png",
+    "final": "images/final.png"
+  },
+  "date_creation": "2025-11-18",
+  "statut": "complet"
+}

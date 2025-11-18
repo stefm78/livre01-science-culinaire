@@ -1,0 +1,35 @@
+{
+  "id": "mousse-chocolat-aerienne",
+  "titre": "Mousse au Chocolat Aérienne",
+  "chapitre": 5,
+  "chapitre_nom": "Œufs & Laitages",
+  "numero_recette": "5.2",
+  "concept_scientifique": "Foisonnement protéines",
+  "difficulte": 1,
+  "temps_preparation": 20,
+  "temps_repos": 120,
+  "portions": 6,
+  "tags": [
+    "oeufs",
+    "chocolat",
+    "foisonnement",
+    "proteines",
+    "emulsion",
+    "mousse",
+    "dessert"
+  ],
+  "temperature_cle": "40-50°C (fonte chocolat max 55°C) - Température ambiante (incorporation)",
+  "reaction_chimique": "Dénaturation albumine par action mécanique - Formation réseau tridimensionnel - Émulsion lécithines",
+  "sources": [
+    "Sesame & Vanille, 2025 - Foisonnement protéines blancs œufs",
+    "Sesame & Vanille, 2025 - Technique du ruban (jaunes + sucre)",
+    "Sesame & Vanille, 2025 - Effet émulsifiant lécithines jaune"
+  ],
+  "schemas_associes": [],
+  "images": {
+    "hero": "images/hero.png",
+    "final": "images/final.png"
+  },
+  "date_creation": "2025-11-18",
+  "statut": "complet"
+}

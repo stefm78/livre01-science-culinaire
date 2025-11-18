@@ -1,0 +1,34 @@
+{
+  "id": "oeuf-mollet-parfait",
+  "titre": "Œuf Mollet Parfait (6 min 30)",
+  "chapitre": 5,
+  "chapitre_nom": "Œufs & Laitages",
+  "numero_recette": "5.1",
+  "concept_scientifique": "Coagulation protéines",
+  "difficulte": 1,
+  "temps_preparation": 5,
+  "temps_cuisson": 6.5,
+  "portions": 4,
+  "tags": [
+    "oeufs",
+    "coagulation",
+    "proteines",
+    "cuisson-precision",
+    "temperature-controlee",
+    "basique"
+  ],
+  "temperature_cle": "100°C (eau bouillante) - 62-65°C (coagulation blanc) - 65-70°C (coagulation jaune)",
+  "reaction_chimique": "Dénaturation et coagulation protéines albumine et vitelline",
+  "sources": [
+    "INRA - Coagulation protéines œuf (20 secondes à 90°C)",
+    "Agriculture Institute, 2025 - Protein Denaturation (40-60°C)",
+    "Agafonkina et al., 2019 - Thermal denaturation (45-90°C)"
+  ],
+  "schemas_associes": [],
+  "images": {
+    "hero": "images/hero.png",
+    "final": "images/final.png"
+  },
+  "date_creation": "2025-11-18",
+  "statut": "complet"
+}
