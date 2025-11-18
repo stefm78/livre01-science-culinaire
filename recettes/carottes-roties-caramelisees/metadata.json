@@ -1,0 +1,85 @@
+{
+  "recette": {
+    "id": "carottes-roties-caramelisees",
+    "titre": "Carottes Rôties Caramélisées",
+    "slug": "carottes-roties-caramelisees",
+    "chapitre": "Légumes Révélés",
+    "numero_chapitre": 4,
+    "numero_recette": 1,
+    "difficulte": 1,
+    "temps_preparation": 12,
+    "temps_cuisson": 35,
+    "temps_repos": 0,
+    "portions": 4,
+    "tags": [
+      "caramélisation",
+      "légume",
+      "maillard",
+      "recette-scientifique"
+    ]
+  },
+  "science": {
+    "concept_principal": "Caramélisation des sucres naturels",
+    "temperature": "200°C",
+    "mecanisme": "Décomposition et recombinaison des sucres sous chaleur sèche (four), formation composés aromatiques bruns.",
+    "schemas_associes": [
+      "caramelisation.svg"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Carotte",
+        "ingredient_b": "Huile d’olive",
+        "molecule": "Furfural, maltol",
+        "effet": "Arôme grillé, caramélisé"
+      },
+      {
+        "ingredient_a": "Carotte",
+        "ingredient_b": "Thym",
+        "molecule": "Terpènes",
+        "effet": "Fraîcheur, complexité"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Carottes rôties caramélisées sur marbre blanc, top-down.",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Minimalist top-down food photography of caramelized roasted carrots, golden brown surface, white marble background, natural diffused lighting, clean composition, photorealistic, 4K"
+    },
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Présentation finale des carottes rôties, servies avec thym.",
+      "angle": "top-down",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Processus de caramélisation en cours sur la plaque du four.",
+        "angle": "top-down",
+        "etape": "Caramélisation",
+        "page": 2,
+        "credits": "ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      }
+    ]
+  },
+  "sources_documentaires": [
+    "Aventure Culinaire 2025",
+    "Biochim-Agro Univ Lille 2016",
+    "Quitoque 2024",
+    "Neary 2025"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "Chef Projet IA",
+  "statut": "brouillon",
+  "notes_internes": "Recette élaborée à partir du sprint 4, concepts validés."
+}
