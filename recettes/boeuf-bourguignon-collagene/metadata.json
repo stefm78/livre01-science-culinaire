@@ -1,0 +1,61 @@
+{
+  "recette": {
+    "id": "boeuf-bourguignon-collagene",
+    "titre": "Bœuf Bourguignon (Collagène)",
+    "slug": "boeuf-bourguignon-collagene",
+    "chapitre": "Viandes & Volailles",
+    "numero_chapitre": 2,
+    "numero_recette": 3,
+    "difficulte": 2,
+    "temps_preparation": 40,
+    "temps_cuisson": 210,
+    "temps_repos": 10,
+    "portions": 6,
+    "tags": [
+      "braisage",
+      "collagene",
+      "ragoût"
+    ]
+  },
+  "science": {
+    "concept_principal": "Transformation collagène en gélatine (cuisson longue)",
+    "temperature": "82°C (gelification), 150°C (cuisson cocotte)",
+    "mecanisme": "Le collagène se dissout lentement en gélatine à partir de 68°C, optimisé par cuisson longue : texture fondante.",
+    "schemas_associes": [
+      "02-collagene-gelatine"
+    ],
+    "associations": [
+      {"ingredient_a": "Bœuf", "ingredient_b": "Vin", "molecule": "Alcools aromatiques, esters", "effet": "profondeur bouquet"},
+      {"ingredient_a": "Lardons", "ingredient_b": "Carotte", "molecule": "Pyrazines", "effet": "notes grillées-sucrées"}
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Plat de bourguignon en fonte, sauce brillante, végétaux décor, ambiance chaleureuse.",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    },
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Zoom sur morceau fondant, nappé sauce, herbes, vapeur visible.",
+      "angle": "45-degrees",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
+    "StefanGourmet, 2016",
+    "Arab J Chem, 2020",
+    "McGee, 2004",
+    "Modernist Cuisine, 2011"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "AI Contributor (Sprint 2)",
+  "statut": "brouillon"
+}

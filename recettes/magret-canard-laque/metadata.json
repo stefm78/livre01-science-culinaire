@@ -1,0 +1,61 @@
+{
+  "recette": {
+    "id": "magret-canard-laque",
+    "titre": "Magret de Canard Laqué",
+    "slug": "magret-canard-laque",
+    "chapitre": "Viandes & Volailles",
+    "numero_chapitre": 2,
+    "numero_recette": 4,
+    "difficulte": 2,
+    "temps_preparation": 15,
+    "temps_cuisson": 18,
+    "temps_repos": 5,
+    "portions": 2,
+    "tags": [
+      "maillard",
+      "caramelisation",
+      "laquage"
+    ]
+  },
+  "science": {
+    "concept_principal": "Maillard & caramélisation laquage",
+    "temperature": "150-170°C (surface), 56-58°C (cœur)",
+    "mecanisme": "Graisse fondue et laquage sucré permettent croûte croustillante, brillance, arômes complexes.",
+    "schemas_associes": [
+      "01-reaction-maillard"
+    ],
+    "associations": [
+      {"ingredient_a": "Canard", "ingredient_b": "Miel", "molecule": "Aldéhydes sucrés", "effet": "notes dorées"},
+      {"ingredient_a": "Canard", "ingredient_b": "Sauce soja", "molecule": "Glutamates", "effet": "umami"}
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Magret entier doré, vernis brillant, accompagnement asiatique, fond contrasté.",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    },
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Tranches magret, nappage laque brillante, vapeur, décor cives et sésame.",
+      "angle": "45-degrees",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
+    "Club Oenologique, 2024",
+    "McGee, 2004",
+    "Modernist Cuisine, 2011",
+    "Cuisine.journaldesfemmes.fr, 2025"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "AI Contributor (Sprint 2)",
+  "statut": "brouillon"
+}
