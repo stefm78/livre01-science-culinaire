@@ -60,11 +60,11 @@ Créer un livre de cuisine scientifique combinant :
 | Sprint 1 | Ch.1 Bases | 5 | 18-22 Nov | Issue #13 ✅ |
 | Sprint 2 | Ch.2 Viandes | 4 | 25-29 Nov | ✅ |
 | Sprint 3 | Ch.3 Poissons | 4 | 2-6 Dec | ✅ TERMINÉ |
-| Sprint 4 | Ch.4 Légumes | 4 | 9-13 Dec | ⌛ |
-| Sprint 5 | Ch.5 Œufs | 4 | 16-20 Dec | ⌛ |
-| Sprint 6 | Ch.6 Pains | 3 | 23-27 Dec | ⌛ |
-| Sprint 7 | Ch.7 Desserts | 4 | 6-10 Jan | ⌛ |
-| Sprint 8 | Ch.8 Créations | 3 | 13-17 Jan | ⌛ |
+| Sprint 4 | Ch.4 Légumes | 4 | 9-13 Dec | ⏳ |
+| **Sprint 5** | **Ch.5 Œufs** | **4** | **16-20 Dec** | **🟢 EN COURS** |
+| Sprint 6 | Ch.6 Pains | 3 | 23-27 Dec | ⏳ |
+| Sprint 7 | Ch.7 Desserts | 4 | 6-10 Jan | ⏳ |
+| Sprint 8 | Ch.8 Créations | 3 | 13-17 Jan | ⏳ |
 
 🗺️ **[ROADMAP Complète](ROADMAP.md)** : Phases 1-4 détaillées  
 📋 **[RECETTES_LISTE.md](RECETTES_LISTE.md)** : 31 recettes définies
@@ -81,6 +81,16 @@ Créer un livre de cuisine scientifique combinant :
 | **Liste Recettes** | ✅ Définie | 100% (31/31) |
 | **Recettes** | 🟢 En cours | 26% (8/31) |
 | **Images** | 🟢 En cours | 30% (18/60+) |
+
+### Dernières Recettes Produites (Sprint 5 - 18 nov 2025)
+
+**Chapitre 5 - Œufs & Laitages** :
+- ✅ 5.1 - Œuf Mollet Parfait (6 min 30) - Coagulation protéines
+- ✅ 5.2 - Mousse au Chocolat Aérienne - Foisonnement protéines  
+- ✅ 5.3 - Panna Cotta Gélification - Gélatine
+- ✅ 5.4 - Crème Brûlée Caramélisée - Coagulation + Caramélisation
+
+**Sources scientifiques** : 13 références (INRA, Agriculture Institute, PMC, Je Pense donc Je Cuis, Joel Robuchon, etc.)
 
 ---
 
@@ -225,7 +235,7 @@ gp
 - **Images** : 18/60+ (30%)
 - **Schémas** : 8/8 (100%) ✅
 - **Pages Livre** : 0/200-250 (0%)
-- **Sources** : 45+/50+ (90%)
+- **Sources** : 60+/50+ (120%) ✅
 - **Templates IA** : 1/1 (100%) ✅
 
 ### Jalons Critiques
@@ -233,11 +243,12 @@ gp
 | Date | Jalon | Statut |
 |------|-------|--------|
 | 10 Nov 2025 | Schémas + Liste Recettes | ✅ Complété |
-| 18 Nov 2025 | Template Prompt IA + Sprint 3 | ✅ Complété |
-| 22 Nov 2025 | Go Production Sprint 4 | 🟢 Prêt |
-| 13 Dec 2025 | Sprint 4 Complet | ⌛ Planifié |
-| 17 Jan 2026 | 31 Recettes Produites | ⌛ Planifié |
-| 31 Jan 2026 | Livre Final | ⌛ Planifié |
+| 18 Nov 2025 | Template Prompt IA + Sprint 3 + Sprint 5 Démarré | ✅ Complété |
+| 20 Nov 2025 | Sprint 5 Images IA | 🟢 En cours |
+| 22 Nov 2025 | Sprint 5 Validation Complète | ⏳ Planifié |
+| 13 Dec 2025 | Sprint 4 Complet | ⏳ Planifié |
+| 17 Jan 2026 | 31 Recettes Produites | ⏳ Planifié |
+| 31 Jan 2026 | Livre Final | ⏳ Planifié |
 
 ---
 
@@ -261,6 +272,7 @@ gp
 
 ### Issues Actives Prioritaires
 
+- **#19** : 🟢 SPRINT 5 - Chapitre 5 Œufs & Laitages (EN COURS - Rédaction terminée 18 nov)
 - **#16** : ✅ SPRINT 3 - Chapitre 3 Poissons & Fruits de Mer (TERMINÉ - 18 nov 2025)
 - **#23** : ✅ Template Prompt IA (TERMINÉE - 18 nov 2025)
 - **#11** : 🟡 PHASE 1 - Finalisation Fondations (Sem 46) - 40% complété
@@ -327,4 +339,4 @@ gp
 **Phase** : Production Contenu (26%)  
 **Licence** : Privé
 
-**Dernière mise à jour** : 18 novembre 2025 (Sprint 3 complété)
+**Dernière mise à jour** : 18 novembre 2025 (Sprint 5 - 4 recettes Chapitre 5 produites)
