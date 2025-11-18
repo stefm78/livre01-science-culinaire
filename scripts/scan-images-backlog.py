@@ -17,7 +17,7 @@ class ImageBacklogScanner:
     
     MIN_FILE_SIZE = 50_000  # 50 KB
     MAX_FILE_SIZE = 3_145_728  # 3 MB
-    MIN_RESOLUTION = 2048
+    MIN_RESOLUTION = 1500
     
     def __init__(self, recipes_path="recettes"):
         self.recipes_path = Path(recipes_path)
