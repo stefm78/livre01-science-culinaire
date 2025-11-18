@@ -56,11 +56,12 @@ Créer un livre de cuisine scientifique combinant :
 **Dates** : 11-15 novembre 2025 (Semaine 46)  
 **Objectif** : Préparer la production des 31 recettes
 
-#### ✅ Complété (10 nov)
+#### ✅ Complété (18 nov)
 - ✅ 8 schémas scientifiques créés et mergés (Issue #8)
 - ✅ Liste exhaustive 31 recettes définie (Issue #12)
+- ✅ Template prompt IA assistant créé (Issue #23)
 
-#### ⏳ En cours / À faire (11-15 nov)
+#### ⏳ En cours / À faire (18-22 nov)
 - ⏳ Migration fiche pilote steak-maillard
 - ⏳ Création issues sprints 2-8
 - ⏳ Validation personas production
@@ -92,6 +93,7 @@ Créer un livre de cuisine scientifique combinant :
 | **Infrastructure** | ✅ Complète | 100% |
 | **Codespaces** | ✅ Configuré | 100% |
 | **Templates** | ✅ Prêts | 100% |
+| **Templates Prompts IA** | ✅ Créés | 100% (nouveau) |
 | **Schémas Scientifiques** | ✅ Créés | 100% (8/8) |
 | **Liste Recettes** | ✅ Définie | 100% (31/31) |
 | **Photos Tests** | 🟡 En cours | 47% (7/15) |
@@ -141,7 +143,8 @@ livre01-science-culinaire/
 │   ├── charte-visuelle.md      # Style photographique
 │   ├── base-documentaire.md    # Sources scientifiques
 │   ├── images/                 # Maquettes visuelles
-│   └── schemas/                # Schémas scientifiques (8) ✅
+│   ├── schemas/                # Schémas scientifiques (8) ✅
+│   └── templates/              # Templates prompts IA ✅
 │
 ├── recettes/                  # ⭐ Production 31 fiches
 │   ├── _template/             # Templates standardisés
@@ -217,8 +220,16 @@ gp
 - 📈 [Schémas Scientifiques](sources/schemas/README.md) ✅
 
 ### Templates
+
+#### Templates Recettes
 - 📝 [Template Recette](recettes/_template/recette.md)
 - 🗂️ [Template Métadonnées](recettes/_template/metadata.json)
+
+#### Templates Prompts IA ⭐ **NOUVEAU**
+- 🤖 [Template Prompt IA](sources/templates/TEMPLATE_PROMPT_IA.md) : Framework modulaire délégation tâches
+- 📚 [Guide Utilisation Templates](sources/templates/README.md) : Documentation complète
+
+**Usage** : Générer des prompts structurés pour IAs spécialisées (Rédacteur, Designer, Reviewer, Researcher)
 
 ---
 
@@ -232,14 +243,16 @@ gp
 - **Schémas** : 8/8 (100%) ✅
 - **Pages Livre** : 0/200-250 (0%)
 - **Sources** : 45+/50+ (90%)
+- **Templates IA** : 1/1 (100%) ✅
 
 ### Jalons Critiques
 
 | Date | Jalon | Statut |
 |------|-------|--------|
 | 10 Nov 2025 | Schémas + Liste Recettes | ✅ Complété |
-| 15 Nov 2025 | Go Production | 🟡 En cours |
-| 22 Nov 2025 | Sprint 1 Complet | ⏳ Planifié |
+| 18 Nov 2025 | Template Prompt IA | ✅ Complété |
+| 22 Nov 2025 | Go Production Sprint 1 | 🟡 En cours |
+| 29 Nov 2025 | Sprint 1 Complet | ⏳ Planifié |
 | 17 Jan 2026 | 31 Recettes Produites | ⏳ Planifié |
 | 31 Jan 2026 | Livre Final | ⏳ Planifié |
 
@@ -265,8 +278,10 @@ gp
 
 ### Issues Actives Prioritaires
 
+- **#23** : ✅ Template Prompt IA (TERMINÉE - 18 nov 2025)
 - **#11** : 🟡 PHASE 1 - Finalisation Fondations (Sem 46) - 40% complété
 - **#13** : 🟠 SPRINT 1 - Chapitre 1 (Sem 47) - Prêt à démarrer
+- **#27** : 🟠 Recette Beurre Blanc Expert (Sprint 2)
 - **#8** : ✅ Schémas Scientifiques (FERMÉE - 8/8 mergés)
 - **#12** : ✅ Liste 30 Recettes (FERMÉE - 31 recettes définies)
 
@@ -288,8 +303,9 @@ gp
 1. Consulter [PERSONAS_IA.md](PERSONAS_IA.md) pour rôle assigné
 2. Suivre [ROADMAP.md](ROADMAP.md) pour planning
 3. Utiliser templates dans `recettes/_template/`
-4. Valider via `scripts/validate-recipe.py`
-5. Commit avec messages conventionnels : `feat(recettes): ajout [Titre]`
+4. **NOUVEAU** : Consulter [Template Prompt IA](sources/templates/TEMPLATE_PROMPT_IA.md) pour délégation tâches
+5. Valider via `scripts/validate-recipe.py`
+6. Commit avec messages conventionnels : `feat(recettes): ajout [Titre]`
 
 ### Pour Humains
 
@@ -328,4 +344,4 @@ gp
 **Phase** : Phase 1 - Finalisation Fondations (40%)  
 **Licence** : Privé
 
-**Dernière mise à jour** : 10 novembre 2025
+**Dernière mise à jour** : 18 novembre 2025
