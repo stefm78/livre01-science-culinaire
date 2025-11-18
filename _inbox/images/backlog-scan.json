@@ -1,5 +1,5 @@
 {
-  "scan_date": "2025-11-18T12:03:18.464844",
+  "scan_date": "2025-11-18T13:32:52.214055",
   "recipes": [
     {
       "name": "beurre-blanc",
@@ -16,7 +16,7 @@
     },
     {
       "name": "boeuf-bourguignon-collagene",
-      "images_dir_exists": false,
+      "images_dir_exists": true,
       "readme_exists": false,
       "images": [],
       "stats": {
@@ -36,12 +36,12 @@
           "filename": "hero.png",
           "priority": "OPTIONNEL",
           "checked_in_readme": false,
-          "file_exists": false,
+          "file_exists": true,
           "is_valid": false,
           "issues": [
-            "Fichier absent"
+            "⚠️ PLACEHOLDER DÉTECTÉ: 39 bytes (min: 50000)"
           ],
-          "file_size": 0
+          "file_size": 39
         },
         {
           "filename": "final.png",
@@ -80,14 +80,66 @@
       "stats": {
         "total_expected": 4,
         "valid": 0,
-        "missing": 3,
+        "missing": 2,
         "invalid": 1,
+        "placeholder": 1
+      }
+    },
+    {
+      "name": "ceviche",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "ceviche-marinade-acide",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "lotte-rotie",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "lotte-rotie-texture-ferme",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
         "placeholder": 0
       }
     },
     {
       "name": "magret-canard-laque",
-      "images_dir_exists": false,
+      "images_dir_exists": true,
       "readme_exists": false,
       "images": [],
       "stats": {
@@ -125,7 +177,59 @@
       }
     },
     {
+      "name": "moules-mariniere",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "moules-marinieres-extraction",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
       "name": "poulet-roti-65c",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "saumon-mi-cuit",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "saumon-mi-cuit-55c",
       "images_dir_exists": false,
       "readme_exists": false,
       "images": [],
@@ -223,11 +327,11 @@
     }
   ],
   "summary": {
-    "total_recipes": 10,
+    "total_recipes": 18,
     "total_images_expected": 8,
     "total_valid": 0,
-    "total_missing": 5,
-    "total_placeholder": 0,
+    "total_missing": 4,
+    "total_placeholder": 1,
     "total_invalid": 3,
     "completion_rate": 0.0
   },
@@ -238,12 +342,52 @@
       "message": "README.md images manquant"
     },
     {
+      "recipe": "ceviche",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "ceviche-marinade-acide",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "lotte-rotie",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "lotte-rotie-texture-ferme",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
       "recipe": "magret-canard-laque",
       "type": "NO_README",
       "message": "README.md images manquant"
     },
     {
+      "recipe": "moules-mariniere",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "moules-marinieres-extraction",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
       "recipe": "poulet-roti-65c",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "saumon-mi-cuit",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "saumon-mi-cuit-55c",
       "type": "NO_README",
       "message": "README.md images manquant"
     },
