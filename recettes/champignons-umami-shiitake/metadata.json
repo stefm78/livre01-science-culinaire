@@ -1,0 +1,95 @@
+{
+  "recette": {
+    "id": "champignons-umami-shiitake",
+    "titre": "Champignons Umami (Shiitake)",
+    "slug": "champignons-umami-shiitake",
+    "chapitre": "Légumes Révélés",
+    "numero_chapitre": 4,
+    "numero_recette": 4,
+    "difficulte": 1,
+    "temps_preparation": 5,
+    "temps_cuisson": 12,
+    "temps_repos": 30,
+    "portions": 4,
+    "tags": [
+      "umami",
+      "shiitake",
+      "champignon",
+      "glutamate",
+      "recette-scientifique"
+    ]
+  },
+  "science": {
+    "concept_principal": "Synergie umami par glutamate et nucléotides",
+    "temperature": "30-100°C",
+    "mecanisme": "Réhydratation/extraction du glutamate et guanylate, cuisson/diffusion dans la matrice, amplification synergique umami.",
+    "schemas_associes": [
+      "umami-synergie.svg"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Shiitake séché",
+        "ingredient_b": "Eau de trempage",
+        "molecule": "Glutamate, guanylate GMP",
+        "effet": "Umami intense, profondeur"
+      },
+      {
+        "ingredient_a": "Shiitake",
+        "ingredient_b": "Sauce soja",
+        "molecule": "Glutamate, ferments",
+        "effet": "Umami salé, longueur en bouche"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Shiitake réhydratés et sautés, présentation umami, 45°.",
+      "angle": "45°",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Minimalist food photography of shiitake mushrooms, 45-degree angle, umami-rich presentation, natural soft lighting, white marble surface"
+    },
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Présentation finale, shiitake et graines de sésame.",
+      "angle": "45°",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Shiitake en train d’être dorés à la poêle.",
+        "angle": "top-down",
+        "etape": "Dorage à la poêle",
+        "page": 2,
+        "credits": "ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      }
+    ],
+    "detail": [
+      {
+        "fichier": "images/detail-01.png",
+        "description": "Macro sur fibres et surface crystalline shiitake.",
+        "angle": "macro",
+        "page": 2,
+        "credits": "ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      }
+    ]
+  },
+  "sources_documentaires": [
+    "Sugimoto 2023",
+    "Miummium 2020",
+    "Irasshai 2025"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "Chef Projet IA",
+  "statut": "brouillon",
+  "notes_internes": "Shiitake : extraction umami multi-niveaux, synergie japonaise."
+}
