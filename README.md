@@ -1,7 +1,7 @@
 # 🍳 Livre Science Culinaire - Production Collaborative IA
 
 **Projet** : Livre de cuisine scientifique (31 recettes, 8 chapitres, 200-250 pages)  
-**Statut** : 🟡 Phase 1 - Finalisation Fondations (40% complète)  
+**Statut** : 🟢 Phase Production Contenu (26% complète)  
 **Infrastructure** : ✅ Opérationnelle (Nov 2025)
 
 ---
@@ -51,24 +51,7 @@ Créer un livre de cuisine scientifique combinant :
 
 ## 🗺️ Roadmap & Planning
 
-### Phase Actuelle : Phase 1 - Finalisation Fondations (🟡 40%)
-
-**Dates** : 11-15 novembre 2025 (Semaine 46)  
-**Objectif** : Préparer la production des 31 recettes
-
-#### ✅ Complété (18 nov)
-- ✅ 8 schémas scientifiques créés et mergés (Issue #8)
-- ✅ Liste exhaustive 31 recettes définie (Issue #12)
-- ✅ Template prompt IA assistant créé (Issue #23)
-
-#### ⏳ En cours / À faire (18-22 nov)
-- ⏳ Migration fiche pilote steak-maillard
-- ⏳ Création issues sprints 2-8
-- ⏳ Validation personas production
-
----
-
-### Prochaine Phase : Production Contenu (⏳ 13%)
+### Phase Actuelle : Production Contenu (🟢 26%)
 
 **Dates** : 18 nov 2025 - 17 jan 2026 (8 semaines)
 
@@ -76,12 +59,12 @@ Créer un livre de cuisine scientifique combinant :
 |--------|----------|----------|-------|--------|
 | Sprint 1 | Ch.1 Bases | 5 | 18-22 Nov | Issue #13 ✅ |
 | Sprint 2 | Ch.2 Viandes | 4 | 25-29 Nov | ✅ |
-| Sprint 3 | Ch.3 Poissons | 4 | 2-6 Dec | ⏳ |
-| Sprint 4 | Ch.4 Légumes | 4 | 9-13 Dec | ⏳ |
-| Sprint 5 | Ch.5 Œufs | 4 | 16-20 Dec | ⏳ |
-| Sprint 6 | Ch.6 Pains | 3 | 23-27 Dec | ⏳ |
-| Sprint 7 | Ch.7 Desserts | 4 | 6-10 Jan | ⏳ |
-| Sprint 8 | Ch.8 Créations | 3 | 13-17 Jan | ⏳ |
+| Sprint 3 | Ch.3 Poissons | 4 | 2-6 Dec | ✅ TERMINÉ |
+| Sprint 4 | Ch.4 Légumes | 4 | 9-13 Dec | ⌛ |
+| Sprint 5 | Ch.5 Œufs | 4 | 16-20 Dec | ⌛ |
+| Sprint 6 | Ch.6 Pains | 3 | 23-27 Dec | ⌛ |
+| Sprint 7 | Ch.7 Desserts | 4 | 6-10 Jan | ⌛ |
+| Sprint 8 | Ch.8 Créations | 3 | 13-17 Jan | ⌛ |
 
 🗺️ **[ROADMAP Complète](ROADMAP.md)** : Phases 1-4 détaillées  
 📋 **[RECETTES_LISTE.md](RECETTES_LISTE.md)** : 31 recettes définies
@@ -93,11 +76,11 @@ Créer un livre de cuisine scientifique combinant :
 | **Infrastructure** | ✅ Complète | 100% |
 | **Codespaces** | ✅ Configuré | 100% |
 | **Templates** | ✅ Prêts | 100% |
-| **Templates Prompts IA** | ✅ Créés | 100% (nouveau) |
+| **Templates Prompts IA** | ✅ Créés | 100% |
 | **Schémas Scientifiques** | ✅ Créés | 100% (8/8) |
 | **Liste Recettes** | ✅ Définie | 100% (31/31) |
-| **Photos Tests** | 🟡 En cours | 47% (7/15) |
-| **Recettes** | 🟢 En cours | 13% (4/31) |
+| **Recettes** | 🟢 En cours | 26% (8/31) |
+| **Images** | 🟢 En cours | 30% (18/60+) |
 
 ---
 
@@ -134,7 +117,7 @@ Créer un livre de cuisine scientifique combinant :
 
 ---
 
-## 🏗️ Architecture Projet
+## 🏭 Architecture Projet
 
 ```
 livre01-science-culinaire/
@@ -205,7 +188,7 @@ gp
 - 🗺️ [ROADMAP.md](ROADMAP.md) : Planning 4 phases + 8 sprints
 - 📋 [RECETTES_LISTE.md](RECETTES_LISTE.md) : 31 recettes définies ✅
 - 👥 [PERSONAS_IA.md](PERSONAS_IA.md) : Équipe IA spécialisée
-- 🏗️ [INFRASTRUCTURE.md](INFRASTRUCTURE.md) : Architecture technique
+- 🏭 [INFRASTRUCTURE.md](INFRASTRUCTURE.md) : Architecture technique
 - 🧬 [PROJECT_DNA.yml](PROJECT_DNA.yml) : ADN projet
 
 ### Pour Démarrer
@@ -225,7 +208,7 @@ gp
 - 📝 [Template Recette](recettes/_template/recette.md)
 - 🗂️ [Template Métadonnées](recettes/_template/metadata.json)
 
-#### Templates Prompts IA ⭐ **NOUVEAU**
+#### Templates Prompts IA ⭐
 - 🤖 [Template Prompt IA](sources/templates/TEMPLATE_PROMPT_IA.md) : Framework modulaire délégation tâches
 - 📚 [Guide Utilisation Templates](sources/templates/README.md) : Documentation complète
 
@@ -238,8 +221,8 @@ gp
 ### Métriques Clés
 
 - **Recettes définies** : 31/31 (100%) ✅
-- **Recettes produites** : 4/31 (13%)
-- **Images** : 7/60+ (12%)
+- **Recettes produites** : 8/31 (26%)
+- **Images** : 18/60+ (30%)
 - **Schémas** : 8/8 (100%) ✅
 - **Pages Livre** : 0/200-250 (0%)
 - **Sources** : 45+/50+ (90%)
@@ -250,11 +233,11 @@ gp
 | Date | Jalon | Statut |
 |------|-------|--------|
 | 10 Nov 2025 | Schémas + Liste Recettes | ✅ Complété |
-| 18 Nov 2025 | Template Prompt IA | ✅ Complété |
-| 22 Nov 2025 | Go Production Sprint 1 | 🟡 En cours |
-| 29 Nov 2025 | Sprint 1 Complet | ⏳ Planifié |
-| 17 Jan 2026 | 31 Recettes Produites | ⏳ Planifié |
-| 31 Jan 2026 | Livre Final | ⏳ Planifié |
+| 18 Nov 2025 | Template Prompt IA + Sprint 3 | ✅ Complété |
+| 22 Nov 2025 | Go Production Sprint 4 | 🟢 Prêt |
+| 13 Dec 2025 | Sprint 4 Complet | ⌛ Planifié |
+| 17 Jan 2026 | 31 Recettes Produites | ⌛ Planifié |
+| 31 Jan 2026 | Livre Final | ⌛ Planifié |
 
 ---
 
@@ -278,10 +261,10 @@ gp
 
 ### Issues Actives Prioritaires
 
+- **#16** : ✅ SPRINT 3 - Chapitre 3 Poissons & Fruits de Mer (TERMINÉ - 18 nov 2025)
 - **#23** : ✅ Template Prompt IA (TERMINÉE - 18 nov 2025)
 - **#11** : 🟡 PHASE 1 - Finalisation Fondations (Sem 46) - 40% complété
 - **#13** : 🟠 SPRINT 1 - Chapitre 1 (Sem 47) - Prêt à démarrer
-- **#27** : 🟠 Recette Beurre Blanc Expert (Sprint 2)
 - **#8** : ✅ Schémas Scientifiques (FERMÉE - 8/8 mergés)
 - **#12** : ✅ Liste 30 Recettes (FERMÉE - 31 recettes définies)
 
@@ -303,7 +286,7 @@ gp
 1. Consulter [PERSONAS_IA.md](PERSONAS_IA.md) pour rôle assigné
 2. Suivre [ROADMAP.md](ROADMAP.md) pour planning
 3. Utiliser templates dans `recettes/_template/`
-4. **NOUVEAU** : Consulter [Template Prompt IA](sources/templates/TEMPLATE_PROMPT_IA.md) pour délégation tâches
+4. Consulter [Template Prompt IA](sources/templates/TEMPLATE_PROMPT_IA.md) pour délégation tâches
 5. Valider via `scripts/validate-recipe.py`
 6. Commit avec messages conventionnels : `feat(recettes): ajout [Titre]`
 
@@ -341,7 +324,7 @@ gp
 
 **Créé le** : Nov 2025  
 **Maintenu par** : Chef de Projet IA  
-**Phase** : Phase 1 - Finalisation Fondations (40%)  
+**Phase** : Production Contenu (26%)  
 **Licence** : Privé
 
-**Dernière mise à jour** : 18 novembre 2025
+**Dernière mise à jour** : 18 novembre 2025 (Sprint 3 complété)
