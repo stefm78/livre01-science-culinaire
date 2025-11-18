@@ -261,3 +261,71 @@ d'action** :
 Migration fiche pilote Steak Maillard
 Production 4 recettes complètes
 Générati"
+- timestamp: 2025-11-18T19:28:45Z
+  issue: 
+  phase: unknown
+  choice: "
+
+#
+
+1
+2
+ 
+ 
+ 
+3
+ 
+ 
+ 
+ 
+ 
+4
+
+#
+
+`
+g
+c
+p
+g
+g
+g
+`
+
+-
+
+#
+
+A
+
+`
+�
+ 
+ 
+ 
+ 
+
+�
+ 
+ 
+ 
+`
+
+-
+
+*
+*
+
+-
+
+*
+  summary: "🚀 Exécution immédiate recommandée
+
+Via GitHub Codespaces (Recommandé)
+
+**Ouvrir Codespace** sur branche `main`
+**Exécuter script** :
+  ```bash
+  python scripts/clean-workflows.py
+  ```
+**Commi"
