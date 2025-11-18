@@ -1,0 +1,71 @@
+{
+  "batch_id": "sprint5-oeuf-laitages-20251118",
+  "created_at": "2025-11-18T18:45:00+01:00",
+  "sprint": "Sprint 5",
+  "chapter": "Chapitre 5 - Œufs & Laitages",
+  "images": [
+    {
+      "source_file": "oeuf-mollet-parfait-hero.png",
+      "target_path": "recettes/oeuf-mollet-parfait/images/hero.png",
+      "recipe": "oeuf-mollet-parfait",
+      "type": "hero",
+      "description": "Œuf mollet coupé en deux, jaune coulant visible"
+    },
+    {
+      "source_file": "oeuf-mollet-parfait-final.png",
+      "target_path": "recettes/oeuf-mollet-parfait/images/final.png",
+      "recipe": "oeuf-mollet-parfait",
+      "type": "final",
+      "description": "Œuf mollet dressé sur salade verte"
+    },
+    {
+      "source_file": "mousse-chocolat-aerienne-hero.png",
+      "target_path": "recettes/mousse-chocolat-aerienne/images/hero.png",
+      "recipe": "mousse-chocolat-aerienne",
+      "type": "hero",
+      "description": "Mousse au chocolat aérienne dans verrine"
+    },
+    {
+      "source_file": "mousse-chocolat-aerienne-final.png",
+      "target_path": "recettes/mousse-chocolat-aerienne/images/final.png",
+      "recipe": "mousse-chocolat-aerienne",
+      "type": "final",
+      "description": "Mousse au chocolat avec copeaux chocolat"
+    },
+    {
+      "source_file": "panna-cotta-gelification-hero.png",
+      "target_path": "recettes/panna-cotta-gelification/images/hero.png",
+      "recipe": "panna-cotta-gelification",
+      "type": "hero",
+      "description": "Panna cotta dans ramequin blanc, texture lisse"
+    },
+    {
+      "source_file": "panna-cotta-gelification-final.png",
+      "target_path": "recettes/panna-cotta-gelification/images/final.png",
+      "recipe": "panna-cotta-gelification",
+      "type": "final",
+      "description": "Panna cotta démoulée avec coulis fruits rouges"
+    },
+    {
+      "source_file": "creme-brulee-caramelisee-hero.png",
+      "target_path": "recettes/creme-brulee-caramelisee/images/hero.png",
+      "recipe": "creme-brulee-caramelisee",
+      "type": "hero",
+      "description": "Crème brûlée avec croûte caramel cassée"
+    },
+    {
+      "source_file": "creme-brulee-caramelisee-final.png",
+      "target_path": "recettes/creme-brulee-caramelisee/images/final.png",
+      "recipe": "creme-brulee-caramelisee",
+      "type": "final",
+      "description": "Crème brûlée surface parfaitement caramélisée"
+    }
+  ],
+  "status": "processed",
+  "total_images": 8,
+  "style": "Minimaliste scientifique, lumière naturelle douce, fond neutre",
+  "resolution": "2048x2048px minimum",
+  "format": "PNG",
+  "processed_at": "2025-11-18T18:06:28.383630",
+  "processed_count": 8
+}
