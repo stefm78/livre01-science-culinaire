@@ -1,0 +1,113 @@
+{
+  "recette": {
+    "id": "brioche-moelleuse-gluten",
+    "titre": "Brioche Moelleuse (Réseau de Gluten Enrichi)",
+    "slug": "brioche-moelleuse-gluten",
+    "chapitre": "Pains & Pâtisseries",
+    "numero_chapitre": 6,
+    "numero_recette": 2,
+    "difficulte": 2,
+    "temps_preparation": 25,
+    "temps_cuisson": 30,
+    "temps_repos": 240,
+    "portions": 8,
+    "tags": [
+      "brioche",
+      "gluten",
+      "reseau-gluten",
+      "pâte-enrichie",
+      "beurre",
+      "fermentation",
+      "P2"
+    ]
+  },
+  "science": {
+    "concept_principal": "Réseau de gluten enrichi (liaisons disulfure, effet shortening du beurre)",
+    "temperature": "24-26°C (fermentation) / 180°C (cuisson) / 88-92°C (à cœur)",
+    "mecanisme": "Pétrissage long développe liaisons disulfure entre gliadine et gluténine, formant réseau élastique 3D. Beurre et œufs limitent gluten (effet shortening) créant texture moelleuse. Lécithine jaunes agit comme émulsifiant stabilisant. Fermentation produit CO2 gonflant réseau.",
+    "schemas_associes": [
+      "reseau-gluten",
+      "emulsification"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Farine + Eau + Pétrissage",
+        "ingredient_b": "Gliadine + Gluténine",
+        "molecule": "Réseau de gluten (liaisons disulfure -S-S-)",
+        "effet": "Structure élastique, extensibilité, volume"
+      },
+      {
+        "ingredient_a": "Beurre + Œufs",
+        "ingredient_b": "Lipides + Lécithine",
+        "molecule": "Émulsion eau-matière grasse stabilitée",
+        "effet": "Moelleux, limitation gluten, fraîcheur prolongée"
+      },
+      {
+        "ingredient_a": "Levure + Sucre",
+        "ingredient_b": "Fermentation",
+        "molecule": "CO2 + Éthanol",
+        "effet": "Volume, alvéolage, arômes"
+      },
+      {
+        "ingredient_a": "Croûte dorée",
+        "ingredient_b": "Réaction de Maillard",
+        "molecule": "Composés aromatiques (pyrazines, lactones)",
+        "effet": "Arômes beurrés, caramélisés"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Brioche dorée entière sur planche en bois, vue top-down, surface brillante et bombée, lumière naturelle",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Professional food photography of golden brioche loaf on wooden board, top-down view, glossy surface, natural daylight, minimalist style, scientific aesthetic"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Pâte à brioche en cours de pétrissage, texture lisse et brillante s'enroulant autour du crochet",
+        "angle": "45-degree",
+        "etape": "Pétrissage après incorporation beurre",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      },
+      {
+        "fichier": "images/process-02.png",
+        "description": "Test de la membrane : pâte étirée formant membrane translucide",
+        "angle": "close-up",
+        "etape": "Test de développement du gluten",
+        "page": 2,
+        "credits": "À générer - ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      }
+    ],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Brioche tranchée révélant mie moelleuse et alvéolage fin, vue 45 degrés, lumière naturelle",
+      "angle": "45-degree",
+      "page": 2,
+      "credits": "À générer - ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Professional food photography of sliced brioche revealing soft crumb with fine air pockets, 45-degree angle, natural light, minimalist scientific aesthetic"
+    }
+  },
+  "sources_documentaires": [
+    "[Agriculture Institute, 2024] Understanding Molecular Structure of Gluten. Liaisons disulfure/non-covalentes, hydratation/pétrissage pour élasticité.",
+    "[Mioduszewski et al., 2021] Viscoelastic properties of wheat gluten in molecular dynamics. Modélisation moléculaire élasticité gluten, force d'extension.",
+    "[Nature, 2019] Definition of network types – Prediction of dough mechanical behaviour. Types réseaux gluten, connectivité, comportement viscosum/élastique.",
+    "[Cereals & Grains, 2025] Network Formation in Gluten-Free Bread with Transglutaminase. Réticulation protéines, formation réseau.",
+    "[RSC Publishing, 2024] Innovations and stability challenges in food emulsions. Stabilité long terme émulsions.",
+    "[Interes Journals, 2024] Improving Food Texture and Stability Through Emulsion Science. Rôle émulsifiants (lécithine), pH, force ionique."
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "IA Contributrice Perplexity",
+  "statut": "production",
+  "notes_internes": "Sprint 6 - Chapitre 6 : Pains & Pâtisseries. Recette 6.2 complète avec focus réseau gluten, effet shortening du beurre, émulsification."
+}
