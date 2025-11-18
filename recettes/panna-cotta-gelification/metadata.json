@@ -1,36 +1,80 @@
 {
-  "id": "panna-cotta-gelification",
-  "titre": "Panna Cotta Gélification",
-  "chapitre": 5,
-  "chapitre_nom": "Œufs & Laitages",
-  "numero_recette": "5.3",
-  "concept_scientifique": "Gélification gélatine",
-  "difficulte": 1,
-  "temps_preparation": 15,
-  "temps_cuisson": 10,
-  "temps_repos": 240,
-  "portions": 6,
-  "tags": [
-    "laitages",
-    "gelification",
-    "gelatine",
-    "hydrocolloide",
-    "dessert",
-    "texture"
-  ],
-  "temperature_cle": "40-60°C (dissolution gélatine) - 80°C (infusion) - 4°C (prise gel)",
-  "reaction_chimique": "Hydratation gélatine - Déroulement chaînes protéiques - Formation réseau tridimensionnel piégeant eau/graisses",
-  "sources": [
+  "recette": {
+    "id": "panna-cotta-gelification",
+    "titre": "Panna Cotta Gélification",
+    "slug": "panna-cotta-gelification",
+    "chapitre": "Œufs & Laitages",
+    "numero_chapitre": 5,
+    "numero_recette": 3,
+    "difficulte": 1,
+    "temps_preparation": 15,
+    "temps_cuisson": 10,
+    "temps_repos": 240,
+    "portions": 6,
+    "tags": [
+      "laitages",
+      "gelification",
+      "gelatine",
+      "hydrocolloide",
+      "dessert",
+      "texture"
+    ]
+  },
+  "science": {
+    "concept_principal": "Gélification gélatine",
+    "temperature": "40-60°C (dissolution gélatine) - 80°C (infusion) - 4°C (prise gel)",
+    "mecanisme": "Hydratation gélatine - Déroulement chaînes protéiques - Formation réseau tridimensionnel piégeant eau/graisses",
+    "schemas_associes": [],
+    "associations": [
+      {
+        "ingredient_a": "Gélatine",
+        "ingredient_b": "Eau froide",
+        "molecule": "Chaînes protéiques",
+        "effet": "Gonflement chaînes protéiques (masse gélatine)"
+      },
+      {
+        "ingredient_a": "Gélatine",
+        "ingredient_b": "Chaleur 40-60°C",
+        "molecule": "Molécules gélatine",
+        "effet": "Déroulement molécules (dissolution)"
+      },
+      {
+        "ingredient_a": "Crème-lait + Gélatine",
+        "ingredient_b": "Refroidissement",
+        "molecule": "Réseau tridimensionnel",
+        "effet": "Gel stable"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Panna cotta démoulée sur assiette avec coulis de fruits rouges",
+      "angle": "top-down",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    },
+    "process": [],
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Panna cotta servie en verrine avec présentation soignée",
+      "angle": "45-degree",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
     "Je Pense donc Je Cuis, 2024 - Gélatine proportions (1g/100ml, 200 blooms)",
     "Je Pense donc Je Cuis, 2024 - Température dissolution 40-60°C",
     "Cuisine Addict, 2021 - Dosage gélatine (10-12g/L panna cotta)",
     "PMC, 2010 - Hydrocolloids gelling agents"
   ],
-  "schemas_associes": [],
-  "images": {
-    "hero": "images/hero.png",
-    "final": "images/final.png"
-  },
+  "version": "1.0",
   "date_creation": "2025-11-18",
-  "statut": "complet"
+  "date_modification": "2025-11-18",
+  "auteur": "IA Reviewer-Qualité",
+  "statut": "complet",
+  "notes_internes": "Recette complète avec explications scientifiques détaillées sur la gélification. Images hero et final disponibles."
 }
