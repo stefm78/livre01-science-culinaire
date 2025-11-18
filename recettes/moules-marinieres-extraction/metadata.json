@@ -1,0 +1,81 @@
+{
+  "recette": {
+    "id": "moules-marinieres-extraction",
+    "titre": "Moules Marinieres (Extraction Aromatique)",
+    "slug": "moules-marinieres-extraction",
+    "chapitre": "Poissons & Fruits de Mer",
+    "numero_chapitre": 3,
+    "numero_recette": 3,
+    "difficulte": 2,
+    "temps_preparation": 15,
+    "temps_cuisson": 8,
+    "temps_repos": 0,
+    "portions": 2,
+    "tags": [
+      "moules",
+      "fruits-de-mer",
+      "extraction-aromatique",
+      "synergie-umami",
+      "vin-blanc",
+      "P2"
+    ]
+  },
+  "science": {
+    "concept_principal": "Extraction aromatique + synergie umami iodee",
+    "temperature": "55-60C (ouverture moules) / 100C (ebullition vin)",
+    "mecanisme": "Vin blanc extrait composes aromatiques par solvabilite. Moules liberent glutamate qui se combine au vin pour synergie umami (effet x8)",
+    "schemas_associes": [
+      "extraction-solvant",
+      "synergie-umami"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Moules",
+        "ingredient_b": "Vin blanc",
+        "molecule": "Glutamate + alcool ethylique",
+        "effet": "Extraction aromatique, synergie umami"
+      },
+      {
+        "ingredient_a": "Echalote",
+        "ingredient_b": "Chaleur",
+        "molecule": "Disulfures allyliques",
+        "effet": "Arome base, piquant attenue"
+      },
+      {
+        "ingredient_a": "Persil",
+        "ingredient_b": "Bouillon",
+        "molecule": "Apiol + iodes",
+        "effet": "Fraicheur herbacee"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Moules marinieres dans cocotte, coquilles ouvertes, bouillon vin blanc parseme persil",
+      "angle": "45-degree",
+      "page": 1,
+      "credits": "A generer",
+      "date_generation": "2025-11-18",
+      "prompt": "Minimalist food photography moules marinieres in cast iron pot, opened shells, white wine broth, parsley, 45-degree angle, natural lighting, rustic elegant"
+    },
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Moules servies dans assiette creuse avec bouillon, vue top-down",
+      "angle": "top-down",
+      "page": 2,
+      "credits": "A generer",
+      "date_generation": "2025-11-18"
+    }
+  },
+  "sources_documentaires": [
+    "Zhang et al. (2008) - Molecular mechanism for umami taste synergism. PNAS. (Synergie glutamate effet x8)",
+    "Sugimoto (2024) - Academic paper umami synergy. (Stabilisation liaison glutamate)",
+    "McGee, Harold (2004) - On Food and Cooking. (Extraction aromatique solvants)"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "IA Redacteur-Scientifique",
+  "statut": "production"
+}
