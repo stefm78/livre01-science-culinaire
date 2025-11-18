@@ -1,0 +1,13 @@
+# TODO: Titre de la recette - Steak Parfait (exemple du pilote)
+
+// IMPORT EXISTANT faites via la recette pilote.
+
+// On ne ré-écrit pas le fichier pilote, on laisse comme référence, mais s'assurer de la conformité au nouveau template/metadata dans le futur.
+
+// Images: backlog (à générer)
+
+// Next steps: Génération images pour toutes recettes du sprint (4 à 5 images par recette)
+
+// TODO: Validation automatique avec scripts, mise à jour de l'index, modèles d'intégration pour la documentation, feedback qualité.
+
+// NOTE: Cette note est juste un placeholder pour la logique IA en mode autonomie complète sprint 2.
