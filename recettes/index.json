@@ -2,8 +2,8 @@
   "meta": {
     "total_recettes": 4,
     "total_chapitres": 1,
-    "date_generation": "2025-11-18T09:50:00Z",
-    "version": "1.0"
+    "date_generation": "2025-11-18T13:54:00Z",
+    "version": "1.1"
   },
   "recettes": [
     {
@@ -34,7 +34,7 @@
       "concept_scientifique": "Cuisson basse température & dénaturation protéines",
       "tags": ["basse-temperature", "maillard", "volaille"],
       "hero_image": "poulet-roti-65c/images/hero.png",
-      "statut": "brouillon"
+      "statut": "validé"
     },
     {
       "id": "boeuf-bourguignon-collagene",
@@ -49,7 +49,7 @@
       "concept_scientifique": "Transformation collagène en gélatine",
       "tags": ["braisage", "collagene", "ragoût"],
       "hero_image": "boeuf-bourguignon-collagene/images/hero.png",
-      "statut": "brouillon"
+      "statut": "validé"
     },
     {
       "id": "magret-canard-laque",
@@ -64,7 +64,7 @@
       "concept_scientifique": "Maillard & caramélisation laquage",
       "tags": ["maillard", "caramelisation", "laquage"],
       "hero_image": "magret-canard-laque/images/hero.png",
-      "statut": "brouillon"
+      "statut": "validé"
     }
   ],
   "par_chapitre": {
@@ -97,7 +97,7 @@
         "concept_scientifique": "Cuisson basse température & dénaturation protéines",
         "tags": ["basse-temperature", "maillard", "volaille"],
         "hero_image": "poulet-roti-65c/images/hero.png",
-        "statut": "brouillon"
+        "statut": "validé"
       },
       {
         "id": "boeuf-bourguignon-collagene",
@@ -112,7 +112,7 @@
         "concept_scientifique": "Transformation collagène en gélatine",
         "tags": ["braisage", "collagene", "ragoût"],
         "hero_image": "boeuf-bourguignon-collagene/images/hero.png",
-        "statut": "brouillon"
+        "statut": "validé"
       },
       {
         "id": "magret-canard-laque",
@@ -127,7 +127,7 @@
         "concept_scientifique": "Maillard & caramélisation laquage",
         "tags": ["maillard", "caramelisation", "laquage"],
         "hero_image": "magret-canard-laque/images/hero.png",
-        "statut": "brouillon"
+        "statut": "validé"
       }
     ]
   }
