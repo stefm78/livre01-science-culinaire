@@ -1,0 +1,93 @@
+{
+  "recette": {
+    "id": "chou-fleur-texture",
+    "titre": "Chou-Fleur Texturé",
+    "slug": "chou-fleur-texture",
+    "chapitre": "Légumes Révélés",
+    "numero_chapitre": 4,
+    "numero_recette": 2,
+    "difficulte": 1,
+    "temps_preparation": 8,
+    "temps_cuisson": 30,
+    "temps_repos": 0,
+    "portions": 4,
+    "tags": [
+      "texture",
+      "légume",
+      "rôtissage",
+      "recette-scientifique"
+    ]
+  },
+  "science": {
+    "concept_principal": "Modification texture par cuisson",
+    "temperature": "190°C",
+    "mecanisme": "Ramollissement des parois cellulaires, gélatinisation de l'amidon, apparition de Maillard/caramélisation en surface.",
+    "schemas_associes": [
+      "texture-legume.svg"
+    ],
+    "associations": [
+      {
+        "ingredient_a": "Chou-fleur",
+        "ingredient_b": "Huile d’olive",
+        "molecule": "Lactones, aldéhydes",
+        "effet": "Noisette, arôme grillé"
+      },
+      {
+        "ingredient_a": "Chou-fleur",
+        "ingredient_b": "Curry",
+        "molecule": "Composés soufrés",
+        "effet": "Umami, exhausteur"
+      }
+    ]
+  },
+  "images": {
+    "hero": {
+      "fichier": "images/hero.png",
+      "description": "Chou-fleur rôti doré, texture crisp, 45°.",
+      "angle": "45°",
+      "page": 1,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18",
+      "prompt": "Minimalist food photography of roasted cauliflower, 45-degree angle, golden brown edges, beige linen background, soft natural lighting, shallow depth, modern cookbook style"
+    },
+    "final": {
+      "fichier": "images/final.png",
+      "description": "Présentation finale, bouquets dorés, coriandre.",
+      "angle": "45°",
+      "page": 2,
+      "credits": "ChatGPT DALL-E 3",
+      "date_generation": "2025-11-18"
+    },
+    "process": [
+      {
+        "fichier": "images/process-01.png",
+        "description": "Bouquets disposés sur plaque pour rôtissage.",
+        "angle": "top-down",
+        "etape": "Disposition avant four",
+        "page": 2,
+        "credits": "ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      }
+    ],
+    "detail": [
+      {
+        "fichier": "images/detail-01.png",
+        "description": "Macro sur texture croustillante.",
+        "angle": "macro",
+        "page": 2,
+        "credits": "ChatGPT DALL-E 3",
+        "date_generation": "2025-11-18"
+      }
+    ]
+  },
+  "sources_documentaires": [
+    "Cantine Primeur 2025",
+    "Cel à Table 2021"
+  ],
+  "version": "1.0",
+  "date_creation": "2025-11-18",
+  "date_modification": "2025-11-18",
+  "auteur": "Chef Projet IA",
+  "statut": "brouillon",
+  "notes_internes": "Recette sprint 4, validation texture multiple."
+}
