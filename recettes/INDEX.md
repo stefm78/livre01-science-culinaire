@@ -1,7 +1,29 @@
 # 📖 Index des Recettes
-**Généré le** : 18/11/2025 à 19:10
-**Total** : 19 recettes en 6 chapitres
+**Généré le** : 19/11/2025 à 07:50
+**Total** : 21 recettes en 7 chapitres
 ---
+
+## Desserts Scientifiques
+
+### Caramel Salé (Cristallisation)
+
+- **Concept** : Cristallisation sucre
+- **Difficulté** : ●●○
+- **Temps total** : 30 min
+- **Portions** : 10 personnes
+- **Tags** : caramel, sucre, cristallisation, dessert
+- **Fichier** : [`caramel-sale/`](caramel-sale/recette.md)
+- **Statut** : brouillon
+
+### Chocolat Tempéré Brillant (Cristallisation)
+
+- **Concept** : Cristallisation beurre de cacao
+- **Difficulté** : ●●●
+- **Temps total** : 95 min
+- **Portions** : 8 personnes
+- **Tags** : chocolat, tempérage, cristallisation, beurre-cacao
+- **Fichier** : [`chocolat-tempere-brillant/`](chocolat-tempere-brillant/recette.md)
+- **Statut** : brouillon
 
 ## Légumes Révélés
 
