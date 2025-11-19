@@ -1,0 +1,36 @@
+{
+  "recette": {
+    "id": "creme-anglaise",
+    "titre": "Crème Anglaise (Coagulation)",
+    "slug": "creme-anglaise",
+    "chapitre": "Desserts Scientifiques",
+    "numero_chapitre": 7,
+    "numero_recette": 5,
+    "difficulte": 2,
+    "temps_preparation": 10,
+    "temps_cuisson": 10,
+    "temps_repos": 20,
+    "portions": 4,
+    "tags": ["crème anglaise","coagulation","jaune d'oeuf","nappant"]
+  },
+  "science": {
+    "concept_principal": "Coagulation jaune d'oeuf",
+    "temperature": "82-84°C",
+    "mecanisme": "Dépliement et agrégation progressive des protéines du jaune puis formation matrice semi-gélifiée.",
+    "schemas_associes": [],
+    "associations": [
+      {"ingredient_a": "Ovalbumine et vitelline du jaune","ingredient_b": "Chaleur douce (82-84°C)","molecule": "Matrice protéique","effet": "Texture nappant, sans grains"}
+    ]
+  },
+  "images": {
+    "hero": {"fichier": "images/hero.png","description": "Crème anglaise nappant la cuillère, texture brillante, macro, goutte tombante","angle": "top-down","page": 1,"credits": "ChatGPT DALL-E 3","date_generation": "2025-11-19"},
+    "final": {"fichier": "images/final.png","description": "Texture macro nappante, grains vanille visibles","angle": "45-degree","page": 2,"credits": "ChatGPT DALL-E 3","date_generation": "2025-11-19"}
+  },
+  "sources_documentaires": ["McGee, Harold - On Food and Cooking","MyCake.fr. Crème anglaise technique"],
+  "version": "1.0",
+  "date_creation": "2025-11-19",
+  "date_modification": "2025-11-19",
+  "auteur": "IA contributrice",
+  "statut": "brouillon",
+  "notes_internes": "Sprint 7 finalisée avec crème anglaise, contrôle température critique."}
+}
