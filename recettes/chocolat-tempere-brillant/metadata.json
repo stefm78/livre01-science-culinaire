@@ -1,0 +1,36 @@
+{
+  "recette": {
+    "id": "chocolat-tempere-brillant",
+    "titre": "Chocolat Tempéré Brillant (Cristallisation)",
+    "slug": "chocolat-tempere-brillant",
+    "chapitre": "Desserts Scientifiques",
+    "numero_chapitre": 7,
+    "numero_recette": 2,
+    "difficulte": 3,
+    "temps_preparation": 20,
+    "temps_cuisson": 15,
+    "temps_repos": 60,
+    "portions": 8,
+    "tags": ["chocolat","tempérage","cristallisation","beurre-cacao"]
+  },
+  "science": {
+    "concept_principal": "Cristallisation beurre de cacao",
+    "temperature": "31-32°C",
+    "mecanisme": "Fonte, abaisse rapide, réchauffage ciblé pour ne laisser ensemencé que la forme V beta.",
+    "schemas_associes": [],
+    "associations": [
+      {"ingredient_a": "Beurre cacao forme V","ingredient_b": "Refroidissement contrôlé","molecule": "Triglycérides stables","effet": "Brillance, cassant, fonte idéale"}
+    ]
+  },
+  "images": {
+    "hero": {"fichier": "images/hero.png","description": "Tablette chocolat noir brillante cassée, surface miroir, fond sombre","angle": "top-down","page": 1,"credits": "ChatGPT DALL-E 3","date_generation": "2025-11-19"},
+    "final": {"fichier": "images/final.png","description": "Pralinés moulés, finition lisse, texture cassante, reflets blancs","angle": "45-degree","page": 2,"credits": "ChatGPT DALL-E 3","date_generation": "2025-11-19"}
+  },
+  "sources_documentaires": ["McGee, Harold - On Food and Cooking","TheFrenchPatissier.com, Tempérage du chocolat"],
+  "version": "1.0",
+  "date_creation": "2025-11-19",
+  "date_modification": "2025-11-19",
+  "auteur": "IA contributrice",
+  "statut": "brouillon",
+  "notes_internes": "Recette chocolate tempéré pour Sprint 7. Images IA prêtes."
+}
