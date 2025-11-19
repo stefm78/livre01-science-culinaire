@@ -1,0 +1,37 @@
+{
+  "recette": {
+    "id": "caramel-sale",
+    "titre": "Caramel Salé (Cristallisation)",
+    "slug": "caramel-sale",
+    "chapitre": "Desserts Scientifiques",
+    "numero_chapitre": 7,
+    "numero_recette": 1,
+    "difficulte": 2,
+    "temps_preparation": 5,
+    "temps_cuisson": 15,
+    "temps_repos": 10,
+    "portions": 10,
+    "tags": ["caramel","sucre","cristallisation","dessert"]
+  },
+  "science": {
+    "concept_principal": "Cristallisation sucre",
+    "temperature": "175°C",
+    "mecanisme": "Décomposition thermique du saccharose, inversion partielle par acide, inhibiteurs de cristallisation.",
+    "schemas_associes": [],
+    "associations": [
+      {"ingredient_a": "Saccharose","ingredient_b": "Chaleur 175°C","molecule": "Anhydrosaccharose, caramelénose","effet": "Couleur ambrée, polymérisation"},
+      {"ingredient_a": "Fleur de sel","ingredient_b": "Caramel chaud","molecule": "NaCl, glucose, fructose","effet": "Amplification douceur, contraste sensoriel"}
+    ]
+  },
+  "images": {
+    "hero": {"fichier": "images/hero.png","description": "Coulée de caramel ambré sur assiette noire, reflet brillant, fleur de sel visible","angle": "top-down","page": 1,"credits": "ChatGPT DALL-E 3","date_generation": "2025-11-19"},
+    "final": {"fichier": "images/final.png","description": "Sauce caramel coulante en pot transparent, cuillère plongée","angle": "45-degree","page": 2,"credits": "ChatGPT DALL-E 3","date_generation": "2025-11-19"}
+  },
+  "sources_documentaires": ["McGee, Harold - On Food and Cooking","Hartel R. (1991) Sugar crystallization in food products","Simkovic et al. (2003) Primary reactions of sucrose thermal degradation"],
+  "version": "1.0",
+  "date_creation": "2025-11-19",
+  "date_modification": "2025-11-19",
+  "auteur": "IA contributrice",
+  "statut": "brouillon",
+  "notes_internes": "Première recette saisie Sprint 7. Images IA prêtes."
+}
