@@ -1,5 +1,5 @@
 # 📖 Index des Recettes
-**Généré le** : 19/11/2025 à 07:50
+**Généré le** : 19/11/2025 à 07:51
 **Total** : 21 recettes en 7 chapitres
 ---
 
