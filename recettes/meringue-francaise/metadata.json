@@ -1,0 +1,37 @@
+{
+  "recette": {
+    "id": "meringue-francaise",
+    "titre": "Meringue Française (Mousse)",
+    "slug": "meringue-francaise",
+    "chapitre": "Desserts Scientifiques",
+    "numero_chapitre": 7,
+    "numero_recette": 4,
+    "difficulte": 2,
+    "temps_preparation": 10,
+    "temps_cuisson": 120,
+    "temps_repos": 10,
+    "portions": 20,
+    "tags": ["meringue","blancs d'oeuf","foisonnement","mousse"]
+  },
+  "science": {
+    "concept_principal": "Foisonnement protéines",
+    "temperature": "90-110°C cuisson, 21°C battage",
+    "mecanisme": "Dénaturation et agrégation ovalbumine, stabilisation réseau moussant par sucre et chaleur.",
+    "schemas_associes": [],
+    "associations": [
+      {"ingredient_a": "Ovalbumine","ingredient_b": "Action mécanique + chaleur","molecule": "Mousse aérée, bulles d'air stables","effet": "Texture croquante et légère"},
+      {"ingredient_a": "Sucre","ingredient_b": "Réseau protéique","molecule": "Cristaux dissous","effet": "Stabilité thermique intense, ralentit dénaturation"}
+    ]
+  },
+  "images": {
+    "hero": {"fichier": "images/hero.png","description": "Meringues craquantes, texture aérienne, fond ardoise clair","angle": "top-down","page": 1,"credits": "ChatGPT DALL-E 3","date_generation": "2025-11-19"},
+    "final": {"fichier": "images/final.png","description": "Meringue croquée, cavités aérées visibles, sucre cristallisé","angle": "45-degree","page": 2,"credits": "ChatGPT DALL-E 3","date_generation": "2025-11-19"}
+  },
+  "sources_documentaires": ["McGee, Harold - On Food and Cooking","MyCake.fr. Meringue française"],
+  "version": "1.0",
+  "date_creation": "2025-11-19",
+  "date_modification": "2025-11-19",
+  "auteur": "IA contributrice",
+  "statut": "brouillon",
+  "notes_internes": "Meringue française, ratio sucre x2 blancs, astuce stabilité mousse."}
+}
