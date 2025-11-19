@@ -1,0 +1,89 @@
+{
+  "batch_id": "sprint6-20251118",
+  "created_at": "2025-11-18T20:15:00+01:00",
+  "images": [
+    {
+      "source_file": "pain-levain-fermentation-hero.png",
+      "target_path": "recettes/pain-levain-fermentation/images/hero.png",
+      "recipe": "pain-levain-fermentation",
+      "type": "hero"
+    },
+    {
+      "source_file": "pain-levain-fermentation-process-01.png",
+      "target_path": "recettes/pain-levain-fermentation/images/process-01.png",
+      "recipe": "pain-levain-fermentation",
+      "type": "process"
+    },
+    {
+      "source_file": "pain-levain-fermentation-process-02.png",
+      "target_path": "recettes/pain-levain-fermentation/images/process-02.png",
+      "recipe": "pain-levain-fermentation",
+      "type": "process"
+    },
+    {
+      "source_file": "pain-levain-fermentation-final.png",
+      "target_path": "recettes/pain-levain-fermentation/images/final.png",
+      "recipe": "pain-levain-fermentation",
+      "type": "final"
+    },
+    {
+      "source_file": "brioche-moelleuse-gluten-hero.png",
+      "target_path": "recettes/brioche-moelleuse-gluten/images/hero.png",
+      "recipe": "brioche-moelleuse-gluten",
+      "type": "hero"
+    },
+    {
+      "source_file": "brioche-moelleuse-gluten-process-01.png",
+      "target_path": "recettes/brioche-moelleuse-gluten/images/process-01.png",
+      "recipe": "brioche-moelleuse-gluten",
+      "type": "process"
+    },
+    {
+      "source_file": "brioche-moelleuse-gluten-process-02.png",
+      "target_path": "recettes/brioche-moelleuse-gluten/images/process-02.png",
+      "recipe": "brioche-moelleuse-gluten",
+      "type": "process"
+    },
+    {
+      "source_file": "brioche-moelleuse-gluten-final.png",
+      "target_path": "recettes/brioche-moelleuse-gluten/images/final.png",
+      "recipe": "brioche-moelleuse-gluten",
+      "type": "final"
+    },
+    {
+      "source_file": "pain-croute-maillard-hero.png",
+      "target_path": "recettes/pain-croute-maillard/images/hero.png",
+      "recipe": "pain-croute-maillard",
+      "type": "hero"
+    },
+    {
+      "source_file": "pain-croute-maillard-process-01.png",
+      "target_path": "recettes/pain-croute-maillard/images/process-01.png",
+      "recipe": "pain-croute-maillard",
+      "type": "process"
+    },
+    {
+      "source_file": "pain-croute-maillard-process-02.png",
+      "target_path": "recettes/pain-croute-maillard/images/process-02.png",
+      "recipe": "pain-croute-maillard",
+      "type": "process"
+    },
+    {
+      "source_file": "pain-croute-maillard-final.png",
+      "target_path": "recettes/pain-croute-maillard/images/final.png",
+      "recipe": "pain-croute-maillard",
+      "type": "final"
+    }
+  ],
+  "status": "processed",
+  "total_images": 12,
+  "sprint": "sprint6",
+  "chapter": "chapitre-6-pains-patisseries",
+  "recipes": [
+    "pain-levain-fermentation",
+    "brioche-moelleuse-gluten",
+    "pain-croute-maillard"
+  ],
+  "processed_at": "2025-11-19T07:37:27.682276",
+  "processed_count": 12
+}
