@@ -1,0 +1,37 @@
+{
+  "recette": {
+    "id": "gelee-fruit-miroir",
+    "titre": "Gelée Fruit Miroir (Gélification)",
+    "slug": "gelee-fruit-miroir",
+    "chapitre": "Desserts Scientifiques",
+    "numero_chapitre": 7,
+    "numero_recette": 3,
+    "difficulte": 2,
+    "temps_preparation": 10,
+    "temps_cuisson": 5,
+    "temps_repos": 120,
+    "portions": 6,
+    "tags": ["gelée","pectine","agar-agar","gélification","fruit"]
+  },
+  "science": {
+    "concept_principal": "Gélification hydrocolloïdes",
+    "temperature": "Prise 4-20°C (agar/pectine)",
+    "mecanisme": "Formation réseau 3D pectine ou agar selon acidité, sucre et température.",
+    "schemas_associes": [],
+    "associations": [
+      {"ingredient_a": "Pectine HM","ingredient_b": "Acide citrique/sucre","molecule": "Réseau pectine-acide","effet": "Gel translucide"},
+      {"ingredient_a": "Agar-agar","ingredient_b": "Eau/fruit","molecule": "Polysaccharides gélifiés","effet": "Gel ferme, prise rapide"}
+    ]
+  },
+  "images": {
+    "hero": {"fichier": "images/hero.png","description": "Gelée fruit rouge translucide effet miroir sur support blanc, fruits en fond","angle": "top-down","page": 1,"credits": "ChatGPT DALL-E 3","date_generation": "2025-11-19"},
+    "final": {"fichier": "images/final.png","description": "Cubes de gelée découpés, brillance, condensation visible","angle": "45-degree","page": 2,"credits": "ChatGPT DALL-E 3","date_generation": "2025-11-19"}
+  },
+  "sources_documentaires": ["McGee, Harold - On Food and Cooking","SaporePuro.com, Gélifiants naturels"],
+  "version": "1.0",
+  "date_creation": "2025-11-19",
+  "date_modification": "2025-11-19",
+  "auteur": "IA contributrice",
+  "statut": "brouillon",
+  "notes_internes": "Gelée fruit miroir, options pectine/agar selon recette."}
+}
