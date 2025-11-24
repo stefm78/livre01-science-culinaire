@@ -1,0 +1,616 @@
+{
+  "scan_date": "2025-11-24T09:15:18.901024",
+  "recipes": [
+    {
+      "name": "beurre-blanc",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "boeuf-bourguignon-collagene",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "bouillon-volaille-umami",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [
+        {
+          "filename": "hero.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": true,
+          "is_valid": false,
+          "issues": [
+            "❌ RÉSOLUTION INSUFFISANTE: 1024x1024 (min: 1500)"
+          ],
+          "file_size": 1809287
+        },
+        {
+          "filename": "final.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": true,
+          "is_valid": false,
+          "issues": [
+            "❌ RÉSOLUTION INSUFFISANTE: 1536x1024 (min: 1500)"
+          ],
+          "file_size": 2424549
+        },
+        {
+          "filename": "01.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": false,
+          "is_valid": false,
+          "issues": [
+            "Fichier absent"
+          ],
+          "file_size": 0
+        },
+        {
+          "filename": "02.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": false,
+          "is_valid": false,
+          "issues": [
+            "Fichier absent"
+          ],
+          "file_size": 0
+        }
+      ],
+      "stats": {
+        "total_expected": 4,
+        "valid": 0,
+        "missing": 2,
+        "invalid": 2,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "brioche-moelleuse-gluten",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "caramel-sale",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "carottes-roties-caramelisees",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "ceviche-marinade-acide",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "champignons-umami-shiitake",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "chocolat-tempere-brillant",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "chou-fleur-texture",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "creme-anglaise",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "creme-brulee-caramelisee",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "gelee-fruit-miroir",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "kimchi-express",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "lotte-rotie-texture-ferme",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "magret-canard-laque",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "mayonnaise-emulsion",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "mayonnaise-stable",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "meringue-francaise",
+      "images_dir_exists": false,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "moules-marinieres-extraction",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "mousse-chocolat-aerienne",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "oeuf-mollet-parfait",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "pain-croute-maillard",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "pain-levain-fermentation",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "panna-cotta-gelification",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "poulet-roti-65c",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "saumon-mi-cuit-55c",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "steak-maillard",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [
+        {
+          "filename": "hero.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": true,
+          "is_valid": false,
+          "issues": [
+            "❌ FORMAT INVALIDE: JPEG (requis: PNG)"
+          ],
+          "file_size": 1157868
+        },
+        {
+          "filename": "01.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": false,
+          "is_valid": false,
+          "issues": [
+            "Fichier absent"
+          ],
+          "file_size": 0
+        },
+        {
+          "filename": "02.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": false,
+          "is_valid": false,
+          "issues": [
+            "Fichier absent"
+          ],
+          "file_size": 0
+        },
+        {
+          "filename": "final.png",
+          "priority": "OPTIONNEL",
+          "checked_in_readme": false,
+          "file_exists": true,
+          "is_valid": false,
+          "issues": [
+            "❌ FORMAT INVALIDE: JPEG (requis: PNG)"
+          ],
+          "file_size": 982668
+        }
+      ],
+      "stats": {
+        "total_expected": 4,
+        "valid": 0,
+        "missing": 2,
+        "invalid": 2,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "vinaigrette-emulsion-temporaire",
+      "images_dir_exists": true,
+      "readme_exists": false,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    },
+    {
+      "name": "vinaigrette-equilibree",
+      "images_dir_exists": true,
+      "readme_exists": true,
+      "images": [],
+      "stats": {
+        "total_expected": 0,
+        "valid": 0,
+        "missing": 0,
+        "invalid": 0,
+        "placeholder": 0
+      }
+    }
+  ],
+  "summary": {
+    "total_recipes": 30,
+    "total_images_expected": 8,
+    "total_valid": 0,
+    "total_missing": 4,
+    "total_placeholder": 0,
+    "total_invalid": 4,
+    "completion_rate": 0.0
+  },
+  "issues": [
+    {
+      "recipe": "boeuf-bourguignon-collagene",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "brioche-moelleuse-gluten",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "caramel-sale",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "carottes-roties-caramelisees",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "ceviche-marinade-acide",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "champignons-umami-shiitake",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "chocolat-tempere-brillant",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "chou-fleur-texture",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "creme-anglaise",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "creme-brulee-caramelisee",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "gelee-fruit-miroir",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "kimchi-express",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "lotte-rotie-texture-ferme",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "magret-canard-laque",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "meringue-francaise",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "moules-marinieres-extraction",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "mousse-chocolat-aerienne",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "oeuf-mollet-parfait",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "pain-croute-maillard",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "pain-levain-fermentation",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "panna-cotta-gelification",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "poulet-roti-65c",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "saumon-mi-cuit-55c",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    },
+    {
+      "recipe": "vinaigrette-emulsion-temporaire",
+      "type": "NO_README",
+      "message": "README.md images manquant"
+    }
+  ]
+}

@@ -1,8 +1,8 @@
-# 📊 Rapport Backlog Images IA - 2025-11-18 15:13
+# 📊 Rapport Backlog Images IA - 2025-11-24 09:15
 
 ## 📈 Vue d'ensemble
 
-- **Recettes scannées** : 25
+- **Recettes scannées** : 30
 - **Images attendues** : 8
 - **Images valides** : 0 ✅
 - **Images manquantes** : 4 ⬜
@@ -41,6 +41,11 @@
 **Stats** : 0/0 valides | Manquantes: 0 | Placeholders: 0 | Invalides: 0
 
 
+### caramel-sale
+
+**Stats** : 0/0 valides | Manquantes: 0 | Placeholders: 0 | Invalides: 0
+
+
 ### carottes-roties-caramelisees
 
 **Stats** : 0/0 valides | Manquantes: 0 | Placeholders: 0 | Invalides: 0
@@ -56,12 +61,27 @@
 **Stats** : 0/0 valides | Manquantes: 0 | Placeholders: 0 | Invalides: 0
 
 
+### chocolat-tempere-brillant
+
+**Stats** : 0/0 valides | Manquantes: 0 | Placeholders: 0 | Invalides: 0
+
+
 ### chou-fleur-texture
 
 **Stats** : 0/0 valides | Manquantes: 0 | Placeholders: 0 | Invalides: 0
 
 
+### creme-anglaise
+
+**Stats** : 0/0 valides | Manquantes: 0 | Placeholders: 0 | Invalides: 0
+
+
 ### creme-brulee-caramelisee
+
+**Stats** : 0/0 valides | Manquantes: 0 | Placeholders: 0 | Invalides: 0
+
+
+### gelee-fruit-miroir
 
 **Stats** : 0/0 valides | Manquantes: 0 | Placeholders: 0 | Invalides: 0
 
@@ -87,6 +107,11 @@
 
 
 ### mayonnaise-stable
+
+**Stats** : 0/0 valides | Manquantes: 0 | Placeholders: 0 | Invalides: 0
+
+
+### meringue-francaise
 
 **Stats** : 0/0 valides | Manquantes: 0 | Placeholders: 0 | Invalides: 0
 
@@ -158,14 +183,19 @@
 
 - **boeuf-bourguignon-collagene** : README.md images manquant
 - **brioche-moelleuse-gluten** : README.md images manquant
+- **caramel-sale** : README.md images manquant
 - **carottes-roties-caramelisees** : README.md images manquant
 - **ceviche-marinade-acide** : README.md images manquant
 - **champignons-umami-shiitake** : README.md images manquant
+- **chocolat-tempere-brillant** : README.md images manquant
 - **chou-fleur-texture** : README.md images manquant
+- **creme-anglaise** : README.md images manquant
 - **creme-brulee-caramelisee** : README.md images manquant
+- **gelee-fruit-miroir** : README.md images manquant
 - **kimchi-express** : README.md images manquant
 - **lotte-rotie-texture-ferme** : README.md images manquant
 - **magret-canard-laque** : README.md images manquant
+- **meringue-francaise** : README.md images manquant
 - **moules-marinieres-extraction** : README.md images manquant
 - **mousse-chocolat-aerienne** : README.md images manquant
 - **oeuf-mollet-parfait** : README.md images manquant
