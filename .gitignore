@@ -1,0 +1,192 @@
+# ==============================================================================
+# PROJET LIVRE01-SCIENCE-CULINAIRE - .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# SCRIBUS PORTABLE - Application (ne pas versionner)
+# ------------------------------------------------------------------------------
+# L'application Scribus Portable est trop lourde pour Git (~500 MB)
+# Chaque contributeur doit l'installer localement depuis :
+# https://portableapps.com/apps/office/scribus_portable
+
+# Exclure toute l'application Scribus Portable
+livre/production/tools/scribus-portable/App/
+livre/production/tools/scribus-portable/Data/
+livre/production/tools/scribus-portable/Other/
+livre/production/tools/scribus-portable/*.exe
+livre/production/tools/scribus-portable/*.ini
+
+# MAIS garder le README d'installation
+!livre/production/tools/scribus-portable/README.md
+!livre/production/tools/README.md
+
+# ------------------------------------------------------------------------------
+# FICHIERS SCRIBUS - Temporaires et Backups
+# ------------------------------------------------------------------------------
+# Backups automatiques créés par scripts IA
+*.sla~
+*.sla.bak
+*.sla.*.bak
+
+# Fichiers temporaires Scribus
+.scribus/
+*.sla.emergency
+
+# Fichiers de verrouillage Scribus
+*.sla.lock
+
+# ------------------------------------------------------------------------------
+# PYTHON - Cache et Temporaires
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environnements virtuels Python
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ------------------------------------------------------------------------------
+# VSCODE - Paramètres Locaux
+# ------------------------------------------------------------------------------
+# Garder configuration workspace (.vscode/settings.json)
+# Mais exclure paramètres locaux utilisateur
+.vscode/launch.json
+.vscode/*.code-workspace
+.vscode/.ropeproject
+
+# ------------------------------------------------------------------------------
+# SYSTÈME D'EXPLOITATION
+# ------------------------------------------------------------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ------------------------------------------------------------------------------
+# ÉDITEURS & IDE
+# ------------------------------------------------------------------------------
+
+# JetBrains (PyCharm, IntelliJ)
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Emacs
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+
+# ------------------------------------------------------------------------------
+# FICHIERS PROJET SPÉCIFIQUES
+# ------------------------------------------------------------------------------
+
+# Images de travail non optimisées (avant optimisation PAO)
+livre/production/images-work/
+
+# Exports PDF de test (garder seulement versions finales)
+livre/production/exports/*-test.pdf
+livre/production/exports/*-draft.pdf
+livre/production/exports/temp/
+
+# Logs scripts
+*.log
+logs/
+
+# Fichiers de cache
+.cache/
+.pytest_cache/
+
+# ------------------------------------------------------------------------------
+# GARDER CES FICHIERS (Important)
+# ------------------------------------------------------------------------------
+# Ces fichiers DOIVENT être versionnés :
+
+# ✅ Fichiers Scribus PAO (.sla)
+!**/*.sla
+
+# ✅ Configuration VSCode workspace
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# ✅ Scripts Python
+!livre/scripts/*.py
+!scripts/*.py
+
+# ✅ Documentation
+!**/*.md
+!**/README.md
+
+# ✅ Polices projet
+!livre/production/fonts/**
+
+# ✅ Templates
+!livre/production/templates/**
+
+# ✅ Images optimisées finales
+!livre/production/images-optimized/**
+!recettes/**/images/*.png
+!recettes/**/images/*.jpg
+
+# ==============================================================================
+# FIN .gitignore
+# ==============================================================================
