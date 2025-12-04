@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Analyser PAO",
+      "type": "shell",
+      "command": "python",
+      "args": ["livre/scripts/pao-analyze.py"],
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
+    },
+    {
+      "label": "Ajuster PAO Auto",
+      "type": "shell",
+      "command": "python",
+      "args": ["livre/scripts/pao-auto-adjust.py"],
+      "group": "build"
+    },
+    {
+      "label": "Générer Index Recettes",
+      "type": "shell",
+      "command": "python",
+      "args": ["scripts/generate-index.py"],
+      "group": "build"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "editor.formatOnSave": true,
+  "editor.rulers": [80, 120],
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.encoding": "utf8",
+  
+  "markdown.preview.fontSize": 14,
+  "markdown.preview.lineHeight": 1.6,
+  
+  "python.defaultInterpreterPath": "python",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  
+  "cSpell.language": "en,fr",
+  "cSpell.words": [
+    "Scribus",
+    "Affinity",
+    "Maillard",
+    "umami",
+    "indd",
+    "afpub"
+  ]
+}
