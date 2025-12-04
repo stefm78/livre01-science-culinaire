@@ -10,7 +10,6 @@
   
   "python.defaultInterpreterPath": "python",
   "python.linting.enabled": true,
-  "python.linting.pylintEnabled": true,
   
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
@@ -20,16 +19,28 @@
     "**/__pycache__": true,
     "**/*.pyc": true,
     "**/.DS_Store": true,
-    "**/node_modules": true
+    "**/*.sla.bak": true,
+    "**/*.sla.*.bak": true
   },
   
   "cSpell.language": "en,fr",
   "cSpell.words": [
     "Scribus",
-    "Affinity",
     "Maillard",
     "umami",
-    "indd",
-    "afpub"
-  ]
+    "sla",
+    "PAO",
+    "recettes",
+    "stefm78",
+    "livre",
+    "culinaire"
+  ],
+  
+  "[markdown]": {
+    "editor.wordWrap": "on"
+  },
+  
+  "[python]": {
+    "editor.formatOnSave": true
+  }
 }

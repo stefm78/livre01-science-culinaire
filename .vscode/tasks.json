@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Analyser PAO",
+      "label": "🔍 Analyser PAO",
       "type": "shell",
       "command": "python",
       "args": ["livre/scripts/pao-analyze.py"],
@@ -13,14 +13,28 @@
       }
     },
     {
-      "label": "Ajuster PAO Auto",
+      "label": "🔧 Ajuster PAO",
       "type": "shell",
       "command": "python",
       "args": ["livre/scripts/pao-auto-adjust.py"],
-      "group": "build"
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "new"
+      }
     },
     {
-      "label": "Générer Index Recettes",
+      "label": "📝 Extraire Markdown",
+      "type": "shell",
+      "command": "python",
+      "args": ["livre/scripts/sla-import-content.py", "${file}"],
+      "group": "none",
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "label": "📊 Générer Index",
       "type": "shell",
       "command": "python",
       "args": ["scripts/generate-index.py"],
